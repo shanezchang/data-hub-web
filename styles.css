@@ -103,16 +103,26 @@ code, pre { font-family: var(--font-mono); }
 
 /* ---- 按钮 ---- */
 .btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 7px;
   font: inherit; font-size: 14px; font-weight: 500; cursor: pointer;
   border: 1px solid transparent; border-radius: 9px; padding: 12px 20px;
   transition: all .18s ease; white-space: nowrap; letter-spacing: .1px;
 }
+
+/* ---- 图标 ---- */
+.icon { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.6;
+  stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+.icon-sm { width: 13.5px; height: 13.5px; }
+.brand { display: inline-flex; align-items: center; gap: 9px; }
+.brand-mark { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.5;
+  stroke-linecap: round; stroke-linejoin: round; }
+.feat-icon { width: 21px; height: 21px; stroke-width: 1.5; margin-bottom: 16px; display: block; color: var(--ink); }
 .btn-sm { padding: 9px 15px; font-size: 13px; }
 .btn-primary { background: var(--ink); color: #fff; }
 .btn-primary:hover { background: #000; transform: translateY(-1px); }
 .btn-ghost { background: var(--bg); color: var(--ink); border-color: var(--line-2); }
 .btn-ghost:hover { border-color: var(--ink); }
-.btn-link { background: none; border: none; color: var(--muted); cursor: pointer; font: inherit; font-size: 13px; padding: 4px; transition: color .15s; }
+.btn-link { display: inline-flex; align-items: center; gap: 5px; background: none; border: none; color: var(--muted); cursor: pointer; font: inherit; font-size: 13px; padding: 4px; transition: color .15s; }
 .btn-link:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
 
 /* ---- 控制台 ---- */

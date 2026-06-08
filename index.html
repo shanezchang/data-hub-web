@@ -12,7 +12,10 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#" data-nav="landing">data·hub</a>
+    <a class="brand" href="#" data-nav="landing">
+      <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>
+      data·hub
+    </a>
     <nav class="nav" id="nav-actions"><!-- 动态:登录态切换 --></nav>
   </header>
 
@@ -31,9 +34,18 @@
   "https://api.lumina-core.cn/v1/news?q=新能源&amp;limit=10"</code></pre>
       </div>
       <div class="features">
-        <div class="feat"><h3>全文检索</h3><p>SQLite FTS5,标题+正文,5 万+ 条新闻秒级返回。</p></div>
-        <div class="feat"><h3>自助 API key</h3><p>注册 → 邮箱验证 → 生成 key,按 key 限流。</p></div>
-        <div class="feat"><h3>持续更新</h3><p>每日自动采集,数据保持时效。</p></div>
+        <div class="feat">
+          <svg class="icon feat-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <h3>全文检索</h3><p>SQLite FTS5,标题+正文,5 万+ 条新闻秒级返回。</p>
+        </div>
+        <div class="feat">
+          <svg class="icon feat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m2.6 17.4-.6 1.4V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 0 1-1h.2a2 2 0 0 0 1.4-.6l.8-.8a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor" stroke="none"/></svg>
+          <h3>自助 API key</h3><p>注册 → 邮箱验证 → 生成 key,按 key 限流。</p>
+        </div>
+        <div class="feat">
+          <svg class="icon feat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+          <h3>持续更新</h3><p>每日自动采集,数据保持时效。</p>
+        </div>
       </div>
     </section>
 
@@ -84,14 +96,20 @@
           <h2>我的 API Key</h2>
           <p class="muted" id="dash-user"></p>
         </div>
-        <button class="btn btn-primary" id="btn-new-key">+ 生成新 Key</button>
+        <button class="btn btn-primary" id="btn-new-key">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+          生成新 Key
+        </button>
       </div>
 
       <div id="new-key-banner" class="banner" hidden>
         <p><strong>新 key 已生成 —— 只显示这一次,请立即复制保存:</strong></p>
         <div class="key-reveal">
           <code id="new-key-value"></code>
-          <button class="btn btn-sm" id="btn-copy-key">复制</button>
+          <button class="btn btn-ghost btn-sm" id="btn-copy-key">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+            复制
+          </button>
         </div>
       </div>
 

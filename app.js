@@ -160,7 +160,7 @@ async function loadKeys() {
       <td>${k.scopes.join(", ")}</td>
       <td>${k.rate_limit_per_min}/min</td>
       <td><span class="pill ${k.revoked ? "revoked" : "active"}">${k.revoked ? "已吊销" : "有效"}</span></td>
-      <td>${k.revoked ? "" : `<button class="btn-link" data-revoke="${k.id}">吊销</button>`}</td>`;
+      <td>${k.revoked ? "" : `<button class="btn-link" data-revoke="${k.id}"><svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>吊销</button>`}</td>`;
     tbody.appendChild(tr);
   }
   tbody.querySelectorAll("[data-revoke]").forEach((b) => {

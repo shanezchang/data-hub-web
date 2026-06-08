@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>data-hub · 数据 API 控制台</title>
+  <meta name="description" content="data-hub — 可扩展的数据 API 平台。注册即可生成 API key,接入新闻联播等数据能力。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" data-nav="landing">data·hub</a>
+    <nav class="nav" id="nav-actions"><!-- 动态:登录态切换 --></nav>
+  </header>
+
+  <main id="app">
+    <!-- 落地页 -->
+    <section class="view" data-view="landing">
+      <div class="hero">
+        <p class="eyebrow">可扩展的数据 API 平台</p>
+        <h1>把结构化数据,<br />变成给 AI 调用的接口。</h1>
+        <p class="lede">第一个能力:<strong>CCTV《新闻联播》</strong> 全文检索与结构化查询。注册账号即可自助生成 API key,一行 <code>curl</code> 就能用。</p>
+        <div class="cta-row">
+          <button class="btn btn-primary" data-nav="register">免费注册</button>
+          <button class="btn btn-ghost" data-nav="login">已有账号,登录</button>
+        </div>
+        <pre class="snippet"><code>curl -H "X-API-Key: &lt;your key&gt;" \
+  "https://api.lumina-core.cn/v1/news?q=新能源&amp;limit=10"</code></pre>
+      </div>
+      <div class="features">
+        <div class="feat"><h3>全文检索</h3><p>SQLite FTS5,标题+正文,5 万+ 条新闻秒级返回。</p></div>
+        <div class="feat"><h3>自助 API key</h3><p>注册 → 邮箱验证 → 生成 key,按 key 限流。</p></div>
+        <div class="feat"><h3>持续更新</h3><p>每日自动采集,数据保持时效。</p></div>
+      </div>
+    </section>
+
+    <!-- 注册 -->
+    <section class="view" data-view="register" hidden>
+      <div class="card auth-card">
+        <h2>注册</h2>
+        <p class="muted">用邮箱注册,我们会发一个 6 位验证码。</p>
+        <form id="form-register" class="form">
+          <label>邮箱
+            <div class="inline">
+              <input type="email" name="email" required placeholder="you@example.com" autocomplete="email" />
+              <button type="button" class="btn btn-ghost btn-sm" id="btn-send-code">发送验证码</button>
+            </div>
+          </label>
+          <label>验证码
+            <input type="text" name="code" required maxlength="6" inputmode="numeric" placeholder="6 位数字" />
+          </label>
+          <label>密码
+            <input type="password" name="password" required minlength="6" placeholder="至少 6 位" autocomplete="new-password" />
+          </label>
+          <label>昵称(可选)
+            <input type="text" name="name" placeholder="怎么称呼你" />
+          </label>
+          <button type="submit" class="btn btn-primary">注册并登录</button>
+        </form>
+        <p class="switch">已有账号? <a href="#" data-nav="login">去登录</a></p>
+      </div>
+    </section>
+
+    <!-- 登录 -->
+    <section class="view" data-view="login" hidden>
+      <div class="card auth-card">
+        <h2>登录</h2>
+        <form id="form-login" class="form">
+          <label>邮箱<input type="email" name="email" required placeholder="you@example.com" autocomplete="email" /></label>
+          <label>密码<input type="password" name="password" required placeholder="密码" autocomplete="current-password" /></label>
+          <button type="submit" class="btn btn-primary">登录</button>
+        </form>
+        <p class="switch">还没有账号? <a href="#" data-nav="register">去注册</a></p>
+      </div>
+    </section>
+
+    <!-- 控制台 -->
+    <section class="view" data-view="dashboard" hidden>
+      <div class="dash-head">
+        <div>
+          <h2>我的 API Key</h2>
+          <p class="muted" id="dash-user"></p>
+        </div>
+        <button class="btn btn-primary" id="btn-new-key">+ 生成新 Key</button>
+      </div>
+
+      <div id="new-key-banner" class="banner" hidden>
+        <p><strong>新 key 已生成 —— 只显示这一次,请立即复制保存:</strong></p>
+        <div class="key-reveal">
+          <code id="new-key-value"></code>
+          <button class="btn btn-sm" id="btn-copy-key">复制</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <table class="keys-table">
+          <thead><tr><th>名称</th><th>前缀</th><th>权限</th><th>限流</th><th>状态</th><th></th></tr></thead>
+          <tbody id="keys-tbody"></tbody>
+        </table>
+        <p id="keys-empty" class="muted empty" hidden>还没有 key,点右上角"生成新 Key"。</p>
+      </div>
+
+      <div class="card usage">
+        <h3>怎么用</h3>
+        <pre class="snippet"><code>curl -H "X-API-Key: &lt;你的 key&gt;" \
+  "https://api.lumina-core.cn/v1/news?q=新能源&amp;start_date=2026-05-01&amp;limit=10"</code></pre>
+        <p class="muted">完整参数见 <a href="http://api.lumina-core.cn:8000/docs" target="_blank" rel="noopener">API 文档</a>。</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>

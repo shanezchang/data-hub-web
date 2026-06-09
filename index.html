@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=0.3.0" />
 </head>
 <body>
   <header class="topbar">
@@ -195,6 +195,19 @@
         </div>
       </div>
 
+      <div class="card usage-card">
+        <div class="usage-stats">
+          <div class="stat"><span class="stat-num" id="stat-total">—</span><span class="stat-label">总调用</span></div>
+          <div class="stat"><span class="stat-num" id="stat-today">—</span><span class="stat-label">今日</span></div>
+          <div class="stat"><span class="stat-num" id="stat-keys">—</span><span class="stat-label">有效 key</span></div>
+        </div>
+        <div class="usage-chart" id="usage-chart" aria-hidden="true"></div>
+        <div class="usage-foot">
+          <span class="muted">近 30 天调用</span>
+          <div class="usage-bykey muted" id="usage-bykey"></div>
+        </div>
+      </div>
+
       <div class="card">
         <table class="keys-table">
           <thead><tr><th>名称</th><th>前缀</th><th>权限</th><th>限流</th><th>状态</th><th></th></tr></thead>
@@ -262,13 +275,13 @@
         <a href="mailto:shane.z.chang@gmail.com">联系</a>
       </nav>
       <span class="foot-copy">
-        <a href="#" data-nav="changelog" id="foot-version" class="ver-pill">平台 v0.2.0</a>
+        <a href="#" data-nav="changelog" id="foot-version" class="ver-pill">平台 v0.3.0</a>
         <span class="dot">·</span> © 2026 data·hub
       </span>
     </div>
   </footer>
 
   <div id="toast" class="toast" hidden></div>
-  <script src="app.js"></script>
+  <script src="app.js?v=0.3.0"></script>
 </body>
 </html>

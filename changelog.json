@@ -1,7 +1,17 @@
 {
   "product": "data·hub",
-  "current": "0.2.0",
+  "current": "0.3.0",
   "releases": [
+    {
+      "version": "0.3.0",
+      "date": "2026-06-09",
+      "title": "用量看板 + 安全加固",
+      "changes": [
+        { "type": "added", "text": "用量看板:总调用 / 今日 / 近 30 天趋势图 / 按 key 明细" },
+        { "type": "security", "text": "登录与密码重置防暴力破解:验证码尝试上限 + 端点限流" },
+        { "type": "changed", "text": "网络或服务异常不再误判为登录失效,会话更稳" }
+      ]
+    },
     {
       "version": "0.2.0",
       "date": "2026-06-09",

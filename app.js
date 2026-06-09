@@ -23,9 +23,16 @@ async function api(path, { method = "GET", body, auth = false } = {}) {
   try { data = await res.json(); } catch (_) {}
   if (!res.ok) {
     const msg = data?.error?.message || data?.detail || `请求失败 (${res.status})`;
-    throw new Error(msg);
+    const err = new Error(msg);
+    err.status = res.status;   // 让调用方区分 401/403(鉴权)与 5xx/网络错误
+    throw err;
   }
   return data;
+}
+
+// 仅鉴权失败(token 失效)才该登出;5xx/网络错误不应销毁有效会话
+function isAuthError(err) {
+  return err && (err.status === 401 || err.status === 403);
 }
 
 /* ---------- UI 辅助 ---------- */
@@ -211,9 +218,14 @@ async function loadSettings() {
     document.getElementById("form-profile").name.value = user.name || "";
     showView("settings");
   } catch (err) {
-    token.clear();
-    showView("login");
-    toast("登录已失效,请重新登录", "err");
+    if (isAuthError(err)) {
+      token.clear();
+      showView("login");
+      toast("登录已失效,请重新登录", "err");
+    } else {
+      showView("dashboard");
+      toast("无法连接服务器,请稍后重试", "err");
+    }
   }
 }
 
@@ -250,12 +262,41 @@ async function loadDashboard() {
       `${user.email}${user.name ? " · " + user.name : ""}`;
     document.getElementById("new-key-banner").hidden = true;
     await loadKeys();
+    loadUsage();
     showView("dashboard");
   } catch (err) {
-    token.clear();
-    showView("login");
-    toast("登录已失效,请重新登录", "err");
+    if (isAuthError(err)) {
+      token.clear();
+      showView("login");
+      toast("登录已失效,请重新登录", "err");
+    } else {
+      // 服务器/网络问题:保留 token,别把有效会话冲掉
+      showView("landing");
+      toast("无法连接服务器,请稍后重试", "err");
+    }
   }
+}
+
+/* ---------- 用量看板 ---------- */
+async function loadUsage() {
+  try {
+    const u = await api("/portal/usage?days=30", { auth: true });
+    document.getElementById("stat-total").textContent = u.total.toLocaleString();
+    document.getElementById("stat-today").textContent = u.today.toLocaleString();
+
+    // 柱状图:按当期峰值归一化,空天留一根极矮的底
+    const max = Math.max(1, ...u.daily.map((d) => d.count));
+    document.getElementById("usage-chart").innerHTML = u.daily.map((d) => {
+      const h = d.count > 0 ? Math.max(6, Math.round((d.count / max) * 100)) : 2;
+      return `<span class="bar ${d.count ? "" : "bar-empty"}" style="height:${h}%" title="${d.date} · ${d.count} 次"></span>`;
+    }).join("");
+
+    // 每个 key 的调用占比
+    const byKey = u.by_key.filter((k) => k.count > 0).sort((a, b) => b.count - a.count);
+    document.getElementById("usage-bykey").innerHTML = byKey.length
+      ? byKey.map((k) => `${escapeHtml(k.name)} <b>${k.count.toLocaleString()}</b>`).join(" · ")
+      : "还没有调用记录";
+  } catch (_) { /* 用量加载失败不阻塞控制台 */ }
 }
 
 async function loadKeys() {
@@ -264,6 +305,7 @@ async function loadKeys() {
   const empty = document.getElementById("keys-empty");
   tbody.innerHTML = "";
   empty.hidden = keys.length > 0;
+  document.getElementById("stat-keys").textContent = keys.filter((k) => !k.revoked).length;
   for (const k of keys) {
     const tr = document.createElement("tr");
     tr.innerHTML = `

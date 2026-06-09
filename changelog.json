@@ -1,0 +1,27 @@
+{
+  "product": "data·hub",
+  "current": "0.2.0",
+  "releases": [
+    {
+      "version": "0.2.0",
+      "date": "2026-06-09",
+      "title": "账号自助管理 + 站点门户",
+      "changes": [
+        { "type": "added", "text": "账号自助管理:修改昵称、修改密码、忘记密码找回(邮箱验证码,防枚举)" },
+        { "type": "added", "text": "新闻检索 API 升级:聚合趋势、高亮片段、结构化查询(全部词/任意词/精确短语)、字段投影" },
+        { "type": "added", "text": "站点 SEO 与社交分享:Open Graph / Twitter 卡片、favicon、PWA manifest" },
+        { "type": "added", "text": "关于页、更新日志页、全站页脚" },
+        { "type": "changed", "text": "全站统一为等宽字体(JetBrains Mono + 系统中文回退),对齐更舒适" }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "date": "2026-06-08",
+      "title": "首个版本",
+      "changes": [
+        { "type": "added", "text": "CCTV《新闻联播》全文检索 API(SQLite FTS5,5 万+ 条,2017–2026)" },
+        { "type": "added", "text": "账号体系:注册 / 邮箱验证 / 登录 / 自助生成与吊销 API key,按 key 限流" }
+      ]
+    }
+  ]
+}

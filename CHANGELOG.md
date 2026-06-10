@@ -8,6 +8,21 @@
 data·hub 采用**统一平台版本**:前端(data-hub-web)与后端(data-hub)同步打同名
 tag,本日志按平台聚合(用户视角的一条时间线)。
 
+## [0.5.0] - 2026-06-10
+
+### 新增
+- 前端整站重建为 Next.js(App Router + Tailwind v4 + SWR):独立 URL 路由
+  (`/login` `/register` `/reset` `/dashboard/*` `/changelog` `/about`),
+  支持浏览器前进后退与深链分享
+- 白天/黑夜双主题(CSS 变量 + `data-theme`),默认白天,选择持久化
+- 主页改版:数据集卡片、真实 API 响应示例(静态快照)、三步接入、限流说明、FAQ
+- 控制台改版:侧边栏应用壳,概览 / API Keys / 用量 / 设置分页管理
+
+### 优化
+- 全站加载态:路由级骨架屏 + 按钮 pending 状态,消灭"闪落地页"和重复提交
+- 生成/吊销 key 改用站内弹窗(替代浏览器原生 prompt/confirm)
+- 字体改为正文系统无衬线 + 代码等宽(@fontsource 自托管,不再请求 Google Fonts)
+
 ## [0.3.0] - 2026-06-09
 
 ### 新增

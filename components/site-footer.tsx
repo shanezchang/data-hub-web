@@ -1,6 +1,6 @@
 import Link from "next/link";
 import changelog from "@/public/changelog.json";
-import { API_DOCS, CONTACT } from "@/lib/site";
+import { API_BASE, API_DOCS, CONTACT } from "@/lib/site";
 import { BrandMark } from "./site-header";
 
 export function SiteFooter() {
@@ -14,6 +14,7 @@ export function SiteFooter() {
           <Link href="/changelog" className="hover:text-fg">更新日志</Link>
           <Link href="/about" className="hover:text-fg">关于</Link>
           <a href={API_DOCS} target="_blank" rel="noopener" className="hover:text-fg">API 文档</a>
+          <a href={`${API_BASE}/llms.txt`} target="_blank" rel="noopener" className="hover:text-fg">llms.txt</a>
           <a href={`mailto:${CONTACT}`} className="hover:text-fg">联系</a>
         </nav>
         <span className="font-mono text-xs">

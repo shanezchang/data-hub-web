@@ -1,10 +1,17 @@
-import { CONTACT } from "@/lib/site";
+import Link from "next/link";
+import { ReactNode } from "react";
 
-const ROWS = [
+const ROWS: [string, ReactNode][] = [
   ["请求限流", "60 次 / 分钟（按 key）"],
   ["数据范围", "全量数据，无字段阉割"],
   ["费用", "公测期免费"],
-  ["更高额度", "邮件说明用途即可调整"],
+  [
+    "更高额度",
+    <>
+      说明用途即可调整，联系方式见
+      <Link href="/about" className="text-accent hover:underline">「关于」</Link>
+    </>,
+  ],
 ];
 
 export function Limits() {
@@ -20,7 +27,6 @@ export function Limits() {
           </div>
         ))}
       </div>
-      <p className="mt-3 text-xs text-muted">联系：<a href={`mailto:${CONTACT}`} className="text-accent hover:underline">{CONTACT}</a></p>
     </section>
   );
 }

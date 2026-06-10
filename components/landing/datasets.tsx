@@ -19,7 +19,7 @@ const DATASETS = [
 
 export function Datasets() {
   return (
-    <section className="border-t border-line bg-bg-soft/50">
+    <section id="datasets" className="scroll-mt-14 border-t border-line bg-bg-soft/50">
       <div className="mx-auto max-w-5xl px-5 py-16">
         <h2 className="text-2xl font-bold">数据集</h2>
         <p className="mt-2 text-sm text-muted">每个数据集一套独立端点，统一用 X-API-Key 认证。持续接入中。</p>

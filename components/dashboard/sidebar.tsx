@@ -1,7 +1,7 @@
 "use client";
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { API_DOCS } from "@/lib/site";
+import { NavLink } from "@/components/ui/nav-link";
 
 const NAV = [
   { href: "/dashboard", label: "概览" },
@@ -17,14 +17,14 @@ export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void 
       {NAV.map((n) => {
         const active = pathname === n.href;
         return (
-          <Link
+          <NavLink
             key={n.href}
             href={n.href}
             onClick={onClose}
             className={`rounded-md px-3 py-2 text-sm ${active ? "bg-bg-soft font-semibold text-fg" : "text-muted hover:bg-bg-soft hover:text-fg"}`}
           >
             {n.label}
-          </Link>
+          </NavLink>
         );
       })}
       <a href={API_DOCS} target="_blank" rel="noopener" className="mt-3 px-3 text-xs text-muted hover:text-fg">API 文档 ↗</a>

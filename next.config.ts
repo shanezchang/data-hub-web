@@ -2,7 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   async rewrites() {
-    return [{ source: "/api/:path*", destination: "http://120.55.183.188:8000/:path*" }];
+    // 回源走 HTTPS(ECS Caddy 终结 TLS);明文 http 链路已于 v0.5.1 消除
+    return [{ source: "/api/:path*", destination: "https://www.lumina-core.cn/:path*" }];
   },
 };
 

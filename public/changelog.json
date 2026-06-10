@@ -1,7 +1,22 @@
 {
   "product": "data·hub",
-  "current": "0.6.0",
+  "current": "0.7.0",
   "releases": [
+    {
+      "version": "0.7.0",
+      "date": "2026-06-10",
+      "title": "数据集详情页",
+      "changes": [
+        {
+          "type": "added",
+          "text": "每个数据集有了独立详情页：覆盖范围、全部端点、调用示例与 scope，从主页卡片进入"
+        },
+        {
+          "type": "changed",
+          "text": "站点文案整体收紧：移除会过时的统计数字，覆盖范围只保留定性事实"
+        }
+      ]
+    },
     {
       "version": "0.6.0",
       "date": "2026-06-10",

@@ -17,7 +17,7 @@ export function ResponseDemo() {
     <section id="response-demo" className="border-t border-line bg-bg-soft/50">
       <div className="mx-auto max-w-5xl px-5 py-16">
         <h2 className="text-2xl font-bold">真实响应示例</h2>
-        <p className="mt-2 text-sm text-muted">下面是生产 API 的真实返回（快照），注册前就能看到数据长什么样。</p>
+        <p className="mt-2 text-sm text-muted">生产 API 的响应快照。</p>
         <div className="mt-6 flex gap-2">
           {TABS.map((t) => (
             <button

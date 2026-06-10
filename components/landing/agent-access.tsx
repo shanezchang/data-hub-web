@@ -26,7 +26,7 @@ export function AgentAccess() {
       <div className="mx-auto max-w-5xl px-5 py-16">
         <h2 className="text-2xl font-bold">给 AI Agent，一个链接就够</h2>
         <p className="mt-2 max-w-xl text-sm text-muted">
-          上面三步是给人看的。如果调用方是 Claude、ChatGPT 或任何 Agent 框架——把这个链接发给它，它能自己读懂全部端点和参数。
+          如果调用方是 AI Agent，把下面的链接交给它——端点、参数与认证方式都在其中。
         </p>
         <div className="mt-6 flex max-w-2xl items-center gap-2 overflow-hidden rounded-lg border border-line bg-bg px-4 py-3">
           <a href={LLMS_TXT} target="_blank" rel="noopener" className="min-w-0 flex-1 truncate font-mono text-sm text-accent hover:underline">
@@ -49,7 +49,7 @@ export function AgentAccess() {
           ))}
         </div>
         <p className="mt-4 text-xs text-muted">
-          认证只有一个 <code className="font-mono text-fg">X-API-Key</code> header——注册后在控制台生成，发给你的 Agent 即可。
+          认证只有一个 <code className="font-mono text-fg">X-API-Key</code> header，在控制台生成。
         </p>
       </div>
     </section>

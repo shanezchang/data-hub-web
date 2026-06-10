@@ -3,9 +3,9 @@ import { CodeBlock } from "@/components/code-block";
 import { CURL_QUICKSTART } from "@/lib/snippets";
 
 const STEPS = [
-  { n: "01", t: "注册账号", d: "邮箱 + 验证码，30 秒完成。", body: <Link href="/register" className="text-sm text-accent hover:underline">免费注册 →</Link> },
-  { n: "02", t: "生成 API key", d: "控制台一键生成，按 key 限流，可随时吊销。", body: <p className="font-mono text-xs text-muted">dh_xxxxxxxx…（只展示一次）</p> },
-  { n: "03", t: "调用", d: "任何语言任何环境，一个 header 即可。", body: <CodeBlock html={CURL_QUICKSTART} className="text-xs" /> },
+  { n: "01", t: "注册账号", d: "邮箱验证即可开通。", body: <Link href="/register" className="text-sm text-accent hover:underline">注册 →</Link> },
+  { n: "02", t: "生成 API key", d: "控制台生成，按 key 限流，可随时吊销。", body: <p className="font-mono text-xs text-muted">dh_xxxxxxxx…（仅展示一次）</p> },
+  { n: "03", t: "调用", d: "一个 header 完成认证。", body: <CodeBlock html={CURL_QUICKSTART} className="text-xs" /> },
 ];
 
 export function Quickstart() {

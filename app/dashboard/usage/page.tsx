@@ -1,6 +1,7 @@
 "use client";
 import { useUsage } from "@/lib/hooks";
 import { UsageChart } from "@/components/dashboard/usage-chart";
+import { RequestLogTable } from "@/components/dashboard/request-log";
 import { Skeleton } from "@/components/ui/skeleton";
 
 export default function UsagePage() {
@@ -28,6 +29,7 @@ export default function UsagePage() {
           ))
         )}
       </div>
+      <RequestLogTable />
     </div>
   );
 }

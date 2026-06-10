@@ -8,11 +8,19 @@ const USAGE = {
   by_key: [{ name: "我的应用", count: 1200 }],
 };
 const KEYS = [{ id: 1, name: "我的应用", key_prefix: "dh_abc12345", scopes: ["news:read"], rate_limit_per_min: 60, revoked: false }];
+const REQUESTS = {
+  total: 2,
+  items: [
+    { ts: "2026-06-10T12:30:00+00:00", key_id: 1, key_name: "我的应用", method: "GET", path: "/v1/news", query: "q=新能源&limit=3", body: null, status: 200, duration_ms: 18 },
+    { ts: "2026-06-10T12:29:00+00:00", key_id: 1, key_name: "我的应用", method: "POST", path: "/v1/yc/companies/search", query: null, body: '{"all":["agent"]}', status: 429, duration_ms: 2 },
+  ],
+};
 
 async function mockPortal(page: Page, keys: unknown = KEYS) {
   await page.addInitScript(() => localStorage.setItem("datahub_token", "tok_e2e"));
   await page.route("**/api/portal/me", (r) => r.fulfill({ json: ME }));
   await page.route("**/api/portal/usage*", (r) => r.fulfill({ json: USAGE }));
+  await page.route("**/api/portal/requests*", (r) => r.fulfill({ json: REQUESTS }));
   await page.route("**/api/portal/keys", (r) =>
     r.request().method() === "GET"
       ? r.fulfill({ json: keys })
@@ -31,8 +39,18 @@ test("概览展示统计与图表", async ({ page }) => {
 test("用量页有按 key 明细", async ({ page }) => {
   await mockPortal(page);
   await page.goto("/dashboard/usage");
-  await expect(page.getByText("我的应用")).toBeVisible();
+  await expect(page.getByText("我的应用").first()).toBeVisible();
   await expect(page.getByText("1,200")).toBeVisible();
+});
+
+test("用量页展示最近调用日志(接口/状态/耗时)", async ({ page }) => {
+  await mockPortal(page);
+  await page.goto("/dashboard/usage");
+  const log = page.getByTestId("request-log");
+  await expect(log.getByText("/v1/news")).toBeVisible();
+  await expect(log.getByText("q=新能源&limit=3")).toBeVisible();
+  await expect(log.getByText("429")).toBeVisible();
+  await expect(log.getByText("18ms")).toBeVisible();
 });
 
 test("生成 key:命名弹窗 → 一次性展示 → 复制", async ({ page, context }) => {

@@ -47,6 +47,23 @@ export const DATASETS: Dataset[] = [
     ],
     exampleCurl: `curl -H "X-API-Key: <your key>" \\\n  "https://api.lumina-core.cn/v1/yc/companies?batch=W25&status=Active"`,
   },
+  {
+    slug: "policy",
+    name: "国务院政策文件库",
+    tagline: "国发、国办发等中央政策文件原文，支持全文检索与文种、机关、时间维度聚合。",
+    coverage: [
+      "1996 年至今的国务院文件（国发 / 国办发 / 国函 / 国办函），每日更新",
+      "逐件正文全文，中文全文检索，发文字号 / 主题分类结构化",
+      "年份 × 文种等二维交叉聚合；官方下架文件标记保留，引用可溯",
+    ],
+    scope: "policy:read",
+    endpoints: [
+      { method: "GET", path: "/v1/policy", desc: "简单查询：关键词、文种、发文机关、日期范围、聚合，参数可直接贴链接" },
+      { method: "POST", path: "/v1/policy/search", desc: "结构化查询：多词 AND / OR、精确短语、复杂筛选与交叉聚合" },
+      { method: "GET", path: "/v1/policy/{id}", desc: "按 ID 取单件全文" },
+    ],
+    exampleCurl: `curl -H "X-API-Key: <your key>" \\\n  "https://api.lumina-core.cn/v1/policy?q=人工智能&limit=10"`,
+  },
 ];
 
 export const getDataset = (slug: string) => DATASETS.find((d) => d.slug === slug);

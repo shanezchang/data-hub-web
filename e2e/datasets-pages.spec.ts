@@ -24,6 +24,14 @@ test("yc 子页面列出该数据集全部端点", async ({ page }) => {
   }
 });
 
+test("policy 子页面列出该数据集全部端点", async ({ page }) => {
+  await page.goto("/datasets/policy");
+  for (const path of ["/v1/policy", "/v1/policy/search", "/v1/policy/{id}"]) {
+    await expect(page.getByText(path, { exact: true })).toBeVisible();
+  }
+  await expect(page.getByText("policy:read")).toBeVisible();
+});
+
 test("未知数据集返回 404", async ({ page }) => {
   const res = await page.goto("/datasets/nope");
   expect(res?.status()).toBe(404);

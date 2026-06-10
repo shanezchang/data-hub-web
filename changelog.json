@@ -1,15 +1,43 @@
 {
   "product": "data·hub",
-  "current": "0.3.1",
+  "current": "0.4.0",
   "releases": [
+    {
+      "version": "0.4.0",
+      "date": "2026-06-10",
+      "title": "新数据集:Y Combinator 公司目录",
+      "changes": [
+        {
+          "type": "added",
+          "text": "Y Combinator 公司目录:5956 家公司 + 1.1 万创始人,支持按批次/行业/状态筛选与趋势聚合"
+        },
+        {
+          "type": "added",
+          "text": "创始人检索:按姓名或简介全文查找(如找连续创业者、某背景创始人)"
+        },
+        {
+          "type": "added",
+          "text": "二维交叉聚合:如各批次的存活结局、AI 公司逐年趋势"
+        }
+      ]
+    },
     {
       "version": "0.3.1",
       "date": "2026-06-10",
       "title": "安全卫生加固",
       "changes": [
-        { "type": "security", "text": "密码最短长度提升到 8 位(注册 / 重置 / 改密统一)" },
-        { "type": "security", "text": "控制台展示内容统一转义,杜绝注入隐患" },
-        { "type": "changed", "text": "断网时给出明确提示,不再静默失败" }
+        {
+          "type": "security",
+          "text": "密码最短长度提升到 8 位(注册 / 重置 / 改密统一)"
+        },
+        {
+          "type": "security",
+          "text": "控制台展示内容统一转义,杜绝注入隐患"
+        },
+        {
+          "type": "changed",
+          "text": "断网时给出明确提示,不再静默失败"
+        }
       ]
     },
     {
@@ -17,9 +45,18 @@
       "date": "2026-06-09",
       "title": "用量看板 + 安全加固",
       "changes": [
-        { "type": "added", "text": "用量看板:总调用 / 今日 / 近 30 天趋势图 / 按 key 明细" },
-        { "type": "security", "text": "登录与密码重置防暴力破解:验证码尝试上限 + 端点限流" },
-        { "type": "changed", "text": "网络或服务异常不再误判为登录失效,会话更稳" }
+        {
+          "type": "added",
+          "text": "用量看板:总调用 / 今日 / 近 30 天趋势图 / 按 key 明细"
+        },
+        {
+          "type": "security",
+          "text": "登录与密码重置防暴力破解:验证码尝试上限 + 端点限流"
+        },
+        {
+          "type": "changed",
+          "text": "网络或服务异常不再误判为登录失效,会话更稳"
+        }
       ]
     },
     {
@@ -27,11 +64,26 @@
       "date": "2026-06-09",
       "title": "账号自助管理 + 站点门户",
       "changes": [
-        { "type": "added", "text": "账号自助管理:修改昵称、修改密码、忘记密码找回(邮箱验证码,防枚举)" },
-        { "type": "added", "text": "新闻检索 API 升级:聚合趋势、高亮片段、结构化查询(全部词/任意词/精确短语)、字段投影" },
-        { "type": "added", "text": "站点 SEO 与社交分享:Open Graph / Twitter 卡片、favicon、PWA manifest" },
-        { "type": "added", "text": "关于页、更新日志页、全站页脚" },
-        { "type": "changed", "text": "全站统一为等宽字体(JetBrains Mono + 系统中文回退),对齐更舒适" }
+        {
+          "type": "added",
+          "text": "账号自助管理:修改昵称、修改密码、忘记密码找回(邮箱验证码,防枚举)"
+        },
+        {
+          "type": "added",
+          "text": "新闻检索 API 升级:聚合趋势、高亮片段、结构化查询(全部词/任意词/精确短语)、字段投影"
+        },
+        {
+          "type": "added",
+          "text": "站点 SEO 与社交分享:Open Graph / Twitter 卡片、favicon、PWA manifest"
+        },
+        {
+          "type": "added",
+          "text": "关于页、更新日志页、全站页脚"
+        },
+        {
+          "type": "changed",
+          "text": "全站统一为等宽字体(JetBrains Mono + 系统中文回退),对齐更舒适"
+        }
       ]
     },
     {
@@ -39,8 +91,14 @@
       "date": "2026-06-08",
       "title": "首个版本",
       "changes": [
-        { "type": "added", "text": "CCTV《新闻联播》全文检索 API(SQLite FTS5,5 万+ 条,2017–2026)" },
-        { "type": "added", "text": "账号体系:注册 / 邮箱验证 / 登录 / 自助生成与吊销 API key,按 key 限流" }
+        {
+          "type": "added",
+          "text": "CCTV《新闻联播》全文检索 API(SQLite FTS5,5 万+ 条,2017–2026)"
+        },
+        {
+          "type": "added",
+          "text": "账号体系:注册 / 邮箱验证 / 登录 / 自助生成与吊销 API key,按 key 限流"
+        }
       ]
     }
   ]

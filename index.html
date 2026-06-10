@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=0.3.1" />
+  <link rel="stylesheet" href="styles.css?v=0.4.0" />
 </head>
 <body>
   <header class="topbar">
@@ -50,7 +50,7 @@
       <div class="hero">
         <p class="eyebrow">可扩展的数据 API 平台</p>
         <h1>把结构化数据,<br />变成给 AI 调用的接口。</h1>
-        <p class="lede">第一个能力:<strong>CCTV《新闻联播》</strong> 全文检索与结构化查询。注册账号即可自助生成 API key,一行 <code>curl</code> 就能用。</p>
+        <p class="lede">已上线两个数据集:<strong>CCTV《新闻联播》</strong>(10 年全文检索)与 <strong>Y Combinator 公司目录</strong>(5956 家 + 创始人)。注册账号即可自助生成 API key,一行 <code>curl</code> 就能用。</p>
         <div class="cta-row">
           <button class="btn btn-primary" data-nav="register">免费注册</button>
           <button class="btn btn-ghost" data-nav="login">已有账号,登录</button>
@@ -61,7 +61,7 @@
       <div class="features">
         <div class="feat">
           <svg class="icon feat-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          <h3>全文检索</h3><p>SQLite FTS5,标题+正文,5 万+ 条新闻秒级返回。</p>
+          <h3>全文检索</h3><p>SQLite FTS5 + 结构化查询,跨数据集秒级返回。</p>
         </div>
         <div class="feat">
           <svg class="icon feat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m2.6 17.4-.6 1.4V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 0 1-1h.2a2 2 0 0 0 1.4-.6l.8-.8a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor" stroke="none"/></svg>
@@ -69,7 +69,7 @@
         </div>
         <div class="feat">
           <svg class="icon feat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
-          <h3>持续更新</h3><p>每日自动采集,数据保持时效。</p>
+          <h3>持续更新</h3><p>新闻每日采集,目录定期重抓,数据保持时效。</p>
         </div>
       </div>
     </section>
@@ -90,7 +90,7 @@
             <input type="text" name="code" required maxlength="6" inputmode="numeric" placeholder="6 位数字" />
           </label>
           <label>密码
-            <input type="password" name="password" required minlength="6" placeholder="至少 6 位" autocomplete="new-password" />
+            <input type="password" name="password" required minlength="8" placeholder="至少 8 位" autocomplete="new-password" />
           </label>
           <label>昵称(可选)
             <input type="text" name="name" placeholder="怎么称呼你" />
@@ -130,7 +130,7 @@
             <input type="text" name="code" required maxlength="6" inputmode="numeric" placeholder="6 位数字" />
           </label>
           <label>新密码
-            <input type="password" name="password" required minlength="6" placeholder="至少 6 位" autocomplete="new-password" />
+            <input type="password" name="password" required minlength="8" placeholder="至少 8 位" autocomplete="new-password" />
           </label>
           <button type="submit" class="btn btn-primary">重置密码</button>
         </form>
@@ -164,7 +164,7 @@
             <input type="password" name="current_password" required placeholder="当前密码" autocomplete="current-password" />
           </label>
           <label>新密码
-            <input type="password" name="new_password" required minlength="6" placeholder="至少 6 位" autocomplete="new-password" />
+            <input type="password" name="new_password" required minlength="8" placeholder="至少 8 位" autocomplete="new-password" />
           </label>
           <button type="submit" class="btn btn-primary btn-sm self-start">修改密码</button>
         </form>
@@ -240,7 +240,7 @@
         <p class="eyebrow">关于</p>
         <h1>一个人维护的<br />数据 API 平台。</h1>
         <p class="lede">data·hub 把零散的公开数据整理成结构化、可检索、能被 AI 直接调用的接口。
-          第一个能力是 CCTV《新闻联播》全文检索,后续会持续接入更多数据源。</p>
+          已上线 CCTV《新闻联播》与 Y Combinator 公司目录两个数据集,后续会持续接入更多数据源。</p>
 
         <div class="about-grid">
           <div class="about-block">
@@ -282,6 +282,6 @@
   </footer>
 
   <div id="toast" class="toast" hidden></div>
-  <script src="app.js?v=0.3.1"></script>
+  <script src="app.js?v=0.4.0"></script>
 </body>
 </html>

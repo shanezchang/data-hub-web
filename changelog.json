@@ -1,7 +1,17 @@
 {
   "product": "data·hub",
-  "current": "0.3.0",
+  "current": "0.3.1",
   "releases": [
+    {
+      "version": "0.3.1",
+      "date": "2026-06-10",
+      "title": "安全卫生加固",
+      "changes": [
+        { "type": "security", "text": "密码最短长度提升到 8 位(注册 / 重置 / 改密统一)" },
+        { "type": "security", "text": "控制台展示内容统一转义,杜绝注入隐患" },
+        { "type": "changed", "text": "断网时给出明确提示,不再静默失败" }
+      ]
+    },
     {
       "version": "0.3.0",
       "date": "2026-06-09",

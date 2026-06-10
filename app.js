@@ -14,11 +14,19 @@ const token = {
 async function api(path, { method = "GET", body, auth = false } = {}) {
   const headers = { "Content-Type": "application/json" };
   if (auth) headers["Authorization"] = `Bearer ${token.get()}`;
-  const res = await fetch(API + path, {
-    method,
-    headers,
-    body: body ? JSON.stringify(body) : undefined,
-  });
+  let res;
+  try {
+    res = await fetch(API + path, {
+      method,
+      headers,
+      body: body ? JSON.stringify(body) : undefined,
+    });
+  } catch (_) {
+    // fetch 本身抛错 = 断网/DNS/CORS,没有 HTTP 状态;status=0 供调用方与鉴权错误区分
+    const err = new Error("网络连接失败,请检查网络后重试");
+    err.status = 0;
+    throw err;
+  }
   let data = null;
   try { data = await res.json(); } catch (_) {}
   if (!res.ok) {
@@ -288,7 +296,7 @@ async function loadUsage() {
     const max = Math.max(1, ...u.daily.map((d) => d.count));
     document.getElementById("usage-chart").innerHTML = u.daily.map((d) => {
       const h = d.count > 0 ? Math.max(6, Math.round((d.count / max) * 100)) : 2;
-      return `<span class="bar ${d.count ? "" : "bar-empty"}" style="height:${h}%" title="${d.date} · ${d.count} 次"></span>`;
+      return `<span class="bar ${d.count ? "" : "bar-empty"}" style="height:${h}%" title="${escapeHtml(d.date)} · ${Number(d.count)} 次"></span>`;
     }).join("");
 
     // 每个 key 的调用占比
@@ -310,9 +318,9 @@ async function loadKeys() {
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${escapeHtml(k.name)}</td>
-      <td><code>${k.key_prefix}…</code></td>
-      <td>${k.scopes.join(", ")}</td>
-      <td>${k.rate_limit_per_min}/min</td>
+      <td><code>${escapeHtml(k.key_prefix)}…</code></td>
+      <td>${escapeHtml(k.scopes.join(", "))}</td>
+      <td>${Number(k.rate_limit_per_min)}/min</td>
       <td><span class="pill ${k.revoked ? "revoked" : "active"}">${k.revoked ? "已吊销" : "有效"}</span></td>
       <td>${k.revoked ? "" : `<button class="btn-link" data-revoke="${k.id}"><svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>吊销</button>`}</td>`;
     tbody.appendChild(tr);

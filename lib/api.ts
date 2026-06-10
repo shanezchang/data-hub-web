@@ -12,6 +12,10 @@ export class ApiError extends Error {
 export const isAuthError = (e: unknown): e is ApiError =>
   e instanceof ApiError && (e.status === 401 || e.status === 403);
 
+// 必须有超时:挂死的请求会让 SWR 的 in-flight 去重永久卡住该 key
+// (代理/边缘抖动下表现为"页面无响应且不再发请求")
+const TIMEOUT_MS = 12_000;
+
 export async function api<T = unknown>(
   path: string,
   opts: { method?: string; body?: unknown; auth?: boolean } = {},
@@ -27,6 +31,7 @@ export async function api<T = unknown>(
       method: opts.method ?? "GET",
       headers,
       body: opts.body !== undefined ? JSON.stringify(opts.body) : undefined,
+      signal: AbortSignal.timeout(TIMEOUT_MS),
     });
   } catch {
     throw new ApiError("网络连接失败，请检查网络后重试", 0);

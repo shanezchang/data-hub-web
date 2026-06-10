@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/600.css";
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+:root {
+  --bg: #faf9f7; --bg-soft: #f1f0ec; --fg: #1a1917; --muted: #6b6862;
+  --line: #e3e1da; --accent: #0d7a3f; --err: #c0392b;
+  --tok-cmd: #0550ae; --tok-str: #0a6c4a; --tok-url: #953800;
+  --tok-punct: #8a8782; --tok-key: #0550ae; --tok-num: #953800;
+}
+[data-theme="dark"] {
+  --bg: #0d1117; --bg-soft: #161b22; --fg: #e6edf3; --muted: #8b949e;
+  --line: #30363d; --accent: #7ee787; --err: #ff7b72;
+  --tok-cmd: #79c0ff; --tok-str: #7ee787; --tok-url: #ffa657;
+  --tok-punct: #8b949e; --tok-key: #79c0ff; --tok-num: #ffa657;
+}
+
+html { background: var(--bg); color: var(--fg); }
+body {
+  font-family: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.tok-cmd { color: var(--tok-cmd); } .tok-str { color: var(--tok-str); }
+.tok-url { color: var(--tok-url); } .tok-punct { color: var(--tok-punct); }
+.tok-key { color: var(--tok-key); } .tok-num { color: var(--tok-num); }

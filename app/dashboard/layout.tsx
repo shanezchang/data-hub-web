@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useMe } from "@/lib/hooks";
-import { token } from "@/lib/auth";
+import { clearSession, token } from "@/lib/auth";
 import { isAuthError } from "@/lib/api";
 import { useToast } from "@/components/ui/toast";
 import { Button } from "@/components/ui/button";
@@ -27,7 +27,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
   useEffect(() => {
     if (error && isAuthError(error)) {
-      token.clear();
+      clearSession();
       toast("登录已失效，请重新登录", "err");
       router.replace("/login");
     }
@@ -36,7 +36,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
   if (hasToken === null || hasToken === false || (error && isAuthError(error))) return <DashSkeleton />;
 
   function logout() {
-    token.clear();
+    clearSession();
     toast("已退出");
     router.replace("/");
   }

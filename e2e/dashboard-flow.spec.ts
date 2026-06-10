@@ -48,6 +48,15 @@ test("生成 key:命名弹窗 → 一次性展示 → 复制", async ({ page, co
   await expect(page.getByText("已复制")).toBeVisible();
 });
 
+test("移动端:抽屉导航可用", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await mockPortal(page);
+  await page.goto("/dashboard");
+  await page.getByRole("button", { name: "菜单" }).click();
+  await page.getByRole("link", { name: "API Keys" }).click();
+  await expect(page).toHaveURL(/\/dashboard\/keys/);
+});
+
 test("吊销 key:确认弹窗", async ({ page }) => {
   await mockPortal(page);
   await page.route("**/api/portal/keys/1", (r) => r.fulfill({ json: { ok: true } }));

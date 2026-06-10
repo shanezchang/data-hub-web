@@ -1,5 +1,5 @@
 "use client";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { api } from "@/lib/api";
 import { useToast } from "@/components/ui/toast";
 import { Button } from "@/components/ui/button";
@@ -9,6 +9,10 @@ export function SendCodeButton({ getEmail, endpoint }: { getEmail: () => string;
   const [pending, setPending] = useState(false);
   const [count, setCount] = useState(0);
   const timer = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  useEffect(() => () => {
+    if (timer.current) clearInterval(timer.current);
+  }, []);
 
   async function send() {
     const email = getEmail().trim();

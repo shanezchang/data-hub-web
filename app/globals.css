@@ -33,3 +33,7 @@ body {
 .tok-cmd { color: var(--tok-cmd); } .tok-str { color: var(--tok-str); }
 .tok-url { color: var(--tok-url); } .tok-punct { color: var(--tok-punct); }
 .tok-key { color: var(--tok-key); } .tok-num { color: var(--tok-num); }
+
+.theme-icon-dark { display: none; }
+[data-theme="dark"] .theme-icon-dark { display: block; }
+[data-theme="dark"] .theme-icon-light { display: none; }

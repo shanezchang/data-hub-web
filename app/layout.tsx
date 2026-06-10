@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: "data·hub · 数据 API 控制台", images: ["/og.png"] },
 };
 
-const themeInit = `(function(){try{if(localStorage.getItem("datahub_theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}})()`;
+const themeInit = `(function(){try{if(localStorage.getItem("datahub_theme")==="dark"){document.documentElement.setAttribute("data-theme","dark");var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute("content","#0d1117")}}catch(e){}})()`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

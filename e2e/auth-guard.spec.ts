@@ -16,6 +16,23 @@ test("已登录访问 /login 跳转控制台", async ({ page }) => {
   await expect(page).toHaveURL(/\/dashboard/);
 });
 
+test("token 失效(401):清会话并回登录页", async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem("datahub_token", "tok_expired"));
+  await page.route("**/api/portal/me", (r) => r.fulfill({ status: 401, json: { detail: "Invalid token" } }));
+  await page.goto("/dashboard");
+  await expect(page).toHaveURL(/\/login/);
+  expect(await page.evaluate(() => localStorage.getItem("datahub_token"))).toBeNull();
+});
+
+test("网络错误:保留会话并提供重试", async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem("datahub_token", "tok_e2e"));
+  await page.route("**/api/portal/me", (r) => r.abort());
+  await page.goto("/dashboard");
+  await expect(page.getByText(/无法连接服务器/)).toBeVisible();
+  await expect(page.getByRole("button", { name: "重试" })).toBeVisible();
+  expect(await page.evaluate(() => localStorage.getItem("datahub_token"))).toBe("tok_e2e");
+});
+
 test("登录按钮有 pending 态且不可重复提交", async ({ page }) => {
   await page.route("**/api/portal/login", async (r) => {
     await new Promise((res) => setTimeout(res, 800));

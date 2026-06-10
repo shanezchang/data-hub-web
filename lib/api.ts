@@ -17,7 +17,10 @@ export async function api<T = unknown>(
   opts: { method?: string; body?: unknown; auth?: boolean } = {},
 ): Promise<T> {
   const headers: Record<string, string> = { "Content-Type": "application/json" };
-  if (opts.auth) headers.Authorization = `Bearer ${token.get()}`;
+  if (opts.auth) {
+    const t = token.get();
+    if (t) headers.Authorization = `Bearer ${t}`;
+  }
   let res: Response;
   try {
     res = await fetch("/api" + path, {

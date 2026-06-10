@@ -7,10 +7,10 @@ export function ConfirmModal({ open, onClose, onConfirm, title, body, confirmTex
   title: string; body: string; confirmText: string; pending?: boolean;
 }) {
   return (
-    <Modal open={open} onClose={onClose} title={title}>
+    <Modal open={open} onClose={onClose} title={title} locked={pending}>
       <p className="text-sm text-muted">{body}</p>
       <div className="mt-5 flex justify-end gap-2">
-        <Button variant="ghost" onClick={onClose}>取消</Button>
+        <Button variant="ghost" onClick={onClose} disabled={pending}>取消</Button>
         <Button variant="danger" onClick={onConfirm} pending={pending} pendingText="处理中…">{confirmText}</Button>
       </div>
     </Modal>

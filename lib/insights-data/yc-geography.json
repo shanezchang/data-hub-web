@@ -1,0 +1,161 @@
+{
+ "as_of": "2026-06-11",
+ "by_year": {
+  "2008": {
+   "total": 33,
+   "us": 31,
+   "intl": 2,
+   "intl_pct": 6.1
+  },
+  "2009": {
+   "total": 37,
+   "us": 37,
+   "intl": 0,
+   "intl_pct": 0.0
+  },
+  "2010": {
+   "total": 60,
+   "us": 58,
+   "intl": 2,
+   "intl_pct": 3.3
+  },
+  "2011": {
+   "total": 103,
+   "us": 100,
+   "intl": 3,
+   "intl_pct": 2.9
+  },
+  "2012": {
+   "total": 136,
+   "us": 128,
+   "intl": 8,
+   "intl_pct": 5.9
+  },
+  "2013": {
+   "total": 95,
+   "us": 88,
+   "intl": 7,
+   "intl_pct": 7.4
+  },
+  "2014": {
+   "total": 146,
+   "us": 127,
+   "intl": 19,
+   "intl_pct": 13.0
+  },
+  "2015": {
+   "total": 212,
+   "us": 178,
+   "intl": 34,
+   "intl_pct": 16.0
+  },
+  "2016": {
+   "total": 218,
+   "us": 186,
+   "intl": 32,
+   "intl_pct": 14.7
+  },
+  "2017": {
+   "total": 232,
+   "us": 170,
+   "intl": 62,
+   "intl_pct": 26.7
+  },
+  "2018": {
+   "total": 269,
+   "us": 207,
+   "intl": 62,
+   "intl_pct": 23.0
+  },
+  "2019": {
+   "total": 360,
+   "us": 262,
+   "intl": 98,
+   "intl_pct": 27.2
+  },
+  "2020": {
+   "total": 431,
+   "us": 294,
+   "intl": 137,
+   "intl_pct": 31.8
+  },
+  "2021": {
+   "total": 708,
+   "us": 393,
+   "intl": 315,
+   "intl_pct": 44.5
+  },
+  "2022": {
+   "total": 616,
+   "us": 370,
+   "intl": 246,
+   "intl_pct": 39.9
+  },
+  "2023": {
+   "total": 449,
+   "us": 363,
+   "intl": 86,
+   "intl_pct": 19.2
+  },
+  "2024": {
+   "total": 550,
+   "us": 495,
+   "intl": 55,
+   "intl_pct": 10.0
+  },
+  "2025": {
+   "total": 573,
+   "us": 524,
+   "intl": 49,
+   "intl_pct": 8.6
+  },
+  "2026": {
+   "total": 359,
+   "us": 343,
+   "intl": 16,
+   "intl_pct": 4.5
+  }
+ },
+ "top_intl": [
+  {
+   "code": "GB",
+   "count": 209
+  },
+  {
+   "code": "IN",
+   "count": 201
+  },
+  {
+   "code": "CA",
+   "count": 133
+  },
+  {
+   "code": "MX",
+   "count": 80
+  },
+  {
+   "code": "FR",
+   "count": 53
+  },
+  {
+   "code": "SG",
+   "count": 50
+  },
+  {
+   "code": "NG",
+   "count": 50
+  },
+  {
+   "code": "DE",
+   "count": 47
+  },
+  {
+   "code": "BR",
+   "count": 46
+  },
+  {
+   "code": "ID",
+   "count": 30
+  }
+ ]
+}

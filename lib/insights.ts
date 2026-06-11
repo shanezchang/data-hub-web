@@ -15,6 +15,14 @@ export type Insight = {
 
 export const INSIGHTS: Insight[] = [
   {
+    slug: "vocabulary-birth-certificates",
+    title: "Birth certificates: when new vocabulary first hit the broadcast",
+    description:
+      "碳中和 entered via Nordic news in 2019, 双循环 via a Politburo meeting, 新质生产力 via a Xi inspection trip — exact first-broadcast dates for 11 terms, each with the original CCTV link.",
+    publishedAt: "2026-06-11",
+    dataAsOf: "2026-06-11",
+  },
+  {
     slug: "xinwen-lianbo-calendar",
     title: "The Xinwen Lianbo calendar: China's official year, month by month",
     description:
@@ -23,10 +31,26 @@ export const INSIGHTS: Insight[] = [
     dataAsOf: "2026-06-11",
   },
   {
+    slug: "yc-geography",
+    title: "YC went global, then came home",
+    description:
+      "Non-US companies were 6% of the 2012 intake, 40% at the 2022 peak, and back to ~9% by 2025. Two decades of YC company geography in one aggregation.",
+    publishedAt: "2026-06-11",
+    dataAsOf: "2026-06-11",
+  },
+  {
     slug: "yc-industry-drift",
     title: "YC's consumer era is over: two decades of industry drift",
     description:
       "In 2008 half the batch was consumer startups; by 2026 consumer is ~5% while B2B exceeds 60%. Industry composition of every YC batch year, in one aggregation.",
+    publishedAt: "2026-06-11",
+    dataAsOf: "2026-06-11",
+  },
+  {
+    slug: "policy-themes",
+    title: "What the State Council writes about",
+    description:
+      "Trade-customs-tourism is the largest theme across 6,000+ documents; land-and-energy is the clearest recent riser (3 docs in 2019 → 41 in 2024); health spiked through the pandemic then faded.",
     publishedAt: "2026-06-11",
     dataAsOf: "2026-06-11",
   },

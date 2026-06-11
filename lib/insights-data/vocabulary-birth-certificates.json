@@ -1,0 +1,204 @@
+{
+ "as_of": "2026-06-11",
+ "terms": [
+  {
+   "zh": "人形机器人",
+   "en": "Humanoid robots",
+   "total": 78,
+   "by_year": {
+    "2017": 1,
+    "2019": 1,
+    "2023": 2,
+    "2024": 16,
+    "2025": 33,
+    "2026": 25
+   },
+   "first": {
+    "date": "2017-02-15",
+    "title": "[视频]国际联播快讯",
+    "url": "http://tv.cctv.com/2017/02/15/VIDE3MtGY2iXjw8ExXv5yYzy170215.shtml"
+   }
+  },
+  {
+   "zh": "乡村振兴",
+   "en": "Rural revitalization",
+   "total": 1211,
+   "by_year": {
+    "2017": 38,
+    "2018": 151,
+    "2019": 89,
+    "2020": 108,
+    "2021": 211,
+    "2022": 168,
+    "2023": 193,
+    "2024": 103,
+    "2025": 111,
+    "2026": 39
+   },
+   "first": {
+    "date": "2017-10-22",
+    "title": "[视频]【十九大时光】新时代 新作为 各界热议十九大报告",
+    "url": "http://tv.cctv.com/2017/10/22/VIDEi12NWqUjJ2Lpw1jcqOwI171022.shtml"
+   }
+  },
+  {
+   "zh": "碳中和",
+   "en": "Carbon neutrality",
+   "total": 175,
+   "by_year": {
+    "2019": 2,
+    "2020": 14,
+    "2021": 73,
+    "2022": 17,
+    "2023": 32,
+    "2024": 20,
+    "2025": 15,
+    "2026": 2
+   },
+   "first": {
+    "date": "2019-01-27",
+    "title": "[视频]北欧五国签署声明加快实现“碳中和”",
+    "url": "http://tv.cctv.com/2019/01/27/VIDEjM7ht5ITYaz89PrsmUY2190127.shtml"
+   }
+  },
+  {
+   "zh": "新基建",
+   "en": "New infrastructure",
+   "total": 44,
+   "by_year": {
+    "2020": 16,
+    "2021": 7,
+    "2022": 3,
+    "2023": 6,
+    "2024": 6,
+    "2025": 4,
+    "2026": 2
+   },
+   "first": {
+    "date": "2020-03-21",
+    "title": "[视频]创新方法 让稳就业“活”起来",
+    "url": "http://tv.cctv.com/2020/03/21/VIDELbfScCOkgwCpfe3l4mCg200321.shtml"
+   }
+  },
+  {
+   "zh": "双循环",
+   "en": "Dual circulation",
+   "total": 191,
+   "by_year": {
+    "2020": 80,
+    "2021": 27,
+    "2022": 20,
+    "2023": 24,
+    "2024": 6,
+    "2025": 21,
+    "2026": 13
+   },
+   "first": {
+    "date": "2020-05-14",
+    "title": "[视频]中共中央政治局常务委员会召开会议 分析国内外新冠肺炎疫情防控形势 研究部署抓好常态化疫情防控措施落地见效 研究提升产业链供应链稳定性和竞争力 中共中央总书记习近平主持会议",
+    "url": "https://tv.cctv.com/2020/05/14/VIDE8FZI7tTih6EOQixO2ZQh200514.shtml"
+   }
+  },
+  {
+   "zh": "碳达峰",
+   "en": "Carbon peaking",
+   "total": 144,
+   "by_year": {
+    "2020": 2,
+    "2021": 59,
+    "2022": 17,
+    "2023": 28,
+    "2024": 18,
+    "2025": 15,
+    "2026": 5
+   },
+   "first": {
+    "date": "2020-10-13",
+    "title": "[视频]韩正强调把生态修复和环境保护摆在更加重要位置 推动生态文明建设再上新水平",
+    "url": "https://tv.cctv.com/2020/10/13/VIDEn3mRFgkWnILZxjPjyGKe201013.shtml"
+   }
+  },
+  {
+   "zh": "银发经济",
+   "en": "Silver economy",
+   "total": 38,
+   "by_year": {
+    "2021": 1,
+    "2022": 1,
+    "2023": 2,
+    "2024": 11,
+    "2025": 17,
+    "2026": 6
+   },
+   "first": {
+    "date": "2021-07-26",
+    "title": "[视频]全国政协召开“积极应对人口老龄化，促进人口均衡发展”专题协商会",
+    "url": "https://tv.cctv.com/2021/07/26/VIDEidlJTHztqL31kSyICF8V210726.shtml"
+   }
+  },
+  {
+   "zh": "数字人民币",
+   "en": "Digital yuan (e-CNY)",
+   "total": 11,
+   "by_year": {
+    "2021": 1,
+    "2024": 4,
+    "2025": 5,
+    "2026": 1
+   },
+   "first": {
+    "date": "2021-08-09",
+    "title": "[视频]数字经济助力北京高质量发展",
+    "url": "https://tv.cctv.com/2021/08/09/VIDEaoIFCZ5Vg7LaoPwzRZil210809.shtml"
+   }
+  },
+  {
+   "zh": "大模型",
+   "en": "Large (AI) models",
+   "total": 128,
+   "by_year": {
+    "2023": 6,
+    "2024": 18,
+    "2025": 64,
+    "2026": 40
+   },
+   "first": {
+    "date": "2023-07-06",
+    "title": "[视频]国内联播快讯",
+    "url": "https://tv.cctv.com/2023/07/06/VIDE7o5rdJOuOsXRx9LAqcY4230706.shtml"
+   }
+  },
+  {
+   "zh": "新质生产力",
+   "en": "New quality productive forces",
+   "total": 592,
+   "by_year": {
+    "2023": 18,
+    "2024": 269,
+    "2025": 211,
+    "2026": 94
+   },
+   "first": {
+    "date": "2023-09-08",
+    "title": "[视频]习近平在黑龙江考察时强调 牢牢把握在国家发展大局中的战略定位 奋力开创黑龙江高质量发展新局面",
+    "url": "https://tv.cctv.com/2023/09/08/VIDEgTj9pgc6tsZ8Jy0y0sbk230908.shtml"
+   }
+  },
+  {
+   "zh": "低空经济",
+   "en": "Low-altitude economy",
+   "total": 81,
+   "by_year": {
+    "2023": 2,
+    "2024": 22,
+    "2025": 36,
+    "2026": 21
+   },
+   "first": {
+    "date": "2023-12-05",
+    "title": "[视频]【一线调研·加快形成新质生产力】安徽合肥：“飞”出来的经济新赛道",
+    "url": "https://tv.cctv.com/2023/12/05/VIDExbwDSS4GevAt4g9UTIyA231205.shtml"
+   }
+  }
+ ]
+}

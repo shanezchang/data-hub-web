@@ -117,3 +117,22 @@ test("年度节律 insight 页渲染八组月度条形图", async ({ page }) => 
   await expect(page.getByRole("heading", { level: 1 })).toContainText("calendar");
   expect(await page.locator('[role=img][aria-label="Monthly distribution"]').count()).toBe(8);
 });
+
+test("新词出生证页:11 行表格+首播原文链接", async ({ page }) => {
+  await page.goto("/insights/vocabulary-birth-certificates");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("Birth certificates");
+  expect(await page.locator("table tbody tr").count()).toBe(11);
+  expect(await page.locator('a[href*="cctv.com"]').count()).toBeGreaterThanOrEqual(11);
+});
+
+test("YC 地理页渲染份额曲线与国家榜", async ({ page }) => {
+  await page.goto("/insights/yc-geography");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("went global");
+  await expect(page.getByText("United Kingdom")).toBeVisible();
+});
+
+test("政策主题页渲染主题榜与 movers", async ({ page }) => {
+  await page.goto("/insights/policy-themes");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("State Council writes about");
+  await expect(page.getByText("Trade, customs & tourism").first()).toBeVisible();
+});

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import changelog from "@/public/changelog.json";
-import { API_BASE, API_DOCS, CONTACT } from "@/lib/site";
 import { BrandMark } from "./site-header";
 
+// 页脚极简纪律(2026-06-11 Shane):不放导航(与顶部重复显乱)、不放联系方式。
 export function SiteFooter() {
   return (
     <footer className="border-t border-line">
@@ -10,15 +10,6 @@ export function SiteFooter() {
         <Link href="/" className="flex items-center gap-2 font-mono font-semibold text-fg">
           <BrandMark className="size-4" /> data·hub
         </Link>
-        <nav className="flex flex-wrap gap-x-5 gap-y-2">
-          <Link href="/insights" className="hover:text-fg">Insights</Link>
-        <Link href="/regions" className="hover:text-fg">Regions</Link>
-        <Link href="/changelog" className="hover:text-fg">更新日志</Link>
-          <Link href="/about" className="hover:text-fg">关于</Link>
-          <a href={API_DOCS} target="_blank" rel="noopener" className="hover:text-fg">API 文档</a>
-          <a href={`${API_BASE}/llms.txt`} target="_blank" rel="noopener" className="hover:text-fg">llms.txt</a>
-          <a href={`mailto:${CONTACT}`} className="hover:text-fg">联系</a>
-        </nav>
         <span className="font-mono text-xs">
           <Link href="/changelog" className="rounded border border-line px-2 py-0.5 hover:text-fg">平台 v{changelog.current}</Link>
           <span className="mx-2">·</span>© 2026 data·hub

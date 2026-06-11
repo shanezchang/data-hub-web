@@ -1,7 +1,22 @@
 {
   "product": "data·hub",
-  "current": "0.10.0",
+  "current": "0.10.1",
   "releases": [
+    {
+      "version": "0.10.1",
+      "date": "2026-06-11",
+      "title": "界面精简",
+      "changes": [
+        {
+          "type": "changed",
+          "text": "导航精简：移除「Agent 接入」「关于」入口（信息已在首页体现）；页脚去重复导航，只保留品牌与版本"
+        },
+        {
+          "type": "changed",
+          "text": "关于页下线，联系方式暂不公开；原地址跳转首页"
+        }
+      ]
+    },
     {
       "version": "0.10.0",
       "date": "2026-06-11",

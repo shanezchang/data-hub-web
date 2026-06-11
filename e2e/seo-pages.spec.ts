@@ -25,11 +25,6 @@ test("dataset 页带 JSON-LD Dataset 结构化数据与英文标题", async ({ p
   await expect(page.getByRole("heading", { level: 1 })).toContainText("State Council");
 });
 
-test("about 页数据集名单从注册表渲染(含 policy)", async ({ page }) => {
-  await page.goto("/about");
-  await expect(page.getByRole("link", { name: /国务院政策文件库/ })).toBeVisible();
-});
-
 test("/llms.txt 重定向到 api 域", async ({ page }) => {
   const res = await page.request.get("/llms.txt", { maxRedirects: 0 });
   expect(res.status()).toBe(308);

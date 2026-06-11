@@ -19,6 +19,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/regions`, lastModified: buildTime, priority: 0.8 },
     ...PUBLISHED_REGIONS.map((r) => ({ url: `${base}/regions/${r.slug}`, lastModified: buildTime, priority: 0.8 })),
     { url: `${base}/changelog`, lastModified: buildTime, priority: 0.4 },
-    { url: `${base}/about`, lastModified: buildTime, priority: 0.4 },
   ];
 }

@@ -8,8 +8,7 @@ const ROWS: [string, ReactNode][] = [
   [
     "更高额度",
     <>
-      说明用途即可申请，联系方式见
-      <Link href="/about" className="text-accent hover:underline">「关于」</Link>
+      公测期按统一额度提供，更高额度后续开放申请
     </>,
   ],
 ];

@@ -1,0 +1,382 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "山西",
+  "en": "Shanxi",
+  "slug": "shanxi"
+ },
+ "cities": [
+  {
+   "zh": "太原",
+   "pinyin": "Taiyuan",
+   "query": "太原",
+   "total": 273,
+   "by_year": {
+    "2016": 13,
+    "2017": 33,
+    "2018": 28,
+    "2019": 28,
+    "2020": 32,
+    "2021": 17,
+    "2022": 15,
+    "2023": 26,
+    "2024": 32,
+    "2025": 36,
+    "2026": 13
+   },
+   "recent": [
+    {
+     "date": "2026-05-17",
+     "title": "[视频]多地强降雨持续 各地各部门积极应对",
+     "url": "https://tv.cctv.com/2026/05/17/VIDESqcbBFyrPIinaw2IIQLe260517.shtml"
+    },
+    {
+     "date": "2026-05-05",
+     "title": "[视频]“五一”入境游升温 外国游客感受多彩中国",
+     "url": "https://tv.cctv.com/2026/05/05/VIDEj1j1s1kRrrwXY7yLom9K260505.shtml"
+    },
+    {
+     "date": "2026-04-16",
+     "title": "[视频]百花竞放 文旅融合绘就春日好时光",
+     "url": "https://tv.cctv.com/2026/04/16/VIDE6HTxyHVISbyRBwOP4gPo260416.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "大同",
+   "pinyin": "Datong",
+   "query": "大同市",
+   "total": 8,
+   "by_year": {
+    "2020": 4,
+    "2022": 1,
+    "2023": 1,
+    "2025": 1,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-04-25",
+     "title": "[视频]蔡奇在山西大同市调研",
+     "url": "https://tv.cctv.com/2026/04/25/VIDEPwnEoTQMBanwShqCCckl260425.shtml"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "[视频]【新思想引领新征程】持续巩固脱贫攻坚成果 奋力推进乡村全面振兴",
+     "url": "https://tv.cctv.com/2025/07/19/VIDEboJeFK6l1Cr9EEy50OP5250719.shtml"
+    },
+    {
+     "date": "2023-02-15",
+     "title": "[视频]【团结奋斗 忠诚履职】王雅丽：让群众享受优质医疗服务",
+     "url": "https://tv.cctv.com/2023/02/15/VIDENgdDtMZL3y54D5pHyOic230215.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "阳泉",
+   "pinyin": "Yangquan",
+   "query": "阳泉",
+   "total": 17,
+   "by_year": {
+    "2016": 2,
+    "2017": 1,
+    "2018": 1,
+    "2021": 1,
+    "2022": 1,
+    "2023": 2,
+    "2024": 1,
+    "2025": 7,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-04-05",
+     "title": "[视频]【新思想引领新征程】清明祭英烈 奋进新征程",
+     "url": "https://tv.cctv.com/2026/04/05/VIDEpAP3qggrY2Sd8cLquO3e260405.shtml"
+    },
+    {
+     "date": "2025-09-18",
+     "title": "[视频]各地举行活动纪念九一八事变爆发94周年",
+     "url": "https://tv.cctv.com/2025/09/18/VIDEDOy8OBgTL3YXuJlpDtzV250918.shtml"
+    },
+    {
+     "date": "2025-08-05",
+     "title": "[视频]【习近平总书记今年以来治国理政纪实】筑牢强国建设民族复兴文化根基",
+     "url": "https://tv.cctv.com/2025/08/05/VIDEPNvD3DHFKyWRB8xKBCgU250805.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "长治",
+   "pinyin": "Changzhi",
+   "query": "长治市",
+   "total": 8,
+   "by_year": {
+    "2019": 2,
+    "2021": 1,
+    "2022": 1,
+    "2024": 1,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-28",
+     "title": "[视频]国务院成立山西长治山西通洲集团留神峪煤业有限公司“5·22”特别重大瓦斯爆炸事故调查组",
+     "url": "https://tv.cctv.com/2026/05/28/VIDElZgWCUuNmZkUC4uha1tf260528.shtml"
+    },
+    {
+     "date": "2026-05-23",
+     "title": "[视频]习近平对山西长治市沁源县一煤矿瓦斯爆炸事故作出重要指示强调 全力救治伤员 科学组织搜救 坚决防范遏制重特大事故发生 李强作出批示",
+     "url": "https://tv.cctv.com/2026/05/23/VIDEAUIXx66V9InB7JeqvjkW260523.shtml"
+    },
+    {
+     "date": "2026-05-10",
+     "title": "[视频]【树立和践行正确政绩观】以学促干 将学习教育成效落到实处",
+     "url": "https://tv.cctv.com/2026/05/10/VIDEzKwxc6mgu6NPrMJEtzBO260510.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "晋城",
+   "pinyin": "Jincheng",
+   "query": "晋城",
+   "total": 38,
+   "by_year": {
+    "2016": 3,
+    "2017": 3,
+    "2018": 12,
+    "2019": 6,
+    "2020": 2,
+    "2021": 4,
+    "2022": 1,
+    "2023": 2,
+    "2024": 2,
+    "2025": 1,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-03-03",
+     "title": "[视频]正月十五闹元宵 传统佳节共团圆",
+     "url": "https://tv.cctv.com/2026/03/03/VIDEOK65f9FRN0iLhDUaQjzR260303.shtml"
+    },
+    {
+     "date": "2026-01-19",
+     "title": "[视频]寒潮持续 各地积极应对",
+     "url": "https://tv.cctv.com/2026/01/19/VIDEQ1yGWBNyGsE4kTYay0xy260119.shtml"
+    },
+    {
+     "date": "2025-01-22",
+     "title": "[视频]年味渐浓 各地举办多种活动迎春节",
+     "url": "https://tv.cctv.com/2025/01/22/VIDEcoss7YOAdFPU7OMy18NA250122.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "朔州",
+   "pinyin": "Shuozhou",
+   "query": "朔州",
+   "total": 18,
+   "by_year": {
+    "2016": 2,
+    "2017": 2,
+    "2018": 1,
+    "2020": 3,
+    "2021": 1,
+    "2022": 2,
+    "2023": 3,
+    "2024": 2,
+    "2025": 2
+   },
+   "recent": [
+    {
+     "date": "2025-05-25",
+     "title": "[视频]持续推进城市更新 提升人民生活品质",
+     "url": "https://tv.cctv.com/2025/05/25/VIDEOUzQF0VNBqdS01b0Lsk3250525.shtml"
+    },
+    {
+     "date": "2025-02-03",
+     "title": "[视频]各地热闹喜庆贺新春",
+     "url": "https://tv.cctv.com/2025/02/03/VIDErPXulyvicDBfXwTYR69d250203.shtml"
+    },
+    {
+     "date": "2024-10-09",
+     "title": "[视频]【文化中国行】相约文博场馆 感受古韵新风",
+     "url": "https://tv.cctv.com/2024/10/09/VIDElPrdO4hh8somMBNt5va1241009.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "晋中",
+   "pinyin": "Jinzhong",
+   "query": "晋中",
+   "total": 22,
+   "by_year": {
+    "2016": 1,
+    "2017": 2,
+    "2018": 4,
+    "2019": 1,
+    "2020": 5,
+    "2021": 4,
+    "2023": 2,
+    "2024": 2,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-06-02",
+     "title": "[视频]【锲而不舍落实中央八项规定精神】以群众满意度 检验学习教育实际成效",
+     "url": "https://tv.cctv.com/2025/06/02/VIDEaKfeb8d4CyAeXuZLA76Y250602.shtml"
+    },
+    {
+     "date": "2024-03-03",
+     "title": "[视频]【筑梦现代化 共绘新图景·代表委员履职故事】李丽丽：探索再生水资源里的绿色未来",
+     "url": "https://tv.cctv.com/2024/03/03/VIDEekVy1T1d0pgWE3btzaQU240303.shtml"
+    },
+    {
+     "date": "2024-01-14",
+     "title": "[视频]【新思想引领新征程】书写新时代黄河流域生态保护新篇章",
+     "url": "https://tv.cctv.com/2024/01/14/VIDE2q1BUYnEIEafIhYGvqnd240114.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "运城",
+   "pinyin": "Yuncheng",
+   "query": "运城",
+   "total": 58,
+   "by_year": {
+    "2016": 2,
+    "2017": 5,
+    "2018": 7,
+    "2019": 7,
+    "2020": 7,
+    "2021": 3,
+    "2022": 4,
+    "2023": 15,
+    "2024": 5,
+    "2025": 2,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-04-05",
+     "title": "[视频]【在希望的田野上】各地春耕有序推进",
+     "url": "https://tv.cctv.com/2026/04/05/VIDE2NMcGRD78T3Vr6OyAWcN260405.shtml"
+    },
+    {
+     "date": "2025-07-05",
+     "title": "[视频]山东舰航母编队香港开放活动已吸引近两万人次参观",
+     "url": "https://tv.cctv.com/2025/07/05/VIDElPosvvlWapePppL5N36Y250705.shtml"
+    },
+    {
+     "date": "2025-07-03",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/07/03/VIDER8NSxxJwFL5I5tVM7Ad1250703.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "忻州",
+   "pinyin": "Xinzhou",
+   "query": "忻州",
+   "total": 24,
+   "by_year": {
+    "2017": 4,
+    "2019": 1,
+    "2020": 4,
+    "2021": 1,
+    "2022": 3,
+    "2023": 3,
+    "2024": 2,
+    "2025": 1,
+    "2026": 5
+   },
+   "recent": [
+    {
+     "date": "2026-04-06",
+     "title": "[视频]欢度假期 游人尽享好春光",
+     "url": "https://tv.cctv.com/2026/04/06/VIDECdV8K6cyUNWQcyOUPk0j260406.shtml"
+    },
+    {
+     "date": "2026-03-11",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/03/11/VIDEU0qKUVVOT1fCOBIL4a2n260311.shtml"
+    },
+    {
+     "date": "2026-02-02",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/02/02/VIDERbLtuq90hSj4CKEuHuuE260202.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "临汾",
+   "pinyin": "Linfen",
+   "query": "临汾",
+   "total": 37,
+   "by_year": {
+    "2017": 6,
+    "2018": 5,
+    "2019": 2,
+    "2020": 9,
+    "2022": 4,
+    "2023": 5,
+    "2024": 4,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-03-16",
+     "title": "[视频]全国春灌大面积展开",
+     "url": "https://tv.cctv.com/2026/03/16/VIDElzt14TU32KppvI1eRUca260316.shtml"
+    },
+    {
+     "date": "2026-02-20",
+     "title": "[视频]【情满中国年】绘就宜居宜业和美乡村新画卷",
+     "url": "https://tv.cctv.com/2026/02/20/VIDE7akHMLCRSWvgYndgcGwI260220.shtml"
+    },
+    {
+     "date": "2024-12-25",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2024/12/25/VIDEto17FlQtHZ6UK8Oolpti241225.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "吕梁",
+   "pinyin": "Lüliang",
+   "query": "吕梁",
+   "total": 54,
+   "by_year": {
+    "2016": 2,
+    "2017": 10,
+    "2018": 7,
+    "2019": 4,
+    "2020": 6,
+    "2021": 8,
+    "2022": 5,
+    "2023": 2,
+    "2024": 6,
+    "2025": 4
+   },
+   "recent": [
+    {
+     "date": "2025-08-16",
+     "title": "[视频]境外记者参观抗战遗址 了解抗战历史",
+     "url": "https://tv.cctv.com/2025/08/16/VIDEeAvusmd8iW7v52nbahmJ250816.shtml"
+    },
+    {
+     "date": "2025-07-05",
+     "title": "[视频]【铭记历史 缅怀先烈】山西兴县：发扬吕梁精神 推动老区振兴发展",
+     "url": "https://tv.cctv.com/2025/07/05/VIDEu913IoRhTK0jHT7JjPEq250705.shtml"
+    },
+    {
+     "date": "2025-05-01",
+     "title": "[视频]特色活动精彩纷呈 假日生活丰富多彩",
+     "url": "https://tv.cctv.com/2025/05/01/VIDEQl2fBEkhZDu90ESqYcf8250501.shtml"
+    }
+   ]
+  }
+ ]
+}

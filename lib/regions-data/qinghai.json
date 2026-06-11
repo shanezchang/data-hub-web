@@ -1,0 +1,265 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "青海",
+  "en": "Qinghai",
+  "slug": "qinghai"
+ },
+ "cities": [
+  {
+   "zh": "西宁",
+   "pinyin": "Xining",
+   "query": "西宁",
+   "total": 159,
+   "by_year": {
+    "2016": 6,
+    "2017": 18,
+    "2018": 3,
+    "2019": 10,
+    "2020": 14,
+    "2021": 14,
+    "2022": 11,
+    "2023": 22,
+    "2024": 25,
+    "2025": 24,
+    "2026": 12
+   },
+   "recent": [
+    {
+     "date": "2026-06-07",
+     "title": "[视频]我国持续优化完善农村公路网络",
+     "url": "https://tv.cctv.com/2026/06/07/VIDEppotQGGNDNKq7JB4lULh260607.shtml"
+    },
+    {
+     "date": "2026-05-17",
+     "title": "[视频]我国残疾人社会保障和关爱服务水平不断提升",
+     "url": "https://tv.cctv.com/2026/05/17/VIDE0ik4zEeKsoEhYiIH7ZcA260517.shtml"
+    },
+    {
+     "date": "2026-05-16",
+     "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】青海立足资源禀赋 推进绿色算电协同发展 宁夏持续加力 筑牢西北地区重要生态安全屏障",
+     "url": "https://tv.cctv.com/2026/05/16/VIDENZsBoIFrPpjU2qakyNlg260516.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "海东",
+   "pinyin": "Haidong",
+   "query": "海东市",
+   "total": 23,
+   "by_year": {
+    "2016": 1,
+    "2017": 2,
+    "2018": 1,
+    "2019": 1,
+    "2020": 1,
+    "2021": 2,
+    "2022": 2,
+    "2023": 6,
+    "2024": 3,
+    "2025": 3,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-01-29",
+     "title": "[视频]新一轮大范围雨雪天气影响我国",
+     "url": "https://tv.cctv.com/2026/01/29/VIDE3VbAfbr0qZD8Y3tNr1QK260129.shtml"
+    },
+    {
+     "date": "2025-11-12",
+     "title": "[视频]【学习贯彻党的二十届四中全会精神】中央宣讲团在各地各部门宣讲党的二十届四中全会精神",
+     "url": "https://tv.cctv.com/2025/11/12/VIDEzNOEAzNDfekZLgJqsBIT251112.shtml"
+    },
+    {
+     "date": "2025-04-24",
+     "title": "[视频]中央纪委国家监委公开通报十起违反中央八项规定精神典型问题",
+     "url": "https://tv.cctv.com/2025/04/24/VIDEYB1fk9sKydVQm515MPlU250424.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "海北",
+   "pinyin": "Haibei",
+   "query": "海北州",
+   "total": 6,
+   "by_year": {
+    "2023": 3,
+    "2024": 2,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-06-30",
+     "title": "[视频]各地多种形式迎接建党104周年",
+     "url": "https://tv.cctv.com/2025/06/30/VIDEt2kweqd5zEPStw4YLTWn250630.shtml"
+    },
+    {
+     "date": "2024-07-14",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2024/07/14/VIDENcnf1FEbGh6qjLJYTDbE240714.shtml"
+    },
+    {
+     "date": "2024-07-07",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2024/07/07/VIDECz7jAP4i3hFRGxhrl6gw240707.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "黄南",
+   "pinyin": "Huangnan",
+   "query": "黄南",
+   "total": 5,
+   "by_year": {
+    "2016": 3,
+    "2020": 1,
+    "2022": 1
+   },
+   "recent": [
+    {
+     "date": "2022-06-30",
+     "title": "[视频]汪洋在青海调研",
+     "url": "https://tv.cctv.com/2022/06/30/VIDEU3v5qnkHvL2AHmozhi3a220630.shtml"
+    },
+    {
+     "date": "2020-08-25",
+     "title": "[视频]【决战决胜脱贫攻坚】青海：绿水青山筑起脱贫致富路",
+     "url": "https://tv.cctv.com/2020/08/25/VIDE9ZBnVpyrGVwMzbfgXn2O200825.shtml"
+    },
+    {
+     "date": "2016-12-17",
+     "title": "[视频]整合优势资源 高校聚力精准扶贫",
+     "url": "http://tv.cctv.com/2016/12/17/VIDE0WW5E7o8PJidK3YTMDJC161217.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "海南",
+   "pinyin": "Hainan",
+   "query": "海南州",
+   "total": 9,
+   "by_year": {
+    "2020": 2,
+    "2023": 2,
+    "2024": 3,
+    "2025": 2
+   },
+   "recent": [
+    {
+     "date": "2025-07-02",
+     "title": "[视频]各地一批重点工程建设加快推进",
+     "url": "https://tv.cctv.com/2025/07/02/VIDEjYB0dZ6TFPAgDn0XOx3m250702.shtml"
+    },
+    {
+     "date": "2025-01-13",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/01/13/VIDE0RlW57r3q8SsQsQ1EGhX250113.shtml"
+    },
+    {
+     "date": "2024-08-13",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2024/08/13/VIDEdHVSDCA64o3w3Jj8vYWl240813.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "果洛",
+   "pinyin": "Golog",
+   "query": "果洛",
+   "total": 20,
+   "by_year": {
+    "2018": 1,
+    "2019": 2,
+    "2020": 2,
+    "2021": 5,
+    "2022": 1,
+    "2023": 1,
+    "2024": 6,
+    "2025": 2
+   },
+   "recent": [
+    {
+     "date": "2025-07-02",
+     "title": "[视频]各地一批重点工程建设加快推进",
+     "url": "https://tv.cctv.com/2025/07/02/VIDEjYB0dZ6TFPAgDn0XOx3m250702.shtml"
+    },
+    {
+     "date": "2025-01-13",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/01/13/VIDE0RlW57r3q8SsQsQ1EGhX250113.shtml"
+    },
+    {
+     "date": "2024-10-01",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2024/10/01/VIDEpaIIYeSwoHEpqu0oJ0du241001.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "玉树",
+   "pinyin": "Yushu",
+   "query": "玉树州",
+   "total": 13,
+   "by_year": {
+    "2016": 1,
+    "2017": 1,
+    "2018": 2,
+    "2019": 3,
+    "2020": 2,
+    "2022": 1,
+    "2023": 2,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-04-11",
+     "title": "[视频]较强冷空气登场 北方多地出现大风降温天气",
+     "url": "https://tv.cctv.com/2025/04/11/VIDEcmoKN1WQEzS3XzCrrvBw250411.shtml"
+    },
+    {
+     "date": "2023-12-17",
+     "title": "[视频]各地各部门细化防范措施 积极应对低温雨雪冰冻天气",
+     "url": "https://tv.cctv.com/2023/12/17/VIDEM2JyiURh0BFDpydNtLXC231217.shtml"
+    },
+    {
+     "date": "2023-12-13",
+     "title": "[视频]雨雪降温天气持续影响北方多地",
+     "url": "https://tv.cctv.com/2023/12/13/VIDES80lKaODaBAbAEZoAmB9231213.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "海西",
+   "pinyin": "Haixi",
+   "query": "海西州",
+   "total": 11,
+   "by_year": {
+    "2019": 1,
+    "2020": 2,
+    "2021": 1,
+    "2023": 1,
+    "2024": 2,
+    "2025": 2,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-17",
+     "title": "[视频]我国县域消费市场供应持续改善",
+     "url": "https://tv.cctv.com/2026/05/17/VIDEDZe5YZPz9E9CEnQQaa4R260517.shtml"
+    },
+    {
+     "date": "2026-02-23",
+     "title": "[视频]【代表委员履职故事】金花：多措并举 推动养老服务扩容提质",
+     "url": "https://tv.cctv.com/2026/02/23/VIDEyU9tRvdnlSADM8tir1jI260223.shtml"
+    },
+    {
+     "date": "2025-09-20",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/09/20/VIDEIr59RS87CDEzlvypy98W250920.shtml"
+    }
+   ]
+  }
+ ]
+}

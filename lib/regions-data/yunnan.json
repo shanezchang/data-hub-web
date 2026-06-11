@@ -1,0 +1,551 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "云南",
+  "en": "Yunnan",
+  "slug": "yunnan"
+ },
+ "cities": [
+  {
+   "zh": "昆明",
+   "pinyin": "Kunming",
+   "query": "昆明",
+   "total": 352,
+   "by_year": {
+    "2016": 21,
+    "2017": 32,
+    "2018": 38,
+    "2019": 25,
+    "2020": 39,
+    "2021": 36,
+    "2022": 21,
+    "2023": 43,
+    "2024": 41,
+    "2025": 39,
+    "2026": 17
+   },
+   "recent": [
+    {
+     "date": "2026-05-31",
+     "title": "[视频]绿化带美出新颜值 公园城市尽显新风貌",
+     "url": "https://tv.cctv.com/2026/05/31/VIDE9W9bVd6r9S4UBpO0J6bO260531.shtml"
+    },
+    {
+     "date": "2026-05-29",
+     "title": "[视频]第10届中国—南亚博览会将于6月11日至16日在昆明举行",
+     "url": "https://tv.cctv.com/2026/05/29/VIDElrPZhcs7jaUlrc0UPKDZ260529.shtml"
+    },
+    {
+     "date": "2026-05-28",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/28/VIDEac4M6CrNCrN799kkw3mK260528.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "曲靖",
+   "pinyin": "Qujing",
+   "query": "曲靖",
+   "total": 22,
+   "by_year": {
+    "2016": 2,
+    "2017": 1,
+    "2018": 1,
+    "2020": 4,
+    "2024": 1,
+    "2025": 9,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-03-31",
+     "title": "[视频]百花盛开迎客来 助力春日经济新活力",
+     "url": "https://tv.cctv.com/2026/03/31/VIDEnf2Z9Ddt7w6UsMCRZSc8260331.shtml"
+    },
+    {
+     "date": "2026-02-18",
+     "title": "[视频]多彩活动闹新春 喜庆祥和中国年",
+     "url": "https://tv.cctv.com/2026/02/18/VIDErMvIBE6tRBFArOVWoKxD260218.shtml"
+    },
+    {
+     "date": "2026-02-02",
+     "title": "[视频]“两新”政策加力 提振消费活力",
+     "url": "https://tv.cctv.com/2026/02/02/VIDEnR8tU48FraNZHYwdnFwZ260202.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "玉溪",
+   "pinyin": "Yuxi",
+   "query": "玉溪",
+   "total": 33,
+   "by_year": {
+    "2016": 4,
+    "2017": 4,
+    "2018": 4,
+    "2019": 4,
+    "2020": 4,
+    "2021": 2,
+    "2022": 2,
+    "2023": 2,
+    "2024": 5,
+    "2025": 2
+   },
+   "recent": [
+    {
+     "date": "2025-10-01",
+     "title": "[视频]各地同升一面旗 共祝伟大祖国好",
+     "url": "https://tv.cctv.com/2025/10/01/VIDE6yaw4FeCdSGfmpHBJHl1251001.shtml"
+    },
+    {
+     "date": "2025-07-26",
+     "title": "[视频]各地有序推进城市更新 打造宜居城市",
+     "url": "https://tv.cctv.com/2025/07/26/VIDEdbg07apEmWN9Zlnr8rxL250726.shtml"
+    },
+    {
+     "date": "2024-08-11",
+     "title": "[视频]我国充电桩总量破千万",
+     "url": "https://tv.cctv.com/2024/08/11/VIDE9wmJ0FY3SZpOBVDJef49240811.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "保山",
+   "pinyin": "Baoshan",
+   "query": "保山",
+   "total": 32,
+   "by_year": {
+    "2016": 2,
+    "2017": 1,
+    "2018": 7,
+    "2019": 1,
+    "2020": 5,
+    "2022": 5,
+    "2023": 5,
+    "2024": 3,
+    "2025": 3
+   },
+   "recent": [
+    {
+     "date": "2025-04-14",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/04/14/VIDExbjTksiid2C3WHSasbKt250414.shtml"
+    },
+    {
+     "date": "2025-03-28",
+     "title": "[视频]缅甸中部发生7.7级强震",
+     "url": "https://tv.cctv.com/2025/03/28/VIDE8LToKRcf8CpEqJ5JnFo0250328.shtml"
+    },
+    {
+     "date": "2025-02-25",
+     "title": "[视频]踏青赏花 各地迎来文旅热",
+     "url": "https://tv.cctv.com/2025/02/25/VIDEXGAMUfO53pptw27kgyoW250225.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "昭通",
+   "pinyin": "Zhaotong",
+   "query": "昭通",
+   "total": 48,
+   "by_year": {
+    "2016": 4,
+    "2017": 6,
+    "2018": 2,
+    "2019": 4,
+    "2020": 12,
+    "2021": 5,
+    "2023": 4,
+    "2024": 7,
+    "2025": 3,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-01-10",
+     "title": "[视频]重大生态环境修复治理工程推动环境质量持续向好",
+     "url": "https://tv.cctv.com/2026/01/10/VIDEsbffOBjlhP4MifFGQvBk260110.shtml"
+    },
+    {
+     "date": "2025-11-09",
+     "title": "[视频]第34个全国消防日 各地各部门广泛开展消防安全宣教活动",
+     "url": "https://tv.cctv.com/2025/11/09/VIDEYb1lSGhn4FRLpDGPocms251109.shtml"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "[视频]【锲而不舍落实中央八项规定精神】查摆问题务求实效 推动学习教育走深走实",
+     "url": "https://tv.cctv.com/2025/07/21/VIDEj9Hj8oT8AnBZ3IDXd4wd250721.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "丽江",
+   "pinyin": "Lijiang",
+   "query": "丽江",
+   "total": 73,
+   "by_year": {
+    "2016": 2,
+    "2017": 5,
+    "2018": 11,
+    "2019": 4,
+    "2020": 8,
+    "2021": 13,
+    "2022": 4,
+    "2023": 10,
+    "2024": 3,
+    "2025": 10,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-02-18",
+     "title": "[视频]南北花市红火 年宵花点亮消费市场",
+     "url": "https://tv.cctv.com/2026/02/18/VIDEVvBcJt286HGXEf6dAvg4260218.shtml"
+    },
+    {
+     "date": "2026-02-17",
+     "title": "[视频]【情满中国年】“小家”热气腾腾 “大家”蒸蒸日上",
+     "url": "https://tv.cctv.com/2026/02/17/VIDEiwAcjbz78vSnAcurWVWR260217.shtml"
+    },
+    {
+     "date": "2026-01-04",
+     "title": "[视频]【新思想引领新征程】坚定文化自信 书写文化繁荣发展新篇章",
+     "url": "https://tv.cctv.com/2026/01/04/VIDEyHM5ui6l66rxNKW1Nuqc260104.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "普洱",
+   "pinyin": "Pu'er",
+   "query": "普洱市",
+   "total": 17,
+   "by_year": {
+    "2016": 1,
+    "2017": 3,
+    "2018": 3,
+    "2019": 2,
+    "2020": 2,
+    "2021": 3,
+    "2024": 1,
+    "2025": 1,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-06-07",
+     "title": "[视频]我国持续优化完善农村公路网络",
+     "url": "https://tv.cctv.com/2026/06/07/VIDEppotQGGNDNKq7JB4lULh260607.shtml"
+    },
+    {
+     "date": "2025-08-12",
+     "title": "[视频]我国野生亚洲象种群数量稳定增长",
+     "url": "https://tv.cctv.com/2025/08/12/VIDE6QokNQDMroBik9ayiA2w250812.shtml"
+    },
+    {
+     "date": "2024-12-14",
+     "title": "[视频]【党旗在基层一线高高飘扬】云南：强基层党建 兴千里边疆",
+     "url": "https://tv.cctv.com/2024/12/14/VIDEk16Ip0MWb6IcfKCUUfcS241214.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "临沧",
+   "pinyin": "Lincang",
+   "query": "临沧",
+   "total": 26,
+   "by_year": {
+    "2016": 3,
+    "2017": 3,
+    "2019": 1,
+    "2020": 7,
+    "2021": 3,
+    "2022": 4,
+    "2023": 2,
+    "2025": 3
+   },
+   "recent": [
+    {
+     "date": "2025-08-12",
+     "title": "[视频]我国野生亚洲象种群数量稳定增长",
+     "url": "https://tv.cctv.com/2025/08/12/VIDE6QokNQDMroBik9ayiA2w250812.shtml"
+    },
+    {
+     "date": "2025-04-14",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/04/14/VIDExbjTksiid2C3WHSasbKt250414.shtml"
+    },
+    {
+     "date": "2025-03-28",
+     "title": "[视频]缅甸中部发生7.7级强震",
+     "url": "https://tv.cctv.com/2025/03/28/VIDE8LToKRcf8CpEqJ5JnFo0250328.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "楚雄",
+   "pinyin": "Chuxiong",
+   "query": "楚雄",
+   "total": 15,
+   "by_year": {
+    "2016": 1,
+    "2017": 1,
+    "2018": 5,
+    "2019": 1,
+    "2020": 1,
+    "2021": 3,
+    "2022": 1,
+    "2025": 1,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-03-21",
+     "title": "[视频]各地持续发力 推动城市更新",
+     "url": "https://tv.cctv.com/2026/03/21/VIDE8WWbMucFNnqm6qOHwPFY260321.shtml"
+    },
+    {
+     "date": "2025-05-01",
+     "title": "[视频]特色活动精彩纷呈 假日生活丰富多彩",
+     "url": "https://tv.cctv.com/2025/05/01/VIDEQl2fBEkhZDu90ESqYcf8250501.shtml"
+    },
+    {
+     "date": "2022-08-26",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2022/08/26/VIDE2Hqx5Lxmm2y72eROmDGx220826.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "红河",
+   "pinyin": "Honghe",
+   "query": "红河州",
+   "total": 16,
+   "by_year": {
+    "2016": 2,
+    "2017": 2,
+    "2018": 4,
+    "2019": 2,
+    "2021": 3,
+    "2022": 1,
+    "2024": 1,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-01-16",
+     "title": "[视频]各地年货市场购销两旺",
+     "url": "https://tv.cctv.com/2025/01/16/VIDEpwhMxGaX7eJ0qRgFb7cn250116.shtml"
+    },
+    {
+     "date": "2024-09-08",
+     "title": "[视频]各地各部门全力抢险救灾 抓紧灾后恢复",
+     "url": "https://tv.cctv.com/2024/09/08/VIDEHpreSwYQtKcRMT6oHGyS240908.shtml"
+    },
+    {
+     "date": "2022-12-16",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2022/12/16/VIDEc7T5Jk2I2SjxzCWE9Xbz221216.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "文山",
+   "pinyin": "Wenshan",
+   "query": "文山州",
+   "total": 6,
+   "by_year": {
+    "2017": 1,
+    "2021": 1,
+    "2022": 1,
+    "2023": 1,
+    "2024": 1,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-02-13",
+     "title": "[视频]返岗复工加速 奋战节后“开门红”",
+     "url": "https://tv.cctv.com/2025/02/13/VIDEOt9B8ObfMJyvW5KEk0qw250213.shtml"
+    },
+    {
+     "date": "2024-09-08",
+     "title": "[视频]各地各部门全力抢险救灾 抓紧灾后恢复",
+     "url": "https://tv.cctv.com/2024/09/08/VIDEHpreSwYQtKcRMT6oHGyS240908.shtml"
+    },
+    {
+     "date": "2023-06-17",
+     "title": "[视频]云南文山推动农旅融合 绘就乡村振兴新画卷",
+     "url": "https://tv.cctv.com/2023/06/17/VIDELCslGh1xWOQSppTsa3C6230617.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "西双版纳",
+   "pinyin": "Xishuangbanna",
+   "query": "西双版纳",
+   "total": 46,
+   "by_year": {
+    "2016": 4,
+    "2017": 5,
+    "2018": 4,
+    "2019": 1,
+    "2021": 5,
+    "2022": 3,
+    "2023": 7,
+    "2024": 5,
+    "2025": 8,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-06-03",
+     "title": "[视频]中老跨境游火热 水果“鲜”达餐桌",
+     "url": "https://tv.cctv.com/2026/06/03/VIDEfWwvaQ8vyTpLATLtJWde260603.shtml"
+    },
+    {
+     "date": "2026-05-22",
+     "title": "[视频]【新思想引领新征程】美丽中国 万物共生",
+     "url": "https://tv.cctv.com/2026/05/22/VIDEfmpigFsjVolk08y4zvkK260522.shtml"
+    },
+    {
+     "date": "2026-01-25",
+     "title": "[视频]长江经济带国家级自然保护区珍稀物种保护成效显著",
+     "url": "https://tv.cctv.com/2026/01/25/VIDEadavqDvpIaBBsME9ncVh260125.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "大理",
+   "pinyin": "Dali",
+   "query": "大理州",
+   "total": 6,
+   "by_year": {
+    "2017": 1,
+    "2018": 1,
+    "2019": 1,
+    "2020": 1,
+    "2021": 1,
+    "2024": 1
+   },
+   "recent": [
+    {
+     "date": "2024-08-24",
+     "title": "[视频]【新思想引领新征程】洱海治理从“一湖之治”到“生态之治”",
+     "url": "https://tv.cctv.com/2024/08/24/VIDE2R5gUxAYSuAd6KAO6NxO240824.shtml"
+    },
+    {
+     "date": "2021-05-22",
+     "title": "[视频]云南 青海等地发生地震 抢险救援抓紧进行",
+     "url": "https://tv.cctv.com/2021/05/22/VIDEXsWirDSQgNKIRArzszWz210522.shtml"
+    },
+    {
+     "date": "2020-09-13",
+     "title": "[视频]【走向我们的小康生活】万顷洱海扬清波 生态铺就小康底色",
+     "url": "https://tv.cctv.com/2020/09/13/VIDEBDwEwduDaeM1JdHAyBM4200913.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "德宏",
+   "pinyin": "Dehong",
+   "query": "德宏",
+   "total": 24,
+   "by_year": {
+    "2016": 1,
+    "2017": 4,
+    "2018": 2,
+    "2019": 2,
+    "2020": 4,
+    "2021": 4,
+    "2022": 1,
+    "2023": 2,
+    "2024": 1,
+    "2025": 2,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-05-06",
+     "title": "[视频]【新思想引领新征程】“五一”假期消费市场活力迸发",
+     "url": "https://tv.cctv.com/2026/05/06/VIDEQVjedku2OJmSEl2b4J88260506.shtml"
+    },
+    {
+     "date": "2025-04-14",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/04/14/VIDExbjTksiid2C3WHSasbKt250414.shtml"
+    },
+    {
+     "date": "2025-03-28",
+     "title": "[视频]缅甸中部发生7.7级强震",
+     "url": "https://tv.cctv.com/2025/03/28/VIDE8LToKRcf8CpEqJ5JnFo0250328.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "怒江",
+   "pinyin": "Nujiang",
+   "query": "怒江州",
+   "total": 22,
+   "by_year": {
+    "2017": 3,
+    "2018": 5,
+    "2019": 2,
+    "2020": 8,
+    "2021": 1,
+    "2022": 2,
+    "2024": 1
+   },
+   "recent": [
+    {
+     "date": "2024-03-30",
+     "title": "[视频]烂漫春光好 赏花正当时",
+     "url": "https://tv.cctv.com/2024/03/30/VIDELr447W9soKEyPi8e35LB240330.shtml"
+    },
+    {
+     "date": "2022-10-21",
+     "title": "[视频]【二十大时光】新征程新使命 新担当新作为",
+     "url": "https://tv.cctv.com/2022/10/21/VIDEF9RueoG2kjYdsz75Lg6G221021.shtml"
+    },
+    {
+     "date": "2022-07-09",
+     "title": "[视频]【奋进新征程 建功新时代·大美边疆行】云南：强边富民兴产业",
+     "url": "https://tv.cctv.com/2022/07/09/VIDEOgIKI7kwZ1UGgUf1wOVh220709.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "迪庆",
+   "pinyin": "Diqing",
+   "query": "迪庆",
+   "total": 25,
+   "by_year": {
+    "2016": 3,
+    "2017": 3,
+    "2018": 4,
+    "2019": 3,
+    "2020": 2,
+    "2021": 3,
+    "2023": 5,
+    "2024": 1,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-07-19",
+     "title": "[视频]县域旅游火热 带动文旅新消费",
+     "url": "https://tv.cctv.com/2025/07/19/VIDEdZ113lWyIyHdENvRlYae250719.shtml"
+    },
+    {
+     "date": "2024-06-16",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2024/06/16/VIDEjjb31GVc7ol8KZqXT7Bw240616.shtml"
+    },
+    {
+     "date": "2023-11-26",
+     "title": "[视频]滇藏铁路丽江至香格里拉段今天通车运营",
+     "url": "https://tv.cctv.com/2023/11/26/VIDEU5B5QnwsW1gmLx3RtYG3231126.shtml"
+    }
+   ]
+  }
+ ]
+}

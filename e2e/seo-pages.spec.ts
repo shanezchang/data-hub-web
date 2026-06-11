@@ -102,7 +102,7 @@ test("江苏省页(动态路由)渲染 13 市", async ({ page }) => {
 });
 
 test("未发布省份 404", async ({ page }) => {
-  const res = await page.goto("/regions/xinjiang");
+  const res = await page.goto("/regions/atlantis");
   expect(res?.status()).toBe(404);
 });
 

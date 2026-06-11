@@ -1,0 +1,399 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "江西",
+  "en": "Jiangxi",
+  "slug": "jiangxi"
+ },
+ "cities": [
+  {
+   "zh": "南昌",
+   "pinyin": "Nanchang",
+   "query": "南昌",
+   "total": 520,
+   "by_year": {
+    "2016": 41,
+    "2017": 55,
+    "2018": 67,
+    "2019": 60,
+    "2020": 49,
+    "2021": 44,
+    "2022": 44,
+    "2023": 67,
+    "2024": 46,
+    "2025": 30,
+    "2026": 17
+   },
+   "recent": [
+    {
+     "date": "2026-06-07",
+     "title": "[视频]【伟大征程】星星之火 可以燎原",
+     "url": "https://tv.cctv.com/2026/06/07/VIDEGFBw0sMXlaKTKJCXbhF7260607.shtml"
+    },
+    {
+     "date": "2026-05-29",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/29/VIDEuT0NBY5ZyDdoOeHXWDUO260529.shtml"
+    },
+    {
+     "date": "2026-05-12",
+     "title": "[视频]各地各部门开展防灾减灾科普教育活动",
+     "url": "https://tv.cctv.com/2026/05/12/VIDEQ5AqGcNJw9KYYPjcuYlF260512.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "景德镇",
+   "pinyin": "Jingdezhen",
+   "query": "景德镇",
+   "total": 54,
+   "by_year": {
+    "2016": 1,
+    "2017": 1,
+    "2018": 6,
+    "2019": 3,
+    "2020": 3,
+    "2021": 3,
+    "2022": 5,
+    "2023": 13,
+    "2024": 9,
+    "2025": 10
+   },
+   "recent": [
+    {
+     "date": "2025-12-21",
+     "title": "[视频]场景开放筑平台 新质生产力激活经济新蓝海",
+     "url": "https://tv.cctv.com/2025/12/21/VIDEE0DXt6uTY6phB1pPkpQa251221.shtml"
+    },
+    {
+     "date": "2025-10-18",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/10/18/VIDE0Fwnx2OAb4AOar1XeeF6251018.shtml"
+    },
+    {
+     "date": "2025-10-05",
+     "title": "[视频]各地推出特色活动 点亮假日生活",
+     "url": "https://tv.cctv.com/2025/10/05/VIDEw4qRRVEkrNfLN9CsQRPi251005.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "萍乡",
+   "pinyin": "Pingxiang",
+   "query": "萍乡",
+   "total": 68,
+   "by_year": {
+    "2016": 1,
+    "2017": 5,
+    "2018": 9,
+    "2019": 7,
+    "2020": 5,
+    "2021": 7,
+    "2022": 5,
+    "2023": 12,
+    "2024": 7,
+    "2025": 7,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-03-24",
+     "title": "[视频]各地打造消费新场景 激发市场新活力",
+     "url": "https://tv.cctv.com/2026/03/24/VIDEe4uc2K5R0oD7PnHm6XEz260324.shtml"
+    },
+    {
+     "date": "2026-02-25",
+     "title": "[视频]【代表委员履职故事】吴代赦：推动鄱阳湖生态保护走向精细化",
+     "url": "https://tv.cctv.com/2026/02/25/VIDE312EQJWgrNjQB0J4kmbg260225.shtml"
+    },
+    {
+     "date": "2026-02-14",
+     "title": "[视频]春节将至 各地多彩活动迎新春",
+     "url": "https://tv.cctv.com/2026/02/14/VIDEJZF58KtHOdOTy673VttQ260214.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "九江",
+   "pinyin": "Jiujiang",
+   "query": "九江",
+   "total": 85,
+   "by_year": {
+    "2016": 12,
+    "2017": 8,
+    "2018": 5,
+    "2019": 10,
+    "2020": 16,
+    "2021": 3,
+    "2022": 3,
+    "2023": 8,
+    "2024": 14,
+    "2025": 4,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-29",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/29/VIDEuT0NBY5ZyDdoOeHXWDUO260529.shtml"
+    },
+    {
+     "date": "2026-05-29",
+     "title": "[视频]【一线调研】700公里抢收路背后的夏收保障网",
+     "url": "https://tv.cctv.com/2026/05/29/VIDEJ4rwURlE22uS3hg0qknn260529.shtml"
+    },
+    {
+     "date": "2025-11-02",
+     "title": "[视频]【学习贯彻党的二十届四中全会精神】中央宣讲团在各地各部门宣讲党的二十届四中全会精神",
+     "url": "https://tv.cctv.com/2025/11/02/VIDEhmnDGQR4mUTfHIqhswJA251102.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "新余",
+   "pinyin": "Xinyu",
+   "query": "新余",
+   "total": 32,
+   "by_year": {
+    "2016": 2,
+    "2017": 2,
+    "2018": 3,
+    "2019": 5,
+    "2020": 5,
+    "2021": 1,
+    "2022": 2,
+    "2023": 2,
+    "2024": 6,
+    "2025": 3,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-05-21",
+     "title": "[视频]南方地区降雨持续 各地各部门积极应对",
+     "url": "https://tv.cctv.com/2026/05/21/VIDEOsO0aWusiwDO1Qs3KPYz260521.shtml"
+    },
+    {
+     "date": "2025-11-21",
+     "title": "[视频]多措并举推动就业市场提质扩容",
+     "url": "https://tv.cctv.com/2025/11/21/VIDETTpQAhM9YG5iZDQiIqNo251121.shtml"
+    },
+    {
+     "date": "2025-07-14",
+     "title": "[视频]高温天气持续 各地多举措积极应对",
+     "url": "https://tv.cctv.com/2025/07/14/VIDEPOkKYcpDK1XMFEdBzhrR250714.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "鹰潭",
+   "pinyin": "Yingtan",
+   "query": "鹰潭",
+   "total": 9,
+   "by_year": {
+    "2018": 3,
+    "2019": 1,
+    "2020": 2,
+    "2023": 1,
+    "2025": 2
+   },
+   "recent": [
+    {
+     "date": "2025-10-20",
+     "title": "[视频]秋景如画 各地秋季旅游市场持续火爆",
+     "url": "https://tv.cctv.com/2025/10/20/VIDENcwHAvgehIOPKK6zIUMy251020.shtml"
+    },
+    {
+     "date": "2025-06-08",
+     "title": "[视频]【真抓实干 打开改革发展新天地】江西加快构建现代化产业体系",
+     "url": "https://tv.cctv.com/2025/06/08/VIDECUFRclZbKGDrKm2v5aA9250608.shtml"
+    },
+    {
+     "date": "2023-02-21",
+     "title": "[视频]花开中国 春意融融",
+     "url": "https://tv.cctv.com/2023/02/21/VIDE5V3VdAlcVPWkrzf5Fm6Q230221.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "赣州",
+   "pinyin": "Ganzhou",
+   "query": "赣州",
+   "total": 133,
+   "by_year": {
+    "2016": 20,
+    "2017": 8,
+    "2018": 9,
+    "2019": 16,
+    "2020": 21,
+    "2021": 17,
+    "2022": 6,
+    "2023": 12,
+    "2024": 11,
+    "2025": 7,
+    "2026": 6
+   },
+   "recent": [
+    {
+     "date": "2026-05-30",
+     "title": "[视频]【暖心一瞬】合力救援 托起生命希望",
+     "url": "https://tv.cctv.com/2026/05/30/VIDEDAO5FpjR63jPdygnYl6K260530.shtml"
+    },
+    {
+     "date": "2026-05-17",
+     "title": "[视频]多地强降雨持续 各地各部门积极应对",
+     "url": "https://tv.cctv.com/2026/05/17/VIDESqcbBFyrPIinaw2IIQLe260517.shtml"
+    },
+    {
+     "date": "2026-05-16",
+     "title": "[视频]大范围降雨持续 各地全力做好强降雨防范应对工作",
+     "url": "https://tv.cctv.com/2026/05/16/VIDExPbvk7znl5HKV2DdNIDA260516.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "吉安",
+   "pinyin": "Ji'an",
+   "query": "吉安",
+   "total": 71,
+   "by_year": {
+    "2016": 4,
+    "2017": 4,
+    "2018": 6,
+    "2019": 14,
+    "2020": 8,
+    "2021": 7,
+    "2022": 2,
+    "2023": 11,
+    "2024": 6,
+    "2025": 6,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-02-19",
+     "title": "[视频]务工客流开始返程 交通部门增加运力",
+     "url": "https://tv.cctv.com/2026/02/19/VIDEVwfYlqldyhr3tUC1JRsd260219.shtml"
+    },
+    {
+     "date": "2026-02-19",
+     "title": "[视频]佳节同欢乐 四海庆新春",
+     "url": "https://tv.cctv.com/2026/02/19/VIDEJ9f2AdzUshCbFBc4hPt8260219.shtml"
+    },
+    {
+     "date": "2026-02-09",
+     "title": "[视频]春节将至年味浓 大江南北迎新春",
+     "url": "https://tv.cctv.com/2026/02/09/VIDEJa02I2ONR1QNbVAFbItU260209.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "宜春",
+   "pinyin": "Yichun",
+   "query": "宜春",
+   "total": 41,
+   "by_year": {
+    "2016": 5,
+    "2017": 3,
+    "2018": 3,
+    "2019": 2,
+    "2020": 5,
+    "2021": 2,
+    "2022": 5,
+    "2023": 7,
+    "2024": 5,
+    "2025": 3,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-05-25",
+     "title": "[视频]各地各部门积极应对持续强降雨",
+     "url": "https://tv.cctv.com/2026/05/25/VIDE5F6boeQj7TsVhtN8krXd260525.shtml"
+    },
+    {
+     "date": "2025-06-09",
+     "title": "[视频]【在希望的田野上·三夏时节】各地麦收加速推进 夏种夏管有序进行",
+     "url": "https://tv.cctv.com/2025/06/09/VIDEm7gM1wfICCQ0214NSg1U250609.shtml"
+    },
+    {
+     "date": "2025-04-21",
+     "title": "[视频]南方多地降雨持续",
+     "url": "https://tv.cctv.com/2025/04/21/VIDE6Nw15gWpDbDh1SmV482g250421.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "抚州",
+   "pinyin": "Fuzhou",
+   "query": "抚州",
+   "total": 37,
+   "by_year": {
+    "2016": 3,
+    "2017": 1,
+    "2018": 9,
+    "2019": 4,
+    "2020": 5,
+    "2021": 2,
+    "2022": 1,
+    "2023": 8,
+    "2024": 1,
+    "2025": 2,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-03-27",
+     "title": "[视频]【新思想引领新征程】长江经济带共绘高质量发展新图景",
+     "url": "https://tv.cctv.com/2026/03/27/VIDEatx883ZMVtgeZ10Vu5Dm260327.shtml"
+    },
+    {
+     "date": "2025-04-24",
+     "title": "[视频]中央纪委国家监委公开通报十起违反中央八项规定精神典型问题",
+     "url": "https://tv.cctv.com/2025/04/24/VIDEYB1fk9sKydVQm515MPlU250424.shtml"
+    },
+    {
+     "date": "2025-04-22",
+     "title": "[视频]【在希望的田野上】各地高效有序推进春耕春管",
+     "url": "https://tv.cctv.com/2025/04/22/VIDEsNFawnU4shxRsReQO6yt250422.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "上饶",
+   "pinyin": "Shangrao",
+   "query": "上饶",
+   "total": 58,
+   "by_year": {
+    "2016": 5,
+    "2017": 11,
+    "2018": 4,
+    "2019": 5,
+    "2020": 10,
+    "2021": 1,
+    "2022": 2,
+    "2023": 6,
+    "2024": 5,
+    "2025": 5,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-05-25",
+     "title": "[视频]各地各部门积极应对持续强降雨",
+     "url": "https://tv.cctv.com/2026/05/25/VIDE5F6boeQj7TsVhtN8krXd260525.shtml"
+    },
+    {
+     "date": "2026-04-24",
+     "title": "[视频]中央纪委国家监委公开通报八起违反中央八项规定精神典型问题",
+     "url": "https://tv.cctv.com/2026/04/24/VIDEVr6smAISU1mksDoqXhIo260424.shtml"
+    },
+    {
+     "date": "2026-02-15",
+     "title": "[视频]天南地北年味浓 热闹喜庆迎春节",
+     "url": "https://tv.cctv.com/2026/02/15/VIDEfWb5UAr7d5IZn6txBwdI260215.shtml"
+    }
+   ]
+  }
+ ]
+}

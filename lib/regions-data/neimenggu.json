@@ -1,0 +1,438 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "内蒙古",
+  "en": "Inner Mongolia",
+  "slug": "neimenggu"
+ },
+ "cities": [
+  {
+   "zh": "呼和浩特",
+   "pinyin": "Hohhot",
+   "query": "呼和浩特",
+   "total": 148,
+   "by_year": {
+    "2016": 6,
+    "2017": 19,
+    "2018": 17,
+    "2019": 22,
+    "2020": 10,
+    "2021": 16,
+    "2022": 7,
+    "2023": 13,
+    "2024": 18,
+    "2025": 11,
+    "2026": 9
+   },
+   "recent": [
+    {
+     "date": "2026-05-18",
+     "title": "[视频]丁薛祥在调研算力网建设时强调 加快构建全国一体化算力网 赋能经济社会高质量发展",
+     "url": "https://tv.cctv.com/2026/05/18/VIDEwX4uPghLxboMMYxTmrhW260518.shtml"
+    },
+    {
+     "date": "2026-04-16",
+     "title": "[视频]百花竞放 文旅融合绘就春日好时光",
+     "url": "https://tv.cctv.com/2026/04/16/VIDE6HTxyHVISbyRBwOP4gPo260416.shtml"
+    },
+    {
+     "date": "2026-04-04",
+     "title": "[视频]清明时节 踏青赏花正当时",
+     "url": "https://tv.cctv.com/2026/04/04/VIDEuurXHbGuw6oXE590od52260404.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "包头",
+   "pinyin": "Baotou",
+   "query": "包头",
+   "total": 62,
+   "by_year": {
+    "2016": 4,
+    "2017": 15,
+    "2018": 6,
+    "2019": 3,
+    "2020": 4,
+    "2021": 4,
+    "2022": 1,
+    "2023": 5,
+    "2024": 8,
+    "2025": 8,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-05-16",
+     "title": "[视频]以旧换新 持续激发消费活力",
+     "url": "https://tv.cctv.com/2026/05/16/VIDE9cPItSCzQ7Cjln6L4yZj260516.shtml"
+    },
+    {
+     "date": "2026-04-24",
+     "title": "[视频]中央纪委国家监委公开通报八起违反中央八项规定精神典型问题",
+     "url": "https://tv.cctv.com/2026/04/24/VIDEVr6smAISU1mksDoqXhIo260424.shtml"
+    },
+    {
+     "date": "2026-02-02",
+     "title": "[视频]“两新”政策加力 提振消费活力",
+     "url": "https://tv.cctv.com/2026/02/02/VIDEnR8tU48FraNZHYwdnFwZ260202.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "乌海",
+   "pinyin": "Wuhai",
+   "query": "乌海",
+   "total": 27,
+   "by_year": {
+    "2016": 1,
+    "2017": 3,
+    "2018": 1,
+    "2019": 2,
+    "2020": 1,
+    "2021": 1,
+    "2023": 7,
+    "2024": 4,
+    "2025": 5,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-06-06",
+     "title": "[视频]国际联播快讯",
+     "url": "https://tv.cctv.com/2026/06/06/VIDEn0O6yojzpfhCygHPZTU8260606.shtml"
+    },
+    {
+     "date": "2026-05-10",
+     "title": "[视频]依托美好生态 夏日文旅持续升温",
+     "url": "https://tv.cctv.com/2026/05/10/VIDEcFiF6pYyq7baHC86KNDD260510.shtml"
+    },
+    {
+     "date": "2025-11-29",
+     "title": "[视频]各地一批重大工程加快推进",
+     "url": "https://tv.cctv.com/2025/11/29/VIDEDp8f45ITOio4zZPkJlJl251129.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "赤峰",
+   "pinyin": "Chifeng",
+   "query": "赤峰",
+   "total": 48,
+   "by_year": {
+    "2016": 7,
+    "2017": 8,
+    "2018": 5,
+    "2019": 4,
+    "2020": 4,
+    "2021": 5,
+    "2022": 2,
+    "2023": 4,
+    "2024": 7,
+    "2025": 2
+   },
+   "recent": [
+    {
+     "date": "2025-09-27",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/09/27/VIDExStQ4dKKWY5s7GVvtcFt250927.shtml"
+    },
+    {
+     "date": "2025-06-19",
+     "title": "[视频]赵乐际在内蒙古调研和开展执法检查",
+     "url": "https://tv.cctv.com/2025/06/19/VIDELTApTHV4W9dOmWah2Zcv250619.shtml"
+    },
+    {
+     "date": "2024-12-24",
+     "title": "[视频]一年一度冬季捕鱼迎丰年",
+     "url": "https://tv.cctv.com/2024/12/24/VIDEIWDydDVHW84AVDRD2OBg241224.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "通辽",
+   "pinyin": "Tongliao",
+   "query": "通辽",
+   "total": 36,
+   "by_year": {
+    "2016": 5,
+    "2017": 2,
+    "2018": 8,
+    "2019": 3,
+    "2020": 2,
+    "2021": 3,
+    "2022": 1,
+    "2023": 4,
+    "2024": 2,
+    "2025": 5,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-03-17",
+     "title": "[视频]【在希望的田野上】科技赋能 各地不断夯实粮食丰收基础",
+     "url": "https://tv.cctv.com/2026/03/17/VIDEPWgnuvwcqjLYFM4aLBYc260317.shtml"
+    },
+    {
+     "date": "2025-11-18",
+     "title": "[视频]海军福建舰开展入列后首次海上实兵训练",
+     "url": "https://tv.cctv.com/2025/11/18/VIDEykAavvxawN7zHQM4vwZg251118.shtml"
+    },
+    {
+     "date": "2025-09-06",
+     "title": "[视频]各粮食主产区加强田管 力保秋粮稳产增收",
+     "url": "https://tv.cctv.com/2025/09/06/VIDEnhLjJl0DNSAkwl89SzT4250906.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "鄂尔多斯",
+   "pinyin": "Ordos",
+   "query": "鄂尔多斯",
+   "total": 113,
+   "by_year": {
+    "2016": 2,
+    "2017": 18,
+    "2018": 8,
+    "2019": 8,
+    "2020": 10,
+    "2021": 10,
+    "2022": 6,
+    "2023": 22,
+    "2024": 16,
+    "2025": 9,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-05-31",
+     "title": "[视频]【新闻特写】跨越26年的绿色约定",
+     "url": "https://tv.cctv.com/2026/05/31/VIDECkoRSJQOc8cTst749l0X260531.shtml"
+    },
+    {
+     "date": "2026-04-05",
+     "title": "[视频]春和景明 文旅消费热度攀升",
+     "url": "https://tv.cctv.com/2026/04/05/VIDEHFxc5Nt29HJ4MRX0p3A0260405.shtml"
+    },
+    {
+     "date": "2026-03-14",
+     "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】让祖国大地更加绿意盎然生机勃发",
+     "url": "https://tv.cctv.com/2026/03/14/VIDEVvIwtCE8j2YIxc5iRFTj260314.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "呼伦贝尔",
+   "pinyin": "Hulunbuir",
+   "query": "呼伦贝尔",
+   "total": 75,
+   "by_year": {
+    "2016": 5,
+    "2017": 12,
+    "2018": 5,
+    "2019": 9,
+    "2020": 4,
+    "2021": 1,
+    "2022": 4,
+    "2023": 5,
+    "2024": 16,
+    "2025": 9,
+    "2026": 5
+   },
+   "recent": [
+    {
+     "date": "2026-04-17",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/04/17/VIDE1yYmSqBCmD3iDVj2709P260417.shtml"
+    },
+    {
+     "date": "2026-02-18",
+     "title": "[视频]多彩活动闹新春 喜庆祥和中国年",
+     "url": "https://tv.cctv.com/2026/02/18/VIDErMvIBE6tRBFArOVWoKxD260218.shtml"
+    },
+    {
+     "date": "2026-02-03",
+     "title": "[视频]赏冰乐雪 各地持续激发冰雪经济活力",
+     "url": "https://tv.cctv.com/2026/02/03/VIDEb5r4AhYp5VQCtXDxUBeP260203.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "巴彦淖尔",
+   "pinyin": "Bayannur",
+   "query": "巴彦淖尔",
+   "total": 46,
+   "by_year": {
+    "2016": 2,
+    "2017": 10,
+    "2018": 3,
+    "2019": 4,
+    "2020": 4,
+    "2021": 1,
+    "2022": 3,
+    "2023": 9,
+    "2024": 4,
+    "2025": 5,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-04-03",
+     "title": "[视频]各地春耕生产持续推进",
+     "url": "https://tv.cctv.com/2026/04/03/VIDEDzb1NqJD8l8knm1kA66c260403.shtml"
+    },
+    {
+     "date": "2025-06-26",
+     "title": "[视频]夏播粮食近八成 夏管有序推进",
+     "url": "https://tv.cctv.com/2025/06/26/VIDEmRQFd73vd8KJNdRJW8Ti250626.shtml"
+    },
+    {
+     "date": "2025-04-11",
+     "title": "[视频]较强冷空气登场 北方多地出现大风降温天气",
+     "url": "https://tv.cctv.com/2025/04/11/VIDEcmoKN1WQEzS3XzCrrvBw250411.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "乌兰察布",
+   "pinyin": "Ulanqab",
+   "query": "乌兰察布",
+   "total": 40,
+   "by_year": {
+    "2016": 1,
+    "2017": 3,
+    "2018": 2,
+    "2019": 3,
+    "2020": 6,
+    "2021": 2,
+    "2022": 2,
+    "2023": 2,
+    "2024": 9,
+    "2025": 6,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-05-18",
+     "title": "[视频]丁薛祥在调研算力网建设时强调 加快构建全国一体化算力网 赋能经济社会高质量发展",
+     "url": "https://tv.cctv.com/2026/05/18/VIDEwX4uPghLxboMMYxTmrhW260518.shtml"
+    },
+    {
+     "date": "2026-05-06",
+     "title": "[视频]【一线调研】草原上的新产业",
+     "url": "https://tv.cctv.com/2026/05/06/VIDEgDCVXMjP7VaUdfnRMUkG260506.shtml"
+    },
+    {
+     "date": "2026-04-18",
+     "title": "[视频]【新思想引领新征程】推进数字中国建设 打造高质量发展新引擎",
+     "url": "https://tv.cctv.com/2026/04/18/VIDEHTiDhwrZ2VAm8VmYaLIN260418.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "兴安盟",
+   "pinyin": "Hinggan",
+   "query": "兴安盟",
+   "total": 34,
+   "by_year": {
+    "2017": 5,
+    "2018": 8,
+    "2019": 1,
+    "2020": 5,
+    "2021": 2,
+    "2022": 1,
+    "2023": 5,
+    "2024": 2,
+    "2025": 5
+   },
+   "recent": [
+    {
+     "date": "2025-09-23",
+     "title": "[视频]共庆农民丰收节 同建宜居宜业和美乡村",
+     "url": "https://tv.cctv.com/2025/09/23/VIDElEhnCTzudcAX3SdK9k8k250923.shtml"
+    },
+    {
+     "date": "2025-08-30",
+     "title": "[视频]暑期旅游持续升温 激发文旅消费动能",
+     "url": "https://tv.cctv.com/2025/08/30/VIDEuCw4j7kZTWermb7du6RC250830.shtml"
+    },
+    {
+     "date": "2025-06-30",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/06/30/VIDE7bxVQl1Ct9NPiznbWfgy250630.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "锡林郭勒",
+   "pinyin": "Xilingol",
+   "query": "锡林郭勒",
+   "total": 46,
+   "by_year": {
+    "2016": 2,
+    "2017": 9,
+    "2018": 9,
+    "2019": 1,
+    "2020": 6,
+    "2021": 4,
+    "2022": 3,
+    "2023": 1,
+    "2024": 7,
+    "2025": 2,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-06-07",
+     "title": "[视频]【新思想引领新征程】攻坚“三北” 筑牢北疆万里绿色屏障",
+     "url": "https://tv.cctv.com/2026/06/07/VIDEWT9UwxEXgZpWz1drMsxY260607.shtml"
+    },
+    {
+     "date": "2026-02-01",
+     "title": "[视频]乐享冰雪 点燃冬季旅游热",
+     "url": "https://tv.cctv.com/2026/02/01/VIDEe72bypyNvcHeWMwTSrlW260201.shtml"
+    },
+    {
+     "date": "2025-06-21",
+     "title": "[视频]【新思想引领新征程】“三北”筑绿 创造生态奇迹",
+     "url": "https://tv.cctv.com/2025/06/21/VIDEShjDVs6rNgrHe8De1VYI250621.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "阿拉善",
+   "pinyin": "Alxa",
+   "query": "阿拉善",
+   "total": 44,
+   "by_year": {
+    "2016": 2,
+    "2017": 8,
+    "2018": 5,
+    "2019": 1,
+    "2020": 2,
+    "2021": 4,
+    "2022": 1,
+    "2023": 8,
+    "2024": 1,
+    "2025": 10,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-03-03",
+     "title": "[视频]正月十五闹元宵 传统佳节共团圆",
+     "url": "https://tv.cctv.com/2026/03/03/VIDEOK65f9FRN0iLhDUaQjzR260303.shtml"
+    },
+    {
+     "date": "2026-02-19",
+     "title": "[视频]佳节同欢乐 四海庆新春",
+     "url": "https://tv.cctv.com/2026/02/19/VIDEJ9f2AdzUshCbFBc4hPt8260219.shtml"
+    },
+    {
+     "date": "2025-11-18",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/11/18/VIDEuC0wPo3ZsvBTv6vrpp8Q251118.shtml"
+    }
+   ]
+  }
+ ]
+}

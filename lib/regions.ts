@@ -96,7 +96,7 @@ export const PROVINCES: Province[] = [
       { zh: "四平", pinyin: "Siping", query: "四平" },
       { zh: "辽源", pinyin: "Liaoyuan", query: "辽源" },
       { zh: "通化", pinyin: "Tonghua", query: "通化" },
-      { zh: "白山", pinyin: "Baishan", query: "白山" },
+      { zh: "白山", pinyin: "Baishan", query: "白山市"  // 长白山子串污染(实测裸词 101 条中 66 条来自长白山) },
       { zh: "松原", pinyin: "Songyuan", query: "松原" },
       { zh: "白城", pinyin: "Baicheng", query: "白城" },
       { zh: "延边", pinyin: "Yanbian", query: "延边" },

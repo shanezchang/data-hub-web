@@ -1,0 +1,486 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "新疆",
+  "en": "Xinjiang",
+  "slug": "xinjiang"
+ },
+ "cities": [
+  {
+   "zh": "乌鲁木齐",
+   "pinyin": "Urumqi",
+   "query": "乌鲁木齐",
+   "total": 267,
+   "by_year": {
+    "2016": 18,
+    "2017": 22,
+    "2018": 21,
+    "2019": 36,
+    "2020": 30,
+    "2021": 19,
+    "2022": 16,
+    "2023": 28,
+    "2024": 34,
+    "2025": 33,
+    "2026": 10
+   },
+   "recent": [
+    {
+     "date": "2026-06-01",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/06/01/VIDEeISZSBklhSMrKuRLVxtq260601.shtml"
+    },
+    {
+     "date": "2026-04-26",
+     "title": "[视频]新举措助跑旅游列车 激发消费新活力",
+     "url": "https://tv.cctv.com/2026/04/26/VIDELzhvke4cYNMLnnmouwfU260426.shtml"
+    },
+    {
+     "date": "2026-04-23",
+     "title": "[视频]海军在多地举行活动 40多艘舰艇向公众开放",
+     "url": "https://tv.cctv.com/2026/04/23/VIDENS0sVt3mry8CEb87GzbJ260423.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "克拉玛依",
+   "pinyin": "Karamay",
+   "query": "克拉玛依",
+   "total": 23,
+   "by_year": {
+    "2016": 2,
+    "2017": 1,
+    "2018": 1,
+    "2019": 1,
+    "2020": 9,
+    "2023": 2,
+    "2024": 1,
+    "2025": 6
+   },
+   "recent": [
+    {
+     "date": "2025-09-27",
+     "title": "[视频]中央代表团在新疆多地看望慰问各族干部群众 王沪宁参加活动",
+     "url": "https://tv.cctv.com/2025/09/27/VIDEIUnxQBty0GW0NnctDwv3250927.shtml"
+    },
+    {
+     "date": "2025-09-26",
+     "title": "[视频]中央代表团赴新疆多地看望慰问各族干部群众 王沪宁参加活动",
+     "url": "https://tv.cctv.com/2025/09/26/VIDEEfrWgCJuK2G1El3CbODZ250926.shtml"
+    },
+    {
+     "date": "2025-09-11",
+     "title": "[视频]【砥砺奋进七十载 天山南北谱华章】新兴产业聚势起",
+     "url": "https://tv.cctv.com/2025/09/11/VIDEVTnYzMVl8WR6dCMhumUp250911.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "吐鲁番",
+   "pinyin": "Turpan",
+   "query": "吐鲁番",
+   "total": 49,
+   "by_year": {
+    "2016": 3,
+    "2017": 8,
+    "2018": 4,
+    "2019": 1,
+    "2020": 4,
+    "2021": 3,
+    "2022": 6,
+    "2023": 3,
+    "2024": 9,
+    "2025": 7,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-01-02",
+     "title": "[视频]各地开展丰富多彩活动欢度假期",
+     "url": "https://tv.cctv.com/2026/01/02/VIDEyaWSwouNsklqVtJCK0fi260102.shtml"
+    },
+    {
+     "date": "2025-09-28",
+     "title": "[视频]中央代表团在新疆多地看望慰问各族干部群众 王沪宁参加活动",
+     "url": "https://tv.cctv.com/2025/09/28/VIDEeKUqNHOUfOo05EKQrCUG250928.shtml"
+    },
+    {
+     "date": "2025-09-21",
+     "title": "[视频]【新思想引领新征程】像石榴籽一样紧紧抱在一起",
+     "url": "https://tv.cctv.com/2025/09/21/VIDEmqt6hdOpb3fGl8n9LQsV250921.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "哈密",
+   "pinyin": "Hami",
+   "query": "哈密市",
+   "total": 10,
+   "by_year": {
+    "2016": 1,
+    "2017": 1,
+    "2019": 1,
+    "2022": 3,
+    "2023": 1,
+    "2025": 2,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-06-09",
+     "title": "[视频]王沪宁在新疆调研",
+     "url": "https://tv.cctv.com/2026/06/09/VIDExqOV5w9BLlLpjU3Os5rI260609.shtml"
+    },
+    {
+     "date": "2025-09-28",
+     "title": "[视频]中央代表团在新疆多地看望慰问各族干部群众 王沪宁参加活动",
+     "url": "https://tv.cctv.com/2025/09/28/VIDEeKUqNHOUfOo05EKQrCUG250928.shtml"
+    },
+    {
+     "date": "2025-09-11",
+     "title": "[视频]【砥砺奋进七十载 天山南北谱华章】新兴产业聚势起",
+     "url": "https://tv.cctv.com/2025/09/11/VIDEVTnYzMVl8WR6dCMhumUp250911.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "昌吉",
+   "pinyin": "Changji",
+   "query": "昌吉",
+   "total": 34,
+   "by_year": {
+    "2016": 3,
+    "2017": 2,
+    "2018": 1,
+    "2019": 8,
+    "2020": 5,
+    "2021": 2,
+    "2023": 3,
+    "2024": 4,
+    "2025": 4,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-04-11",
+     "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】河南积极融入服务全国统一大市场 新疆不断优化营商环境 推动高质量发展",
+     "url": "https://tv.cctv.com/2026/04/11/VIDE0Eg0lbiNkGhvkoU1kkmm260411.shtml"
+    },
+    {
+     "date": "2026-03-17",
+     "title": "[视频]【在希望的田野上】科技赋能 各地不断夯实粮食丰收基础",
+     "url": "https://tv.cctv.com/2026/03/17/VIDEPWgnuvwcqjLYFM4aLBYc260317.shtml"
+    },
+    {
+     "date": "2025-09-29",
+     "title": "[视频]国庆中秋将至 各地洋溢喜庆氛围",
+     "url": "https://tv.cctv.com/2025/09/29/VIDESDnSiWS1Akm2cHwZd9fk250929.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "博尔塔拉",
+   "pinyin": "Bortala",
+   "query": "博尔塔拉",
+   "total": 6,
+   "by_year": {
+    "2016": 1,
+    "2017": 2,
+    "2020": 2,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-09-27",
+     "title": "[视频]中央代表团在新疆多地看望慰问各族干部群众 王沪宁参加活动",
+     "url": "https://tv.cctv.com/2025/09/27/VIDEIUnxQBty0GW0NnctDwv3250927.shtml"
+    },
+    {
+     "date": "2020-09-24",
+     "title": "[视频]谋绿色发展 建美丽新疆",
+     "url": "https://tv.cctv.com/2020/09/24/VIDEE8tAvq4O3MPMcnBOPjFg200924.shtml"
+    },
+    {
+     "date": "2020-03-03",
+     "title": "[视频]八方支援 汇聚合力",
+     "url": "http://tv.cctv.com/2020/03/03/VIDEr6DcOo3CEkyCG4MXwTXD200303.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "巴音郭楞",
+   "pinyin": "Bayingolin",
+   "query": "巴音郭楞",
+   "total": 6,
+   "by_year": {
+    "2016": 1,
+    "2019": 2,
+    "2020": 1,
+    "2022": 1,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-09-26",
+     "title": "[视频]中央代表团赴新疆多地看望慰问各族干部群众 王沪宁参加活动",
+     "url": "https://tv.cctv.com/2025/09/26/VIDEEfrWgCJuK2G1El3CbODZ250926.shtml"
+    },
+    {
+     "date": "2022-08-20",
+     "title": "[视频]【解码十年】中国掀起数字化浪潮",
+     "url": "https://tv.cctv.com/2022/08/20/VIDEAOrFBLGxsYSezLvNIZWT220820.shtml"
+    },
+    {
+     "date": "2020-06-12",
+     "title": "[视频]汪洋在新疆调研",
+     "url": "https://tv.cctv.com/2020/06/12/VIDEDKVqzXcgC5vcw9AGTaNV200612.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "阿克苏",
+   "pinyin": "Aksu",
+   "query": "阿克苏",
+   "total": 61,
+   "by_year": {
+    "2016": 3,
+    "2017": 2,
+    "2018": 9,
+    "2019": 4,
+    "2020": 8,
+    "2021": 11,
+    "2022": 3,
+    "2023": 5,
+    "2024": 4,
+    "2025": 11,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-05-27",
+     "title": "[视频]【树立和践行正确政绩观】促发展惠民生 推动学习教育走深走实",
+     "url": "https://tv.cctv.com/2026/05/27/VIDExzZaRQNZCZmSfcWoLELR260527.shtml"
+    },
+    {
+     "date": "2025-09-28",
+     "title": "[视频]中央代表团在新疆多地看望慰问各族干部群众 王沪宁参加活动",
+     "url": "https://tv.cctv.com/2025/09/28/VIDEeKUqNHOUfOo05EKQrCUG250928.shtml"
+    },
+    {
+     "date": "2025-09-14",
+     "title": "[视频]1至8月全国铁路完成固定资产投资5041亿元",
+     "url": "https://tv.cctv.com/2025/09/14/VIDEzW3CpFFp29O0XFTXIUwX250914.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "克孜勒苏",
+   "pinyin": "Kizilsu",
+   "query": "克孜勒苏",
+   "total": 11,
+   "by_year": {
+    "2016": 2,
+    "2019": 1,
+    "2020": 2,
+    "2021": 2,
+    "2023": 1,
+    "2025": 3
+   },
+   "recent": [
+    {
+     "date": "2025-09-28",
+     "title": "[视频]中央代表团在新疆多地看望慰问各族干部群众 王沪宁参加活动",
+     "url": "https://tv.cctv.com/2025/09/28/VIDEeKUqNHOUfOo05EKQrCUG250928.shtml"
+    },
+    {
+     "date": "2025-05-04",
+     "title": "[视频]到祖国和人民最需要的地方发光发热——习近平总书记给谢依特小学戍边支教西部计划志愿者服务队队员的回信在全国广大青年中引发热烈反响",
+     "url": "https://tv.cctv.com/2025/05/04/VIDEyAlhPA1MYs9FsCgH7MSO250504.shtml"
+    },
+    {
+     "date": "2025-05-03",
+     "title": "[视频]习近平给谢依特小学戍边支教西部计划志愿者服务队队员回信强调 到祖国和人民最需要的地方发光发热 为中国式现代化建设贡献青春力量",
+     "url": "https://tv.cctv.com/2025/05/03/VIDEdQ4IIZGHtU6ztAcvT33q250503.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "喀什",
+   "pinyin": "Kashgar",
+   "query": "喀什",
+   "total": 150,
+   "by_year": {
+    "2016": 12,
+    "2017": 12,
+    "2018": 11,
+    "2019": 19,
+    "2020": 21,
+    "2021": 10,
+    "2022": 7,
+    "2023": 13,
+    "2024": 18,
+    "2025": 21,
+    "2026": 6
+   },
+   "recent": [
+    {
+     "date": "2026-05-05",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/05/VIDElDpn6JwEjOJ9me2lMjWG260505.shtml"
+    },
+    {
+     "date": "2026-04-28",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/04/28/VIDE8cw5Bndsp3cVdYehjWkA260428.shtml"
+    },
+    {
+     "date": "2026-04-26",
+     "title": "[视频]新举措助跑旅游列车 激发消费新活力",
+     "url": "https://tv.cctv.com/2026/04/26/VIDELzhvke4cYNMLnnmouwfU260426.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "和田",
+   "pinyin": "Hotan",
+   "query": "和田地区",
+   "total": 27,
+   "by_year": {
+    "2016": 1,
+    "2017": 2,
+    "2019": 1,
+    "2020": 3,
+    "2021": 4,
+    "2022": 5,
+    "2023": 3,
+    "2024": 2,
+    "2025": 5,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-06-09",
+     "title": "[视频]王沪宁在新疆调研",
+     "url": "https://tv.cctv.com/2026/06/09/VIDExqOV5w9BLlLpjU3Os5rI260609.shtml"
+    },
+    {
+     "date": "2025-09-28",
+     "title": "[视频]中央代表团在新疆多地看望慰问各族干部群众 王沪宁参加活动",
+     "url": "https://tv.cctv.com/2025/09/28/VIDEeKUqNHOUfOo05EKQrCUG250928.shtml"
+    },
+    {
+     "date": "2025-09-18",
+     "title": "[视频]【砥砺奋进七十载 天山南北谱华章】援疆路上绽繁花",
+     "url": "https://tv.cctv.com/2025/09/18/VIDEhvmwxVmgLblojllVXC9O250918.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "伊犁",
+   "pinyin": "Ili",
+   "query": "伊犁",
+   "total": 75,
+   "by_year": {
+    "2016": 10,
+    "2017": 7,
+    "2018": 4,
+    "2019": 6,
+    "2020": 5,
+    "2021": 9,
+    "2022": 7,
+    "2023": 9,
+    "2024": 9,
+    "2025": 8,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-01-13",
+     "title": "[视频]北方多冷空气活动 长江沿线升温明显",
+     "url": "https://tv.cctv.com/2026/01/13/VIDEPpzDvOA8DQqrvKl4sVMy260113.shtml"
+    },
+    {
+     "date": "2025-10-08",
+     "title": "[视频]文旅融合 新疆西藏旅游市场持续火热",
+     "url": "https://tv.cctv.com/2025/10/08/VIDEWMrE5BdjzZHecV3xcPE8251008.shtml"
+    },
+    {
+     "date": "2025-10-07",
+     "title": "[视频]月满中秋 各地多彩活动欢度佳节",
+     "url": "https://tv.cctv.com/2025/10/07/VIDE1les9q3JRvXjcAPQGiNX251007.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "塔城",
+   "pinyin": "Tacheng",
+   "query": "塔城",
+   "total": 29,
+   "by_year": {
+    "2016": 4,
+    "2017": 1,
+    "2018": 1,
+    "2019": 4,
+    "2020": 1,
+    "2021": 3,
+    "2023": 6,
+    "2024": 3,
+    "2025": 4,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-06-01",
+     "title": "[视频]【在希望的田野上】科技赋能夏收夏种 助力粮食稳产丰收",
+     "url": "https://tv.cctv.com/2026/06/01/VIDECIw2OgsFAMEI9EIpkGkq260601.shtml"
+    },
+    {
+     "date": "2026-01-13",
+     "title": "[视频]北方多冷空气活动 长江沿线升温明显",
+     "url": "https://tv.cctv.com/2026/01/13/VIDEPpzDvOA8DQqrvKl4sVMy260113.shtml"
+    },
+    {
+     "date": "2025-09-28",
+     "title": "[视频]中央代表团在新疆多地看望慰问各族干部群众 王沪宁参加活动",
+     "url": "https://tv.cctv.com/2025/09/28/VIDEeKUqNHOUfOo05EKQrCUG250928.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "阿勒泰",
+   "pinyin": "Altay",
+   "query": "阿勒泰",
+   "total": 71,
+   "by_year": {
+    "2016": 6,
+    "2017": 5,
+    "2018": 3,
+    "2019": 3,
+    "2020": 4,
+    "2021": 4,
+    "2022": 3,
+    "2023": 4,
+    "2024": 18,
+    "2025": 15,
+    "2026": 6
+   },
+   "recent": [
+    {
+     "date": "2026-05-03",
+     "title": "[视频]【劳动者之歌】陈燕芳：做向日葵一样的追光者",
+     "url": "https://tv.cctv.com/2026/05/03/VIDEiQry5REZ6BKQj5VWgRO1260503.shtml"
+    },
+    {
+     "date": "2026-02-15",
+     "title": "[视频]天南地北年味浓 热闹喜庆迎春节",
+     "url": "https://tv.cctv.com/2026/02/15/VIDEfWb5UAr7d5IZn6txBwdI260215.shtml"
+    },
+    {
+     "date": "2026-01-24",
+     "title": "[视频]特色旅游专列助力冬季文旅持续升温",
+     "url": "https://tv.cctv.com/2026/01/24/VIDEj3C17mxVQqmCf9APpAKg260124.shtml"
+    }
+   ]
+  }
+ ]
+}

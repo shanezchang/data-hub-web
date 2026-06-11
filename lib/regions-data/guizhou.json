@@ -1,0 +1,329 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "贵州",
+  "en": "Guizhou",
+  "slug": "guizhou"
+ },
+ "cities": [
+  {
+   "zh": "贵阳",
+   "pinyin": "Guiyang",
+   "query": "贵阳",
+   "total": 173,
+   "by_year": {
+    "2016": 26,
+    "2017": 21,
+    "2018": 21,
+    "2019": 8,
+    "2020": 15,
+    "2021": 13,
+    "2022": 13,
+    "2023": 22,
+    "2024": 14,
+    "2025": 15,
+    "2026": 5
+   },
+   "recent": [
+    {
+     "date": "2026-05-15",
+     "title": "[视频]赵乐际在贵州调研",
+     "url": "https://tv.cctv.com/2026/05/15/VIDEN1XhSyA3hrOZYw9qwMeG260515.shtml"
+    },
+    {
+     "date": "2026-05-10",
+     "title": "[视频]【树立和践行正确政绩观】以学促干 将学习教育成效落到实处",
+     "url": "https://tv.cctv.com/2026/05/10/VIDEzKwxc6mgu6NPrMJEtzBO260510.shtml"
+    },
+    {
+     "date": "2026-04-19",
+     "title": "[视频]村里有了“小而美” 游客爱上“慢时光”",
+     "url": "https://tv.cctv.com/2026/04/19/VIDEQdX64gGMsl3Vyv3BhCuV260419.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "六盘水",
+   "pinyin": "Liupanshui",
+   "query": "六盘水",
+   "total": 28,
+   "by_year": {
+    "2016": 3,
+    "2017": 5,
+    "2018": 3,
+    "2019": 2,
+    "2020": 2,
+    "2021": 4,
+    "2022": 1,
+    "2023": 3,
+    "2024": 3,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-04-09",
+     "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】山东：陆海并进 加快建设新型能源体系 贵州：高效利用 推动资源全产业链发展",
+     "url": "https://tv.cctv.com/2026/04/09/VIDErZyWJWItKZrghzreYaPc260409.shtml"
+    },
+    {
+     "date": "2026-01-28",
+     "title": "[视频]拓展冰雪旅游新场景 激发消费活力",
+     "url": "https://tv.cctv.com/2026/01/28/VIDEaFMP5Sc68eL2W7NKsKVj260128.shtml"
+    },
+    {
+     "date": "2024-12-30",
+     "title": "[视频]各地冰雪旅游热度攀升",
+     "url": "https://tv.cctv.com/2024/12/30/VIDEbhr4nPv0yNk05i8xgmCx241230.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "遵义",
+   "pinyin": "Zunyi",
+   "query": "遵义",
+   "total": 117,
+   "by_year": {
+    "2016": 11,
+    "2017": 11,
+    "2018": 4,
+    "2019": 14,
+    "2020": 9,
+    "2021": 22,
+    "2022": 5,
+    "2023": 11,
+    "2024": 8,
+    "2025": 15,
+    "2026": 7
+   },
+   "recent": [
+    {
+     "date": "2026-06-10",
+     "title": "[视频]【伟大征程】长征：气壮山河的英雄史诗",
+     "url": "https://tv.cctv.com/2026/06/10/VIDEHA3rDjk2mFVSholNk7vJ260610.shtml"
+    },
+    {
+     "date": "2026-04-06",
+     "title": "[视频]铭记历史 缅怀先烈 红色旅游升温",
+     "url": "https://tv.cctv.com/2026/04/06/VIDEqXYebZjPJkLZQQd7qdgi260406.shtml"
+    },
+    {
+     "date": "2026-04-05",
+     "title": "[视频]【新思想引领新征程】清明祭英烈 奋进新征程",
+     "url": "https://tv.cctv.com/2026/04/05/VIDEpAP3qggrY2Sd8cLquO3e260405.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "安顺",
+   "pinyin": "Anshun",
+   "query": "安顺",
+   "total": 33,
+   "by_year": {
+    "2016": 3,
+    "2017": 6,
+    "2018": 3,
+    "2019": 1,
+    "2020": 4,
+    "2021": 4,
+    "2022": 1,
+    "2024": 2,
+    "2025": 4,
+    "2026": 5
+   },
+   "recent": [
+    {
+     "date": "2026-05-16",
+     "title": "[视频]大范围降雨持续 各地全力做好强降雨防范应对工作",
+     "url": "https://tv.cctv.com/2026/05/16/VIDExPbvk7znl5HKV2DdNIDA260516.shtml"
+    },
+    {
+     "date": "2026-04-05",
+     "title": "[视频]全社会跨区域人员流动量持续攀升 暖心服务保障出行",
+     "url": "https://tv.cctv.com/2026/04/05/VIDE8U2QxxQJmcRAAOXgwjDh260405.shtml"
+    },
+    {
+     "date": "2026-02-17",
+     "title": "[视频]外国领导人和国际组织负责人祝贺马年新春",
+     "url": "https://tv.cctv.com/2026/02/17/VIDEOlX8E3J9AowSFPtIabsA260217.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "毕节",
+   "pinyin": "Bijie",
+   "query": "毕节",
+   "total": 40,
+   "by_year": {
+    "2016": 5,
+    "2017": 4,
+    "2018": 5,
+    "2019": 3,
+    "2020": 3,
+    "2021": 4,
+    "2022": 4,
+    "2023": 5,
+    "2024": 2,
+    "2025": 2,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-03-27",
+     "title": "[视频]赏花正当时 带动春日经济火热",
+     "url": "https://tv.cctv.com/2026/03/27/VIDEiD8nrFjIeRTrLiGdM2t4260327.shtml"
+    },
+    {
+     "date": "2026-02-19",
+     "title": "[视频]【情满中国年】优秀传统文化绽放新光彩",
+     "url": "https://tv.cctv.com/2026/02/19/VIDEASt9ysMUJpjWrQ6dVnS9260219.shtml"
+    },
+    {
+     "date": "2026-01-07",
+     "title": "[视频]贵州省委原常委、毕节市委原书记吴胜华严重违纪违法被开除党籍和公职",
+     "url": "https://tv.cctv.com/2026/01/07/VIDEMUCoM9O90zUlDEPlYEgD260107.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "铜仁",
+   "pinyin": "Tongren",
+   "query": "铜仁",
+   "total": 36,
+   "by_year": {
+    "2016": 1,
+    "2017": 3,
+    "2018": 5,
+    "2019": 6,
+    "2020": 5,
+    "2021": 3,
+    "2022": 2,
+    "2023": 3,
+    "2024": 4,
+    "2025": 1,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-06-04",
+     "title": "[视频]各地培育新场景新业态 激发消费活力",
+     "url": "https://tv.cctv.com/2026/06/04/VIDEXXrsrckAtvnCvlGkZ5mB260604.shtml"
+    },
+    {
+     "date": "2026-03-29",
+     "title": "[视频]【新思想引领新征程】绘就乡村全面振兴新画卷",
+     "url": "https://tv.cctv.com/2026/03/29/VIDExkK4ka0HukSJyeNWqeX2260329.shtml"
+    },
+    {
+     "date": "2026-01-21",
+     "title": "[视频]寒潮继续影响我国 各地积极应对",
+     "url": "https://tv.cctv.com/2026/01/21/VIDEjxk3K07bR5tZSgPw3iHn260121.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "黔西南",
+   "pinyin": "Qianxinan",
+   "query": "黔西南",
+   "total": 30,
+   "by_year": {
+    "2016": 5,
+    "2017": 2,
+    "2018": 4,
+    "2019": 4,
+    "2020": 8,
+    "2021": 2,
+    "2022": 1,
+    "2023": 2,
+    "2024": 2
+   },
+   "recent": [
+    {
+     "date": "2024-02-27",
+     "title": "[视频]【筑梦现代化 共绘新图景·代表委员履职故事】李利：传承非遗 让传统文化走得更远",
+     "url": "https://tv.cctv.com/2024/02/27/VIDEsGPpNAJMSuu5ESc6sKJX240227.shtml"
+    },
+    {
+     "date": "2024-02-17",
+     "title": "[视频]各地多措并举保证务工人员顺利返岗",
+     "url": "https://tv.cctv.com/2024/02/17/VIDEK9UPR46vpnyiwpymfFUF240217.shtml"
+    },
+    {
+     "date": "2023-02-25",
+     "title": "[视频]抢抓农时 各地有序推进春耕备耕",
+     "url": "https://tv.cctv.com/2023/02/25/VIDEVXoDaOY91ShVBdfxS9D2230225.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "黔东南",
+   "pinyin": "Qiandongnan",
+   "query": "黔东南",
+   "total": 41,
+   "by_year": {
+    "2016": 2,
+    "2017": 5,
+    "2018": 4,
+    "2019": 5,
+    "2020": 4,
+    "2021": 5,
+    "2022": 3,
+    "2023": 2,
+    "2024": 4,
+    "2025": 7
+   },
+   "recent": [
+    {
+     "date": "2025-06-29",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/06/29/VIDEngZgeMKH1M6MYYLYrd7w250629.shtml"
+    },
+    {
+     "date": "2025-06-26",
+     "title": "[视频]【党旗在基层一线高高飘扬】冲锋一线 争分夺秒守护群众生命安全",
+     "url": "https://tv.cctv.com/2025/06/26/VIDEQFY1qxCCdxhmhkWK20rk250626.shtml"
+    },
+    {
+     "date": "2025-06-24",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/06/24/VIDEqwLJHZz8F4iLjvtkQHSl250624.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "黔南",
+   "pinyin": "Qiannan",
+   "query": "黔南",
+   "total": 29,
+   "by_year": {
+    "2016": 6,
+    "2017": 4,
+    "2018": 1,
+    "2019": 2,
+    "2020": 4,
+    "2021": 2,
+    "2022": 1,
+    "2023": 1,
+    "2024": 2,
+    "2025": 3,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-06-07",
+     "title": "[视频]2026年全国统一高考今天开考",
+     "url": "https://tv.cctv.com/2026/06/07/VIDEhY5TmztMLZXthW2AVJsH260607.shtml"
+    },
+    {
+     "date": "2026-05-19",
+     "title": "[视频]南方强降雨持续 各地各部门积极应对",
+     "url": "https://tv.cctv.com/2026/05/19/VIDEq0wHNm91LZtBLtkMipxG260519.shtml"
+    },
+    {
+     "date": "2026-05-15",
+     "title": "[视频]赵乐际在贵州调研",
+     "url": "https://tv.cctv.com/2026/05/15/VIDEN1XhSyA3hrOZYw9qwMeG260515.shtml"
+    }
+   ]
+  }
+ ]
+}

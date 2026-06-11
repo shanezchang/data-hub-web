@@ -1,0 +1,495 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "甘肃",
+  "en": "Gansu",
+  "slug": "gansu"
+ },
+ "cities": [
+  {
+   "zh": "兰州",
+   "pinyin": "Lanzhou",
+   "query": "兰州",
+   "total": 356,
+   "by_year": {
+    "2016": 22,
+    "2017": 26,
+    "2018": 29,
+    "2019": 42,
+    "2020": 52,
+    "2021": 54,
+    "2022": 22,
+    "2023": 34,
+    "2024": 32,
+    "2025": 33,
+    "2026": 10
+   },
+   "recent": [
+    {
+     "date": "2026-06-10",
+     "title": "[视频]【一线调研】新型电网筑牢能源大国绿色转型基石",
+     "url": "https://tv.cctv.com/2026/06/10/VIDEiwkyd0m5JKhHmBbC57jg260610.shtml"
+    },
+    {
+     "date": "2026-04-06",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/04/06/VIDE9z6uEEffiKGexcHr5YpY260406.shtml"
+    },
+    {
+     "date": "2026-04-04",
+     "title": "[视频]美以打击伊朗机场港口等目标 伊朗接连击落两架美军机",
+     "url": "https://tv.cctv.com/2026/04/04/VIDE2Rqp1uHTE3SSMXB7DRjo260404.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "嘉峪关",
+   "pinyin": "Jiayuguan",
+   "query": "嘉峪关",
+   "total": 29,
+   "by_year": {
+    "2016": 1,
+    "2017": 2,
+    "2018": 6,
+    "2019": 4,
+    "2020": 1,
+    "2021": 4,
+    "2022": 2,
+    "2023": 4,
+    "2024": 4,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-04-05",
+     "title": "[视频]【在希望的田野上】各地抢抓农时有序推进农业生产",
+     "url": "https://tv.cctv.com/2025/04/05/VIDEIzyDawaLh27sluoUJln5250405.shtml"
+    },
+    {
+     "date": "2024-11-03",
+     "title": "[视频]各地广泛开展“强国复兴有我”群众性主题宣传教育活动",
+     "url": "https://tv.cctv.com/2024/11/03/VIDE1gTxeMGj6fDKztwK6nKO241103.shtml"
+    },
+    {
+     "date": "2024-10-20",
+     "title": "[视频]【文化中国行】科技赋能 长城万里有新篇",
+     "url": "https://tv.cctv.com/2024/10/20/VIDECIYmusPNXU3NNd1Ons6T241020.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "金昌",
+   "pinyin": "Jinchang",
+   "query": "金昌",
+   "total": 22,
+   "by_year": {
+    "2016": 2,
+    "2017": 3,
+    "2018": 2,
+    "2020": 4,
+    "2021": 3,
+    "2022": 1,
+    "2023": 3,
+    "2024": 2,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-03-29",
+     "title": "[视频]【新思想引领新征程】绘就乡村全面振兴新画卷",
+     "url": "https://tv.cctv.com/2026/03/29/VIDExkK4ka0HukSJyeNWqeX2260329.shtml"
+    },
+    {
+     "date": "2026-01-19",
+     "title": "[视频]寒潮持续 各地积极应对",
+     "url": "https://tv.cctv.com/2026/01/19/VIDEQ1yGWBNyGsE4kTYay0xy260119.shtml"
+    },
+    {
+     "date": "2024-10-21",
+     "title": "[视频]新一股冷空气影响北方多地",
+     "url": "https://tv.cctv.com/2024/10/21/VIDEbU43LRUnix0sTI4A3Lcm241021.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "白银",
+   "pinyin": "Baiyin",
+   "query": "白银市",
+   "total": 5,
+   "by_year": {
+    "2020": 2,
+    "2021": 1,
+    "2023": 1,
+    "2024": 1
+   },
+   "recent": [
+    {
+     "date": "2024-10-09",
+     "title": "[视频]【新思想引领新征程】引洮工程润泽陇中600万百姓",
+     "url": "https://tv.cctv.com/2024/10/09/VIDEf8k2AoA37gScbn17khjM241009.shtml"
+    },
+    {
+     "date": "2023-05-14",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2023/05/14/VIDETL7NRxaB06BumFnI5CEv230514.shtml"
+    },
+    {
+     "date": "2021-05-23",
+     "title": "[视频]甘肃白银山地马拉松越野赛遭遇极端天气 21人遇难",
+     "url": "https://tv.cctv.com/2021/05/23/VIDEZW7wZL5aZ0Q0lrmrIDEV210523.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "天水",
+   "pinyin": "Tianshui",
+   "query": "天水",
+   "total": 53,
+   "by_year": {
+    "2016": 2,
+    "2017": 10,
+    "2018": 1,
+    "2019": 3,
+    "2020": 5,
+    "2021": 3,
+    "2022": 3,
+    "2023": 3,
+    "2024": 11,
+    "2025": 6,
+    "2026": 6
+   },
+   "recent": [
+    {
+     "date": "2026-04-05",
+     "title": "[视频]春和景明 文旅消费热度攀升",
+     "url": "https://tv.cctv.com/2026/04/05/VIDEHFxc5Nt29HJ4MRX0p3A0260405.shtml"
+    },
+    {
+     "date": "2026-03-31",
+     "title": "[视频]百花盛开迎客来 助力春日经济新活力",
+     "url": "https://tv.cctv.com/2026/03/31/VIDEnf2Z9Ddt7w6UsMCRZSc8260331.shtml"
+    },
+    {
+     "date": "2026-03-24",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/03/24/VIDEdjVTLuyPppoXf5pTWPMo260324.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "武威",
+   "pinyin": "Wuwei",
+   "query": "武威",
+   "total": 40,
+   "by_year": {
+    "2016": 2,
+    "2017": 2,
+    "2018": 2,
+    "2019": 5,
+    "2020": 3,
+    "2021": 2,
+    "2022": 1,
+    "2023": 4,
+    "2024": 10,
+    "2025": 6,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-06-10",
+     "title": "[视频]【一线调研】新型电网筑牢能源大国绿色转型基石",
+     "url": "https://tv.cctv.com/2026/06/10/VIDEiwkyd0m5JKhHmBbC57jg260610.shtml"
+    },
+    {
+     "date": "2026-05-03",
+     "title": "[视频]国际联播快讯",
+     "url": "https://tv.cctv.com/2026/05/03/VIDEo5oZNFVgfGp2gNvDDlYN260503.shtml"
+    },
+    {
+     "date": "2026-03-24",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/03/24/VIDEdjVTLuyPppoXf5pTWPMo260324.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "张掖",
+   "pinyin": "Zhangye",
+   "query": "张掖",
+   "total": 47,
+   "by_year": {
+    "2016": 2,
+    "2017": 7,
+    "2018": 10,
+    "2019": 6,
+    "2020": 3,
+    "2021": 3,
+    "2022": 1,
+    "2023": 3,
+    "2024": 8,
+    "2025": 3,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-01-19",
+     "title": "[视频]寒潮持续 各地积极应对",
+     "url": "https://tv.cctv.com/2026/01/19/VIDEQ1yGWBNyGsE4kTYay0xy260119.shtml"
+    },
+    {
+     "date": "2025-12-12",
+     "title": "[视频]寒潮影响 北方多地出现雨雪降温天气",
+     "url": "https://tv.cctv.com/2025/12/12/VIDEAxFeY8OmP22byQn0yE3M251212.shtml"
+    },
+    {
+     "date": "2025-10-10",
+     "title": "[视频]北方部分地区降雨持续 各地积极应对",
+     "url": "https://tv.cctv.com/2025/10/10/VIDEomhgcOVIKAV30hhgWHRA251010.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "平凉",
+   "pinyin": "Pingliang",
+   "query": "平凉",
+   "total": 14,
+   "by_year": {
+    "2019": 1,
+    "2020": 3,
+    "2021": 1,
+    "2022": 1,
+    "2023": 1,
+    "2024": 4,
+    "2025": 2,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-02-07",
+     "title": "[视频]备年货赏民俗 各地张灯结彩迎新春",
+     "url": "https://tv.cctv.com/2026/02/07/VIDEBMVDaQeECogXJqJdt058260207.shtml"
+    },
+    {
+     "date": "2025-06-28",
+     "title": "[视频]【锲而不舍落实中央八项规定精神】坚持问题导向 推动学习教育走深走实",
+     "url": "https://tv.cctv.com/2025/06/28/VIDE4MG1bSNOOaHC3KwgG9TV250628.shtml"
+    },
+    {
+     "date": "2025-01-01",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/01/01/VIDEoQsoch6CFJmFZ5fCiNNX250101.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "酒泉",
+   "pinyin": "Jiuquan",
+   "query": "酒泉",
+   "total": 223,
+   "by_year": {
+    "2016": 23,
+    "2017": 9,
+    "2018": 20,
+    "2019": 15,
+    "2020": 24,
+    "2021": 17,
+    "2022": 22,
+    "2023": 31,
+    "2024": 29,
+    "2025": 23,
+    "2026": 10
+   },
+   "recent": [
+    {
+     "date": "2026-05-25",
+     "title": "[视频]神舟二十三号载人飞船发射取得圆满成功 两个乘组航天员会师太空",
+     "url": "https://tv.cctv.com/2026/05/25/VIDEMqyaXrR8WN9dsTBpOSFE260525.shtml"
+    },
+    {
+     "date": "2026-05-24",
+     "title": "[视频]神舟二十三号飞船发射准备就绪",
+     "url": "https://tv.cctv.com/2026/05/24/VIDEWd4JkXS9QjrYPN4NTyHG260524.shtml"
+    },
+    {
+     "date": "2026-05-23",
+     "title": "[视频]神舟二十三号载人飞船发射窗口确定 航天员乘组亮相",
+     "url": "https://tv.cctv.com/2026/05/23/VIDEwlCAFBz11OAcy170plbB260523.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "庆阳",
+   "pinyin": "Qingyang",
+   "query": "庆阳",
+   "total": 52,
+   "by_year": {
+    "2016": 7,
+    "2017": 4,
+    "2018": 1,
+    "2019": 2,
+    "2020": 8,
+    "2021": 7,
+    "2022": 2,
+    "2023": 3,
+    "2024": 7,
+    "2025": 8,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-03-31",
+     "title": "[视频]【在希望的田野上】科技赋能 让春耕春管更高效",
+     "url": "https://tv.cctv.com/2026/03/31/VIDENA6tU78u25iyGIwWWFii260331.shtml"
+    },
+    {
+     "date": "2026-03-14",
+     "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】让祖国大地更加绿意盎然生机勃发",
+     "url": "https://tv.cctv.com/2026/03/14/VIDEVvIwtCE8j2YIxc5iRFTj260314.shtml"
+    },
+    {
+     "date": "2026-02-07",
+     "title": "[视频]各地春耕春管陆续展开",
+     "url": "https://tv.cctv.com/2026/02/07/VIDEXIxI6seoYncalhpTiOjG260207.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "定西",
+   "pinyin": "Dingxi",
+   "query": "定西",
+   "total": 37,
+   "by_year": {
+    "2016": 3,
+    "2017": 3,
+    "2018": 3,
+    "2019": 3,
+    "2020": 5,
+    "2021": 5,
+    "2022": 3,
+    "2023": 3,
+    "2024": 6,
+    "2025": 3
+   },
+   "recent": [
+    {
+     "date": "2025-07-19",
+     "title": "[视频]李强在西藏调研",
+     "url": "https://tv.cctv.com/2025/07/19/VIDEY9FaAOzGHeWm22BP4y18250719.shtml"
+    },
+    {
+     "date": "2025-06-15",
+     "title": "[视频]【新思想引领新征程】奋力谱写农业农村现代化新篇章",
+     "url": "https://tv.cctv.com/2025/06/15/VIDEyS6J1esqvs6xuszYLnyc250615.shtml"
+    },
+    {
+     "date": "2025-01-30",
+     "title": "[视频]【深情的牵挂】接续奋斗 和美乡村展新颜",
+     "url": "https://tv.cctv.com/2025/01/30/VIDEOfk6hOAiBpDpIoikrOOg250130.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "陇南",
+   "pinyin": "Longnan",
+   "query": "陇南",
+   "total": 67,
+   "by_year": {
+    "2016": 4,
+    "2017": 9,
+    "2018": 6,
+    "2019": 6,
+    "2020": 10,
+    "2021": 3,
+    "2022": 2,
+    "2023": 8,
+    "2024": 11,
+    "2025": 6,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-03-25",
+     "title": "[视频]春日花海迎客来 赏花游持续升温",
+     "url": "https://tv.cctv.com/2026/03/25/VIDE92cxAuXwTeTV8vEAOFsq260325.shtml"
+    },
+    {
+     "date": "2026-02-04",
+     "title": "[视频]春意渐浓花正开 尽享春日好时光",
+     "url": "https://tv.cctv.com/2026/02/04/VIDEfSOyJbidt7XczvwADueH260204.shtml"
+    },
+    {
+     "date": "2025-10-20",
+     "title": "[视频]秋景如画 各地秋季旅游市场持续火爆",
+     "url": "https://tv.cctv.com/2025/10/20/VIDENcwHAvgehIOPKK6zIUMy251020.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "临夏",
+   "pinyin": "Linxia",
+   "query": "临夏",
+   "total": 54,
+   "by_year": {
+    "2016": 1,
+    "2017": 4,
+    "2018": 11,
+    "2019": 5,
+    "2020": 7,
+    "2021": 1,
+    "2022": 3,
+    "2023": 14,
+    "2024": 3,
+    "2025": 5
+   },
+   "recent": [
+    {
+     "date": "2025-12-17",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/12/17/VIDELcn7l15cKGmprSkLbz0u251217.shtml"
+    },
+    {
+     "date": "2025-04-06",
+     "title": "[视频]【一线调研】黄土高原玫瑰红",
+     "url": "https://tv.cctv.com/2025/04/06/VIDETQtHKAKdXUj7lKu1PqOr250406.shtml"
+    },
+    {
+     "date": "2025-02-22",
+     "title": "[视频]【再访脱贫村 振兴气象新】壮大富民产业 托起稳稳的幸福",
+     "url": "https://tv.cctv.com/2025/02/22/VIDEGHBYZ78cgHDdZlUan045250222.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "甘南",
+   "pinyin": "Gannan",
+   "query": "甘南州",
+   "total": 12,
+   "by_year": {
+    "2017": 2,
+    "2018": 2,
+    "2019": 1,
+    "2020": 2,
+    "2021": 3,
+    "2022": 1,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-09-23",
+     "title": "[视频]中央纪委国家监委公开通报八起违反中央八项规定精神典型问题",
+     "url": "https://tv.cctv.com/2025/09/23/VIDEPNW4EajJTkDoJCydcRZS250923.shtml"
+    },
+    {
+     "date": "2022-10-29",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2022/10/29/VIDEkxLaPouTiFuE8x2Eyt9R221029.shtml"
+    },
+    {
+     "date": "2021-08-04",
+     "title": "[视频]十一世班禅在四川甘肃涉藏州县开展学习考察和宗教学修活动",
+     "url": "https://tv.cctv.com/2021/08/04/VIDExdWqSdnRRolpfCTqcylp210804.shtml"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "直辖市",
+  "en": "The Four Municipalities",
+  "slug": "municipalities"
+ },
+ "cities": [
+  {
+   "zh": "北京",
+   "pinyin": "Beijing",
+   "query": "北京",
+   "total": 8272,
+   "by_year": {
+    "2016": 578,
+    "2017": 723,
+    "2018": 871,
+    "2019": 784,
+    "2020": 952,
+    "2021": 936,
+    "2022": 538,
+    "2023": 842,
+    "2024": 918,
+    "2025": 796,
+    "2026": 334
+   },
+   "recent": [
+    {
+     "date": "2026-06-09",
+     "title": "[视频]习近平结束对朝鲜国事访问回到北京",
+     "url": "https://tv.cctv.com/2026/06/09/VIDEkhDbKMgRje1LKF76Ebw2260609.shtml"
+    },
+    {
+     "date": "2026-06-08",
+     "title": "[视频]习近平同金正恩举行会谈",
+     "url": "https://tv.cctv.com/2026/06/08/VIDE1PCryEXC67mzAWtN7Z4A260608.shtml"
+    },
+    {
+     "date": "2026-06-08",
+     "title": "[视频]习近平离京对朝鲜进行国事访问",
+     "url": "https://tv.cctv.com/2026/06/08/VIDECC0jmvGvWVMlkxnawjpd260608.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "上海",
+   "pinyin": "Shanghai",
+   "query": "上海",
+   "total": 3199,
+   "by_year": {
+    "2016": 201,
+    "2017": 270,
+    "2018": 364,
+    "2019": 301,
+    "2020": 373,
+    "2021": 299,
+    "2022": 233,
+    "2023": 269,
+    "2024": 355,
+    "2025": 414,
+    "2026": 120
+   },
+   "recent": [
+    {
+     "date": "2026-06-07",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/06/07/VIDED3mB4Y5OeCdKLBJu5dPp260607.shtml"
+    },
+    {
+     "date": "2026-06-06",
+     "title": "[视频]财政金融“组合拳” 更大力度支持扩内需",
+     "url": "https://tv.cctv.com/2026/06/06/VIDEOJr26dGlRl4iSckbUe6S260606.shtml"
+    },
+    {
+     "date": "2026-06-06",
+     "title": "[视频]【牢记初心使命 奋进复兴征程】红色沃土不断书写时代华章",
+     "url": "https://tv.cctv.com/2026/06/06/VIDEqF2FPzuYBH2UkM870eLO260606.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "天津",
+   "pinyin": "Tianjin",
+   "query": "天津",
+   "total": 1243,
+   "by_year": {
+    "2016": 100,
+    "2017": 132,
+    "2018": 98,
+    "2019": 98,
+    "2020": 133,
+    "2021": 96,
+    "2022": 52,
+    "2023": 135,
+    "2024": 128,
+    "2025": 210,
+    "2026": 61
+   },
+   "recent": [
+    {
+     "date": "2026-06-04",
+     "title": "[视频]各地培育新场景新业态 激发消费活力",
+     "url": "https://tv.cctv.com/2026/06/04/VIDEXXrsrckAtvnCvlGkZ5mB260604.shtml"
+    },
+    {
+     "date": "2026-06-04",
+     "title": "[视频]海水淡化能力显著提升 有力保障沿海地区用水需求",
+     "url": "https://tv.cctv.com/2026/06/04/VIDEARl1wi7PbZ3YH70wq4gg260604.shtml"
+    },
+    {
+     "date": "2026-06-03",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/06/03/VIDEDOlDWUnUbzZBI4SKZD2I260603.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "重庆",
+   "pinyin": "Chongqing",
+   "query": "重庆",
+   "total": 1525,
+   "by_year": {
+    "2016": 83,
+    "2017": 100,
+    "2018": 129,
+    "2019": 132,
+    "2020": 192,
+    "2021": 153,
+    "2022": 112,
+    "2023": 189,
+    "2024": 181,
+    "2025": 186,
+    "2026": 68
+   },
+   "recent": [
+    {
+     "date": "2026-06-10",
+     "title": "[视频]第五届全球媒体创新论坛在重庆举行",
+     "url": "https://tv.cctv.com/2026/06/10/VIDEWlqyGVnXZwNTpGg237g6260610.shtml"
+    },
+    {
+     "date": "2026-06-07",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/06/07/VIDED3mB4Y5OeCdKLBJu5dPp260607.shtml"
+    },
+    {
+     "date": "2026-06-07",
+     "title": "[视频]2026年全国统一高考今天开考",
+     "url": "https://tv.cctv.com/2026/06/07/VIDEhY5TmztMLZXthW2AVJsH260607.shtml"
+    }
+   ]
+  }
+ ]
+}

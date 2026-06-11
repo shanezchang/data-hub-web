@@ -1,0 +1,150 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "海南",
+  "en": "Hainan",
+  "slug": "hainan"
+ },
+ "cities": [
+  {
+   "zh": "海口",
+   "pinyin": "Haikou",
+   "query": "海口",
+   "total": 314,
+   "by_year": {
+    "2016": 13,
+    "2017": 28,
+    "2018": 46,
+    "2019": 33,
+    "2020": 31,
+    "2021": 18,
+    "2022": 32,
+    "2023": 33,
+    "2024": 34,
+    "2025": 27,
+    "2026": 19
+   },
+   "recent": [
+    {
+     "date": "2026-06-03",
+     "title": "[视频]【新思想引领新征程】通江达海 西部陆海新通道跑出高水平对外开放“加速度”",
+     "url": "https://tv.cctv.com/2026/06/03/VIDE8C4zfWzt5yPle16fhogq260603.shtml"
+    },
+    {
+     "date": "2026-05-06",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/06/VIDECZyGqyaF1KzkjatUxY4P260506.shtml"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "[视频]京津冀 黄河流域国家级自然保护区生态环保成效显著",
+     "url": "https://tv.cctv.com/2026/05/02/VIDESqE8N8t0O2jFvLcX6TdX260502.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "三亚",
+   "pinyin": "Sanya",
+   "query": "三亚",
+   "total": 243,
+   "by_year": {
+    "2016": 15,
+    "2017": 16,
+    "2018": 28,
+    "2019": 33,
+    "2020": 32,
+    "2021": 16,
+    "2022": 21,
+    "2023": 16,
+    "2024": 29,
+    "2025": 19,
+    "2026": 18
+   },
+   "recent": [
+    {
+     "date": "2026-05-10",
+     "title": "[视频]“全球深渊探索计划”完成太平洋穿越科考航次",
+     "url": "https://tv.cctv.com/2026/05/10/VIDEaxSqbSyA7Z59fWgjHCO0260510.shtml"
+    },
+    {
+     "date": "2026-05-05",
+     "title": "[视频]“五一”入境游升温 外国游客感受多彩中国",
+     "url": "https://tv.cctv.com/2026/05/05/VIDEj1j1s1kRrrwXY7yLom9K260505.shtml"
+    },
+    {
+     "date": "2026-05-01",
+     "title": "[视频]三亚亚沙会昨晚闭幕 中国体育代表团位列金牌奖牌榜双第一",
+     "url": "https://tv.cctv.com/2026/05/01/VIDECPcCJaw95pHx3KfSRQjG260501.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "三沙",
+   "pinyin": "Sansha",
+   "query": "三沙",
+   "total": 80,
+   "by_year": {
+    "2016": 14,
+    "2017": 13,
+    "2018": 9,
+    "2019": 9,
+    "2020": 8,
+    "2021": 5,
+    "2022": 4,
+    "2023": 6,
+    "2024": 7,
+    "2025": 5
+   },
+   "recent": [
+    {
+     "date": "2025-11-13",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/11/13/VIDEYayEXrSAuPsz4RmmUt2J251113.shtml"
+    },
+    {
+     "date": "2025-10-01",
+     "title": "[视频]各地同升一面旗 共祝伟大祖国好",
+     "url": "https://tv.cctv.com/2025/10/01/VIDE6yaw4FeCdSGfmpHBJHl1251001.shtml"
+    },
+    {
+     "date": "2025-06-10",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/06/10/VIDEParKi9fWArVrvFeLVXCj250610.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "儋州",
+   "pinyin": "Danzhou",
+   "query": "儋州",
+   "total": 20,
+   "by_year": {
+    "2016": 2,
+    "2017": 2,
+    "2018": 1,
+    "2019": 2,
+    "2020": 4,
+    "2022": 4,
+    "2023": 3,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-03-17",
+     "title": "[视频]【在希望的田野上】科技赋能 各地不断夯实粮食丰收基础",
+     "url": "https://tv.cctv.com/2026/03/17/VIDEPWgnuvwcqjLYFM4aLBYc260317.shtml"
+    },
+    {
+     "date": "2026-02-11",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/02/11/VIDEEvqTjVKNy7AkrTfrpujz260211.shtml"
+    },
+    {
+     "date": "2023-07-15",
+     "title": "[视频]【高质量发展调研行】海南洋浦加快推动自贸港建设",
+     "url": "https://tv.cctv.com/2023/07/15/VIDExRoXmmiApJCEnG0XGIgt230715.shtml"
+    }
+   ]
+  }
+ ]
+}

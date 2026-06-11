@@ -1,0 +1,309 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "吉林",
+  "en": "Jilin",
+  "slug": "jilin"
+ },
+ "cities": [
+  {
+   "zh": "长春",
+   "pinyin": "Changchun",
+   "query": "长春",
+   "total": 329,
+   "by_year": {
+    "2016": 33,
+    "2017": 32,
+    "2018": 32,
+    "2019": 37,
+    "2020": 28,
+    "2021": 32,
+    "2022": 23,
+    "2023": 29,
+    "2024": 31,
+    "2025": 36,
+    "2026": 16
+   },
+   "recent": [
+    {
+     "date": "2026-05-17",
+     "title": "[视频]我国残疾人社会保障和关爱服务水平不断提升",
+     "url": "https://tv.cctv.com/2026/05/17/VIDE0ik4zEeKsoEhYiIH7ZcA260517.shtml"
+    },
+    {
+     "date": "2026-05-07",
+     "title": "[视频]【“十五五”开好局起好步】奋力谱写中国式现代化甘肃篇章 推动吉林全面振兴取得新突破",
+     "url": "https://tv.cctv.com/2026/05/07/VIDEZG3KwtaRL4g9y3RSy1yW260507.shtml"
+    },
+    {
+     "date": "2026-03-21",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/03/21/VIDEDAIDyExKORNljfY9w0Xz260321.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "吉林",
+   "pinyin": "Jilin",
+   "query": "吉林市",
+   "total": 26,
+   "by_year": {
+    "2017": 4,
+    "2018": 4,
+    "2019": 2,
+    "2020": 3,
+    "2021": 1,
+    "2022": 4,
+    "2023": 2,
+    "2024": 2,
+    "2025": 1,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-24",
+     "title": "[视频]【树立和践行正确政绩观】暖民心 惠民生 推动学习教育走深走实",
+     "url": "https://tv.cctv.com/2026/05/24/VIDEgFeqdOBVyEzvt9bSx7X4260524.shtml"
+    },
+    {
+     "date": "2026-05-04",
+     "title": "[视频]假日活动丰富多彩 文旅市场持续火热",
+     "url": "https://tv.cctv.com/2026/05/04/VIDEIVKYZU1tWpe8BH3KgWpW260504.shtml"
+    },
+    {
+     "date": "2026-03-21",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/03/21/VIDEDAIDyExKORNljfY9w0Xz260321.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "四平",
+   "pinyin": "Siping",
+   "query": "四平",
+   "total": 17,
+   "by_year": {
+    "2016": 1,
+    "2018": 2,
+    "2019": 1,
+    "2020": 2,
+    "2021": 4,
+    "2022": 2,
+    "2023": 3,
+    "2024": 1,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-01-28",
+     "title": "[视频]拓展冰雪旅游新场景 激发消费活力",
+     "url": "https://tv.cctv.com/2026/01/28/VIDEaFMP5Sc68eL2W7NKsKVj260128.shtml"
+    },
+    {
+     "date": "2024-04-07",
+     "title": "[视频]【在希望的田野上】新型农机具高质高效推进春耕生产",
+     "url": "https://tv.cctv.com/2024/04/07/VIDE1O3aNiMYo8LNRhMgWOxs240407.shtml"
+    },
+    {
+     "date": "2023-04-20",
+     "title": "[视频]谷雨至 农耕忙 全国春播进度近两成",
+     "url": "https://tv.cctv.com/2023/04/20/VIDEc2XB9duZiybuagrvXbvf230420.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "辽源",
+   "pinyin": "Liaoyuan",
+   "query": "辽源",
+   "total": 9,
+   "by_year": {
+    "2016": 2,
+    "2023": 2,
+    "2024": 2,
+    "2025": 3
+   },
+   "recent": [
+    {
+     "date": "2025-12-27",
+     "title": "[视频]中央纪委国家监委公开通报七起违反中央八项规定精神典型问题",
+     "url": "https://tv.cctv.com/2025/12/27/VIDEkpHIsB4Ju4nzBXLB9lbf251227.shtml"
+    },
+    {
+     "date": "2025-08-12",
+     "title": "[视频]各地持续推进城市更新 让生活更美好",
+     "url": "https://tv.cctv.com/2025/08/12/VIDEwCcQREQjIfS8A1cw9vp2250812.shtml"
+    },
+    {
+     "date": "2025-01-30",
+     "title": "[视频]多彩活动贺新春 欢乐祥和庆华年",
+     "url": "https://tv.cctv.com/2025/01/30/VIDENgOqBJ3FvleYTGzF8Gtb250130.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "通化",
+   "pinyin": "Tonghua",
+   "query": "通化",
+   "total": 54,
+   "by_year": {
+    "2016": 2,
+    "2017": 4,
+    "2018": 4,
+    "2020": 3,
+    "2021": 14,
+    "2022": 4,
+    "2023": 5,
+    "2024": 8,
+    "2025": 10
+   },
+   "recent": [
+    {
+     "date": "2025-12-25",
+     "title": "[视频]各地积极应对寒潮天气",
+     "url": "https://tv.cctv.com/2025/12/25/VIDE8AKRH9kubVO6sXOKAlRL251225.shtml"
+    },
+    {
+     "date": "2025-12-13",
+     "title": "[视频]各地举行国家公祭日悼念活动",
+     "url": "https://tv.cctv.com/2025/12/13/VIDE2eoxSwGXtCsKKKjTNhJ7251213.shtml"
+    },
+    {
+     "date": "2025-09-28",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/09/28/VIDERSBD2duhJrIToRLKPRqW250928.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "白山",
+   "pinyin": "Baishan",
+   "query": "白山市",
+   "total": 5,
+   "by_year": {
+    "2016": 1,
+    "2017": 1,
+    "2022": 1,
+    "2023": 1,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-02-24",
+     "title": "[视频]【新思想引领新征程·非凡“十四五”】“四好农村路”赋能城乡融合 助力乡村全面振兴",
+     "url": "https://tv.cctv.com/2026/02/24/VIDECL9I2TZJGclGflntm0kk260224.shtml"
+    },
+    {
+     "date": "2023-10-12",
+     "title": "[视频]【乡村行 看振兴】农文旅融合发展 赋能乡村振兴",
+     "url": "https://tv.cctv.com/2023/10/12/VIDEc6gS9F5UmLWs4AZnHEIN231012.shtml"
+    },
+    {
+     "date": "2022-06-19",
+     "title": "[视频]【奋进新征程 建功新时代·大美边疆行】吉林：幸福美丽新边疆 团结奋进共繁荣",
+     "url": "https://tv.cctv.com/2022/06/19/VIDEfX35OTbsDdS9qJeKPhno220619.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "松原",
+   "pinyin": "Songyuan",
+   "query": "松原",
+   "total": 16,
+   "by_year": {
+    "2016": 1,
+    "2018": 4,
+    "2020": 2,
+    "2021": 1,
+    "2022": 3,
+    "2023": 3,
+    "2024": 1,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-12-27",
+     "title": "[视频]元旦春节临近 节日市场供需两旺",
+     "url": "https://tv.cctv.com/2025/12/27/VIDEWXQzkybdJv4pBETL2fr9251227.shtml"
+    },
+    {
+     "date": "2024-12-24",
+     "title": "[视频]一年一度冬季捕鱼迎丰年",
+     "url": "https://tv.cctv.com/2024/12/24/VIDEIWDydDVHW84AVDRD2OBg241224.shtml"
+    },
+    {
+     "date": "2023-12-28",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2023/12/28/VIDEDkeNIS7fj0AegkJKkQ2W231228.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "白城",
+   "pinyin": "Baicheng",
+   "query": "白城",
+   "total": 16,
+   "by_year": {
+    "2016": 3,
+    "2017": 3,
+    "2018": 1,
+    "2020": 2,
+    "2023": 3,
+    "2024": 2,
+    "2025": 1,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-04-02",
+     "title": "[视频]候鸟迎来迁徙季 各地全力守护鸟类家园",
+     "url": "https://tv.cctv.com/2026/04/02/VIDEVAU3qOpyC2FhOrZhkYku260402.shtml"
+    },
+    {
+     "date": "2025-04-28",
+     "title": "[视频]国际联播快讯",
+     "url": "https://tv.cctv.com/2025/04/28/VIDEnRM05EWuspotQuqt71gO250428.shtml"
+    },
+    {
+     "date": "2024-11-25",
+     "title": "[视频]寒潮来袭 北方多地出现雨雪降温天气",
+     "url": "https://tv.cctv.com/2024/11/25/VIDE1mgpcE5s0porVdDq4oZH241125.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "延边",
+   "pinyin": "Yanbian",
+   "query": "延边",
+   "total": 23,
+   "by_year": {
+    "2016": 3,
+    "2017": 2,
+    "2018": 2,
+    "2019": 1,
+    "2020": 3,
+    "2021": 1,
+    "2022": 3,
+    "2023": 4,
+    "2025": 2,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-02-21",
+     "title": "[视频]各地活动精彩纷呈 喜气洋洋庆新春",
+     "url": "https://tv.cctv.com/2026/02/21/VIDE2yHD66BmsWteP92ScwNJ260221.shtml"
+    },
+    {
+     "date": "2026-01-27",
+     "title": "[视频]【新思想引领新征程】高质量共建“一带一路” 不断拓展共赢发展新空间",
+     "url": "https://tv.cctv.com/2026/01/27/VIDEDbIcPB86CwtVvQnImsdX260127.shtml"
+    },
+    {
+     "date": "2025-10-25",
+     "title": "[视频]各地多措并举保障群众温暖过冬",
+     "url": "https://tv.cctv.com/2025/10/25/VIDECflBVW1uKG2mUUWjAJLL251025.shtml"
+    }
+   ]
+  }
+ ]
+}

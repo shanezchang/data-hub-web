@@ -1,0 +1,449 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "黑龙江",
+  "en": "Heilongjiang",
+  "slug": "heilongjiang"
+ },
+ "cities": [
+  {
+   "zh": "哈尔滨",
+   "pinyin": "Harbin",
+   "query": "哈尔滨",
+   "total": 471,
+   "by_year": {
+    "2016": 20,
+    "2017": 50,
+    "2018": 42,
+    "2019": 45,
+    "2020": 33,
+    "2021": 40,
+    "2022": 21,
+    "2023": 51,
+    "2024": 58,
+    "2025": 86,
+    "2026": 25
+   },
+   "recent": [
+    {
+     "date": "2026-06-01",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/06/01/VIDEeISZSBklhSMrKuRLVxtq260601.shtml"
+    },
+    {
+     "date": "2026-05-21",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/21/VIDEGqQCTce9X90sG6B6M9TJ260521.shtml"
+    },
+    {
+     "date": "2026-05-17",
+     "title": "[视频]习近平同俄罗斯总统分别向第十届中俄博览会致贺信",
+     "url": "https://tv.cctv.com/2026/05/17/VIDEVqu9fkgchEMLqOVTU8uf260517.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "齐齐哈尔",
+   "pinyin": "Qiqihar",
+   "query": "齐齐哈尔",
+   "total": 28,
+   "by_year": {
+    "2016": 2,
+    "2017": 4,
+    "2019": 1,
+    "2020": 6,
+    "2021": 1,
+    "2022": 5,
+    "2023": 5,
+    "2024": 3,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-02-23",
+     "title": "[视频]【新思想引领新征程】跃马扬鞭开新局 实干奋斗向未来",
+     "url": "https://tv.cctv.com/2026/02/23/VIDEgXgFTdexN8PqbKAmSqwM260223.shtml"
+    },
+    {
+     "date": "2024-12-26",
+     "title": "[视频]中央纪委国家监委公开通报七起违反中央八项规定精神典型问题",
+     "url": "https://tv.cctv.com/2024/12/26/VIDEioCuc42K9IzZwrwxdS8k241226.shtml"
+    },
+    {
+     "date": "2024-09-28",
+     "title": "[视频]习近平回信勉励中国一重产业工人代表 坚守技能报国初心弘扬劳模精神劳动精神工匠精神 继续为建设制造强国推动东北全面振兴贡献智慧和力量",
+     "url": "https://tv.cctv.com/2024/09/28/VIDEtfup8RiMkNcjPuDPAfbB240928.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "鸡西",
+   "pinyin": "Jixi",
+   "query": "鸡西",
+   "total": 20,
+   "by_year": {
+    "2017": 1,
+    "2020": 2,
+    "2021": 1,
+    "2022": 2,
+    "2023": 8,
+    "2024": 4,
+    "2025": 2
+   },
+   "recent": [
+    {
+     "date": "2025-07-18",
+     "title": "[视频]各地多措并举应对高温天气 全力保障秋粮生产",
+     "url": "https://tv.cctv.com/2025/07/18/VIDEA9D0aNl6Pu84u69nF5zv250718.shtml"
+    },
+    {
+     "date": "2025-03-13",
+     "title": "[视频]“两新”政策加力扩围 持续激发市场活力",
+     "url": "https://tv.cctv.com/2025/03/13/VIDEqI2TfYVOiJhpV7gK0ukx250313.shtml"
+    },
+    {
+     "date": "2024-12-04",
+     "title": "[视频]各地组织形式多样活动 宣传普及宪法知识",
+     "url": "https://tv.cctv.com/2024/12/04/VIDEtTUBSbRd5kbhLjJUniXr241204.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "鹤岗",
+   "pinyin": "Hegang",
+   "query": "鹤岗",
+   "total": 11,
+   "by_year": {
+    "2016": 1,
+    "2017": 2,
+    "2018": 1,
+    "2019": 1,
+    "2021": 1,
+    "2023": 2,
+    "2024": 2,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-01-26",
+     "title": "[视频]春节临近 节日市场购销两旺",
+     "url": "https://tv.cctv.com/2025/01/26/VIDEaENndMKc0ChVP3oGpWfu250126.shtml"
+    },
+    {
+     "date": "2024-11-27",
+     "title": "[视频]各地采取多种措施 应对寒潮影响",
+     "url": "https://tv.cctv.com/2024/11/27/VIDEGvXK46X9xghbsUoz9ir6241127.shtml"
+    },
+    {
+     "date": "2024-04-21",
+     "title": "[视频]各地重大工程建设加快推进",
+     "url": "https://tv.cctv.com/2024/04/21/VIDEXEWBn0aK2yVvhC6FfUVy240421.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "双鸭山",
+   "pinyin": "Shuangyashan",
+   "query": "双鸭山",
+   "total": 16,
+   "by_year": {
+    "2016": 1,
+    "2017": 2,
+    "2018": 1,
+    "2019": 1,
+    "2020": 1,
+    "2022": 2,
+    "2023": 1,
+    "2024": 4,
+    "2025": 3
+   },
+   "recent": [
+    {
+     "date": "2025-08-19",
+     "title": "[视频]丰收时节 特色农产品助农民增收",
+     "url": "https://tv.cctv.com/2025/08/19/VIDEj9YfmlThNy6tUeccqxUr250819.shtml"
+    },
+    {
+     "date": "2025-06-02",
+     "title": "[视频]多彩活动乐享假日生活",
+     "url": "https://tv.cctv.com/2025/06/02/VIDEioyMO9nXVebiEtJVx5gB250602.shtml"
+    },
+    {
+     "date": "2025-02-12",
+     "title": "[视频]正月十五闹元宵 喜庆团圆过佳节",
+     "url": "https://tv.cctv.com/2025/02/12/VIDEkBYuq7AN8W0KlvsuTSHQ250212.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "大庆",
+   "pinyin": "Daqing",
+   "query": "大庆",
+   "total": 70,
+   "by_year": {
+    "2016": 5,
+    "2017": 5,
+    "2018": 5,
+    "2019": 13,
+    "2020": 2,
+    "2021": 14,
+    "2022": 3,
+    "2023": 8,
+    "2024": 7,
+    "2025": 6,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-03-18",
+     "title": "[视频]“两新”政策持续显效 激发消费活力",
+     "url": "https://tv.cctv.com/2026/03/18/VIDEacab5eKsPsECl8Q7Us0F260318.shtml"
+    },
+    {
+     "date": "2026-02-23",
+     "title": "[视频]【新思想引领新征程】跃马扬鞭开新局 实干奋斗向未来",
+     "url": "https://tv.cctv.com/2026/02/23/VIDEgXgFTdexN8PqbKAmSqwM260223.shtml"
+    },
+    {
+     "date": "2025-12-27",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/12/27/VIDEwmOH4ltPTF7y6VYNo2Yx251227.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "伊春",
+   "pinyin": "Yichun",
+   "query": "伊春",
+   "total": 28,
+   "by_year": {
+    "2016": 4,
+    "2018": 2,
+    "2019": 1,
+    "2020": 1,
+    "2021": 1,
+    "2022": 3,
+    "2023": 2,
+    "2024": 5,
+    "2025": 7,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-06-01",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/06/01/VIDEeISZSBklhSMrKuRLVxtq260601.shtml"
+    },
+    {
+     "date": "2026-01-02",
+     "title": "[视频]元旦假期第二天 交通出行客流持续增长",
+     "url": "https://tv.cctv.com/2026/01/02/VIDEU0tfL0rXh3MqSVPsPbpt260102.shtml"
+    },
+    {
+     "date": "2025-12-18",
+     "title": "[视频]各地多举措激发冰雪消费活力",
+     "url": "https://tv.cctv.com/2025/12/18/VIDEQleRacImSfQz9oj9k0vH251218.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "佳木斯",
+   "pinyin": "Jiamusi",
+   "query": "佳木斯",
+   "total": 45,
+   "by_year": {
+    "2016": 1,
+    "2017": 3,
+    "2018": 6,
+    "2019": 3,
+    "2020": 8,
+    "2021": 6,
+    "2022": 3,
+    "2023": 3,
+    "2024": 3,
+    "2025": 8,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-04-19",
+     "title": "[视频]我国加力推进粮油作物大面积单产提升行动",
+     "url": "https://tv.cctv.com/2026/04/19/VIDEhKNQQsTQO19ziIqQ3tAF260419.shtml"
+    },
+    {
+     "date": "2025-09-20",
+     "title": "[视频]【在希望的田野上】我国秋粮陆续进入收获期",
+     "url": "https://tv.cctv.com/2025/09/20/VIDEFJCqM8FlbsZv3a06cJqL250920.shtml"
+    },
+    {
+     "date": "2025-09-14",
+     "title": "[视频]1至8月全国铁路完成固定资产投资5041亿元",
+     "url": "https://tv.cctv.com/2025/09/14/VIDEzW3CpFFp29O0XFTXIUwX250914.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "七台河",
+   "pinyin": "Qitaihe",
+   "query": "七台河",
+   "total": 18,
+   "by_year": {
+    "2016": 1,
+    "2017": 3,
+    "2018": 2,
+    "2019": 3,
+    "2020": 4,
+    "2023": 2,
+    "2024": 1,
+    "2025": 2
+   },
+   "recent": [
+    {
+     "date": "2025-11-20",
+     "title": "[视频]【学习贯彻四中全会精神在基层】福建厦门：打造宜居城市 让百姓生活更舒心 黑龙江七台河：民生工程添暖意",
+     "url": "https://tv.cctv.com/2025/11/20/VIDEikZ30xqsyTSo7q2oJgDY251120.shtml"
+    },
+    {
+     "date": "2025-01-19",
+     "title": "[视频]【新年新气象 奋斗正当时】加快培育外贸新动能 促进外贸高质量发展",
+     "url": "https://tv.cctv.com/2025/01/19/VIDEj4RSimkSieB2GTbx7WsY250119.shtml"
+    },
+    {
+     "date": "2024-01-08",
+     "title": "[视频]公安部发布“公安楷模”刘欣先进事迹",
+     "url": "https://tv.cctv.com/2024/01/08/VIDEkjYs69vgN8KkMQqRQkcN240108.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "牡丹江",
+   "pinyin": "Mudanjiang",
+   "query": "牡丹江",
+   "total": 44,
+   "by_year": {
+    "2016": 3,
+    "2017": 3,
+    "2018": 6,
+    "2019": 6,
+    "2020": 3,
+    "2021": 5,
+    "2023": 11,
+    "2024": 2,
+    "2025": 3,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-02-17",
+     "title": "[视频]【情满中国年】“小家”热气腾腾 “大家”蒸蒸日上",
+     "url": "https://tv.cctv.com/2026/02/17/VIDEiwAcjbz78vSnAcurWVWR260217.shtml"
+    },
+    {
+     "date": "2026-02-15",
+     "title": "[视频]天南地北年味浓 热闹喜庆迎春节",
+     "url": "https://tv.cctv.com/2026/02/15/VIDEfWb5UAr7d5IZn6txBwdI260215.shtml"
+    },
+    {
+     "date": "2025-12-24",
+     "title": "[视频]各地从细节入手改善民生 不断提升群众幸福指数",
+     "url": "https://tv.cctv.com/2025/12/24/VIDEG0VwD2jyvNU258dpeGJ8251224.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "黑河",
+   "pinyin": "Heihe",
+   "query": "黑河市",
+   "total": 8,
+   "by_year": {
+    "2021": 4,
+    "2022": 2,
+    "2024": 1,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-10-18",
+     "title": "[视频]各地抓紧秋粮抢收抢烘 确保应收尽收",
+     "url": "https://tv.cctv.com/2025/10/18/VIDEK55jYyogdoFzUo0LXANM251018.shtml"
+    },
+    {
+     "date": "2024-10-22",
+     "title": "[视频]东北多地雨雪频繁 加强供暖应对降温",
+     "url": "https://tv.cctv.com/2024/10/22/VIDE6HoYzkDmYBxmCcc8MuAU241022.shtml"
+    },
+    {
+     "date": "2022-10-13",
+     "title": "[视频]【在希望的田野上】全国秋收过六成 收获加速推进",
+     "url": "https://tv.cctv.com/2022/10/13/VIDEiIyf6b0iJwI3cohm0ZZg221013.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "绥化",
+   "pinyin": "Suihua",
+   "query": "绥化",
+   "total": 42,
+   "by_year": {
+    "2016": 1,
+    "2017": 2,
+    "2018": 4,
+    "2019": 2,
+    "2020": 4,
+    "2021": 16,
+    "2022": 2,
+    "2023": 7,
+    "2024": 1,
+    "2025": 2,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-01-13",
+     "title": "[视频]各地推出新举措持续激发冰雪经济活力",
+     "url": "https://tv.cctv.com/2026/01/13/VIDEB7GHdSjMFeURJaXqO43z260113.shtml"
+    },
+    {
+     "date": "2025-10-01",
+     "title": "[视频]欢度国庆 祝福祖国",
+     "url": "https://tv.cctv.com/2025/10/01/VIDEfqAXWH6u1IUp4xDAHXWq251001.shtml"
+    },
+    {
+     "date": "2025-05-10",
+     "title": "[视频]【在希望的田野上】春播迎高峰 各地全力保夏粮丰收",
+     "url": "https://tv.cctv.com/2025/05/10/VIDEL4mJxXiedmpuTxfU8Wgk250510.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "大兴安岭",
+   "pinyin": "Daxing'anling",
+   "query": "大兴安岭地区",
+   "total": 9,
+   "by_year": {
+    "2016": 1,
+    "2018": 3,
+    "2019": 1,
+    "2023": 3,
+    "2024": 1
+   },
+   "recent": [
+    {
+     "date": "2024-06-06",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2024/06/06/VIDE2H1994jBMFSStag7cItO240606.shtml"
+    },
+    {
+     "date": "2023-09-09",
+     "title": "[视频]奋力开创高质量发展新局面——习近平总书记在黑龙江考察时的重要讲话引起干部群众热烈反响",
+     "url": "https://tv.cctv.com/2023/09/09/VIDE7knHEhIu8kBe7oxXEnWi230909.shtml"
+    },
+    {
+     "date": "2023-09-08",
+     "title": "[视频]习近平在黑龙江考察时强调 牢牢把握在国家发展大局中的战略定位 奋力开创黑龙江高质量发展新局面",
+     "url": "https://tv.cctv.com/2023/09/08/VIDEgTj9pgc6tsZ8Jy0y0sbk230908.shtml"
+    }
+   ]
+  }
+ ]
+}

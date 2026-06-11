@@ -1,0 +1,566 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "安徽",
+  "en": "Anhui",
+  "slug": "anhui"
+ },
+ "cities": [
+  {
+   "zh": "合肥",
+   "pinyin": "Hefei",
+   "query": "合肥",
+   "total": 277,
+   "by_year": {
+    "2016": 17,
+    "2017": 23,
+    "2018": 24,
+    "2019": 27,
+    "2020": 45,
+    "2021": 21,
+    "2022": 19,
+    "2023": 17,
+    "2024": 30,
+    "2025": 38,
+    "2026": 16
+   },
+   "recent": [
+    {
+     "date": "2026-05-30",
+     "title": "[视频]【新思想引领新征程】矢志创新勇攀高峰 加快建设科技强国",
+     "url": "https://tv.cctv.com/2026/05/30/VIDEhaN2Pcj6KnOZCj1kzOxf260530.shtml"
+    },
+    {
+     "date": "2026-05-29",
+     "title": "[视频]2025年中央企业基础研究投入首破千亿元",
+     "url": "https://tv.cctv.com/2026/05/29/VIDEfUNmAQPg6zCRHgOAJiq9260529.shtml"
+    },
+    {
+     "date": "2026-05-18",
+     "title": "[视频]丁薛祥在调研算力网建设时强调 加快构建全国一体化算力网 赋能经济社会高质量发展",
+     "url": "https://tv.cctv.com/2026/05/18/VIDEwX4uPghLxboMMYxTmrhW260518.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "芜湖",
+   "pinyin": "Wuhu",
+   "query": "芜湖",
+   "total": 82,
+   "by_year": {
+    "2016": 6,
+    "2017": 5,
+    "2018": 8,
+    "2019": 4,
+    "2020": 11,
+    "2021": 10,
+    "2022": 6,
+    "2023": 14,
+    "2024": 5,
+    "2025": 8,
+    "2026": 5
+   },
+   "recent": [
+    {
+     "date": "2026-05-19",
+     "title": "[视频]【新思想引领新征程】共绘长江经济带高质量发展新画卷",
+     "url": "https://tv.cctv.com/2026/05/19/VIDErYtsPvTxTADh8shVbeLk260519.shtml"
+    },
+    {
+     "date": "2026-03-18",
+     "title": "[视频]“两新”政策持续显效 激发消费活力",
+     "url": "https://tv.cctv.com/2026/03/18/VIDEacab5eKsPsECl8Q7Us0F260318.shtml"
+    },
+    {
+     "date": "2026-02-15",
+     "title": "[视频]天南地北年味浓 热闹喜庆迎春节",
+     "url": "https://tv.cctv.com/2026/02/15/VIDEfWb5UAr7d5IZn6txBwdI260215.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "蚌埠",
+   "pinyin": "Bengbu",
+   "query": "蚌埠",
+   "total": 21,
+   "by_year": {
+    "2016": 1,
+    "2017": 5,
+    "2018": 1,
+    "2019": 1,
+    "2020": 4,
+    "2021": 1,
+    "2023": 2,
+    "2024": 3,
+    "2025": 3
+   },
+   "recent": [
+    {
+     "date": "2025-08-09",
+     "title": "[视频]我国已累计培育超千家特色产业集群",
+     "url": "https://tv.cctv.com/2025/08/09/VIDEcflvq8zvgl1QEHiJhPwc250809.shtml"
+    },
+    {
+     "date": "2025-08-06",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/08/06/VIDEiIHcyGOF8EZgRUyToq1a250806.shtml"
+    },
+    {
+     "date": "2025-04-11",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/04/11/VIDE2E2QquvgjCgJZ3nbAWiq250411.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "淮南",
+   "pinyin": "Huainan",
+   "query": "淮南",
+   "total": 48,
+   "by_year": {
+    "2016": 2,
+    "2017": 4,
+    "2018": 3,
+    "2019": 5,
+    "2020": 3,
+    "2021": 6,
+    "2022": 3,
+    "2023": 3,
+    "2024": 6,
+    "2025": 9,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-05-11",
+     "title": "[视频]【在希望的田野上】小麦进入灌浆期 各地科学防控干热风",
+     "url": "https://tv.cctv.com/2026/05/11/VIDECztTumT31cIZNQ98m8vz260511.shtml"
+    },
+    {
+     "date": "2026-05-08",
+     "title": "[视频]培育消费新场景新业态 激发消费新动能",
+     "url": "https://tv.cctv.com/2026/05/08/VIDEqO0d9GJRlRfCrXmKfrAV260508.shtml"
+    },
+    {
+     "date": "2026-03-31",
+     "title": "[视频]【在希望的田野上】科技赋能 让春耕春管更高效",
+     "url": "https://tv.cctv.com/2026/03/31/VIDENA6tU78u25iyGIwWWFii260331.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "马鞍山",
+   "pinyin": "Ma'anshan",
+   "query": "马鞍山",
+   "total": 52,
+   "by_year": {
+    "2016": 3,
+    "2017": 2,
+    "2018": 7,
+    "2019": 7,
+    "2020": 8,
+    "2021": 2,
+    "2022": 6,
+    "2023": 4,
+    "2024": 3,
+    "2025": 7,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-06-02",
+     "title": "[视频]助力三夏抢收 设备更新政策发力显效",
+     "url": "https://tv.cctv.com/2026/06/02/VIDEqFp8Zi9XluzDLAHu3EDJ260602.shtml"
+    },
+    {
+     "date": "2026-05-29",
+     "title": "[视频]【一线调研】700公里抢收路背后的夏收保障网",
+     "url": "https://tv.cctv.com/2026/05/29/VIDEJ4rwURlE22uS3hg0qknn260529.shtml"
+    },
+    {
+     "date": "2026-04-22",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/04/22/VIDE5SqTKkEbwYyT7STygCSU260422.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "淮北",
+   "pinyin": "Huaibei",
+   "query": "淮北",
+   "total": 24,
+   "by_year": {
+    "2017": 2,
+    "2018": 3,
+    "2019": 1,
+    "2020": 3,
+    "2021": 1,
+    "2022": 1,
+    "2023": 1,
+    "2024": 4,
+    "2025": 8
+   },
+   "recent": [
+    {
+     "date": "2025-10-09",
+     "title": "[视频]北方秋雨连绵 降温影响持续",
+     "url": "https://tv.cctv.com/2025/10/09/VIDE44hHOM0f8xaNNkdslB4p251009.shtml"
+    },
+    {
+     "date": "2025-08-19",
+     "title": "[视频]各地“十四五”重点工程建设加速推进",
+     "url": "https://tv.cctv.com/2025/08/19/VIDEDJxewcN8ZTFABflNurbT250819.shtml"
+    },
+    {
+     "date": "2025-08-06",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/08/06/VIDEiIHcyGOF8EZgRUyToq1a250806.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "铜陵",
+   "pinyin": "Tongling",
+   "query": "铜陵",
+   "total": 31,
+   "by_year": {
+    "2016": 3,
+    "2017": 4,
+    "2018": 5,
+    "2019": 2,
+    "2020": 3,
+    "2021": 1,
+    "2023": 4,
+    "2024": 3,
+    "2025": 5,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-04-26",
+     "title": "[视频]【新思想引领新征程】我国加快完善现代化综合立体交通网",
+     "url": "https://tv.cctv.com/2026/04/26/VIDE0jCQdeK5IhrOGmEAMPEi260426.shtml"
+    },
+    {
+     "date": "2025-11-06",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/11/06/VIDEsdgZsx3IpAHN7XwwpZAx251106.shtml"
+    },
+    {
+     "date": "2025-09-23",
+     "title": "[视频]共庆农民丰收节 同建宜居宜业和美乡村",
+     "url": "https://tv.cctv.com/2025/09/23/VIDElEhnCTzudcAX3SdK9k8k250923.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "安庆",
+   "pinyin": "Anqing",
+   "query": "安庆",
+   "total": 47,
+   "by_year": {
+    "2016": 2,
+    "2017": 1,
+    "2018": 11,
+    "2019": 4,
+    "2020": 11,
+    "2021": 4,
+    "2023": 2,
+    "2024": 5,
+    "2025": 5,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-26",
+     "title": "[视频]各地全力抢收抢烘 护航夏粮颗粒归仓",
+     "url": "https://tv.cctv.com/2026/05/26/VIDEYKeBtf4NGxkhIL80C4mg260526.shtml"
+    },
+    {
+     "date": "2026-03-13",
+     "title": "[视频]我国055型导弹驱逐舰列装数量达10艘",
+     "url": "https://tv.cctv.com/2026/03/13/VIDEY2hCHpeuZRozbdivJhg0260313.shtml"
+    },
+    {
+     "date": "2025-09-06",
+     "title": "[视频]各粮食主产区加强田管 力保秋粮稳产增收",
+     "url": "https://tv.cctv.com/2025/09/06/VIDEnhLjJl0DNSAkwl89SzT4250906.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "黄山",
+   "pinyin": "Huangshan",
+   "query": "黄山市",
+   "total": 18,
+   "by_year": {
+    "2017": 1,
+    "2018": 2,
+    "2019": 1,
+    "2020": 1,
+    "2021": 1,
+    "2022": 6,
+    "2023": 2,
+    "2024": 3,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-05-30",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/30/VIDETvKV9hsxhCdbOiXAooQz260530.shtml"
+    },
+    {
+     "date": "2024-06-21",
+     "title": "[视频]各地积极应对 加快推进抢险救灾",
+     "url": "https://tv.cctv.com/2024/06/21/VIDEUsXiIR9qHlrn5XfKE8UM240621.shtml"
+    },
+    {
+     "date": "2024-06-20",
+     "title": "[视频]南方多地持续开展抢险救灾各项工作",
+     "url": "https://tv.cctv.com/2024/06/20/VIDEyImPnQ9V2ZcFsrB12soT240620.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "滁州",
+   "pinyin": "Chuzhou",
+   "query": "滁州",
+   "total": 14,
+   "by_year": {
+    "2016": 3,
+    "2017": 1,
+    "2018": 2,
+    "2019": 1,
+    "2020": 3,
+    "2024": 1,
+    "2025": 2,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-06-05",
+     "title": "[视频]【在希望的田野上】各地麦收高效推进 助力夏粮颗粒归仓",
+     "url": "https://tv.cctv.com/2026/06/05/VIDEclWj20OpLMzrl8NVhsPg260605.shtml"
+    },
+    {
+     "date": "2025-07-31",
+     "title": "[视频]各地各部门全力应对汛情 有序开展灾后重建",
+     "url": "https://tv.cctv.com/2025/07/31/VIDEnUsgoipG6mHA0Qe7tqKv250731.shtml"
+    },
+    {
+     "date": "2025-07-04",
+     "title": "[视频]聚力攻坚 全力促进高校毕业生就业",
+     "url": "https://tv.cctv.com/2025/07/04/VIDESoaeMEPtZa4coe0kTsQm250704.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "阜阳",
+   "pinyin": "Fuyang",
+   "query": "阜阳",
+   "total": 53,
+   "by_year": {
+    "2016": 3,
+    "2017": 6,
+    "2018": 1,
+    "2019": 7,
+    "2020": 9,
+    "2021": 3,
+    "2022": 2,
+    "2023": 9,
+    "2024": 5,
+    "2025": 4,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-06-04",
+     "title": "[视频]【一线调研】信息流背后的精准麦收",
+     "url": "https://tv.cctv.com/2026/06/04/VIDETYla6epN6tyVx0qRUtFC260604.shtml"
+    },
+    {
+     "date": "2026-04-18",
+     "title": "[视频]【在希望的田野上】抢农时 抓田管 各地春耕有序推进",
+     "url": "https://tv.cctv.com/2026/04/18/VIDEY40FjaWSOsXpQAc5vVFa260418.shtml"
+    },
+    {
+     "date": "2026-03-29",
+     "title": "[视频]春和景明 赏花经济持续火热",
+     "url": "https://tv.cctv.com/2026/03/29/VIDEdBiOpcH6wlSpEWfRZIyN260329.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "宿州",
+   "pinyin": "Suzhou",
+   "query": "宿州",
+   "total": 19,
+   "by_year": {
+    "2016": 4,
+    "2017": 2,
+    "2018": 1,
+    "2020": 4,
+    "2021": 1,
+    "2023": 1,
+    "2024": 1,
+    "2025": 4,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-06-05",
+     "title": "[视频]【在希望的田野上】各地麦收高效推进 助力夏粮颗粒归仓",
+     "url": "https://tv.cctv.com/2026/06/05/VIDEclWj20OpLMzrl8NVhsPg260605.shtml"
+    },
+    {
+     "date": "2025-08-06",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/08/06/VIDEiIHcyGOF8EZgRUyToq1a250806.shtml"
+    },
+    {
+     "date": "2025-04-11",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/04/11/VIDE2E2QquvgjCgJZ3nbAWiq250411.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "六安",
+   "pinyin": "Lu'an",
+   "query": "六安",
+   "total": 30,
+   "by_year": {
+    "2017": 1,
+    "2018": 1,
+    "2019": 3,
+    "2020": 10,
+    "2021": 5,
+    "2022": 2,
+    "2023": 3,
+    "2024": 4,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-06-21",
+     "title": "[视频]【一线调研】家门口的医改",
+     "url": "https://tv.cctv.com/2025/06/21/VIDEeJCKRjirTHa88oZr4PNm250621.shtml"
+    },
+    {
+     "date": "2024-07-17",
+     "title": "[视频]特色产业助力乡村全面振兴",
+     "url": "https://tv.cctv.com/2024/07/17/VIDEaAC4lTlQKVRCIAtg7gDs240717.shtml"
+    },
+    {
+     "date": "2024-03-31",
+     "title": "[视频]各地重大工程建设稳步推进",
+     "url": "https://tv.cctv.com/2024/03/31/VIDExMlE0Blbh3DPgx74y97L240331.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "亳州",
+   "pinyin": "Bozhou",
+   "query": "亳州",
+   "total": 27,
+   "by_year": {
+    "2016": 1,
+    "2017": 1,
+    "2019": 3,
+    "2020": 4,
+    "2022": 2,
+    "2023": 6,
+    "2024": 3,
+    "2025": 4,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-06-01",
+     "title": "[视频]【在希望的田野上】科技赋能夏收夏种 助力粮食稳产丰收",
+     "url": "https://tv.cctv.com/2026/06/01/VIDECIw2OgsFAMEI9EIpkGkq260601.shtml"
+    },
+    {
+     "date": "2026-05-05",
+     "title": "[视频]【在希望的田野上】各地加大科技支撑 夯实粮食生产基础",
+     "url": "https://tv.cctv.com/2026/05/05/VIDE2N8ibYYkO6DHse3TonJu260505.shtml"
+    },
+    {
+     "date": "2026-01-24",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/01/24/VIDErMiKNO5lt8b2DioVw6MA260124.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "池州",
+   "pinyin": "Chizhou",
+   "query": "池州",
+   "total": 36,
+   "by_year": {
+    "2016": 6,
+    "2018": 3,
+    "2019": 1,
+    "2020": 7,
+    "2021": 4,
+    "2022": 1,
+    "2023": 1,
+    "2024": 9,
+    "2025": 1,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-24",
+     "title": "[视频]强降雨来袭 各地各部门积极应对",
+     "url": "https://tv.cctv.com/2026/05/24/VIDEFfPapAtwWdAs1tVzsDXG260524.shtml"
+    },
+    {
+     "date": "2026-02-14",
+     "title": "[视频]春节将至 各地多彩活动迎新春",
+     "url": "https://tv.cctv.com/2026/02/14/VIDEJZF58KtHOdOTy673VttQ260214.shtml"
+    },
+    {
+     "date": "2026-02-03",
+     "title": "[视频]节前市场供给充足 消费活力旺",
+     "url": "https://tv.cctv.com/2026/02/03/VIDE6anValU8G1gEFXP8TlEH260203.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "宣城",
+   "pinyin": "Xuancheng",
+   "query": "宣城",
+   "total": 23,
+   "by_year": {
+    "2016": 3,
+    "2018": 1,
+    "2019": 3,
+    "2020": 5,
+    "2021": 1,
+    "2023": 3,
+    "2024": 5,
+    "2025": 1,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-04-02",
+     "title": "[视频]春光正好 各地春日经济呈现新活力",
+     "url": "https://tv.cctv.com/2026/04/02/VIDE7Qu8NLk9GFe6LllkjFib260402.shtml"
+    },
+    {
+     "date": "2025-08-01",
+     "title": "[视频]各地各部门积极做好防汛工作 持续展开灾后重建",
+     "url": "https://tv.cctv.com/2025/08/01/VIDEPci2fSZ8HCa7cI4EvwUV250801.shtml"
+    },
+    {
+     "date": "2024-11-13",
+     "title": "[视频]前10个月全国铁路完成固定资产投资6351亿元",
+     "url": "https://tv.cctv.com/2024/11/13/VIDEgjA46Ud6x3JDYJkkntFi241113.shtml"
+    }
+   ]
+  }
+ ]
+}

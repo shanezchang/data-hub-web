@@ -1,0 +1,258 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "西藏",
+  "en": "Tibet",
+  "slug": "xizang"
+ },
+ "cities": [
+  {
+   "zh": "拉萨",
+   "pinyin": "Lhasa",
+   "query": "拉萨",
+   "total": 248,
+   "by_year": {
+    "2016": 14,
+    "2017": 20,
+    "2018": 31,
+    "2019": 33,
+    "2020": 27,
+    "2021": 28,
+    "2022": 20,
+    "2023": 16,
+    "2024": 23,
+    "2025": 32,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-04-14",
+     "title": "[视频]青藏铁路全线通车20年 进出藏货物累计突破1亿吨",
+     "url": "https://tv.cctv.com/2026/04/14/VIDEJJTySysqBso8bmEzEeIs260414.shtml"
+    },
+    {
+     "date": "2026-03-28",
+     "title": "[视频]西藏庆祝百万农奴解放六十七周年",
+     "url": "https://tv.cctv.com/2026/03/28/VIDEByBurZ9zO1jkiPmahk9J260328.shtml"
+    },
+    {
+     "date": "2026-02-12",
+     "title": "[视频]佳节临近新春到 喜庆热闹年味浓",
+     "url": "https://tv.cctv.com/2026/02/12/VIDEh8jCdI1XSd6cAFhhitaq260212.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "日喀则",
+   "pinyin": "Shigatse",
+   "query": "日喀则",
+   "total": 99,
+   "by_year": {
+    "2016": 2,
+    "2017": 6,
+    "2018": 10,
+    "2019": 11,
+    "2020": 8,
+    "2021": 4,
+    "2022": 10,
+    "2023": 8,
+    "2024": 12,
+    "2025": 26,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-03",
+     "title": "[视频]【实干笃行创伟业 团结奋斗新征程】在矢志奋斗中谱写新时代的青春之歌",
+     "url": "https://tv.cctv.com/2026/05/03/VIDEewSn3b4g0zgJDi5TBRPF260503.shtml"
+    },
+    {
+     "date": "2026-03-28",
+     "title": "[视频]西藏庆祝百万农奴解放六十七周年",
+     "url": "https://tv.cctv.com/2026/03/28/VIDEByBurZ9zO1jkiPmahk9J260328.shtml"
+    },
+    {
+     "date": "2025-12-28",
+     "title": "[视频]班禅完成在西藏学习调研和佛事活动",
+     "url": "https://tv.cctv.com/2025/12/28/VIDEtlylET6xCrrQl45L4nL6251228.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "昌都",
+   "pinyin": "Qamdo",
+   "query": "昌都",
+   "total": 49,
+   "by_year": {
+    "2016": 9,
+    "2017": 5,
+    "2018": 5,
+    "2019": 4,
+    "2020": 6,
+    "2021": 7,
+    "2022": 4,
+    "2023": 1,
+    "2024": 2,
+    "2025": 5,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-03-28",
+     "title": "[视频]西藏庆祝百万农奴解放六十七周年",
+     "url": "https://tv.cctv.com/2026/03/28/VIDEByBurZ9zO1jkiPmahk9J260328.shtml"
+    },
+    {
+     "date": "2025-12-28",
+     "title": "[视频]班禅完成在西藏学习调研和佛事活动",
+     "url": "https://tv.cctv.com/2025/12/28/VIDEtlylET6xCrrQl45L4nL6251228.shtml"
+    },
+    {
+     "date": "2025-08-23",
+     "title": "[视频]中央代表团赴西藏各地看望慰问各族干部群众 王沪宁参加活动",
+     "url": "https://tv.cctv.com/2025/08/23/VIDEaSOJUvhwW0rFfLAD5Kar250823.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "林芝",
+   "pinyin": "Nyingchi",
+   "query": "林芝",
+   "total": 102,
+   "by_year": {
+    "2016": 10,
+    "2017": 13,
+    "2018": 11,
+    "2019": 8,
+    "2020": 15,
+    "2021": 14,
+    "2022": 7,
+    "2023": 3,
+    "2024": 2,
+    "2025": 17,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-24",
+     "title": "[视频]【新思想引领新征程】努力建设社会主义现代化新西藏",
+     "url": "https://tv.cctv.com/2026/05/24/VIDEs6qXybAo6GRWJSu3gJwT260524.shtml"
+    },
+    {
+     "date": "2026-03-28",
+     "title": "[视频]西藏庆祝百万农奴解放六十七周年",
+     "url": "https://tv.cctv.com/2026/03/28/VIDEByBurZ9zO1jkiPmahk9J260328.shtml"
+    },
+    {
+     "date": "2025-10-29",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/10/29/VIDEq2GLl6Hghh5TqTvI1Jt8251029.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "山南",
+   "pinyin": "Shannan",
+   "query": "山南市",
+   "total": 28,
+   "by_year": {
+    "2017": 3,
+    "2018": 4,
+    "2019": 2,
+    "2020": 2,
+    "2021": 5,
+    "2022": 4,
+    "2024": 2,
+    "2025": 5,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-03-07",
+     "title": "[视频]【总书记与我们在一起】建设健康中国 增进民生福祉",
+     "url": "https://tv.cctv.com/2026/03/07/VIDEHTnLf0mCy7Buh6TvRj6S260307.shtml"
+    },
+    {
+     "date": "2025-12-06",
+     "title": "[视频]【学习贯彻四中全会精神在基层】西藏：文旅深度融合助力高质量发展 吉林：让城市发展成果更多惠及人民",
+     "url": "https://tv.cctv.com/2025/12/06/VIDEYjIfTos55zzWJbayTnZp251206.shtml"
+    },
+    {
+     "date": "2025-10-08",
+     "title": "[视频]文旅融合 新疆西藏旅游市场持续火热",
+     "url": "https://tv.cctv.com/2025/10/08/VIDEWMrE5BdjzZHecV3xcPE8251008.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "那曲",
+   "pinyin": "Nagqu",
+   "query": "那曲",
+   "total": 54,
+   "by_year": {
+    "2016": 3,
+    "2017": 4,
+    "2018": 4,
+    "2019": 4,
+    "2020": 6,
+    "2021": 8,
+    "2022": 2,
+    "2023": 4,
+    "2024": 6,
+    "2025": 10,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-24",
+     "title": "[视频]【新思想引领新征程】努力建设社会主义现代化新西藏",
+     "url": "https://tv.cctv.com/2026/05/24/VIDEs6qXybAo6GRWJSu3gJwT260524.shtml"
+    },
+    {
+     "date": "2026-05-07",
+     "title": "[视频]【新思想引领新征程】新型能源体系加快建设 筑牢能源安全根基",
+     "url": "https://tv.cctv.com/2026/05/07/VIDEourQxV3z0WexTWDRngpx260507.shtml"
+    },
+    {
+     "date": "2026-03-28",
+     "title": "[视频]西藏庆祝百万农奴解放六十七周年",
+     "url": "https://tv.cctv.com/2026/03/28/VIDEByBurZ9zO1jkiPmahk9J260328.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "阿里",
+   "pinyin": "Ngari",
+   "query": "阿里地区",
+   "total": 22,
+   "by_year": {
+    "2016": 1,
+    "2018": 4,
+    "2019": 3,
+    "2020": 1,
+    "2021": 3,
+    "2022": 4,
+    "2024": 1,
+    "2025": 4,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-02-20",
+     "title": "[视频]【新春走基层】为了不失联的信号",
+     "url": "https://tv.cctv.com/2026/02/20/VIDEvzJ4esRAhO8A4xYI86oU260220.shtml"
+    },
+    {
+     "date": "2025-08-23",
+     "title": "[视频]中央代表团赴西藏各地看望慰问各族干部群众 王沪宁参加活动",
+     "url": "https://tv.cctv.com/2025/08/23/VIDEaSOJUvhwW0rFfLAD5Kar250823.shtml"
+    },
+    {
+     "date": "2025-08-19",
+     "title": "[视频]【新思想引领新征程】民族团结之花盛开在雪域高原",
+     "url": "https://tv.cctv.com/2025/08/19/VIDEIl265fXK4Ft3I3mLnptN250819.shtml"
+    }
+   ]
+  }
+ ]
+}

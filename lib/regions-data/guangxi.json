@@ -1,0 +1,488 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "广西",
+  "en": "Guangxi",
+  "slug": "guangxi"
+ },
+ "cities": [
+  {
+   "zh": "南宁",
+   "pinyin": "Nanning",
+   "query": "南宁",
+   "total": 371,
+   "by_year": {
+    "2016": 23,
+    "2017": 37,
+    "2018": 42,
+    "2019": 34,
+    "2020": 40,
+    "2021": 22,
+    "2022": 16,
+    "2023": 57,
+    "2024": 43,
+    "2025": 45,
+    "2026": 12
+   },
+   "recent": [
+    {
+     "date": "2026-05-19",
+     "title": "[视频]2026年中国网络文明大会在南宁举行",
+     "url": "https://tv.cctv.com/2026/05/19/VIDERIglIlCsWtfKzyP29mZD260519.shtml"
+    },
+    {
+     "date": "2026-05-17",
+     "title": "[视频]工业遗产焕新 活化利用释放新活力",
+     "url": "https://tv.cctv.com/2026/05/17/VIDEKoxRzcTHDzqbnXwLTCy8260517.shtml"
+    },
+    {
+     "date": "2026-05-01",
+     "title": "[视频]李强在广西调研",
+     "url": "https://tv.cctv.com/2026/05/01/VIDEeAAhTbJFGxaWyOQA8jR3260501.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "柳州",
+   "pinyin": "Liuzhou",
+   "query": "柳州",
+   "total": 50,
+   "by_year": {
+    "2016": 3,
+    "2017": 4,
+    "2018": 8,
+    "2019": 4,
+    "2020": 8,
+    "2021": 4,
+    "2022": 1,
+    "2023": 5,
+    "2024": 6,
+    "2025": 4,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-21",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/21/VIDEGqQCTce9X90sG6B6M9TJ260521.shtml"
+    },
+    {
+     "date": "2026-05-21",
+     "title": "[视频]南方地区降雨持续 各地各部门积极应对",
+     "url": "https://tv.cctv.com/2026/05/21/VIDEOsO0aWusiwDO1Qs3KPYz260521.shtml"
+    },
+    {
+     "date": "2026-03-29",
+     "title": "[视频]春和景明 赏花经济持续火热",
+     "url": "https://tv.cctv.com/2026/03/29/VIDEdBiOpcH6wlSpEWfRZIyN260329.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "桂林",
+   "pinyin": "Guilin",
+   "query": "桂林",
+   "total": 94,
+   "by_year": {
+    "2016": 4,
+    "2017": 14,
+    "2018": 13,
+    "2019": 7,
+    "2020": 12,
+    "2021": 6,
+    "2022": 6,
+    "2023": 9,
+    "2024": 15,
+    "2025": 4,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-04-05",
+     "title": "[视频]全社会跨区域人员流动量持续攀升 暖心服务保障出行",
+     "url": "https://tv.cctv.com/2026/04/05/VIDE8U2QxxQJmcRAAOXgwjDh260405.shtml"
+    },
+    {
+     "date": "2026-02-21",
+     "title": "[视频]【情满中国年】美丽中国 幸福生活",
+     "url": "https://tv.cctv.com/2026/02/21/VIDEl3x5pAr0GG6jF8TO58IQ260221.shtml"
+    },
+    {
+     "date": "2026-02-15",
+     "title": "[视频]天南地北年味浓 热闹喜庆迎春节",
+     "url": "https://tv.cctv.com/2026/02/15/VIDEfWb5UAr7d5IZn6txBwdI260215.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "梧州",
+   "pinyin": "Wuzhou",
+   "query": "梧州",
+   "total": 14,
+   "by_year": {
+    "2016": 2,
+    "2017": 1,
+    "2018": 2,
+    "2020": 2,
+    "2022": 3,
+    "2023": 1,
+    "2024": 1,
+    "2025": 2
+   },
+   "recent": [
+    {
+     "date": "2025-08-05",
+     "title": "[视频]强降雨影响华北华南地区 各地积极防汛抗洪",
+     "url": "https://tv.cctv.com/2025/08/05/VIDEnqrOp8kATfcCouovCEYd250805.shtml"
+    },
+    {
+     "date": "2025-05-03",
+     "title": "[视频]城市乡村特色游 拉动假日消费热",
+     "url": "https://tv.cctv.com/2025/05/03/VIDEaTQvdzevAqkig7UBQV8W250503.shtml"
+    },
+    {
+     "date": "2024-01-28",
+     "title": "[视频]服务“精细化” 春运更暖心",
+     "url": "https://tv.cctv.com/2024/01/28/VIDEqJiC9ZXXxC1sCsbR8DU3240128.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "北海",
+   "pinyin": "Beihai",
+   "query": "北海市",
+   "total": 12,
+   "by_year": {
+    "2016": 1,
+    "2017": 2,
+    "2018": 2,
+    "2019": 1,
+    "2020": 1,
+    "2022": 1,
+    "2023": 2,
+    "2025": 1,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-05-01",
+     "title": "[视频]李强在广西调研",
+     "url": "https://tv.cctv.com/2026/05/01/VIDEeAAhTbJFGxaWyOQA8jR3260501.shtml"
+    },
+    {
+     "date": "2025-10-05",
+     "title": "[视频]广东海南等地积极应对台风“麦德姆”",
+     "url": "https://tv.cctv.com/2025/10/05/VIDEdBJSsCs9TBmKK8ECbtAA251005.shtml"
+    },
+    {
+     "date": "2023-11-05",
+     "title": "[视频]第一届全国学生（青年）运动会火炬传递圆满完成",
+     "url": "https://tv.cctv.com/2023/11/05/VIDEzYHxzM4H0hnESTt01YEB231105.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "防城港",
+   "pinyin": "Fangchenggang",
+   "query": "防城港",
+   "total": 52,
+   "by_year": {
+    "2016": 2,
+    "2017": 3,
+    "2018": 6,
+    "2019": 3,
+    "2020": 5,
+    "2021": 1,
+    "2022": 4,
+    "2023": 11,
+    "2024": 12,
+    "2025": 4,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-02-27",
+     "title": "[视频]【“十五五”开好局起好步】各地以实干实绩推动高质量发展",
+     "url": "https://tv.cctv.com/2026/02/27/VIDE8ZgIjIkDZc3rDDpmUIJ0260227.shtml"
+    },
+    {
+     "date": "2025-10-12",
+     "title": "[视频]一批“十四五”重点工程建设稳步推进",
+     "url": "https://tv.cctv.com/2025/10/12/VIDE0LxBFYDcKoXDidcPcPlt251012.shtml"
+    },
+    {
+     "date": "2025-09-25",
+     "title": "[视频]各地各部门全力应对台风“桦加沙”",
+     "url": "https://tv.cctv.com/2025/09/25/VIDEkJJaCGTf0JMkeWairroJ250925.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "钦州",
+   "pinyin": "Qinzhou",
+   "query": "钦州",
+   "total": 70,
+   "by_year": {
+    "2017": 2,
+    "2018": 6,
+    "2019": 3,
+    "2020": 12,
+    "2021": 3,
+    "2022": 5,
+    "2023": 14,
+    "2024": 12,
+    "2025": 9,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-05-01",
+     "title": "[视频]李强在广西调研",
+     "url": "https://tv.cctv.com/2026/05/01/VIDEeAAhTbJFGxaWyOQA8jR3260501.shtml"
+    },
+    {
+     "date": "2026-04-28",
+     "title": "[视频]跨平陆运河27座桥梁全部建成",
+     "url": "https://tv.cctv.com/2026/04/28/VIDEt5pRf7sEAYxlo1OjoXpG260428.shtml"
+    },
+    {
+     "date": "2026-04-07",
+     "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】广西高水平共建西部陆海新通道 重庆加快构建内陆开放综合枢纽新版图",
+     "url": "https://tv.cctv.com/2026/04/07/VIDEibjRpeycDM52InSM9Nhy260407.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "贵港",
+   "pinyin": "Guigang",
+   "query": "贵港",
+   "total": 25,
+   "by_year": {
+    "2016": 2,
+    "2017": 1,
+    "2018": 3,
+    "2019": 4,
+    "2020": 3,
+    "2021": 4,
+    "2022": 1,
+    "2023": 2,
+    "2024": 1,
+    "2025": 2,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-16",
+     "title": "[视频]大范围降雨持续 各地全力做好强降雨防范应对工作",
+     "url": "https://tv.cctv.com/2026/05/16/VIDExPbvk7znl5HKV2DdNIDA260516.shtml"
+    },
+    {
+     "date": "2026-01-24",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/01/24/VIDErMiKNO5lt8b2DioVw6MA260124.shtml"
+    },
+    {
+     "date": "2025-08-24",
+     "title": "[视频]改善人居环境 各地因地制宜开展城市更新",
+     "url": "https://tv.cctv.com/2025/08/24/VIDE5dnIqCZFQ1OmHRDBlwMS250824.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "玉林",
+   "pinyin": "Yulin",
+   "query": "玉林市",
+   "total": 9,
+   "by_year": {
+    "2017": 1,
+    "2018": 2,
+    "2019": 2,
+    "2020": 2,
+    "2024": 1,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-04-21",
+     "title": "[视频]各地一批重大工程建设加速推进",
+     "url": "https://tv.cctv.com/2025/04/21/VIDEcUV1CUnzex5qZaZAO355250421.shtml"
+    },
+    {
+     "date": "2024-05-05",
+     "title": "[视频]【筑梦现代化 共绘新图景•青春在奋斗中绽放】李春燕：乡村振兴是我的又一个“战场”",
+     "url": "https://tv.cctv.com/2024/05/05/VIDEvklkc6SGd9nqPEXso2Za240505.shtml"
+    },
+    {
+     "date": "2020-08-23",
+     "title": "[视频]【走向我们的小康生活】广西玉林：健康扶贫托起稳稳的幸福",
+     "url": "https://tv.cctv.com/2020/08/23/VIDEzkHIOcCmQESXOhTrImAJ200823.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "百色",
+   "pinyin": "Baise",
+   "query": "百色",
+   "total": 60,
+   "by_year": {
+    "2016": 4,
+    "2017": 1,
+    "2018": 6,
+    "2019": 12,
+    "2020": 11,
+    "2021": 8,
+    "2022": 2,
+    "2023": 6,
+    "2024": 5,
+    "2025": 5
+   },
+   "recent": [
+    {
+     "date": "2025-07-26",
+     "title": "[视频]瓜果飘香 特色农产品助力农民增收",
+     "url": "https://tv.cctv.com/2025/07/26/VIDEvXDd1vMS57qmTP4S0B39250726.shtml"
+    },
+    {
+     "date": "2025-04-05",
+     "title": "[视频]【新思想引领新征程】传承伟大精神 凝聚民族力量",
+     "url": "https://tv.cctv.com/2025/04/05/VIDEww6RYYXJdZ29zUQiOQqo250405.shtml"
+    },
+    {
+     "date": "2025-03-09",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/03/09/VIDEguMziJK8YstbmATZHwBk250309.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "贺州",
+   "pinyin": "Hezhou",
+   "query": "贺州",
+   "total": 17,
+   "by_year": {
+    "2017": 1,
+    "2018": 2,
+    "2019": 1,
+    "2020": 3,
+    "2021": 1,
+    "2022": 2,
+    "2023": 5,
+    "2024": 1,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-05-04",
+     "title": "[视频]看美景 品美食 尽享假日美好时光",
+     "url": "https://tv.cctv.com/2025/05/04/VIDEgCHDytpb9C16ArXLMH2Q250504.shtml"
+    },
+    {
+     "date": "2024-04-20",
+     "title": "[视频]南方多地强降雨 各部门积极应对",
+     "url": "https://tv.cctv.com/2024/04/20/VIDEHzrZxf3BgDKyUIHh3fvi240420.shtml"
+    },
+    {
+     "date": "2023-05-03",
+     "title": "[视频]多姿多彩 乐享假日",
+     "url": "https://tv.cctv.com/2023/05/03/VIDEYGPQN9TESIA2RxvzEyPO230503.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "河池",
+   "pinyin": "Hechi",
+   "query": "河池",
+   "total": 14,
+   "by_year": {
+    "2016": 1,
+    "2017": 2,
+    "2018": 4,
+    "2020": 2,
+    "2022": 1,
+    "2023": 1,
+    "2024": 1,
+    "2025": 2
+   },
+   "recent": [
+    {
+     "date": "2025-06-24",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/06/24/VIDEqwLJHZz8F4iLjvtkQHSl250624.shtml"
+    },
+    {
+     "date": "2025-02-25",
+     "title": "[视频]踏青赏花 各地迎来文旅热",
+     "url": "https://tv.cctv.com/2025/02/25/VIDEXGAMUfO53pptw27kgyoW250225.shtml"
+    },
+    {
+     "date": "2024-02-17",
+     "title": "[视频]各地多措并举保证务工人员顺利返岗",
+     "url": "https://tv.cctv.com/2024/02/17/VIDEK9UPR46vpnyiwpymfFUF240217.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "来宾",
+   "pinyin": "Laibin",
+   "query": "来宾市",
+   "total": 4,
+   "by_year": {
+    "2016": 1,
+    "2018": 2,
+    "2023": 1
+   },
+   "recent": [
+    {
+     "date": "2023-09-02",
+     "title": "[视频]大藤峡水利枢纽全部机组正式投产运行",
+     "url": "https://tv.cctv.com/2023/09/02/VIDEiQvfrhhOhqW8skOtIXgV230902.shtml"
+    },
+    {
+     "date": "2018-12-13",
+     "title": "[视频]白玛赤林率中央代表团四分团赴河池 来宾 柳州看望慰问各族各界干部群众",
+     "url": "http://tv.cctv.com/2018/12/13/VIDEmIZNmEG8zJi4VTCQ84o4181213.shtml"
+    },
+    {
+     "date": "2018-04-18",
+     "title": "[视频]多彩民俗共庆“三月三”",
+     "url": "http://tv.cctv.com/2018/04/18/VIDERwSbioc6RSvH0duocM8c180418.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "崇左",
+   "pinyin": "Chongzuo",
+   "query": "崇左",
+   "total": 26,
+   "by_year": {
+    "2016": 1,
+    "2017": 4,
+    "2018": 5,
+    "2019": 1,
+    "2020": 3,
+    "2022": 3,
+    "2023": 1,
+    "2024": 4,
+    "2025": 3,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-03-02",
+     "title": "[视频]各地多彩活动喜迎元宵节",
+     "url": "https://tv.cctv.com/2026/03/02/VIDEnMMsiUxqNqxOCpYYBcg4260302.shtml"
+    },
+    {
+     "date": "2025-09-14",
+     "title": "[视频]1至8月全国铁路完成固定资产投资5041亿元",
+     "url": "https://tv.cctv.com/2025/09/14/VIDEzW3CpFFp29O0XFTXIUwX250914.shtml"
+    },
+    {
+     "date": "2025-09-13",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/09/13/VIDEzfWJ9LoLlkLooqHNpLJN250913.shtml"
+    }
+   ]
+  }
+ ]
+}

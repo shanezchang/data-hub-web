@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...TREND_PAGES.map((p) => ({ url: base + p, lastModified: new Date(trends.as_of), priority: 0.8 })),
     { url: `${base}/insights`, lastModified: buildTime, priority: 0.8 },
     ...INSIGHTS.map((i) => ({ url: `${base}/insights/${i.slug}`, lastModified: new Date(i.dataAsOf), priority: 0.8 })),
+    { url: `${base}/regions/guangdong`, lastModified: buildTime, priority: 0.8 },
     { url: `${base}/changelog`, lastModified: buildTime, priority: 0.4 },
     { url: `${base}/about`, lastModified: buildTime, priority: 0.4 },
   ];

@@ -15,6 +15,14 @@ export type Insight = {
 
 export const INSIGHTS: Insight[] = [
   {
+    slug: "state-council-paperwork",
+    title: "From directives to approvals: the changing shape of State Council paperwork",
+    description:
+      "In 2013: 86 major directives vs 50 approvals. In 2024: 10 vs 51 — and 2025 saw just 3 directives all year. Plus the 2020 urgent-telegram spike, measured from 6,000+ documents.",
+    publishedAt: "2026-06-11",
+    dataAsOf: "2026-06-11",
+  },
+  {
     slug: "diplomatic-switches",
     title: "Eight diplomatic switches, as seen from China's flagship newscast",
     description:

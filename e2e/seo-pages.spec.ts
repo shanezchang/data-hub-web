@@ -72,3 +72,18 @@ test("建交 insight 页:八国图表+公告原文链接", async ({ page }) => {
   const cctvLinks = page.locator('a[href*="tv.cctv.com"]');
   expect(await cctvLinks.count()).toBeGreaterThanOrEqual(8);
 });
+
+test("国务院公文结构 insight 页渲染交叉曲线与全量表", async ({ page }) => {
+  await page.goto("/insights/state-council-paperwork");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("directives to approvals");
+  await expect(page.getByRole("columnheader", { name: "国函" })).toBeVisible();
+});
+
+test("广东省页:21 市排名表+原文链接", async ({ page }) => {
+  await page.goto("/regions/guangdong");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("Guangdong");
+  // 排名表 21 行
+  expect(await page.locator("table tbody tr").count()).toBe(21);
+  // 每市至多 3 条原文直链
+  expect(await page.locator('a[href*="tv.cctv.com"], a[href*="cctv.com"]').count()).toBeGreaterThanOrEqual(40);
+});

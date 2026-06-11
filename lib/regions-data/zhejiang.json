@@ -1,0 +1,406 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "浙江",
+  "en": "Zhejiang",
+  "slug": "zhejiang"
+ },
+ "cities": [
+  {
+   "zh": "杭州",
+   "pinyin": "Hangzhou",
+   "query": "杭州",
+   "total": 944,
+   "by_year": {
+    "2016": 166,
+    "2017": 74,
+    "2018": 68,
+    "2019": 60,
+    "2020": 81,
+    "2021": 54,
+    "2022": 41,
+    "2023": 233,
+    "2024": 69,
+    "2025": 72,
+    "2026": 26
+   },
+   "recent": [
+    {
+     "date": "2026-06-05",
+     "title": "[视频]环境日：全民参与 共建美丽中国",
+     "url": "https://tv.cctv.com/2026/06/05/VIDEfnf0p2Hcz22jG5q5jRv0260605.shtml"
+    },
+    {
+     "date": "2026-06-02",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/06/02/VIDE0NaWm5SzmodAxoEUFwWi260602.shtml"
+    },
+    {
+     "date": "2026-05-16",
+     "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】青海立足资源禀赋 推进绿色算电协同发展 宁夏持续加力 筑牢西北地区重要生态安全屏障",
+     "url": "https://tv.cctv.com/2026/05/16/VIDENZsBoIFrPpjU2qakyNlg260516.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "宁波",
+   "pinyin": "Ningbo",
+   "query": "宁波",
+   "total": 322,
+   "by_year": {
+    "2016": 22,
+    "2017": 13,
+    "2018": 25,
+    "2019": 28,
+    "2020": 53,
+    "2021": 33,
+    "2022": 18,
+    "2023": 45,
+    "2024": 35,
+    "2025": 36,
+    "2026": 14
+   },
+   "recent": [
+    {
+     "date": "2026-05-27",
+     "title": "[视频]李强在浙江舟山宁波调研",
+     "url": "https://tv.cctv.com/2026/05/27/VIDEFfjLu4xHl6uTkuXOjZsJ260527.shtml"
+    },
+    {
+     "date": "2026-05-22",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/22/VIDELsrFc2vE5phcBXEoFpcw260522.shtml"
+    },
+    {
+     "date": "2026-04-29",
+     "title": "[视频]习近平向上海合作组织绿色和可持续发展论坛致贺信",
+     "url": "https://tv.cctv.com/2026/04/29/VIDEt8NjVphFcvM2TGlb5xaD260429.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "温州",
+   "pinyin": "Wenzhou",
+   "query": "温州",
+   "total": 92,
+   "by_year": {
+    "2016": 2,
+    "2017": 4,
+    "2018": 8,
+    "2019": 14,
+    "2020": 10,
+    "2021": 7,
+    "2022": 3,
+    "2023": 14,
+    "2024": 14,
+    "2025": 12,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-04-26",
+     "title": "[视频]【新思想引领新征程】我国加快完善现代化综合立体交通网",
+     "url": "https://tv.cctv.com/2026/04/26/VIDE0jCQdeK5IhrOGmEAMPEi260426.shtml"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/04/15/VIDEQMwTF3qI95YPgxgb2DuN260415.shtml"
+    },
+    {
+     "date": "2026-04-06",
+     "title": "[视频]【“十五五”新图景】城市更新：中国城市高质量发展的新引擎",
+     "url": "https://tv.cctv.com/2026/04/06/VIDE4TtKY1OnuB57mrQ8vZV8260406.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "嘉兴",
+   "pinyin": "Jiaxing",
+   "query": "嘉兴",
+   "total": 133,
+   "by_year": {
+    "2016": 7,
+    "2017": 12,
+    "2018": 9,
+    "2019": 11,
+    "2020": 14,
+    "2021": 30,
+    "2022": 6,
+    "2023": 17,
+    "2024": 12,
+    "2025": 9,
+    "2026": 6
+   },
+   "recent": [
+    {
+     "date": "2026-06-06",
+     "title": "[视频]【牢记初心使命 奋进复兴征程】红色沃土不断书写时代华章",
+     "url": "https://tv.cctv.com/2026/06/06/VIDEqF2FPzuYBH2UkM870eLO260606.shtml"
+    },
+    {
+     "date": "2026-06-02",
+     "title": "[视频]【伟大征程】开天辟地 中国共产党成立",
+     "url": "https://tv.cctv.com/2026/06/02/VIDEpguCNNVGkdrzXeax3ozX260602.shtml"
+    },
+    {
+     "date": "2026-05-31",
+     "title": "[视频]习近平回信勉励中共一大纪念馆、南湖革命纪念馆少先队红领巾讲解员 传承红色基因增长知识本领 在新征程上跑好历史接力赛 祝全国小朋友们“六一”国际儿童节快乐",
+     "url": "https://tv.cctv.com/2026/05/31/VIDE2mreeoryDrR0coJ9VoKQ260531.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "湖州",
+   "pinyin": "Huzhou",
+   "query": "湖州",
+   "total": 135,
+   "by_year": {
+    "2016": 8,
+    "2017": 6,
+    "2018": 19,
+    "2019": 7,
+    "2020": 15,
+    "2021": 13,
+    "2022": 12,
+    "2023": 22,
+    "2024": 21,
+    "2025": 9,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-04-05",
+     "title": "[视频]【新思想引领新征程】清明祭英烈 奋进新征程",
+     "url": "https://tv.cctv.com/2026/04/05/VIDEpAP3qggrY2Sd8cLquO3e260405.shtml"
+    },
+    {
+     "date": "2026-02-21",
+     "title": "[视频]各地活动精彩纷呈 喜气洋洋庆新春",
+     "url": "https://tv.cctv.com/2026/02/21/VIDE2yHD66BmsWteP92ScwNJ260221.shtml"
+    },
+    {
+     "date": "2026-01-02",
+     "title": "[视频]各地开展丰富多彩活动欢度假期",
+     "url": "https://tv.cctv.com/2026/01/02/VIDEyaWSwouNsklqVtJCK0fi260102.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "绍兴",
+   "pinyin": "Shaoxing",
+   "query": "绍兴",
+   "total": 78,
+   "by_year": {
+    "2016": 3,
+    "2017": 6,
+    "2018": 11,
+    "2019": 5,
+    "2020": 9,
+    "2021": 5,
+    "2022": 2,
+    "2023": 13,
+    "2024": 13,
+    "2025": 5,
+    "2026": 6
+   },
+   "recent": [
+    {
+     "date": "2026-05-13",
+     "title": "[视频]前4个月全国铁路完成固定资产投资2008亿元",
+     "url": "https://tv.cctv.com/2026/05/13/VIDE3LiiocahJzsD5CLgzKwp260513.shtml"
+    },
+    {
+     "date": "2026-05-05",
+     "title": "[视频]“五一”入境游升温 外国游客感受多彩中国",
+     "url": "https://tv.cctv.com/2026/05/05/VIDEj1j1s1kRrrwXY7yLom9K260505.shtml"
+    },
+    {
+     "date": "2026-03-24",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/03/24/VIDEdjVTLuyPppoXf5pTWPMo260324.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "金华",
+   "pinyin": "Jinhua",
+   "query": "金华",
+   "total": 97,
+   "by_year": {
+    "2016": 7,
+    "2017": 8,
+    "2018": 7,
+    "2019": 9,
+    "2020": 11,
+    "2021": 10,
+    "2022": 8,
+    "2023": 19,
+    "2024": 5,
+    "2025": 10,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-02-14",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/02/14/VIDEBJnm8r6Q1BCFJhBzetZt260214.shtml"
+    },
+    {
+     "date": "2026-02-13",
+     "title": "[视频]中央领导同志看望老同志",
+     "url": "https://tv.cctv.com/2026/02/13/VIDE0IMEqYRbysVm3Fw8Aray260213.shtml"
+    },
+    {
+     "date": "2026-02-04",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/02/04/VIDEdIEht8wVoBKjSoKXG6at260204.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "衢州",
+   "pinyin": "Quzhou",
+   "query": "衢州",
+   "total": 82,
+   "by_year": {
+    "2016": 6,
+    "2017": 5,
+    "2018": 9,
+    "2019": 11,
+    "2020": 13,
+    "2021": 8,
+    "2022": 3,
+    "2023": 8,
+    "2024": 7,
+    "2025": 11,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-01-03",
+     "title": "[视频]假日活动丰富多彩 人们尽享欢乐时光",
+     "url": "https://tv.cctv.com/2026/01/03/VIDEbmed08ar8FRPJiDq6UxD260103.shtml"
+    },
+    {
+     "date": "2025-12-29",
+     "title": "[视频]解放军东部战区位台岛周边组织“正义使命-2025”演习",
+     "url": "https://tv.cctv.com/2025/12/29/VIDEX9I6hlMGOJAT1aC2JDJa251229.shtml"
+    },
+    {
+     "date": "2025-12-13",
+     "title": "[视频]各地举行国家公祭日悼念活动",
+     "url": "https://tv.cctv.com/2025/12/13/VIDE2eoxSwGXtCsKKKjTNhJ7251213.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "舟山",
+   "pinyin": "Zhoushan",
+   "query": "舟山",
+   "total": 137,
+   "by_year": {
+    "2016": 7,
+    "2017": 6,
+    "2018": 13,
+    "2019": 11,
+    "2020": 15,
+    "2021": 13,
+    "2022": 8,
+    "2023": 19,
+    "2024": 19,
+    "2025": 20,
+    "2026": 6
+   },
+   "recent": [
+    {
+     "date": "2026-06-04",
+     "title": "[视频]海水淡化能力显著提升 有力保障沿海地区用水需求",
+     "url": "https://tv.cctv.com/2026/06/04/VIDEARl1wi7PbZ3YH70wq4gg260604.shtml"
+    },
+    {
+     "date": "2026-05-27",
+     "title": "[视频]李强在浙江舟山宁波调研",
+     "url": "https://tv.cctv.com/2026/05/27/VIDEFfjLu4xHl6uTkuXOjZsJ260527.shtml"
+    },
+    {
+     "date": "2026-05-06",
+     "title": "[视频]“五一”假期全社会跨区域人员流动量创历史同期新高",
+     "url": "https://tv.cctv.com/2026/05/06/VIDEdNaAtziQFJs1dvCn8D48260506.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "台州",
+   "pinyin": "Taizhou",
+   "query": "台州",
+   "total": 63,
+   "by_year": {
+    "2016": 3,
+    "2017": 6,
+    "2018": 11,
+    "2019": 8,
+    "2020": 8,
+    "2021": 6,
+    "2022": 1,
+    "2023": 9,
+    "2024": 1,
+    "2025": 6,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-05-13",
+     "title": "[视频]前4个月全国铁路完成固定资产投资2008亿元",
+     "url": "https://tv.cctv.com/2026/05/13/VIDE3LiiocahJzsD5CLgzKwp260513.shtml"
+    },
+    {
+     "date": "2026-05-12",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/12/VIDEeHLQpZ5aCZi4nBDBJOm6260512.shtml"
+    },
+    {
+     "date": "2026-02-21",
+     "title": "[视频]“探亲+旅游” 过年有新意",
+     "url": "https://tv.cctv.com/2026/02/21/VIDE63szGMoGr2YNCKjfCzEW260221.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "丽水",
+   "pinyin": "Lishui",
+   "query": "丽水",
+   "total": 22,
+   "by_year": {
+    "2016": 4,
+    "2017": 1,
+    "2018": 3,
+    "2019": 2,
+    "2020": 2,
+    "2021": 2,
+    "2022": 1,
+    "2023": 2,
+    "2024": 2,
+    "2025": 2,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-03-27",
+     "title": "[视频]【新思想引领新征程】长江经济带共绘高质量发展新图景",
+     "url": "https://tv.cctv.com/2026/03/27/VIDEatx883ZMVtgeZ10Vu5Dm260327.shtml"
+    },
+    {
+     "date": "2025-10-29",
+     "title": "[视频]【“十四五”高质量发展答卷】“十四五”期间我国加速推进老年友好型社会建设",
+     "url": "https://tv.cctv.com/2025/10/29/VIDEdoTxJDjBXg63oxkLxcms251029.shtml"
+    },
+    {
+     "date": "2025-10-20",
+     "title": "[视频]秋景如画 各地秋季旅游市场持续火爆",
+     "url": "https://tv.cctv.com/2025/10/20/VIDENcwHAvgehIOPKK6zIUMy251020.shtml"
+    }
+   ]
+  }
+ ]
+}

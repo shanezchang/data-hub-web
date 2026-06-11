@@ -1,0 +1,478 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "江苏",
+  "en": "Jiangsu",
+  "slug": "jiangsu"
+ },
+ "cities": [
+  {
+   "zh": "南京",
+   "pinyin": "Nanjing",
+   "query": "南京",
+   "total": 685,
+   "by_year": {
+    "2016": 58,
+    "2017": 71,
+    "2018": 70,
+    "2019": 59,
+    "2020": 81,
+    "2021": 73,
+    "2022": 40,
+    "2023": 66,
+    "2024": 56,
+    "2025": 89,
+    "2026": 22
+   },
+   "recent": [
+    {
+     "date": "2026-06-03",
+     "title": "[视频]树立和践行正确政绩观学习教育中央指导组工作座谈会暨继续派出中央指导组培训会议召开",
+     "url": "https://tv.cctv.com/2026/06/03/VIDEQXFWsXC4bU1SHI1PM19k260603.shtml"
+    },
+    {
+     "date": "2026-05-14",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/14/VIDEhhLCyY0DtFFRQYFhu0cK260514.shtml"
+    },
+    {
+     "date": "2026-05-08",
+     "title": "[视频]培育消费新场景新业态 激发消费新动能",
+     "url": "https://tv.cctv.com/2026/05/08/VIDEqO0d9GJRlRfCrXmKfrAV260508.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "无锡",
+   "pinyin": "Wuxi",
+   "query": "无锡",
+   "total": 134,
+   "by_year": {
+    "2016": 13,
+    "2017": 13,
+    "2018": 10,
+    "2019": 10,
+    "2020": 17,
+    "2021": 11,
+    "2022": 7,
+    "2023": 16,
+    "2024": 16,
+    "2025": 14,
+    "2026": 7
+   },
+   "recent": [
+    {
+     "date": "2026-05-26",
+     "title": "[视频]第21届联合国卫塞节在中国无锡开幕 王沪宁致信祝贺",
+     "url": "https://tv.cctv.com/2026/05/26/VIDEQX0Q41v8RtE4Z1CxlhhM260526.shtml"
+    },
+    {
+     "date": "2026-05-06",
+     "title": "[视频]【新思想引领新征程】“五一”假期消费市场活力迸发",
+     "url": "https://tv.cctv.com/2026/05/06/VIDEQVjedku2OJmSEl2b4J88260506.shtml"
+    },
+    {
+     "date": "2026-04-19",
+     "title": "[视频]村里有了“小而美” 游客爱上“慢时光”",
+     "url": "https://tv.cctv.com/2026/04/19/VIDEQdX64gGMsl3Vyv3BhCuV260419.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "徐州",
+   "pinyin": "Xuzhou",
+   "query": "徐州",
+   "total": 78,
+   "by_year": {
+    "2016": 9,
+    "2017": 12,
+    "2018": 7,
+    "2019": 6,
+    "2020": 14,
+    "2021": 10,
+    "2022": 4,
+    "2023": 6,
+    "2024": 4,
+    "2025": 4,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-16",
+     "title": "[视频]我国工业资源循环利用提速升级",
+     "url": "https://tv.cctv.com/2026/05/16/VIDEnnTIUs0cAiVxn9BqLQN1260516.shtml"
+    },
+    {
+     "date": "2026-04-03",
+     "title": "[视频]【“十五五”新图景】数智化变革中的万亿新空间",
+     "url": "https://tv.cctv.com/2026/04/03/VIDE8NGfyZfKJUZqXgUAk9US260403.shtml"
+    },
+    {
+     "date": "2025-06-18",
+     "title": "[视频]李强在江苏调研",
+     "url": "https://tv.cctv.com/2025/06/18/VIDEx3tcwIISd1P82nugJMlB250618.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "常州",
+   "pinyin": "Changzhou",
+   "query": "常州",
+   "total": 77,
+   "by_year": {
+    "2016": 3,
+    "2017": 5,
+    "2018": 7,
+    "2019": 2,
+    "2020": 10,
+    "2021": 11,
+    "2022": 6,
+    "2023": 13,
+    "2024": 11,
+    "2025": 7,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-05",
+     "title": "[视频]“五一”入境游升温 外国游客感受多彩中国",
+     "url": "https://tv.cctv.com/2026/05/05/VIDEj1j1s1kRrrwXY7yLom9K260505.shtml"
+    },
+    {
+     "date": "2026-02-16",
+     "title": "[视频]科技赋能年味浓 马年新春添新潮",
+     "url": "https://tv.cctv.com/2026/02/16/VIDETPxhXYjsoC3Bpi0NPAAO260216.shtml"
+    },
+    {
+     "date": "2025-10-19",
+     "title": "[视频]【践行新发展理念 推动高质量发展】创新驱动 各地因地制宜发展新质生产力",
+     "url": "https://tv.cctv.com/2025/10/19/VIDEeuUieBllZxuNeE8dfb18251019.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "苏州",
+   "pinyin": "Suzhou",
+   "query": "苏州",
+   "total": 340,
+   "by_year": {
+    "2016": 20,
+    "2017": 22,
+    "2018": 16,
+    "2019": 25,
+    "2020": 34,
+    "2021": 31,
+    "2022": 21,
+    "2023": 40,
+    "2024": 59,
+    "2025": 51,
+    "2026": 21
+   },
+   "recent": [
+    {
+     "date": "2026-06-06",
+     "title": "[视频]我国服务贸易持续扩能提质",
+     "url": "https://tv.cctv.com/2026/06/06/VIDEncuGXLwF1zk6TXM9519d260606.shtml"
+    },
+    {
+     "date": "2026-06-06",
+     "title": "[视频]【牢记初心使命 奋进复兴征程】红色沃土不断书写时代华章",
+     "url": "https://tv.cctv.com/2026/06/06/VIDEqF2FPzuYBH2UkM870eLO260606.shtml"
+    },
+    {
+     "date": "2026-05-27",
+     "title": "[视频]【树立和践行正确政绩观】促发展惠民生 推动学习教育走深走实",
+     "url": "https://tv.cctv.com/2026/05/27/VIDExzZaRQNZCZmSfcWoLELR260527.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "南通",
+   "pinyin": "Nantong",
+   "query": "南通",
+   "total": 105,
+   "by_year": {
+    "2016": 4,
+    "2017": 10,
+    "2018": 13,
+    "2019": 8,
+    "2020": 23,
+    "2021": 7,
+    "2022": 3,
+    "2023": 12,
+    "2024": 12,
+    "2025": 10,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-09",
+     "title": "[视频]一季度中国造船领跑全球 新接订单量增长近三倍",
+     "url": "https://tv.cctv.com/2026/05/09/VIDEdgZNqdYcPDr7Hak0HwX2260509.shtml"
+    },
+    {
+     "date": "2026-04-26",
+     "title": "[视频]【新思想引领新征程】我国加快完善现代化综合立体交通网",
+     "url": "https://tv.cctv.com/2026/04/26/VIDE0jCQdeK5IhrOGmEAMPEi260426.shtml"
+    },
+    {
+     "date": "2026-01-12",
+     "title": "[视频]【“十五五”开好局起好步】办好民生实事 为千家万户添福祉",
+     "url": "https://tv.cctv.com/2026/01/12/VIDEEFbotCylGsWfOOE6JZxB260112.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "连云港",
+   "pinyin": "Lianyungang",
+   "query": "连云港",
+   "total": 82,
+   "by_year": {
+    "2016": 4,
+    "2017": 8,
+    "2018": 5,
+    "2019": 5,
+    "2020": 12,
+    "2021": 13,
+    "2022": 6,
+    "2023": 8,
+    "2024": 8,
+    "2025": 10,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-04-05",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/04/05/VIDEq4lVxP4vqp0d0AhDq9DI260405.shtml"
+    },
+    {
+     "date": "2026-03-13",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/03/13/VIDEm8o8nLF7GBX5D0mo9cq7260313.shtml"
+    },
+    {
+     "date": "2026-01-18",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/01/18/VIDEb2mygUXtBj62aILQEtxj260118.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "淮安",
+   "pinyin": "Huai'an",
+   "query": "淮安",
+   "total": 67,
+   "by_year": {
+    "2016": 5,
+    "2017": 5,
+    "2018": 2,
+    "2019": 7,
+    "2020": 7,
+    "2021": 5,
+    "2022": 4,
+    "2023": 6,
+    "2024": 14,
+    "2025": 8,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-05-17",
+     "title": "[视频]一批水利重点工程有序推进",
+     "url": "https://tv.cctv.com/2026/05/17/VIDELyejwfKURpK4Uia3WxMs260517.shtml"
+    },
+    {
+     "date": "2026-05-16",
+     "title": "[视频]我国储能产业发展势头强劲",
+     "url": "https://tv.cctv.com/2026/05/16/VIDE0pyDtiflnctcbMHCc7LD260516.shtml"
+    },
+    {
+     "date": "2026-03-06",
+     "title": "[视频]【总书记与我们在一起】牢记嘱托 奋力书写“十五五”新篇章",
+     "url": "https://tv.cctv.com/2026/03/06/VIDEELqp0XEwATWXkAQvePhf260306.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "盐城",
+   "pinyin": "Yancheng",
+   "query": "盐城",
+   "total": 103,
+   "by_year": {
+    "2016": 13,
+    "2017": 5,
+    "2018": 11,
+    "2019": 18,
+    "2020": 9,
+    "2021": 7,
+    "2022": 7,
+    "2023": 12,
+    "2024": 11,
+    "2025": 7,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-30",
+     "title": "[视频]【暖心一瞬】合力救援 托起生命希望",
+     "url": "https://tv.cctv.com/2026/05/30/VIDEDAO5FpjR63jPdygnYl6K260530.shtml"
+    },
+    {
+     "date": "2026-02-17",
+     "title": "[视频]【情满中国年】“小家”热气腾腾 “大家”蒸蒸日上",
+     "url": "https://tv.cctv.com/2026/02/17/VIDEiwAcjbz78vSnAcurWVWR260217.shtml"
+    },
+    {
+     "date": "2026-02-13",
+     "title": "[视频]春节临近年味浓 多彩活动迎佳节",
+     "url": "https://tv.cctv.com/2026/02/13/VIDEmXsReFw1Zbk2HYnyeDgA260213.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "扬州",
+   "pinyin": "Yangzhou",
+   "query": "扬州",
+   "total": 124,
+   "by_year": {
+    "2016": 9,
+    "2017": 13,
+    "2018": 7,
+    "2019": 8,
+    "2020": 15,
+    "2021": 28,
+    "2022": 5,
+    "2023": 6,
+    "2024": 11,
+    "2025": 15,
+    "2026": 7
+   },
+   "recent": [
+    {
+     "date": "2026-03-29",
+     "title": "[视频]春和景明 赏花经济持续火热",
+     "url": "https://tv.cctv.com/2026/03/29/VIDEdBiOpcH6wlSpEWfRZIyN260329.shtml"
+    },
+    {
+     "date": "2026-02-25",
+     "title": "[视频]春意渐浓 多地赏花游持续升温",
+     "url": "https://tv.cctv.com/2026/02/25/VIDEI7Z31AbwVewTYIYmJbso260225.shtml"
+    },
+    {
+     "date": "2026-02-20",
+     "title": "[视频]多彩活动庆新春 温暖祥和中国年",
+     "url": "https://tv.cctv.com/2026/02/20/VIDEyh0BZd1bVQbYwgqWHzrR260220.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "镇江",
+   "pinyin": "Zhenjiang",
+   "query": "镇江",
+   "total": 51,
+   "by_year": {
+    "2016": 5,
+    "2017": 2,
+    "2018": 5,
+    "2019": 4,
+    "2020": 7,
+    "2021": 3,
+    "2022": 3,
+    "2023": 5,
+    "2024": 10,
+    "2025": 5,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-04-21",
+     "title": "[视频]各地举办多种活动共促全民阅读 共建书香社会",
+     "url": "https://tv.cctv.com/2026/04/21/VIDEvezdzCujih0x3WFvIRhj260421.shtml"
+    },
+    {
+     "date": "2026-02-08",
+     "title": "[视频]红红火火迎新春 热热闹闹备年货",
+     "url": "https://tv.cctv.com/2026/02/08/VIDEukTG3kfGzDgve7BbcWqJ260208.shtml"
+    },
+    {
+     "date": "2025-12-16",
+     "title": "[视频]2025两岸企业家峰会年会在南京举行 王沪宁出席开幕式并致辞",
+     "url": "https://tv.cctv.com/2025/12/16/VIDEC4F25iZlOirJvuvNYkc1251216.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "泰州",
+   "pinyin": "Taizhou",
+   "query": "泰州",
+   "total": 61,
+   "by_year": {
+    "2016": 3,
+    "2017": 6,
+    "2018": 4,
+    "2019": 5,
+    "2020": 5,
+    "2021": 2,
+    "2022": 4,
+    "2023": 7,
+    "2024": 13,
+    "2025": 7,
+    "2026": 5
+   },
+   "recent": [
+    {
+     "date": "2026-05-06",
+     "title": "[视频]【新思想引领新征程】“五一”假期消费市场活力迸发",
+     "url": "https://tv.cctv.com/2026/05/06/VIDEQVjedku2OJmSEl2b4J88260506.shtml"
+    },
+    {
+     "date": "2026-04-26",
+     "title": "[视频]【新思想引领新征程】我国加快完善现代化综合立体交通网",
+     "url": "https://tv.cctv.com/2026/04/26/VIDE0jCQdeK5IhrOGmEAMPEi260426.shtml"
+    },
+    {
+     "date": "2026-04-17",
+     "title": "[视频]【新思想引领新征程】因地制宜 加快和美乡村建设",
+     "url": "https://tv.cctv.com/2026/04/17/VIDEUHVEOGVSAqArazJaGeky260417.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "宿迁",
+   "pinyin": "Suqian",
+   "query": "宿迁",
+   "total": 43,
+   "by_year": {
+    "2016": 4,
+    "2017": 9,
+    "2018": 3,
+    "2019": 2,
+    "2020": 4,
+    "2021": 5,
+    "2022": 1,
+    "2023": 2,
+    "2024": 5,
+    "2025": 5,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-03-02",
+     "title": "[视频]【代表委员履职故事】张俊杰：激发临床创新活力 护航医学人才成长",
+     "url": "https://tv.cctv.com/2026/03/02/VIDEwlxAtSgDJux2fUQPQXMd260302.shtml"
+    },
+    {
+     "date": "2026-02-22",
+     "title": "[视频]春季田管有序推进 保障粮食稳产丰产",
+     "url": "https://tv.cctv.com/2026/02/22/VIDEPHVKlesvTmFgHhtRlAkH260222.shtml"
+    },
+    {
+     "date": "2026-02-05",
+     "title": "[视频]【新思想引领新征程】锚定农业农村现代化 扎实推进乡村全面振兴",
+     "url": "https://tv.cctv.com/2026/02/05/VIDEuSFCxip1iXtorK8Ouhy6260205.shtml"
+    }
+   ]
+  }
+ ]
+}

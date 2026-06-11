@@ -1,0 +1,561 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "山东",
+  "en": "Shandong",
+  "slug": "shandong"
+ },
+ "cities": [
+  {
+   "zh": "济南",
+   "pinyin": "Jinan",
+   "query": "济南",
+   "total": 327,
+   "by_year": {
+    "2016": 29,
+    "2017": 45,
+    "2018": 34,
+    "2019": 37,
+    "2020": 46,
+    "2021": 33,
+    "2022": 14,
+    "2023": 34,
+    "2024": 21,
+    "2025": 24,
+    "2026": 10
+   },
+   "recent": [
+    {
+     "date": "2026-05-26",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/26/VIDEkCBKd0uxVJpBezsV9w6M260526.shtml"
+    },
+    {
+     "date": "2026-05-17",
+     "title": "[视频]工业遗产焕新 活化利用释放新活力",
+     "url": "https://tv.cctv.com/2026/05/17/VIDEKoxRzcTHDzqbnXwLTCy8260517.shtml"
+    },
+    {
+     "date": "2026-04-09",
+     "title": "[视频]【凝心聚力 真抓实干 奋力实现“十五五”良好开局】山东：陆海并进 加快建设新型能源体系 贵州：高效利用 推动资源全产业链发展",
+     "url": "https://tv.cctv.com/2026/04/09/VIDErZyWJWItKZrghzreYaPc260409.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "青岛",
+   "pinyin": "Qingdao",
+   "query": "青岛",
+   "total": 528,
+   "by_year": {
+    "2016": 44,
+    "2017": 44,
+    "2018": 113,
+    "2019": 64,
+    "2020": 76,
+    "2021": 38,
+    "2022": 25,
+    "2023": 33,
+    "2024": 39,
+    "2025": 43,
+    "2026": 9
+   },
+   "recent": [
+    {
+     "date": "2026-06-07",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/06/07/VIDED3mB4Y5OeCdKLBJu5dPp260607.shtml"
+    },
+    {
+     "date": "2026-06-02",
+     "title": "[视频]【新思想引领新征程】让社区成为居民最放心最安心的港湾",
+     "url": "https://tv.cctv.com/2026/06/02/VIDEH6rEEfLVAuCbXuib240x260602.shtml"
+    },
+    {
+     "date": "2026-05-26",
+     "title": "[视频]第七届跨国公司领导人青岛峰会将于6月15日至17日举行",
+     "url": "https://tv.cctv.com/2026/05/26/VIDEmga88cc9qGWbIA4wdS5s260526.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "淄博",
+   "pinyin": "Zibo",
+   "query": "淄博",
+   "total": 44,
+   "by_year": {
+    "2016": 7,
+    "2017": 11,
+    "2018": 4,
+    "2019": 2,
+    "2020": 8,
+    "2021": 2,
+    "2022": 5,
+    "2023": 3,
+    "2024": 2
+   },
+   "recent": [
+    {
+     "date": "2024-10-27",
+     "title": "[视频]各地陆续进入最美赏秋季",
+     "url": "https://tv.cctv.com/2024/10/27/VIDE1zYwvJNfnwg7LkGNj3Xu241027.shtml"
+    },
+    {
+     "date": "2024-06-15",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2024/06/15/VIDEZN5y0fB5BJqLsjqE30oH240615.shtml"
+    },
+    {
+     "date": "2023-11-29",
+     "title": "[视频]各地加快建设高标准农田 夯实粮食安全根基",
+     "url": "https://tv.cctv.com/2023/11/29/VIDEQ05aj1mvE2FaYT4kGlEQ231129.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "枣庄",
+   "pinyin": "Zaozhuang",
+   "query": "枣庄",
+   "total": 36,
+   "by_year": {
+    "2016": 2,
+    "2017": 4,
+    "2018": 1,
+    "2019": 3,
+    "2020": 10,
+    "2021": 5,
+    "2022": 2,
+    "2023": 4,
+    "2024": 1,
+    "2025": 3,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-04-18",
+     "title": "[视频]文旅深度融合 春日经济持续火热",
+     "url": "https://tv.cctv.com/2026/04/18/VIDEGq6o2q61cX5Fd1zp8vVI260418.shtml"
+    },
+    {
+     "date": "2025-11-16",
+     "title": "[视频]【新思想引领新征程·非凡“十四五”】发展乡村特色产业 推进乡村全面振兴",
+     "url": "https://tv.cctv.com/2025/11/16/VIDEkwAFkSQaczJey7XkciLV251116.shtml"
+    },
+    {
+     "date": "2025-05-29",
+     "title": "[视频]【新思想引领新征程】打造乡村特色产业 推进乡村全面振兴",
+     "url": "https://tv.cctv.com/2025/05/29/VIDE4NJYIfSkgNhngU8VpuXx250529.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "东营",
+   "pinyin": "Dongying",
+   "query": "东营",
+   "total": 32,
+   "by_year": {
+    "2016": 2,
+    "2017": 3,
+    "2018": 2,
+    "2019": 3,
+    "2020": 3,
+    "2021": 7,
+    "2022": 2,
+    "2023": 1,
+    "2024": 4,
+    "2025": 5
+   },
+   "recent": [
+    {
+     "date": "2025-10-30",
+     "title": "[视频]秋粮收获接近尾声 各地抢抓时机保丰收",
+     "url": "https://tv.cctv.com/2025/10/30/VIDEEZVD5su1U4L2HhFAfHc3251030.shtml"
+    },
+    {
+     "date": "2025-08-24",
+     "title": "[视频]山东扎实推动黄河流域生态保护",
+     "url": "https://tv.cctv.com/2025/08/24/VIDE07XQumiR75jTfdeglJMT250824.shtml"
+    },
+    {
+     "date": "2025-06-14",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/06/14/VIDEc7YfM3GQEs3f9N9wJbno250614.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "烟台",
+   "pinyin": "Yantai",
+   "query": "烟台",
+   "total": 98,
+   "by_year": {
+    "2016": 4,
+    "2017": 14,
+    "2018": 12,
+    "2019": 5,
+    "2020": 13,
+    "2021": 10,
+    "2023": 12,
+    "2024": 12,
+    "2025": 12,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-02-18",
+     "title": "[视频]多彩活动闹新春 喜庆祥和中国年",
+     "url": "https://tv.cctv.com/2026/02/18/VIDErMvIBE6tRBFArOVWoKxD260218.shtml"
+    },
+    {
+     "date": "2026-02-08",
+     "title": "[视频]红红火火迎新春 热热闹闹备年货",
+     "url": "https://tv.cctv.com/2026/02/08/VIDEukTG3kfGzDgve7BbcWqJ260208.shtml"
+    },
+    {
+     "date": "2026-01-27",
+     "title": "[视频]【新思想引领新征程】高质量共建“一带一路” 不断拓展共赢发展新空间",
+     "url": "https://tv.cctv.com/2026/01/27/VIDEDbIcPB86CwtVvQnImsdX260127.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "潍坊",
+   "pinyin": "Weifang",
+   "query": "潍坊",
+   "total": 92,
+   "by_year": {
+    "2016": 12,
+    "2017": 4,
+    "2018": 10,
+    "2019": 14,
+    "2020": 12,
+    "2021": 5,
+    "2023": 13,
+    "2024": 9,
+    "2025": 7,
+    "2026": 6
+   },
+   "recent": [
+    {
+     "date": "2026-05-13",
+     "title": "[视频]前4个月全国铁路完成固定资产投资2008亿元",
+     "url": "https://tv.cctv.com/2026/05/13/VIDE3LiiocahJzsD5CLgzKwp260513.shtml"
+    },
+    {
+     "date": "2026-04-26",
+     "title": "[视频]【新思想引领新征程】我国加快完善现代化综合立体交通网",
+     "url": "https://tv.cctv.com/2026/04/26/VIDE0jCQdeK5IhrOGmEAMPEi260426.shtml"
+    },
+    {
+     "date": "2026-04-23",
+     "title": "[视频]海军在多地举行活动 40多艘舰艇向公众开放",
+     "url": "https://tv.cctv.com/2026/04/23/VIDENS0sVt3mry8CEb87GzbJ260423.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "济宁",
+   "pinyin": "Jining",
+   "query": "济宁",
+   "total": 22,
+   "by_year": {
+    "2016": 3,
+    "2017": 1,
+    "2018": 2,
+    "2020": 5,
+    "2022": 2,
+    "2023": 4,
+    "2024": 2,
+    "2025": 3
+   },
+   "recent": [
+    {
+     "date": "2025-06-29",
+     "title": "[视频]【文化中国行】山东嘉祥武氏祠：石刻上的华夏文明",
+     "url": "https://tv.cctv.com/2025/06/29/VIDEpcCFU8xPGfYmMM5cEAHL250629.shtml"
+    },
+    {
+     "date": "2025-03-24",
+     "title": "[视频]【真抓实干 打开改革发展新天地】山东以创新引领新兴产业跨越提升 海南发挥资源优势 打造新质生产力重要实践地",
+     "url": "https://tv.cctv.com/2025/03/24/VIDETMmLC9Nx5PJrgjqZU6nh250324.shtml"
+    },
+    {
+     "date": "2025-01-29",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/01/29/VIDEAaJTivWd4QiA6wcE6v1s250129.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "泰安",
+   "pinyin": "Tai'an",
+   "query": "泰安",
+   "total": 40,
+   "by_year": {
+    "2016": 2,
+    "2017": 2,
+    "2018": 4,
+    "2019": 3,
+    "2020": 6,
+    "2021": 4,
+    "2022": 1,
+    "2023": 9,
+    "2024": 4,
+    "2025": 3,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-17",
+     "title": "[视频]我国县域消费市场供应持续改善",
+     "url": "https://tv.cctv.com/2026/05/17/VIDEDZe5YZPz9E9CEnQQaa4R260517.shtml"
+    },
+    {
+     "date": "2026-02-17",
+     "title": "[视频]【情满中国年】“小家”热气腾腾 “大家”蒸蒸日上",
+     "url": "https://tv.cctv.com/2026/02/17/VIDEiwAcjbz78vSnAcurWVWR260217.shtml"
+    },
+    {
+     "date": "2025-10-29",
+     "title": "[视频]九九重阳节 浓浓敬老情",
+     "url": "https://tv.cctv.com/2025/10/29/VIDEP7urUdHPtyl6AVGvMUR0251029.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "威海",
+   "pinyin": "Weihai",
+   "query": "威海",
+   "total": 66,
+   "by_year": {
+    "2016": 8,
+    "2017": 7,
+    "2018": 13,
+    "2019": 2,
+    "2020": 8,
+    "2021": 6,
+    "2023": 9,
+    "2024": 5,
+    "2025": 6,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-02-03",
+     "title": "[视频]节前市场供给充足 消费活力旺",
+     "url": "https://tv.cctv.com/2026/02/03/VIDE6anValU8G1gEFXP8TlEH260203.shtml"
+    },
+    {
+     "date": "2026-01-10",
+     "title": "[视频]北方多地有大风降温降雪天气",
+     "url": "https://tv.cctv.com/2026/01/10/VIDEvvrX7sC4YvNAxfwRnpiR260110.shtml"
+    },
+    {
+     "date": "2025-12-03",
+     "title": "[视频]冷空气东移南下 继续影响江南",
+     "url": "https://tv.cctv.com/2025/12/03/VIDEbiO4dcs062gXoi3frhLk251203.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "日照",
+   "pinyin": "Rizhao",
+   "query": "日照市",
+   "total": 3,
+   "by_year": {
+    "2018": 1,
+    "2024": 2
+   },
+   "recent": [
+    {
+     "date": "2024-08-05",
+     "title": "[视频]【奋力谱写中国式现代化新篇章——习近平总书记今年以来治国理政纪实】中国式现代化 民生为大",
+     "url": "https://tv.cctv.com/2024/08/05/VIDEhD5jp9LCbJiSqMTQgEA7240805.shtml"
+    },
+    {
+     "date": "2024-05-24",
+     "title": "[视频]习近平在山东考察时强调 以进一步全面深化改革为动力 奋力谱写中国式现代化山东篇章",
+     "url": "https://tv.cctv.com/2024/05/24/VIDEbyXiAiBTe697rNEln4LG240524.shtml"
+    },
+    {
+     "date": "2018-10-10",
+     "title": "[视频]中央纪委国家监委公开曝光五起涉黑涉恶腐败和“保护伞”典型案例",
+     "url": "http://tv.cctv.com/2018/10/10/VIDEaNLio6DOW7ZDoFwS9I9u181010.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "临沂",
+   "pinyin": "Linyi",
+   "query": "临沂",
+   "total": 58,
+   "by_year": {
+    "2016": 8,
+    "2017": 6,
+    "2018": 9,
+    "2019": 3,
+    "2020": 5,
+    "2021": 6,
+    "2022": 4,
+    "2023": 3,
+    "2024": 8,
+    "2025": 5,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-05-17",
+     "title": "[视频]一批水利重点工程有序推进",
+     "url": "https://tv.cctv.com/2026/05/17/VIDELyejwfKURpK4Uia3WxMs260517.shtml"
+    },
+    {
+     "date": "2025-11-23",
+     "title": "[视频]一批“十四五”重大工程项目稳步推进",
+     "url": "https://tv.cctv.com/2025/11/23/VIDECdN1gSpUW8lVVI804kZx251123.shtml"
+    },
+    {
+     "date": "2025-08-23",
+     "title": "[视频]李希在山东调研",
+     "url": "https://tv.cctv.com/2025/08/23/VIDExtwmX7XST2Wx1WeFHOZr250823.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "德州",
+   "pinyin": "Dezhou",
+   "query": "德州市",
+   "total": 6,
+   "by_year": {
+    "2016": 1,
+    "2018": 1,
+    "2020": 1,
+    "2021": 2,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-06-06",
+     "title": "[视频]【在希望的田野上】全国麦收近六成 夏播陆续展开",
+     "url": "https://tv.cctv.com/2026/06/06/VIDEEDoohVJtVV3QvSSyZZep260606.shtml"
+    },
+    {
+     "date": "2021-07-12",
+     "title": "[视频]【奋斗百年路 启航新征程·牢记初心使命 争取更大光荣】以学促行 推动党史学习教育走深走实",
+     "url": "https://tv.cctv.com/2021/07/12/VIDEjBRIuOURf1InEV1JC3jh210712.shtml"
+    },
+    {
+     "date": "2021-01-03",
+     "title": "[视频]山东德州推进文旅融合 传承黄河文化",
+     "url": "https://tv.cctv.com/2021/01/03/VIDEZOM7hOhpsqpMSv27O6OC210103.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "聊城",
+   "pinyin": "Liaocheng",
+   "query": "聊城",
+   "total": 37,
+   "by_year": {
+    "2016": 4,
+    "2017": 4,
+    "2018": 4,
+    "2019": 6,
+    "2020": 2,
+    "2021": 2,
+    "2023": 5,
+    "2024": 7,
+    "2025": 2,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-01-20",
+     "title": "[视频]各地积极应对寒潮天气 全力保障民生",
+     "url": "https://tv.cctv.com/2026/01/20/VIDEau49PoWneFEqcDCje1F5260120.shtml"
+    },
+    {
+     "date": "2025-06-09",
+     "title": "[视频]【在希望的田野上·三夏时节】各地麦收加速推进 夏种夏管有序进行",
+     "url": "https://tv.cctv.com/2025/06/09/VIDEm7gM1wfICCQ0214NSg1U250609.shtml"
+    },
+    {
+     "date": "2025-02-17",
+     "title": "[视频]抢抓农时 各地有序推进春季农业生产",
+     "url": "https://tv.cctv.com/2025/02/17/VIDEat41RaOf5UDxEbCO9SnJ250217.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "滨州",
+   "pinyin": "Binzhou",
+   "query": "滨州",
+   "total": 21,
+   "by_year": {
+    "2016": 1,
+    "2017": 3,
+    "2018": 1,
+    "2019": 2,
+    "2020": 2,
+    "2021": 1,
+    "2022": 3,
+    "2023": 2,
+    "2024": 3,
+    "2025": 1,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-04-18",
+     "title": "[视频]【在希望的田野上】抢农时 抓田管 各地春耕有序推进",
+     "url": "https://tv.cctv.com/2026/04/18/VIDEY40FjaWSOsXpQAc5vVFa260418.shtml"
+    },
+    {
+     "date": "2026-03-16",
+     "title": "[视频]全国春灌大面积展开",
+     "url": "https://tv.cctv.com/2026/03/16/VIDElzt14TU32KppvI1eRUca260316.shtml"
+    },
+    {
+     "date": "2025-06-14",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/06/14/VIDEc7YfM3GQEs3f9N9wJbno250614.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "菏泽",
+   "pinyin": "Heze",
+   "query": "菏泽",
+   "total": 46,
+   "by_year": {
+    "2016": 4,
+    "2017": 5,
+    "2018": 3,
+    "2019": 1,
+    "2020": 12,
+    "2021": 3,
+    "2022": 3,
+    "2023": 6,
+    "2024": 4,
+    "2025": 4,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-04-12",
+     "title": "[视频]智慧精细惠民 推动文旅服务提质升级",
+     "url": "https://tv.cctv.com/2026/04/12/VIDEtdHa3M0WJk3kTuNJS5tK260412.shtml"
+    },
+    {
+     "date": "2025-11-15",
+     "title": "[视频]粮食主产区有力推进秋冬种 冬小麦播种过八成",
+     "url": "https://tv.cctv.com/2025/11/15/VIDEfgTGDf74Ug51AlWb9jhI251115.shtml"
+    },
+    {
+     "date": "2025-09-06",
+     "title": "[视频]各粮食主产区加强田管 力保秋粮稳产增收",
+     "url": "https://tv.cctv.com/2025/09/06/VIDEnhLjJl0DNSAkwl89SzT4250906.shtml"
+    }
+   ]
+  }
+ ]
+}

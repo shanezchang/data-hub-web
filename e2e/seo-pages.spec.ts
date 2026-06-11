@@ -87,3 +87,21 @@ test("广东省页:21 市排名表+原文链接", async ({ page }) => {
   // 每市至多 3 条原文直链
   expect(await page.locator('a[href*="tv.cctv.com"], a[href*="cctv.com"]').count()).toBeGreaterThanOrEqual(40);
 });
+
+test("regions 索引页列出已发布省份", async ({ page }) => {
+  await page.goto("/regions");
+  for (const name of ["Guangdong", "Jiangsu", "Zhejiang", "Shandong"]) {
+    await expect(page.getByRole("link", { name: new RegExp(name) })).toBeVisible();
+  }
+});
+
+test("江苏省页(动态路由)渲染 13 市", async ({ page }) => {
+  await page.goto("/regions/jiangsu");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("Jiangsu");
+  expect(await page.locator("table tbody tr").count()).toBe(13);
+});
+
+test("未发布省份 404", async ({ page }) => {
+  const res = await page.goto("/regions/xinjiang");
+  expect(res?.status()).toBe(404);
+});

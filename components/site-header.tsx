@@ -19,6 +19,8 @@ export function BrandMark({ className = "size-5" }: { className?: string }) {
 
 const NAV = [
   { href: "/#datasets", label: "数据集" },
+  { href: "/insights", label: "Insights" },
+  { href: "/regions", label: "Regions" },
   { href: "/#agents", label: "Agent 接入" },
   { href: "/changelog", label: "更新日志" },
   { href: "/about", label: "关于" },

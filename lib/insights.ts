@@ -15,6 +15,14 @@ export type Insight = {
 
 export const INSIGHTS: Insight[] = [
   {
+    slug: "xinwen-lianbo-calendar",
+    title: "The Xinwen Lianbo calendar: China's official year, month by month",
+    description:
+      "Two Sessions coverage peaks in March (64%), flood control owns July, harvest owns September. Eight recurring topics folded into twelve months, from a decade of broadcasts.",
+    publishedAt: "2026-06-11",
+    dataAsOf: "2026-06-11",
+  },
+  {
     slug: "yc-industry-drift",
     title: "YC's consumer era is over: two decades of industry drift",
     description:

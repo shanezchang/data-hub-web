@@ -111,3 +111,9 @@ test("YC 行业漂移 insight 页渲染份额曲线与全量表", async ({ page 
   await expect(page.getByRole("heading", { level: 1 })).toContainText("consumer era is over");
   await expect(page.getByRole("columnheader", { name: "B2B" })).toBeVisible();
 });
+
+test("年度节律 insight 页渲染八组月度条形图", async ({ page }) => {
+  await page.goto("/insights/xinwen-lianbo-calendar");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("calendar");
+  expect(await page.locator('[role=img][aria-label="Monthly distribution"]').count()).toBe(8);
+});

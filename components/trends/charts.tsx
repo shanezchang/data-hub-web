@@ -103,3 +103,21 @@ export function StatusLegend() {
     </div>
   );
 }
+
+// 12 个月分布条形图(年度节律类 insight 用)
+export function MonthBars({ byMonth }: { byMonth: Record<string, number> }) {
+  const max = Math.max(...Object.values(byMonth), 1);
+  return (
+    <div className="flex h-24 items-end gap-1" role="img" aria-label="Monthly distribution">
+      {Array.from({ length: 12 }, (_, i) => {
+        const v = byMonth[String(i + 1)] ?? 0;
+        return (
+          <div key={i} className="flex flex-1 flex-col items-center gap-1">
+            <div className="w-full rounded-t-sm" style={{ height: `${Math.max(2, (v / max) * 72)}px`, background: v === max ? "var(--accent, #2563eb)" : "color-mix(in srgb, var(--accent, #2563eb) 35%, transparent)" }} title={`${i + 1}月: ${v}`} />
+            <span className="font-mono text-[10px] text-muted">{i + 1}</span>
+          </div>
+        );
+      })}
+    </div>
+  );
+}

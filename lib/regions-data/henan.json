@@ -1,0 +1,605 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "河南",
+  "en": "Henan",
+  "slug": "henan"
+ },
+ "cities": [
+  {
+   "zh": "郑州",
+   "pinyin": "Zhengzhou",
+   "query": "郑州",
+   "total": 368,
+   "by_year": {
+    "2016": 28,
+    "2017": 33,
+    "2018": 29,
+    "2019": 43,
+    "2020": 46,
+    "2021": 49,
+    "2022": 14,
+    "2023": 31,
+    "2024": 37,
+    "2025": 42,
+    "2026": 16
+   },
+   "recent": [
+    {
+     "date": "2026-06-10",
+     "title": "[视频]李希在河南调研",
+     "url": "https://tv.cctv.com/2026/06/10/VIDE08nbDr7zsJvPOavEXgGx260610.shtml"
+    },
+    {
+     "date": "2026-05-09",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/09/VIDEWKkumab8Yo10zhgtF6Gn260509.shtml"
+    },
+    {
+     "date": "2026-05-08",
+     "title": "[视频]培育消费新场景新业态 激发消费新动能",
+     "url": "https://tv.cctv.com/2026/05/08/VIDEqO0d9GJRlRfCrXmKfrAV260508.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "开封",
+   "pinyin": "Kaifeng",
+   "query": "开封",
+   "total": 61,
+   "by_year": {
+    "2016": 3,
+    "2017": 5,
+    "2018": 2,
+    "2019": 5,
+    "2020": 6,
+    "2021": 7,
+    "2022": 6,
+    "2023": 7,
+    "2024": 7,
+    "2025": 9,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-06-10",
+     "title": "[视频]李希在河南调研",
+     "url": "https://tv.cctv.com/2026/06/10/VIDE08nbDr7zsJvPOavEXgGx260610.shtml"
+    },
+    {
+     "date": "2026-04-03",
+     "title": "[视频]【新思想引领新征程】多业态融合发展 激活文旅产业新动能",
+     "url": "https://tv.cctv.com/2026/04/03/VIDEtWgqZGhqI0Bw7aHMvpPt260403.shtml"
+    },
+    {
+     "date": "2026-02-09",
+     "title": "[视频]春节将至年味浓 大江南北迎新春",
+     "url": "https://tv.cctv.com/2026/02/09/VIDEJa02I2ONR1QNbVAFbItU260209.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "洛阳",
+   "pinyin": "Luoyang",
+   "query": "洛阳",
+   "total": 80,
+   "by_year": {
+    "2016": 4,
+    "2017": 6,
+    "2018": 4,
+    "2019": 8,
+    "2020": 13,
+    "2021": 5,
+    "2022": 3,
+    "2023": 8,
+    "2024": 8,
+    "2025": 14,
+    "2026": 7
+   },
+   "recent": [
+    {
+     "date": "2026-05-31",
+     "title": "[视频]【新闻特写】跨越26年的绿色约定",
+     "url": "https://tv.cctv.com/2026/05/31/VIDECkoRSJQOc8cTst749l0X260531.shtml"
+    },
+    {
+     "date": "2026-04-18",
+     "title": "[视频]文旅深度融合 春日经济持续火热",
+     "url": "https://tv.cctv.com/2026/04/18/VIDEGq6o2q61cX5Fd1zp8vVI260418.shtml"
+    },
+    {
+     "date": "2026-04-12",
+     "title": "[视频]智慧精细惠民 推动文旅服务提质升级",
+     "url": "https://tv.cctv.com/2026/04/12/VIDEtdHa3M0WJk3kTuNJS5tK260412.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "平顶山",
+   "pinyin": "Pingdingshan",
+   "query": "平顶山",
+   "total": 14,
+   "by_year": {
+    "2016": 2,
+    "2017": 3,
+    "2018": 1,
+    "2019": 1,
+    "2020": 2,
+    "2021": 1,
+    "2022": 1,
+    "2023": 1,
+    "2024": 1,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-11-29",
+     "title": "[视频]【学习贯彻四中全会精神在基层】河南：加快交通枢纽建设 融入服务全国统一大市场 陕西：加快完善现代化综合交通运输体系",
+     "url": "https://tv.cctv.com/2025/11/29/VIDEsmoa6vfldABxr62H8464251129.shtml"
+    },
+    {
+     "date": "2024-06-17",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2024/06/17/VIDEhciNMrcU8KXxPRnfVVzk240617.shtml"
+    },
+    {
+     "date": "2023-07-13",
+     "title": "[视频]【一线调研】一块煤的“裂变”",
+     "url": "https://tv.cctv.com/2023/07/13/VIDEIng6hTeIa8FR45IwVt9A230713.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "安阳",
+   "pinyin": "Anyang",
+   "query": "安阳",
+   "total": 55,
+   "by_year": {
+    "2016": 6,
+    "2017": 1,
+    "2018": 5,
+    "2019": 3,
+    "2020": 4,
+    "2021": 4,
+    "2022": 5,
+    "2023": 10,
+    "2024": 7,
+    "2025": 9,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-02-21",
+     "title": "[视频]“探亲+旅游” 过年有新意",
+     "url": "https://tv.cctv.com/2026/02/21/VIDE63szGMoGr2YNCKjfCzEW260221.shtml"
+    },
+    {
+     "date": "2025-12-18",
+     "title": "[视频]【文化中国行】走进安阳殷墟 触摸文明印记",
+     "url": "https://tv.cctv.com/2025/12/18/VIDEtkigD8U5Dxjl7hbyhq2i251218.shtml"
+    },
+    {
+     "date": "2025-09-30",
+     "title": "[视频]国庆中秋临近 各地节日氛围渐浓",
+     "url": "https://tv.cctv.com/2025/09/30/VIDEIHZyvvVCCnWgLvHc2zSV250930.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "鹤壁",
+   "pinyin": "Hebi",
+   "query": "鹤壁",
+   "total": 24,
+   "by_year": {
+    "2018": 1,
+    "2019": 2,
+    "2020": 1,
+    "2021": 6,
+    "2022": 1,
+    "2023": 3,
+    "2024": 3,
+    "2025": 6,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-05-10",
+     "title": "[视频]全面扩围 我国加快建设一刻钟便民生活圈",
+     "url": "https://tv.cctv.com/2026/05/10/VIDEGmNOwfeYlffOePSncHQA260510.shtml"
+    },
+    {
+     "date": "2025-12-23",
+     "title": "[视频]抢抓农闲时节 加快推进高标准农田建设",
+     "url": "https://tv.cctv.com/2025/12/23/VIDEVc4dhFkCAp4r9CVVSoA1251223.shtml"
+    },
+    {
+     "date": "2025-06-16",
+     "title": "[视频]【在希望的田野上·三夏时节】科技赋能 各地夏收夏种高效推进",
+     "url": "https://tv.cctv.com/2025/06/16/VIDESDgg2ZCzzhznShM9Uxve250616.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "新乡",
+   "pinyin": "Xinxiang",
+   "query": "新乡",
+   "total": 73,
+   "by_year": {
+    "2016": 5,
+    "2017": 6,
+    "2018": 6,
+    "2019": 5,
+    "2020": 4,
+    "2021": 12,
+    "2022": 7,
+    "2023": 10,
+    "2024": 10,
+    "2025": 6,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-06-10",
+     "title": "[视频]【新思想引领新征程】提升农业综合生产能力 加快农业现代化步伐",
+     "url": "https://tv.cctv.com/2026/06/10/VIDEw3bugdCzESezUbtHPXW3260610.shtml"
+    },
+    {
+     "date": "2026-02-03",
+     "title": "[视频]《中共中央 国务院关于锚定农业农村现代化 扎实推进乡村全面振兴的意见》发布",
+     "url": "https://tv.cctv.com/2026/02/03/VIDERcMfSOps6cQuq3Os3rBv260203.shtml"
+    },
+    {
+     "date": "2025-12-30",
+     "title": "[视频]中央农村工作会议在京召开 习近平对做好“三农”工作作出重要指示",
+     "url": "https://tv.cctv.com/2025/12/30/VIDEtv0HJXqlBxkWrFqRFwTd251230.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "焦作",
+   "pinyin": "Jiaozuo",
+   "query": "焦作",
+   "total": 32,
+   "by_year": {
+    "2016": 2,
+    "2017": 2,
+    "2019": 4,
+    "2020": 6,
+    "2021": 4,
+    "2022": 3,
+    "2023": 3,
+    "2024": 5,
+    "2025": 2,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-03-21",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/03/21/VIDEDAIDyExKORNljfY9w0Xz260321.shtml"
+    },
+    {
+     "date": "2025-08-25",
+     "title": "[视频]宏观政策发力显效 推动经济稳中有进",
+     "url": "https://tv.cctv.com/2025/08/25/VIDE2uNp5zuqk7hdq5cPCio9250825.shtml"
+    },
+    {
+     "date": "2025-02-18",
+     "title": "[视频]新技术催生新场景 人工智能产业加速发展",
+     "url": "https://tv.cctv.com/2025/02/18/VIDEvBAhrluXPYslqXAdNpP1250218.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "濮阳",
+   "pinyin": "Puyang",
+   "query": "濮阳",
+   "total": 20,
+   "by_year": {
+    "2016": 2,
+    "2017": 3,
+    "2018": 3,
+    "2019": 2,
+    "2020": 1,
+    "2022": 3,
+    "2023": 3,
+    "2024": 2,
+    "2025": 1
+   },
+   "recent": [
+    {
+     "date": "2025-06-24",
+     "title": "[视频]“应急使命•2025”极端灾害事故场景新质救援能力检验性演习今天举行",
+     "url": "https://tv.cctv.com/2025/06/24/VIDEiTT33ifo2rdvgQCHknjH250624.shtml"
+    },
+    {
+     "date": "2024-12-13",
+     "title": "[视频]各地举行国家公祭日悼念活动",
+     "url": "https://tv.cctv.com/2024/12/13/VIDEbbrkvWnJKaHUszBKCEdF241213.shtml"
+    },
+    {
+     "date": "2024-06-16",
+     "title": "[视频]抗旱保夏播 夯实秋粮丰收基础",
+     "url": "https://tv.cctv.com/2024/06/16/VIDE4CF58qz1xBZuVWAML2tt240616.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "许昌",
+   "pinyin": "Xuchang",
+   "query": "许昌",
+   "total": 33,
+   "by_year": {
+    "2016": 2,
+    "2017": 4,
+    "2018": 4,
+    "2019": 5,
+    "2020": 4,
+    "2021": 3,
+    "2022": 1,
+    "2023": 2,
+    "2024": 4,
+    "2025": 2,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-11",
+     "title": "[视频]【在希望的田野上】小麦进入灌浆期 各地科学防控干热风",
+     "url": "https://tv.cctv.com/2026/05/11/VIDECztTumT31cIZNQ98m8vz260511.shtml"
+    },
+    {
+     "date": "2026-03-27",
+     "title": "[视频]赏花正当时 带动春日经济火热",
+     "url": "https://tv.cctv.com/2026/03/27/VIDEiD8nrFjIeRTrLiGdM2t4260327.shtml"
+    },
+    {
+     "date": "2025-05-10",
+     "title": "[视频]【在希望的田野上】春播迎高峰 各地全力保夏粮丰收",
+     "url": "https://tv.cctv.com/2025/05/10/VIDEL4mJxXiedmpuTxfU8Wgk250510.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "漯河",
+   "pinyin": "Luohe",
+   "query": "漯河",
+   "total": 35,
+   "by_year": {
+    "2016": 3,
+    "2017": 1,
+    "2018": 1,
+    "2021": 1,
+    "2022": 7,
+    "2023": 6,
+    "2024": 6,
+    "2025": 8,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-22",
+     "title": "[视频]【在希望的田野上】主产区应对降雨天气 确保夏粮颗粒归仓",
+     "url": "https://tv.cctv.com/2026/05/22/VIDExoWHNqk9icC6hschmOsk260522.shtml"
+    },
+    {
+     "date": "2026-03-15",
+     "title": "[视频]【在希望的田野上】冬小麦田间管理全面展开",
+     "url": "https://tv.cctv.com/2026/03/15/VIDEH8NizXoXHYWe4rD4CIVN260315.shtml"
+    },
+    {
+     "date": "2025-09-14",
+     "title": "[视频]全国小麦收购量超1亿吨",
+     "url": "https://tv.cctv.com/2025/09/14/VIDEMuh1gqFK6mj4YlJvR01H250914.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "三门峡",
+   "pinyin": "Sanmenxia",
+   "query": "三门峡",
+   "total": 25,
+   "by_year": {
+    "2016": 3,
+    "2017": 3,
+    "2018": 5,
+    "2019": 4,
+    "2020": 1,
+    "2021": 2,
+    "2022": 1,
+    "2024": 2,
+    "2025": 4
+   },
+   "recent": [
+    {
+     "date": "2025-12-02",
+     "title": "[视频]多地迎来候鸟迁徙高峰",
+     "url": "https://tv.cctv.com/2025/12/02/VIDE2u0lPIGabdKFYIEoiLD4251202.shtml"
+    },
+    {
+     "date": "2025-08-11",
+     "title": "[视频]【感知生态之变】母亲河重现生机与活力",
+     "url": "https://tv.cctv.com/2025/08/11/VIDEDQJfmH1UwaeqKrWQU7Pf250811.shtml"
+    },
+    {
+     "date": "2025-02-22",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/02/22/VIDE8l3XfgHmbdUJAkDTdCD9250222.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "南阳",
+   "pinyin": "Nanyang",
+   "query": "南阳",
+   "total": 34,
+   "by_year": {
+    "2016": 3,
+    "2017": 1,
+    "2018": 3,
+    "2019": 4,
+    "2020": 5,
+    "2021": 2,
+    "2022": 1,
+    "2023": 5,
+    "2024": 4,
+    "2025": 5,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-05-26",
+     "title": "[视频]各地全力抢收抢烘 护航夏粮颗粒归仓",
+     "url": "https://tv.cctv.com/2026/05/26/VIDEYKeBtf4NGxkhIL80C4mg260526.shtml"
+    },
+    {
+     "date": "2025-05-27",
+     "title": "[视频]【在希望的田野上·三夏时节】科技赋能 助力各地小麦丰产丰收",
+     "url": "https://tv.cctv.com/2025/05/27/VIDEBjyMaF0e9aMeifHRYgTe250527.shtml"
+    },
+    {
+     "date": "2025-05-24",
+     "title": "[视频]【在希望的田野上·三夏时节】西南麦区麦收过八成 黄淮海麦区开镰",
+     "url": "https://tv.cctv.com/2025/05/24/VIDEif44VOy3oBWEt6dvJZiy250524.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "商丘",
+   "pinyin": "Shangqiu",
+   "query": "商丘",
+   "total": 58,
+   "by_year": {
+    "2016": 3,
+    "2017": 4,
+    "2018": 5,
+    "2019": 5,
+    "2020": 9,
+    "2021": 7,
+    "2022": 4,
+    "2023": 4,
+    "2024": 5,
+    "2025": 10,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-03-28",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/03/28/VIDEgHcZWUvC5UHbXLNSbbLs260328.shtml"
+    },
+    {
+     "date": "2026-03-11",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/03/11/VIDEU0qKUVVOT1fCOBIL4a2n260311.shtml"
+    },
+    {
+     "date": "2025-12-20",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/12/20/VIDE2MnpvHir9iyPQTmTM2YQ251220.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "信阳",
+   "pinyin": "Xinyang",
+   "query": "信阳",
+   "total": 39,
+   "by_year": {
+    "2016": 3,
+    "2017": 3,
+    "2018": 6,
+    "2019": 3,
+    "2020": 3,
+    "2022": 1,
+    "2023": 6,
+    "2024": 6,
+    "2025": 5,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-06-04",
+     "title": "[视频]【一线调研】信息流背后的精准麦收",
+     "url": "https://tv.cctv.com/2026/06/04/VIDETYla6epN6tyVx0qRUtFC260604.shtml"
+    },
+    {
+     "date": "2026-04-26",
+     "title": "[视频]新举措助跑旅游列车 激发消费新活力",
+     "url": "https://tv.cctv.com/2026/04/26/VIDELzhvke4cYNMLnnmouwfU260426.shtml"
+    },
+    {
+     "date": "2026-01-26",
+     "title": "[视频]【“十五五”开好局起好步】中部地区高质量发展动能强劲",
+     "url": "https://tv.cctv.com/2026/01/26/VIDEWhVP8UlZbiN0bhc6u35j260126.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "周口",
+   "pinyin": "Zhoukou",
+   "query": "周口",
+   "total": 42,
+   "by_year": {
+    "2016": 3,
+    "2018": 4,
+    "2019": 3,
+    "2020": 5,
+    "2021": 3,
+    "2022": 2,
+    "2023": 9,
+    "2024": 8,
+    "2025": 2,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-03-20",
+     "title": "[视频]李强对全国春季农业生产工作作出重要批示强调 高水平保障粮食等重要农产品稳定安全供给 为实现“十五五”良好开局提供有力支撑",
+     "url": "https://tv.cctv.com/2026/03/20/VIDE7ul3yauKfsZcSWz0p6UY260320.shtml"
+    },
+    {
+     "date": "2026-03-19",
+     "title": "[视频]【在希望的田野上】抢抓农时 各地春耕春管有序开展",
+     "url": "https://tv.cctv.com/2026/03/19/VIDEIk3Lfiw66fP8xFVGkikh260319.shtml"
+    },
+    {
+     "date": "2026-01-26",
+     "title": "[视频]【“十五五”开好局起好步】中部地区高质量发展动能强劲",
+     "url": "https://tv.cctv.com/2026/01/26/VIDEWhVP8UlZbiN0bhc6u35j260126.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "驻马店",
+   "pinyin": "Zhumadian",
+   "query": "驻马店",
+   "total": 20,
+   "by_year": {
+    "2017": 3,
+    "2018": 2,
+    "2020": 5,
+    "2022": 4,
+    "2023": 5,
+    "2024": 1
+   },
+   "recent": [
+    {
+     "date": "2024-06-02",
+     "title": "[视频]【在希望的田野上·三夏时节】抢抓农时 各地有序推进夏收",
+     "url": "https://tv.cctv.com/2024/06/02/VIDEF4SL99BQtnWQIGXPM6Ng240602.shtml"
+    },
+    {
+     "date": "2023-08-07",
+     "title": "[视频]多举措强化田间管理 确保秋粮丰收",
+     "url": "https://tv.cctv.com/2023/08/07/VIDEfR06c9ENb5LXHu1JYtPP230807.shtml"
+    },
+    {
+     "date": "2023-07-05",
+     "title": "[视频]国家防总工作组赴重庆指导防汛 各地抓紧抢险救灾",
+     "url": "https://tv.cctv.com/2023/07/05/VIDEdKSdn8BRVcQEYsNw1j5J230705.shtml"
+    }
+   ]
+  }
+ ]
+}

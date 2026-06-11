@@ -1,0 +1,463 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "湖北",
+  "en": "Hubei",
+  "slug": "hubei"
+ },
+ "cities": [
+  {
+   "zh": "武汉",
+   "pinyin": "Wuhan",
+   "query": "武汉",
+   "total": 1270,
+   "by_year": {
+    "2016": 56,
+    "2017": 55,
+    "2018": 95,
+    "2019": 89,
+    "2020": 633,
+    "2021": 87,
+    "2022": 50,
+    "2023": 51,
+    "2024": 61,
+    "2025": 63,
+    "2026": 30
+   },
+   "recent": [
+    {
+     "date": "2026-06-07",
+     "title": "[视频]我国船舶海工装备产业加速提质升级",
+     "url": "https://tv.cctv.com/2026/06/07/VIDEpWbZlkmgRBYRKX09QXaR260607.shtml"
+    },
+    {
+     "date": "2026-06-01",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/06/01/VIDEeISZSBklhSMrKuRLVxtq260601.shtml"
+    },
+    {
+     "date": "2026-05-31",
+     "title": "[视频]绿化带美出新颜值 公园城市尽显新风貌",
+     "url": "https://tv.cctv.com/2026/05/31/VIDE9W9bVd6r9S4UBpO0J6bO260531.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "黄石",
+   "pinyin": "Huangshi",
+   "query": "黄石市",
+   "total": 8,
+   "by_year": {
+    "2016": 3,
+    "2018": 1,
+    "2019": 1,
+    "2020": 2,
+    "2021": 1
+   },
+   "recent": [
+    {
+     "date": "2021-08-16",
+     "title": "[视频]【雪域欢歌70载·西藏启航新时代】民生保障 让各族群众的获得感成色更足",
+     "url": "https://tv.cctv.com/2021/08/16/VIDEkaQP2B1xYYfdApmd6K6Z210816.shtml"
+    },
+    {
+     "date": "2020-07-18",
+     "title": "[视频]各地紧盯雨情汛情 防汛救灾抓紧进行",
+     "url": "https://tv.cctv.com/2020/07/18/VIDEfqTy3ec6lvmTp1mrxJHh200718.shtml"
+    },
+    {
+     "date": "2020-04-23",
+     "title": "[视频]中央指导组：持续加强常态化疫情防控 全面推进复工复产达产",
+     "url": "http://tv.cctv.com/2020/04/23/VIDEG5c7Ftcd4wa1VPYgg6K5200423.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "十堰",
+   "pinyin": "Shiyan",
+   "query": "十堰",
+   "total": 60,
+   "by_year": {
+    "2016": 3,
+    "2017": 3,
+    "2018": 4,
+    "2019": 6,
+    "2020": 12,
+    "2021": 1,
+    "2022": 2,
+    "2023": 9,
+    "2024": 12,
+    "2025": 5,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-12",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/12/VIDEeHLQpZ5aCZi4nBDBJOm6260512.shtml"
+    },
+    {
+     "date": "2026-03-24",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/03/24/VIDEdjVTLuyPppoXf5pTWPMo260324.shtml"
+    },
+    {
+     "date": "2026-03-21",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/03/21/VIDEDAIDyExKORNljfY9w0Xz260321.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "宜昌",
+   "pinyin": "Yichang",
+   "query": "宜昌",
+   "total": 159,
+   "by_year": {
+    "2016": 16,
+    "2017": 11,
+    "2018": 16,
+    "2019": 13,
+    "2020": 24,
+    "2021": 14,
+    "2022": 10,
+    "2023": 11,
+    "2024": 15,
+    "2025": 18,
+    "2026": 11
+   },
+   "recent": [
+    {
+     "date": "2026-06-08",
+     "title": "[视频]丁薛祥出席三峡水运新通道工程开工仪式",
+     "url": "https://tv.cctv.com/2026/06/08/VIDEsjsYU1Vb4nU4RfDlIfCG260608.shtml"
+    },
+    {
+     "date": "2026-05-19",
+     "title": "[视频]【新思想引领新征程】共绘长江经济带高质量发展新画卷",
+     "url": "https://tv.cctv.com/2026/05/19/VIDErYtsPvTxTADh8shVbeLk260519.shtml"
+    },
+    {
+     "date": "2026-05-10",
+     "title": "[视频]全面扩围 我国加快建设一刻钟便民生活圈",
+     "url": "https://tv.cctv.com/2026/05/10/VIDEGmNOwfeYlffOePSncHQA260510.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "襄阳",
+   "pinyin": "Xiangyang",
+   "query": "襄阳",
+   "total": 56,
+   "by_year": {
+    "2016": 4,
+    "2017": 4,
+    "2018": 8,
+    "2019": 3,
+    "2020": 15,
+    "2021": 2,
+    "2022": 5,
+    "2023": 3,
+    "2024": 5,
+    "2025": 4,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-26",
+     "title": "[视频]各地全力抢收抢烘 护航夏粮颗粒归仓",
+     "url": "https://tv.cctv.com/2026/05/26/VIDEYKeBtf4NGxkhIL80C4mg260526.shtml"
+    },
+    {
+     "date": "2026-05-24",
+     "title": "[视频]【新闻特写】黄龙镇的麦收48小时",
+     "url": "https://tv.cctv.com/2026/05/24/VIDE6GN1UmtspVFBws2LhmiF260524.shtml"
+    },
+    {
+     "date": "2026-05-12",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/12/VIDEeHLQpZ5aCZi4nBDBJOm6260512.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "鄂州",
+   "pinyin": "Ezhou",
+   "query": "鄂州",
+   "total": 37,
+   "by_year": {
+    "2016": 6,
+    "2017": 1,
+    "2018": 1,
+    "2020": 11,
+    "2022": 1,
+    "2023": 3,
+    "2024": 5,
+    "2025": 8,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-05-29",
+     "title": "[视频]今年前四个月我国物流需求保持韧性增长",
+     "url": "https://tv.cctv.com/2026/05/29/VIDEAP9tvTzcMdVA70cXFjat260529.shtml"
+    },
+    {
+     "date": "2025-12-01",
+     "title": "[视频]【践行新发展理念 推动高质量发展】发展成果由人民共享 群众获得感不断增强",
+     "url": "https://tv.cctv.com/2025/12/01/VIDEHf8uNxQpFjQwlfbA6ImN251201.shtml"
+    },
+    {
+     "date": "2025-11-22",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/11/22/VIDEvT5JrJwRHsvJ31TBERwQ251122.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "荆门",
+   "pinyin": "Jingmen",
+   "query": "荆门",
+   "total": 30,
+   "by_year": {
+    "2016": 1,
+    "2018": 4,
+    "2020": 9,
+    "2021": 2,
+    "2022": 3,
+    "2023": 1,
+    "2024": 6,
+    "2025": 3,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-05-19",
+     "title": "[视频]南方强降雨持续 各地各部门积极应对",
+     "url": "https://tv.cctv.com/2026/05/19/VIDEq0wHNm91LZtBLtkMipxG260519.shtml"
+    },
+    {
+     "date": "2025-12-01",
+     "title": "[视频]【践行新发展理念 推动高质量发展】发展成果由人民共享 群众获得感不断增强",
+     "url": "https://tv.cctv.com/2025/12/01/VIDEHf8uNxQpFjQwlfbA6ImN251201.shtml"
+    },
+    {
+     "date": "2025-10-17",
+     "title": "[视频]前三季度全国铁路完成固定资产投资5937亿元",
+     "url": "https://tv.cctv.com/2025/10/17/VIDEviTqqt5jr31qSrU940px251017.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "孝感",
+   "pinyin": "Xiaogan",
+   "query": "孝感",
+   "total": 37,
+   "by_year": {
+    "2016": 1,
+    "2017": 1,
+    "2018": 1,
+    "2020": 15,
+    "2021": 3,
+    "2022": 1,
+    "2023": 3,
+    "2024": 5,
+    "2025": 5,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-25",
+     "title": "[视频]各地各部门积极应对持续强降雨",
+     "url": "https://tv.cctv.com/2026/05/25/VIDE5F6boeQj7TsVhtN8krXd260525.shtml"
+    },
+    {
+     "date": "2026-02-08",
+     "title": "[视频]节前市场供应充足 “菜篮子”产品量足价稳",
+     "url": "https://tv.cctv.com/2026/02/08/VIDEWBUSrpGB8ICGGNx3v7v1260208.shtml"
+    },
+    {
+     "date": "2025-07-01",
+     "title": "[视频]各地举办活动庆祝建党104周年",
+     "url": "https://tv.cctv.com/2025/07/01/VIDEs5uHOVIKFKdWdIJ4SG6G250701.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "荆州",
+   "pinyin": "Jingzhou",
+   "query": "荆州",
+   "total": 58,
+   "by_year": {
+    "2016": 1,
+    "2017": 4,
+    "2018": 4,
+    "2019": 4,
+    "2020": 19,
+    "2021": 4,
+    "2022": 4,
+    "2023": 3,
+    "2024": 5,
+    "2025": 5,
+    "2026": 5
+   },
+   "recent": [
+    {
+     "date": "2026-05-24",
+     "title": "[视频]强降雨来袭 各地各部门积极应对",
+     "url": "https://tv.cctv.com/2026/05/24/VIDEFfPapAtwWdAs1tVzsDXG260524.shtml"
+    },
+    {
+     "date": "2026-05-18",
+     "title": "[视频]强降雨持续 各地各部门积极应对",
+     "url": "https://tv.cctv.com/2026/05/18/VIDEsCQXcMCOPaCpYIANN56U260518.shtml"
+    },
+    {
+     "date": "2026-04-05",
+     "title": "[视频]【在希望的田野上】各地春耕有序推进",
+     "url": "https://tv.cctv.com/2026/04/05/VIDE2NMcGRD78T3Vr6OyAWcN260405.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "黄冈",
+   "pinyin": "Huanggang",
+   "query": "黄冈",
+   "total": 54,
+   "by_year": {
+    "2016": 3,
+    "2017": 1,
+    "2018": 5,
+    "2019": 1,
+    "2020": 31,
+    "2021": 1,
+    "2022": 1,
+    "2023": 1,
+    "2024": 3,
+    "2025": 5,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-04-24",
+     "title": "[视频]中央纪委国家监委公开通报八起违反中央八项规定精神典型问题",
+     "url": "https://tv.cctv.com/2026/04/24/VIDEVr6smAISU1mksDoqXhIo260424.shtml"
+    },
+    {
+     "date": "2026-04-09",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/04/09/VIDEb7Qfh5XgI4LUiNIkxoGC260409.shtml"
+    },
+    {
+     "date": "2025-11-22",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/11/22/VIDEvT5JrJwRHsvJ31TBERwQ251122.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "咸宁",
+   "pinyin": "Xianning",
+   "query": "咸宁",
+   "total": 27,
+   "by_year": {
+    "2016": 3,
+    "2017": 1,
+    "2019": 2,
+    "2020": 10,
+    "2022": 2,
+    "2023": 1,
+    "2024": 5,
+    "2025": 3
+   },
+   "recent": [
+    {
+     "date": "2025-08-11",
+     "title": "[视频]【感知生态之变】母亲河重现生机与活力",
+     "url": "https://tv.cctv.com/2025/08/11/VIDEDQJfmH1UwaeqKrWQU7Pf250811.shtml"
+    },
+    {
+     "date": "2025-03-23",
+     "title": "[视频]我国县域消费市场活力涌动",
+     "url": "https://tv.cctv.com/2025/03/23/VIDE3ce0tFT5LbGE2xF4Sq7F250323.shtml"
+    },
+    {
+     "date": "2025-01-29",
+     "title": "[视频]万家灯火团圆时 喜乐祥和中国年",
+     "url": "https://tv.cctv.com/2025/01/29/VIDEWOfJx6aXzlDpHEZYAFCM250129.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "随州",
+   "pinyin": "Suizhou",
+   "query": "随州",
+   "total": 25,
+   "by_year": {
+    "2016": 1,
+    "2017": 1,
+    "2018": 2,
+    "2019": 2,
+    "2020": 10,
+    "2021": 1,
+    "2023": 2,
+    "2024": 1,
+    "2025": 3,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-05-17",
+     "title": "[视频]我国残疾人社会保障和关爱服务水平不断提升",
+     "url": "https://tv.cctv.com/2026/05/17/VIDE0ik4zEeKsoEhYiIH7ZcA260517.shtml"
+    },
+    {
+     "date": "2026-04-12",
+     "title": "[视频]大力推进城市更新 不断提升城市品质",
+     "url": "https://tv.cctv.com/2026/04/12/VIDETxAeAWtZglxKr9QM1et0260412.shtml"
+    },
+    {
+     "date": "2025-06-09",
+     "title": "[视频]国家档案局公布第六批《中国档案文献遗产名录》",
+     "url": "https://tv.cctv.com/2025/06/09/VIDEuKlcmvEq6YK5Bs7yKD1E250609.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "恩施",
+   "pinyin": "Enshi",
+   "query": "恩施",
+   "total": 46,
+   "by_year": {
+    "2016": 1,
+    "2017": 2,
+    "2018": 1,
+    "2019": 6,
+    "2020": 13,
+    "2021": 4,
+    "2022": 5,
+    "2023": 3,
+    "2024": 7,
+    "2025": 3,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-02-01",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/02/01/VIDErW0cBh52zuAmpqpvNUls260201.shtml"
+    },
+    {
+     "date": "2025-06-20",
+     "title": "[视频]南方多地强降雨持续 各方积极应对",
+     "url": "https://tv.cctv.com/2025/06/20/VIDEBdkdPhehmttuBMDScNqm250620.shtml"
+    },
+    {
+     "date": "2025-02-21",
+     "title": "[视频]【再访脱贫村 振兴气象新】农文旅融合绘就美丽乡村新图景",
+     "url": "https://tv.cctv.com/2025/02/21/VIDEtFQC7vNjZAN2uzNZnLE2250221.shtml"
+    }
+   ]
+  }
+ ]
+}

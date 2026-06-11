@@ -1,0 +1,329 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "福建",
+  "en": "Fujian",
+  "slug": "fujian"
+ },
+ "cities": [
+  {
+   "zh": "福州",
+   "pinyin": "Fuzhou",
+   "query": "福州",
+   "total": 314,
+   "by_year": {
+    "2016": 15,
+    "2017": 23,
+    "2018": 21,
+    "2019": 30,
+    "2020": 36,
+    "2021": 29,
+    "2022": 21,
+    "2023": 54,
+    "2024": 30,
+    "2025": 37,
+    "2026": 18
+   },
+   "recent": [
+    {
+     "date": "2026-06-02",
+     "title": "[视频]【新思想引领新征程】让社区成为居民最放心最安心的港湾",
+     "url": "https://tv.cctv.com/2026/06/02/VIDEH6rEEfLVAuCbXuib240x260602.shtml"
+    },
+    {
+     "date": "2026-05-04",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/04/VIDEB9RvYaBV0E7666y9UbEc260504.shtml"
+    },
+    {
+     "date": "2026-04-29",
+     "title": "[视频]“五一”假期临近 各地出台惠民举措带动文旅消费",
+     "url": "https://tv.cctv.com/2026/04/29/VIDEuYd1NjgmwhSrCX34Mokp260429.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "厦门",
+   "pinyin": "Xiamen",
+   "query": "厦门",
+   "total": 513,
+   "by_year": {
+    "2016": 29,
+    "2017": 83,
+    "2018": 44,
+    "2019": 34,
+    "2020": 50,
+    "2021": 53,
+    "2022": 24,
+    "2023": 67,
+    "2024": 49,
+    "2025": 63,
+    "2026": 17
+   },
+   "recent": [
+    {
+     "date": "2026-06-07",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/06/07/VIDED3mB4Y5OeCdKLBJu5dPp260607.shtml"
+    },
+    {
+     "date": "2026-05-26",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/26/VIDEkCBKd0uxVJpBezsV9w6M260526.shtml"
+    },
+    {
+     "date": "2026-05-07",
+     "title": "[视频]【树立和践行正确政绩观】办好为民实事 推动学习教育走深走实",
+     "url": "https://tv.cctv.com/2026/05/07/VIDEehvXctEs5Iw5VOAVpfVT260507.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "莆田",
+   "pinyin": "Putian",
+   "query": "莆田",
+   "total": 46,
+   "by_year": {
+    "2016": 1,
+    "2017": 2,
+    "2018": 5,
+    "2019": 2,
+    "2020": 3,
+    "2021": 16,
+    "2022": 4,
+    "2023": 6,
+    "2024": 2,
+    "2025": 4,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-03-02",
+     "title": "[视频]各地多彩活动喜迎元宵节",
+     "url": "https://tv.cctv.com/2026/03/02/VIDEnMMsiUxqNqxOCpYYBcg4260302.shtml"
+    },
+    {
+     "date": "2025-12-09",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2025/12/09/VIDERVPAzXLnv1hojUjz8V8E251209.shtml"
+    },
+    {
+     "date": "2025-12-02",
+     "title": "[视频]【新思想引领新征程·非凡“十四五”】加快海洋经济高质量发展 推进海洋强国建设",
+     "url": "https://tv.cctv.com/2025/12/02/VIDE9x4FUqVOzfiIIB0jhxD1251202.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "三明",
+   "pinyin": "Sanming",
+   "query": "三明",
+   "total": 51,
+   "by_year": {
+    "2016": 11,
+    "2017": 4,
+    "2018": 2,
+    "2019": 7,
+    "2020": 8,
+    "2021": 8,
+    "2022": 2,
+    "2023": 3,
+    "2024": 4,
+    "2025": 1,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-02-25",
+     "title": "[视频]春意渐浓 多地赏花游持续升温",
+     "url": "https://tv.cctv.com/2026/02/25/VIDEI7Z31AbwVewTYIYmJbso260225.shtml"
+    },
+    {
+     "date": "2025-08-09",
+     "title": "[视频]【感知生态之变】绿水青山就是金山银山",
+     "url": "https://tv.cctv.com/2025/08/09/VIDE9RZny2nUPlyeOvHdTZUr250809.shtml"
+    },
+    {
+     "date": "2024-08-15",
+     "title": "[视频]各地举办多种活动倡导生态优先绿色转型",
+     "url": "https://tv.cctv.com/2024/08/15/VIDEJiJgjJ1MYIoF66jQT0ZL240815.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "泉州",
+   "pinyin": "Quanzhou",
+   "query": "泉州",
+   "total": 98,
+   "by_year": {
+    "2016": 9,
+    "2017": 10,
+    "2018": 9,
+    "2019": 5,
+    "2020": 11,
+    "2021": 11,
+    "2022": 5,
+    "2023": 13,
+    "2024": 6,
+    "2025": 16,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-04-12",
+     "title": "[视频]智慧精细惠民 推动文旅服务提质升级",
+     "url": "https://tv.cctv.com/2026/04/12/VIDEtdHa3M0WJk3kTuNJS5tK260412.shtml"
+    },
+    {
+     "date": "2026-03-24",
+     "title": "[视频]各地打造消费新场景 激发市场新活力",
+     "url": "https://tv.cctv.com/2026/03/24/VIDEe4uc2K5R0oD7PnHm6XEz260324.shtml"
+    },
+    {
+     "date": "2026-01-29",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/01/29/VIDEs9EQOZUgECLq0INM7Icg260129.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "漳州",
+   "pinyin": "Zhangzhou",
+   "query": "漳州",
+   "total": 84,
+   "by_year": {
+    "2016": 6,
+    "2017": 4,
+    "2018": 5,
+    "2020": 5,
+    "2021": 12,
+    "2022": 8,
+    "2023": 9,
+    "2024": 10,
+    "2025": 14,
+    "2026": 11
+   },
+   "recent": [
+    {
+     "date": "2026-04-18",
+     "title": "[视频]文旅深度融合 春日经济持续火热",
+     "url": "https://tv.cctv.com/2026/04/18/VIDEGq6o2q61cX5Fd1zp8vVI260418.shtml"
+    },
+    {
+     "date": "2026-03-31",
+     "title": "[视频]百花盛开迎客来 助力春日经济新活力",
+     "url": "https://tv.cctv.com/2026/03/31/VIDEnf2Z9Ddt7w6UsMCRZSc8260331.shtml"
+    },
+    {
+     "date": "2026-03-19",
+     "title": "[视频]“春日经济”活力旺 文旅消费持续火热",
+     "url": "https://tv.cctv.com/2026/03/19/VIDE7eNrtjNtSiUrY6aIMssm260319.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "南平",
+   "pinyin": "Nanping",
+   "query": "南平",
+   "total": 49,
+   "by_year": {
+    "2016": 3,
+    "2017": 10,
+    "2018": 5,
+    "2019": 5,
+    "2020": 7,
+    "2021": 3,
+    "2022": 3,
+    "2023": 2,
+    "2024": 6,
+    "2025": 2,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-18",
+     "title": "[视频]强降雨持续 各地各部门积极应对",
+     "url": "https://tv.cctv.com/2026/05/18/VIDEsCQXcMCOPaCpYIANN56U260518.shtml"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "[视频]“五一”假期 各地特色文旅活动精彩纷呈",
+     "url": "https://tv.cctv.com/2026/05/02/VIDEMKkHAN7VLZOuaK9ltMFD260502.shtml"
+    },
+    {
+     "date": "2026-03-17",
+     "title": "[视频]新场景新业态 持续激发“春日经济”活力",
+     "url": "https://tv.cctv.com/2026/03/17/VIDESRrZ1WXjLmDMCqYS3veA260317.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "龙岩",
+   "pinyin": "Longyan",
+   "query": "龙岩",
+   "total": 61,
+   "by_year": {
+    "2016": 9,
+    "2017": 5,
+    "2018": 6,
+    "2019": 2,
+    "2020": 4,
+    "2021": 6,
+    "2022": 5,
+    "2023": 5,
+    "2024": 11,
+    "2025": 6,
+    "2026": 2
+   },
+   "recent": [
+    {
+     "date": "2026-06-06",
+     "title": "[视频]财政金融“组合拳” 更大力度支持扩内需",
+     "url": "https://tv.cctv.com/2026/06/06/VIDEOJr26dGlRl4iSckbUe6S260606.shtml"
+    },
+    {
+     "date": "2026-02-19",
+     "title": "[视频]佳节同欢乐 四海庆新春",
+     "url": "https://tv.cctv.com/2026/02/19/VIDEJ9f2AdzUshCbFBc4hPt8260219.shtml"
+    },
+    {
+     "date": "2025-10-20",
+     "title": "[视频]【践行新发展理念 推动高质量发展】协调发展 激活经济新动能",
+     "url": "https://tv.cctv.com/2025/10/20/VIDE5iWUtTEOU6ICFE2otxsh251020.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "宁德",
+   "pinyin": "Ningde",
+   "query": "宁德市",
+   "total": 21,
+   "by_year": {
+    "2016": 1,
+    "2017": 4,
+    "2018": 3,
+    "2019": 5,
+    "2020": 2,
+    "2023": 4,
+    "2024": 2
+   },
+   "recent": [
+    {
+     "date": "2024-01-26",
+     "title": "[视频]【新春走基层】我在海底建大桥",
+     "url": "https://tv.cctv.com/2024/01/26/VIDEyfRMjeGXE5kOAcspv6fa240126.shtml"
+    },
+    {
+     "date": "2024-01-12",
+     "title": "[视频]【学思想 强党性 重实践 建新功】福建弘扬“四下基层”优良作风 破解发展难题",
+     "url": "https://tv.cctv.com/2024/01/12/VIDEGos2iUkKsePZdpV7w8BN240112.shtml"
+    },
+    {
+     "date": "2023-12-07",
+     "title": "[视频]【学思想 强党性 重实践 建新功】坚持“四下基层”优良作风 永远把老百姓放在心中最高位置",
+     "url": "https://tv.cctv.com/2023/12/07/VIDEH5N6O76goSfQTK7qdqSa231207.shtml"
+    }
+   ]
+  }
+ ]
+}

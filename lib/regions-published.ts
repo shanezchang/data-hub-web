@@ -6,4 +6,10 @@ export const PUBLISHED_REGIONS = [
   { slug: "jiangsu", zh: "江苏", en: "Jiangsu" },
   { slug: "zhejiang", zh: "浙江", en: "Zhejiang" },
   { slug: "shandong", zh: "山东", en: "Shandong" },
+  { slug: "hebei", zh: "河北", en: "Hebei" },
+  { slug: "henan", zh: "河南", en: "Henan" },
+  { slug: "hubei", zh: "湖北", en: "Hubei" },
+  { slug: "hunan", zh: "湖南", en: "Hunan" },
+  { slug: "sichuan", zh: "四川", en: "Sichuan" },
+  { slug: "fujian", zh: "福建", en: "Fujian" },
 ];

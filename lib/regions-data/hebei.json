@@ -1,0 +1,406 @@
+{
+ "as_of": "2026-06-11",
+ "province": {
+  "zh": "河北",
+  "en": "Hebei",
+  "slug": "hebei"
+ },
+ "cities": [
+  {
+   "zh": "石家庄",
+   "pinyin": "Shijiazhuang",
+   "query": "石家庄",
+   "total": 245,
+   "by_year": {
+    "2016": 17,
+    "2017": 21,
+    "2018": 22,
+    "2019": 20,
+    "2020": 27,
+    "2021": 52,
+    "2022": 12,
+    "2023": 29,
+    "2024": 17,
+    "2025": 18,
+    "2026": 10
+   },
+   "recent": [
+    {
+     "date": "2026-05-31",
+     "title": "[视频]绿化带美出新颜值 公园城市尽显新风貌",
+     "url": "https://tv.cctv.com/2026/05/31/VIDE9W9bVd6r9S4UBpO0J6bO260531.shtml"
+    },
+    {
+     "date": "2026-05-17",
+     "title": "[视频]工业遗产焕新 活化利用释放新活力",
+     "url": "https://tv.cctv.com/2026/05/17/VIDEKoxRzcTHDzqbnXwLTCy8260517.shtml"
+    },
+    {
+     "date": "2026-04-16",
+     "title": "[视频]【新思想引领新征程】推动京津冀协同发展不断迈上新台阶",
+     "url": "https://tv.cctv.com/2026/04/16/VIDEYIcTTXiSlWFqkog9ROwJ260416.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "唐山",
+   "pinyin": "Tangshan",
+   "query": "唐山",
+   "total": 89,
+   "by_year": {
+    "2016": 9,
+    "2017": 8,
+    "2018": 7,
+    "2019": 6,
+    "2020": 13,
+    "2021": 7,
+    "2022": 8,
+    "2023": 11,
+    "2024": 3,
+    "2025": 13,
+    "2026": 4
+   },
+   "recent": [
+    {
+     "date": "2026-06-03",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/06/03/VIDEDOlDWUnUbzZBI4SKZD2I260603.shtml"
+    },
+    {
+     "date": "2026-05-17",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/05/17/VIDERoN23SAfD3EnG34kuWLr260517.shtml"
+    },
+    {
+     "date": "2026-04-02",
+     "title": "[视频]【新思想引领新征程】以科技创新和产业创新深度融合 推动建设现代化产业体系",
+     "url": "https://tv.cctv.com/2026/04/02/VIDExxwSumiFYVWblTGLFIGE260402.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "秦皇岛",
+   "pinyin": "Qinhuangdao",
+   "query": "秦皇岛",
+   "total": 55,
+   "by_year": {
+    "2016": 9,
+    "2017": 5,
+    "2018": 4,
+    "2019": 4,
+    "2020": 3,
+    "2021": 1,
+    "2022": 2,
+    "2023": 10,
+    "2024": 6,
+    "2025": 8,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-24",
+     "title": "[视频]全球超九成超大型油轮订单涌向中国",
+     "url": "https://tv.cctv.com/2026/05/24/VIDEo8zV8o6ja2jC7Kcu6THs260524.shtml"
+    },
+    {
+     "date": "2026-05-17",
+     "title": "[视频]我国残疾人社会保障和关爱服务水平不断提升",
+     "url": "https://tv.cctv.com/2026/05/17/VIDE0ik4zEeKsoEhYiIH7ZcA260517.shtml"
+    },
+    {
+     "date": "2026-01-13",
+     "title": "[视频]各地推出新举措持续激发冰雪经济活力",
+     "url": "https://tv.cctv.com/2026/01/13/VIDEB7GHdSjMFeURJaXqO43z260113.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "邯郸",
+   "pinyin": "Handan",
+   "query": "邯郸",
+   "total": 109,
+   "by_year": {
+    "2016": 9,
+    "2017": 10,
+    "2018": 7,
+    "2019": 9,
+    "2020": 19,
+    "2021": 10,
+    "2022": 5,
+    "2023": 9,
+    "2024": 13,
+    "2025": 11,
+    "2026": 7
+   },
+   "recent": [
+    {
+     "date": "2026-06-05",
+     "title": "[视频]【在希望的田野上】各地麦收高效推进 助力夏粮颗粒归仓",
+     "url": "https://tv.cctv.com/2026/06/05/VIDEclWj20OpLMzrl8NVhsPg260605.shtml"
+    },
+    {
+     "date": "2026-04-26",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/04/26/VIDElkepP3PcnkA1UE1PwsaZ260426.shtml"
+    },
+    {
+     "date": "2026-04-06",
+     "title": "[视频]欢度假期 游人尽享好春光",
+     "url": "https://tv.cctv.com/2026/04/06/VIDECdV8K6cyUNWQcyOUPk0j260406.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "邢台",
+   "pinyin": "Xingtai",
+   "query": "邢台",
+   "total": 71,
+   "by_year": {
+    "2016": 6,
+    "2017": 1,
+    "2018": 6,
+    "2019": 5,
+    "2020": 5,
+    "2021": 21,
+    "2022": 1,
+    "2023": 11,
+    "2024": 8,
+    "2025": 4,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-22",
+     "title": "[视频]【在希望的田野上】主产区应对降雨天气 确保夏粮颗粒归仓",
+     "url": "https://tv.cctv.com/2026/05/22/VIDExoWHNqk9icC6hschmOsk260522.shtml"
+    },
+    {
+     "date": "2026-03-29",
+     "title": "[视频]春和景明 赏花经济持续火热",
+     "url": "https://tv.cctv.com/2026/03/29/VIDEdBiOpcH6wlSpEWfRZIyN260329.shtml"
+    },
+    {
+     "date": "2026-02-20",
+     "title": "[视频]多彩活动庆新春 温暖祥和中国年",
+     "url": "https://tv.cctv.com/2026/02/20/VIDEyh0BZd1bVQbYwgqWHzrR260220.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "保定",
+   "pinyin": "Baoding",
+   "query": "保定",
+   "total": 102,
+   "by_year": {
+    "2016": 7,
+    "2017": 13,
+    "2018": 6,
+    "2019": 7,
+    "2020": 4,
+    "2021": 7,
+    "2022": 2,
+    "2023": 20,
+    "2024": 14,
+    "2025": 16,
+    "2026": 6
+   },
+   "recent": [
+    {
+     "date": "2026-05-01",
+     "title": "[视频]《求是》杂志发表习近平总书记重要文章《在省部级主要领导干部学习贯彻党的二十届四中全会精神专题研讨班上的讲话》",
+     "url": "https://tv.cctv.com/2026/05/01/VIDEC8JXS3OUrEfjo2UlUhYs260501.shtml"
+    },
+    {
+     "date": "2026-04-06",
+     "title": "[视频]多项举措保障清明假期新能源汽车用电需求",
+     "url": "https://tv.cctv.com/2026/04/06/VIDEGO9wQYD5DFEZETkFfHE3260406.shtml"
+    },
+    {
+     "date": "2026-02-18",
+     "title": "[视频]探亲旅游客流叠加 短途出行量增长明显",
+     "url": "https://tv.cctv.com/2026/02/18/VIDEejjjDMePWLGKzJYYo4xg260218.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "张家口",
+   "pinyin": "Zhangjiakou",
+   "query": "张家口",
+   "total": 144,
+   "by_year": {
+    "2016": 8,
+    "2017": 14,
+    "2018": 21,
+    "2019": 23,
+    "2020": 17,
+    "2021": 21,
+    "2022": 3,
+    "2023": 13,
+    "2024": 11,
+    "2025": 12,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-02-03",
+     "title": "[视频]赏冰乐雪 各地持续激发冰雪经济活力",
+     "url": "https://tv.cctv.com/2026/02/03/VIDEb5r4AhYp5VQCtXDxUBeP260203.shtml"
+    },
+    {
+     "date": "2025-12-19",
+     "title": "[视频]多项交通便利化举措助力冬季旅游市场升温",
+     "url": "https://tv.cctv.com/2025/12/19/VIDEwqt28qWdAq9RUPyrJxOm251219.shtml"
+    },
+    {
+     "date": "2025-12-18",
+     "title": "[视频]各地多举措激发冰雪消费活力",
+     "url": "https://tv.cctv.com/2025/12/18/VIDEQleRacImSfQz9oj9k0vH251218.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "承德",
+   "pinyin": "Chengde",
+   "query": "承德",
+   "total": 59,
+   "by_year": {
+    "2016": 5,
+    "2017": 4,
+    "2018": 8,
+    "2019": 4,
+    "2020": 6,
+    "2021": 10,
+    "2022": 1,
+    "2023": 4,
+    "2024": 2,
+    "2025": 14,
+    "2026": 1
+   },
+   "recent": [
+    {
+     "date": "2026-01-22",
+     "title": "[视频]创新场景 各地冬季文旅市场持续火热",
+     "url": "https://tv.cctv.com/2026/01/22/VIDEIqzRe0sqjKe9zQFbpzij260122.shtml"
+    },
+    {
+     "date": "2025-12-28",
+     "title": "[视频]各地持续推动冰雪旅游释放新活力",
+     "url": "https://tv.cctv.com/2025/12/28/VIDEIYudl3fpp8GmPGMH0x1M251228.shtml"
+    },
+    {
+     "date": "2025-10-05",
+     "title": "[视频]各地推出特色活动 点亮假日生活",
+     "url": "https://tv.cctv.com/2025/10/05/VIDEw4qRRVEkrNfLN9CsQRPi251005.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "沧州",
+   "pinyin": "Cangzhou",
+   "query": "沧州",
+   "total": 66,
+   "by_year": {
+    "2016": 1,
+    "2017": 3,
+    "2018": 6,
+    "2019": 4,
+    "2020": 4,
+    "2021": 7,
+    "2022": 8,
+    "2023": 15,
+    "2024": 10,
+    "2025": 5,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-06-04",
+     "title": "[视频]海水淡化能力显著提升 有力保障沿海地区用水需求",
+     "url": "https://tv.cctv.com/2026/06/04/VIDEARl1wi7PbZ3YH70wq4gg260604.shtml"
+    },
+    {
+     "date": "2026-02-13",
+     "title": "[视频]【新春走基层】回家的礼物 把一份爱带给亲人",
+     "url": "https://tv.cctv.com/2026/02/13/VIDEjPV6Zoypn1JgYf0cnpDl260213.shtml"
+    },
+    {
+     "date": "2026-02-03",
+     "title": "[视频]赏冰乐雪 各地持续激发冰雪经济活力",
+     "url": "https://tv.cctv.com/2026/02/03/VIDEb5r4AhYp5VQCtXDxUBeP260203.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "廊坊",
+   "pinyin": "Langfang",
+   "query": "廊坊",
+   "total": 64,
+   "by_year": {
+    "2016": 4,
+    "2017": 8,
+    "2018": 7,
+    "2019": 6,
+    "2020": 8,
+    "2021": 7,
+    "2022": 2,
+    "2023": 10,
+    "2024": 5,
+    "2025": 4,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-05-22",
+     "title": "[视频]【树立和践行正确政绩观】助力发展 务实为民 推动学习教育走深走实",
+     "url": "https://tv.cctv.com/2026/05/22/VIDEliMEh1UqUAHelcdjinRg260522.shtml"
+    },
+    {
+     "date": "2026-05-18",
+     "title": "[视频]丁薛祥在调研算力网建设时强调 加快构建全国一体化算力网 赋能经济社会高质量发展",
+     "url": "https://tv.cctv.com/2026/05/18/VIDEwX4uPghLxboMMYxTmrhW260518.shtml"
+    },
+    {
+     "date": "2026-03-02",
+     "title": "[视频]各地多彩活动喜迎元宵节",
+     "url": "https://tv.cctv.com/2026/03/02/VIDEnMMsiUxqNqxOCpYYBcg4260302.shtml"
+    }
+   ]
+  },
+  {
+   "zh": "衡水",
+   "pinyin": "Hengshui",
+   "query": "衡水",
+   "total": 65,
+   "by_year": {
+    "2016": 11,
+    "2017": 6,
+    "2018": 2,
+    "2019": 6,
+    "2020": 6,
+    "2021": 8,
+    "2022": 2,
+    "2023": 9,
+    "2024": 8,
+    "2025": 4,
+    "2026": 3
+   },
+   "recent": [
+    {
+     "date": "2026-04-28",
+     "title": "[视频]中共中央政治局召开会议 分析研究当前经济形势和经济工作 中共中央总书记习近平主持会议",
+     "url": "https://tv.cctv.com/2026/04/28/VIDE6U0LCDsZIiteCx8vdRLh260428.shtml"
+    },
+    {
+     "date": "2026-03-06",
+     "title": "[视频]十四届全国人大四次会议举行经济主题记者会",
+     "url": "https://tv.cctv.com/2026/03/06/VIDENBLH37zULZzmsGWCwPji260306.shtml"
+    },
+    {
+     "date": "2026-02-27",
+     "title": "[视频]国内联播快讯",
+     "url": "https://tv.cctv.com/2026/02/27/VIDEX3Me0QghmOSDdq5i5h4e260227.shtml"
+    }
+   ]
+  }
+ ]
+}

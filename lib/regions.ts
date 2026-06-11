@@ -368,7 +368,7 @@ export const PROVINCES: Province[] = [
       { zh: "眉山", pinyin: "Meishan", query: "眉山" },
       { zh: "宜宾", pinyin: "Yibin", query: "宜宾" },
       { zh: "广安", pinyin: "Guang'an", query: "广安" },
-      { zh: "达州", pinyin: "Dazhou", query: "达州" },
+      { zh: "达州", pinyin: "Dazhou", query: "达州市"  // 佛罗里达州/内华达州 音译子串污染(实测裸词 374 条中 227 条来自佛罗里达州) },
       { zh: "雅安", pinyin: "Ya'an", query: "雅安" },
       { zh: "巴中", pinyin: "Bazhong", query: "巴中市" }, // 双边缩写:巴中(巴西-中国/巴基斯坦-中国)
       { zh: "资阳", pinyin: "Ziyang", query: "资阳" },

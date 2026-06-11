@@ -1,0 +1,170 @@
+{
+ "as_of": "2026-06-11",
+ "countries": [
+  {
+   "zh": "巴拿马",
+   "en": "Panama",
+   "type": "established",
+   "switch_date": "2017-06-13",
+   "by_year": {
+    "2016": 1,
+    "2017": 12,
+    "2018": 34,
+    "2019": 10,
+    "2020": 7,
+    "2021": 4,
+    "2022": 3,
+    "2023": 2,
+    "2024": 11,
+    "2025": 5,
+    "2026": 2
+   },
+   "first": {
+    "date": "2017-06-13",
+    "title": "中国与巴拿马建立外交关系",
+    "url": "http://tv.cctv.com/2017/06/13/VIDERxb96w32zCjNk7MlF4oE170613.shtml"
+   }
+  },
+  {
+   "zh": "多米尼加",
+   "en": "Dominican Republic",
+   "type": "established",
+   "switch_date": "2018-05-01",
+   "by_year": {
+    "2016": 2,
+    "2017": 3,
+    "2018": 13,
+    "2019": 5,
+    "2020": 4,
+    "2021": 3,
+    "2022": 2,
+    "2023": 3,
+    "2024": 4,
+    "2025": 6
+   },
+   "first": {
+    "date": "2018-05-01",
+    "title": "中国与多米尼加建立外交关系",
+    "url": "http://tv.cctv.com/2018/05/01/VIDEIWEuwRg0EsLO93Ew0xZm180501.shtml"
+   }
+  },
+  {
+   "zh": "萨尔瓦多",
+   "en": "El Salvador",
+   "type": "established",
+   "switch_date": "2018-08-21",
+   "by_year": {
+    "2016": 4,
+    "2017": 4,
+    "2018": 11,
+    "2019": 8,
+    "2020": 2,
+    "2022": 5,
+    "2023": 5,
+    "2024": 4
+   },
+   "first": {
+    "date": "2018-08-21",
+    "title": "中华人民共和国和萨尔瓦多共和国建立外交关系",
+    "url": "http://tv.cctv.com/2018/08/21/VIDEycwKwQTiG7I6OFAzjdYe180821.shtml"
+   }
+  },
+  {
+   "zh": "所罗门群岛",
+   "en": "Solomon Islands",
+   "type": "established",
+   "switch_date": "2019-09-21",
+   "by_year": {
+    "2019": 8,
+    "2020": 2,
+    "2021": 3,
+    "2022": 6,
+    "2023": 12,
+    "2024": 10,
+    "2026": 1
+   },
+   "first": {
+    "date": "2019-09-21",
+    "title": "中华人民共和国和所罗门群岛建立外交关系",
+    "url": "http://tv.cctv.com/2019/09/21/VIDEW7uX2lWBKIJkqljUEQOF190921.shtml"
+   }
+  },
+  {
+   "zh": "基里巴斯",
+   "en": "Kiribati",
+   "type": "restored",
+   "switch_date": "2019-09-28",
+   "by_year": {
+    "2019": 2,
+    "2020": 5,
+    "2021": 3,
+    "2022": 3,
+    "2023": 5,
+    "2024": 3,
+    "2026": 1
+   },
+   "first": {
+    "date": "2019-09-28",
+    "title": "中华人民共和国与基里巴斯共和国恢复外交关系",
+    "url": "http://tv.cctv.com/2019/09/28/VIDEIBQAz9Cef05uMoi4OIv5190928.shtml"
+   }
+  },
+  {
+   "zh": "尼加拉瓜",
+   "en": "Nicaragua",
+   "type": "restored",
+   "switch_date": "2021-12-10",
+   "by_year": {
+    "2016": 1,
+    "2017": 3,
+    "2020": 1,
+    "2021": 2,
+    "2022": 21,
+    "2023": 12,
+    "2024": 8,
+    "2025": 5,
+    "2026": 2
+   },
+   "first": {
+    "date": "2021-12-10",
+    "title": "中华人民共和国和尼加拉瓜共和国恢复外交关系",
+    "url": "https://tv.cctv.com/2021/12/10/VIDEj0GmtHHipr2ln2gJ2gPK211210.shtml"
+   }
+  },
+  {
+   "zh": "洪都拉斯",
+   "en": "Honduras",
+   "type": "established",
+   "switch_date": "2023-03-26",
+   "by_year": {
+    "2017": 3,
+    "2020": 3,
+    "2023": 16,
+    "2024": 10,
+    "2025": 5,
+    "2026": 1
+   },
+   "first": {
+    "date": "2023-03-26",
+    "title": "中华人民共和国和洪都拉斯共和国建立外交关系",
+    "url": "https://tv.cctv.com/2023/03/26/VIDEPcUhEvq7iBmSYLI1XdIZ230326.shtml"
+   }
+  },
+  {
+   "zh": "瑙鲁",
+   "en": "Nauru",
+   "type": "restored",
+   "switch_date": "2024-01-24",
+   "by_year": {
+    "2024": 18,
+    "2025": 2,
+    "2026": 1
+   },
+   "first": {
+    "date": "2024-01-24",
+    "title": "中华人民共和国和瑙鲁共和国恢复外交关系",
+    "url": "https://tv.cctv.com/2024/01/24/VIDEFT7JGCUi5kwfSkGcXrWN240124.shtml"
+   }
+  }
+ ]
+}

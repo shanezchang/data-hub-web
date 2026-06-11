@@ -64,3 +64,11 @@ test("交接棒 insight 页渲染消退词电池", async ({ page }) => {
   await expect(page.getByRole("heading", { name: /Capacity reduction/ })).toBeVisible();
   expect(await page.locator("svg[role=img]").count()).toBeGreaterThanOrEqual(5);
 });
+
+test("建交 insight 页:八国图表+公告原文链接", async ({ page }) => {
+  await page.goto("/insights/diplomatic-switches");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("diplomatic switches");
+  expect(await page.locator("svg[role=img]").count()).toBeGreaterThanOrEqual(8);
+  const cctvLinks = page.locator('a[href*="tv.cctv.com"]');
+  expect(await cctvLinks.count()).toBeGreaterThanOrEqual(8);
+});

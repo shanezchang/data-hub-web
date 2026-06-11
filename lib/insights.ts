@@ -15,6 +15,14 @@ export type Insight = {
 
 export const INSIGHTS: Insight[] = [
   {
+    slug: "diplomatic-switches",
+    title: "Eight diplomatic switches, as seen from China's flagship newscast",
+    description:
+      "From Panama (2017) to Nauru (2024): what establishing relations with Beijing looks like in Xinwen Lianbo coverage — with the original announcement broadcast linked for every country.",
+    publishedAt: "2026-06-11",
+    dataAsOf: "2026-06-11",
+  },
+  {
     slug: "new-quality-productive-forces",
     title: "“New Quality Productive Forces”: a slogan's cold start, measured",
     description:

@@ -16,6 +16,15 @@ export type Dataset = {
   scope: string;
   endpoints: Endpoint[];
   exampleCurl: string;
+  // 英文 SEO 面:目标买家(海外 China watcher / agent 开发者)用英文 Google 搜索。
+  // enTitle 直接打搜索词;enOverview 是页面英文正文段落。
+  enTitle: string;
+  enTagline: string;
+  enOverview: string[];
+  // schema.org/Dataset 的时间覆盖(JSON-LD 用),形如 "2016-02/.."
+  temporalCoverage: string;
+  // 核心字段速览(字段名是 API 原名,描述双语从简)
+  fields: { name: string; desc: string }[];
 };
 
 export const DATASETS: Dataset[] = [
@@ -32,6 +41,19 @@ export const DATASETS: Dataset[] = [
       { method: "GET", path: "/v1/news/{id}", desc: "按 ID 取单条全文" },
     ],
     exampleCurl: `curl -H "X-API-Key: <your key>" \\\n  "https://api.lumina-core.cn/v1/news?q=新能源&limit=10"`,
+    enTitle: "CCTV Xinwen Lianbo Full-Text Search API",
+    enTagline: "Full transcripts of China's flagship CCTV evening news (新闻联播) since 2016 — full-text search, date filters, and yearly/monthly trend aggregation via a single REST API.",
+    enOverview: [
+      "Xinwen Lianbo is CCTV's 7pm flagship news program and the most closely watched signal of official Chinese policy priorities. This dataset contains the full transcript of every broadcast item since 2016, updated daily within hours of broadcast.",
+      "Search any Chinese phrase across a decade of broadcasts, filter by date range, or aggregate mention counts by year, month, or day to chart how official attention to a topic rises and falls. Responses return highlighted snippets by default to keep agent context small.",
+    ],
+    temporalCoverage: "2016-02/..",
+    fields: [
+      { name: "news_date", desc: "播出日期 / broadcast date" },
+      { name: "title", desc: "条目标题 / item title" },
+      { name: "content", desc: "正文全文 / full transcript text" },
+      { name: "url", desc: "央视网原文链接 / source URL" },
+    ],
   },
   {
     slug: "yc",
@@ -46,6 +68,19 @@ export const DATASETS: Dataset[] = [
       { method: "GET", path: "/v1/yc/founders", desc: "创始人检索：bio 全文 + 公司条件过滤" },
     ],
     exampleCurl: `curl -H "X-API-Key: <your key>" \\\n  "https://api.lumina-core.cn/v1/yc/companies?batch=W25&status=Active"`,
+    enTitle: "Y Combinator Companies & Founders Dataset API",
+    enTagline: "Every launched YC company and founder since 2005 — filter by batch, status, industry or tag, search bios, and run batch-year × status cross aggregations via REST.",
+    enOverview: [
+      "A structured snapshot of the public Y Combinator company directory: all launched companies across every batch since 2005, with founder profiles, status (Active / Acquired / Public / Inactive), industry, tags, regions and team size.",
+      "One query answers questions that take hours to compile by hand: survival rates per batch, AI-tagged companies by year, hiring companies by industry, or founders whose bios mention a given background.",
+    ],
+    temporalCoverage: "2005/..",
+    fields: [
+      { name: "slug / name", desc: "公司标识与名称 / company id & name" },
+      { name: "batch / batch_year / status", desc: "批次与现状 / batch & outcome" },
+      { name: "industry / tags / regions", desc: "行业与标签 / classification" },
+      { name: "founders[]", desc: "创始人档案(姓名/头衔/bio) / founder profiles" },
+    ],
   },
   {
     slug: "policy",
@@ -63,6 +98,20 @@ export const DATASETS: Dataset[] = [
       { method: "GET", path: "/v1/policy/{id}", desc: "按 ID 取单件全文" },
     ],
     exampleCurl: `curl -H "X-API-Key: <your key>" \\\n  "https://api.lumina-core.cn/v1/policy?q=人工智能&limit=10"`,
+    enTitle: "China State Council Policy Documents Database API",
+    enTagline: "Full text of China's State Council policy documents (国发 / 国办发) since 1996 — full-text search, document-type and issuing-organ filters, and year × type aggregations via REST.",
+    enOverview: [
+      "The State Council policy document library (政策文件库) is the canonical source for China's central-government policy directives. This dataset mirrors the State Council series — 国发, 国办发, 国函, 国办函 — with full document text, document numbers, issuing organs, themes and both written and published dates, updated daily.",
+      "Search policy full text in Chinese, look up a document by its official number (e.g. 国发〔2026〕15号), or chart how policy attention to a theme evolved across three decades. Documents withdrawn by the source are flagged, never silently deleted, so citations stay traceable.",
+    ],
+    temporalCoverage: "1996/..",
+    fields: [
+      { name: "pcode / doc_type", desc: "发文字号与文种 / document number & type" },
+      { name: "title / content", desc: "标题与正文全文 / title & full text" },
+      { name: "puborg / theme", desc: "发文机关与主题 / issuing organ & theme" },
+      { name: "pub_date / write_date", desc: "发布与成文日期 / published & written dates" },
+      { name: "withdrawn", desc: "官方下架标记 / withdrawal flag" },
+    ],
   },
 ];
 

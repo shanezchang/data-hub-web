@@ -1,0 +1,592 @@
+{
+ "as_of": "2026-06-11",
+ "keywords": [
+  {
+   "zh": "人工智能",
+   "en": "Artificial intelligence (AI)",
+   "total": 1220,
+   "by_year": {
+    "2016": 19,
+    "2017": 30,
+    "2018": 65,
+    "2019": 80,
+    "2020": 83,
+    "2021": 49,
+    "2022": 44,
+    "2023": 100,
+    "2024": 218,
+    "2025": 357,
+    "2026": 175
+   }
+  },
+  {
+   "zh": "新能源",
+   "en": "New energy",
+   "total": 1313,
+   "by_year": {
+    "2016": 34,
+    "2017": 38,
+    "2018": 64,
+    "2019": 40,
+    "2020": 55,
+    "2021": 43,
+    "2022": 108,
+    "2023": 253,
+    "2024": 289,
+    "2025": 286,
+    "2026": 103
+   }
+  },
+  {
+   "zh": "房地产",
+   "en": "Real estate",
+   "total": 208,
+   "by_year": {
+    "2016": 43,
+    "2017": 27,
+    "2018": 17,
+    "2019": 13,
+    "2020": 12,
+    "2021": 18,
+    "2022": 6,
+    "2023": 17,
+    "2024": 31,
+    "2025": 16,
+    "2026": 8
+   }
+  },
+  {
+   "zh": "数字经济",
+   "en": "Digital economy",
+   "total": 874,
+   "by_year": {
+    "2016": 10,
+    "2017": 31,
+    "2018": 39,
+    "2019": 59,
+    "2020": 72,
+    "2021": 62,
+    "2022": 95,
+    "2023": 161,
+    "2024": 152,
+    "2025": 148,
+    "2026": 45
+   }
+  },
+  {
+   "zh": "乡村振兴",
+   "en": "Rural revitalization",
+   "total": 1211,
+   "by_year": {
+    "2017": 38,
+    "2018": 151,
+    "2019": 89,
+    "2020": 108,
+    "2021": 211,
+    "2022": 168,
+    "2023": 193,
+    "2024": 103,
+    "2025": 111,
+    "2026": 39
+   }
+  },
+  {
+   "zh": "一带一路",
+   "en": "Belt and Road",
+   "total": 3803,
+   "by_year": {
+    "2016": 273,
+    "2017": 540,
+    "2018": 615,
+    "2019": 647,
+    "2020": 184,
+    "2021": 193,
+    "2022": 183,
+    "2023": 488,
+    "2024": 391,
+    "2025": 234,
+    "2026": 55
+   }
+  },
+  {
+   "zh": "高质量发展",
+   "en": "High-quality development",
+   "total": 4431,
+   "by_year": {
+    "2017": 22,
+    "2018": 285,
+    "2019": 424,
+    "2020": 321,
+    "2021": 436,
+    "2022": 389,
+    "2023": 731,
+    "2024": 780,
+    "2025": 721,
+    "2026": 322
+   }
+  },
+  {
+   "zh": "半导体",
+   "en": "Semiconductor",
+   "total": 106,
+   "by_year": {
+    "2016": 5,
+    "2017": 3,
+    "2018": 7,
+    "2019": 18,
+    "2020": 11,
+    "2021": 7,
+    "2022": 5,
+    "2023": 18,
+    "2024": 8,
+    "2025": 19,
+    "2026": 5
+   }
+  }
+ ],
+ "yc_survival": [
+  {
+   "key": 2005,
+   "count": 9,
+   "sub": [
+    {
+     "key": "Acquired",
+     "count": 6
+    },
+    {
+     "key": "Inactive",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "key": 2006,
+   "count": 18,
+   "sub": [
+    {
+     "key": "Inactive",
+     "count": 11
+    },
+    {
+     "key": "Acquired",
+     "count": 6
+    },
+    {
+     "key": "Active",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "key": 2007,
+   "count": 32,
+   "sub": [
+    {
+     "key": "Inactive",
+     "count": 16
+    },
+    {
+     "key": "Acquired",
+     "count": 12
+    },
+    {
+     "key": "Active",
+     "count": 3
+    },
+    {
+     "key": "Public",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "key": 2008,
+   "count": 43,
+   "sub": [
+    {
+     "key": "Inactive",
+     "count": 31
+    },
+    {
+     "key": "Acquired",
+     "count": 9
+    },
+    {
+     "key": "Active",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "key": 2009,
+   "count": 42,
+   "sub": [
+    {
+     "key": "Inactive",
+     "count": 21
+    },
+    {
+     "key": "Acquired",
+     "count": 12
+    },
+    {
+     "key": "Active",
+     "count": 8
+    },
+    {
+     "key": "Public",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "key": 2010,
+   "count": 63,
+   "sub": [
+    {
+     "key": "Acquired",
+     "count": 30
+    },
+    {
+     "key": "Inactive",
+     "count": 24
+    },
+    {
+     "key": "Active",
+     "count": 7
+    },
+    {
+     "key": "Public",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "key": 2011,
+   "count": 105,
+   "sub": [
+    {
+     "key": "Acquired",
+     "count": 42
+    },
+    {
+     "key": "Inactive",
+     "count": 37
+    },
+    {
+     "key": "Active",
+     "count": 26
+    }
+   ]
+  },
+  {
+   "key": 2012,
+   "count": 149,
+   "sub": [
+    {
+     "key": "Inactive",
+     "count": 65
+    },
+    {
+     "key": "Acquired",
+     "count": 45
+    },
+    {
+     "key": "Active",
+     "count": 35
+    },
+    {
+     "key": "Public",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "key": 2013,
+   "count": 98,
+   "sub": [
+    {
+     "key": "Inactive",
+     "count": 36
+    },
+    {
+     "key": "Acquired",
+     "count": 33
+    },
+    {
+     "key": "Active",
+     "count": 28
+    },
+    {
+     "key": "Public",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "key": 2014,
+   "count": 152,
+   "sub": [
+    {
+     "key": "Acquired",
+     "count": 53
+    },
+    {
+     "key": "Active",
+     "count": 50
+    },
+    {
+     "key": "Inactive",
+     "count": 45
+    },
+    {
+     "key": "Public",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "key": 2015,
+   "count": 215,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 86
+    },
+    {
+     "key": "Inactive",
+     "count": 63
+    },
+    {
+     "key": "Acquired",
+     "count": 62
+    },
+    {
+     "key": "Public",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "key": 2016,
+   "count": 224,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 101
+    },
+    {
+     "key": "Inactive",
+     "count": 75
+    },
+    {
+     "key": "Acquired",
+     "count": 46
+    },
+    {
+     "key": "Public",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "key": 2017,
+   "count": 241,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 110
+    },
+    {
+     "key": "Inactive",
+     "count": 68
+    },
+    {
+     "key": "Acquired",
+     "count": 62
+    },
+    {
+     "key": "Public",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "key": 2018,
+   "count": 277,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 158
+    },
+    {
+     "key": "Inactive",
+     "count": 67
+    },
+    {
+     "key": "Acquired",
+     "count": 50
+    },
+    {
+     "key": "Public",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "key": 2019,
+   "count": 371,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 228
+    },
+    {
+     "key": "Inactive",
+     "count": 86
+    },
+    {
+     "key": "Acquired",
+     "count": 57
+    }
+   ]
+  },
+  {
+   "key": 2020,
+   "count": 437,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 262
+    },
+    {
+     "key": "Inactive",
+     "count": 102
+    },
+    {
+     "key": "Acquired",
+     "count": 72
+    },
+    {
+     "key": "Public",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "key": 2021,
+   "count": 727,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 525
+    },
+    {
+     "key": "Inactive",
+     "count": 123
+    },
+    {
+     "key": "Acquired",
+     "count": 79
+    }
+   ]
+  },
+  {
+   "key": 2022,
+   "count": 632,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 506
+    },
+    {
+     "key": "Inactive",
+     "count": 77
+    },
+    {
+     "key": "Acquired",
+     "count": 49
+    }
+   ]
+  },
+  {
+   "key": 2023,
+   "count": 493,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 397
+    },
+    {
+     "key": "Inactive",
+     "count": 53
+    },
+    {
+     "key": "Acquired",
+     "count": 43
+    }
+   ]
+  },
+  {
+   "key": 2024,
+   "count": 591,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 547
+    },
+    {
+     "key": "Inactive",
+     "count": 29
+    },
+    {
+     "key": "Acquired",
+     "count": 15
+    }
+   ]
+  },
+  {
+   "key": 2025,
+   "count": 626,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 614
+    },
+    {
+     "key": "Inactive",
+     "count": 7
+    },
+    {
+     "key": "Acquired",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "key": 2026,
+   "count": 409,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 408
+    },
+    {
+     "key": "Inactive",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "key": 2027,
+   "count": 1,
+   "sub": [
+    {
+     "key": "Active",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "yc_total": 5956
+}

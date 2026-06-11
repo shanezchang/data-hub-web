@@ -23,12 +23,33 @@ export const metadata: Metadata = {
 
 const themeInit = `(function(){try{if(localStorage.getItem("datahub_theme")==="dark"){document.documentElement.setAttribute("data-theme","dark");var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute("content","#0d1117")}}catch(e){}})()`;
 
+// 站点级结构化数据(静态字面量,无用户输入)
+const siteJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://console.lumina-core.cn/#org",
+      name: "data-hub",
+      url: "https://console.lumina-core.cn",
+      description: "Structured data APIs for AI agents: CCTV Xinwen Lianbo transcripts, Y Combinator company directory, China State Council policy documents.",
+    },
+    {
+      "@type": "WebSite",
+      name: "data·hub",
+      url: "https://console.lumina-core.cn",
+      publisher: { "@id": "https://console.lumina-core.cn/#org" },
+    },
+  ],
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="zh-CN" data-theme="light" suppressHydrationWarning>
       <head>
         <meta name="theme-color" content="#faf9f7" />
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }} />
       </head>
       <body>
         <ToastProvider>{children}</ToastProvider>

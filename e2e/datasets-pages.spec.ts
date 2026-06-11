@@ -6,7 +6,8 @@ test("主页数据集卡片进入子页面", async ({ page }) => {
   await page.goto("/");
   await page.locator("#datasets").getByRole("link", { name: /新闻联播/ }).click();
   await expect(page).toHaveURL(/\/datasets\/news$/);
-  await expect(page.getByRole("heading", { level: 1 })).toContainText("新闻联播");
+  // v0.9.x:H1 改英文搜索词标题,中文名降为副标题
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("Xinwen Lianbo");
 });
 
 test("news 子页面列出该数据集全部端点", async ({ page }) => {

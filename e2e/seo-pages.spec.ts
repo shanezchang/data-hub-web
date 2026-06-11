@@ -136,3 +136,15 @@ test("政策主题页渲染主题榜与 movers", async ({ page }) => {
   await expect(page.getByRole("heading", { level: 1 })).toContainText("State Council writes about");
   await expect(page.getByText("Trade, customs & tourism").first()).toBeVisible();
 });
+
+test("访问打点:公开页发 beacon,dashboard 不发", async ({ page }) => {
+  const hits: string[] = [];
+  await page.route("**/api/t", async (route) => {
+    hits.push(route.request().postData() ?? "");
+    await route.fulfill({ status: 204, body: "" });
+  });
+  await page.goto("/insights");
+  await page.waitForTimeout(300);
+  expect(hits.length).toBe(1);
+  expect(hits[0]).toContain('"path":"/insights"');
+});

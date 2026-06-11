@@ -11,7 +11,9 @@ export function SiteFooter() {
           <BrandMark className="size-4" /> data·hub
         </Link>
         <nav className="flex flex-wrap gap-x-5 gap-y-2">
-          <Link href="/changelog" className="hover:text-fg">更新日志</Link>
+          <Link href="/insights" className="hover:text-fg">Insights</Link>
+        <Link href="/regions" className="hover:text-fg">Regions</Link>
+        <Link href="/changelog" className="hover:text-fg">更新日志</Link>
           <Link href="/about" className="hover:text-fg">关于</Link>
           <a href={API_DOCS} target="_blank" rel="noopener" className="hover:text-fg">API 文档</a>
           <a href={`${API_BASE}/llms.txt`} target="_blank" rel="noopener" className="hover:text-fg">llms.txt</a>

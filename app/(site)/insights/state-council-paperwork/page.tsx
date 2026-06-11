@@ -10,7 +10,7 @@ import data from "@/lib/insights-data/state-council-doctypes.json";
 export const metadata: Metadata = {
   title: "From directives to approvals: how State Council paperwork changed, 2013–2025",
   description:
-    "In 2013 China's State Council issued 86 major directives (国发) and 50 approval letters (国函). By 2024 the ratio had inverted: 10 directives, 51 approvals — and 2025 saw just 3 directives all year. A structural shift, measured from 6,000+ policy documents.",
+    "In 2013 China's State Council issued 86 major directives (国发) and 50 approval letters (国函). By 2024 the ratio had inverted: 10 directives, 51 approvals — and 2025 saw just 3 directives all year. A structural shift, measured from the full State Council document library.",
   alternates: { canonical: "/insights/state-council-paperwork" },
 };
 

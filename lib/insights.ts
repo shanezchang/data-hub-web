@@ -3,7 +3,8 @@
 // 编辑纪律(主编把关线,见 data-hub 仓库 docs/content-playbook.md):
 //   1. 每个数字必须能用公开 API 一条查询复现(页面 Methodology 给出查询)
 //   2. 只做描述性陈述,不做政治评价;敏感话题不选题
-//   3. 数据快照标注 as_of;条数随采集漂移,正文不写"总量为 N"式的会过时断言
+//   3. 数据快照标注 as_of;条数随采集漂移,正文/标题/描述不写"总量为 N"式的会过时断言
+//      (裁决 2026-06-11:历史 changelog 条目是发布时点快照,豁免此纪律)
 
 export type Insight = {
   slug: string;
@@ -50,7 +51,7 @@ export const INSIGHTS: Insight[] = [
     slug: "policy-themes",
     title: "What the State Council writes about",
     description:
-      "Trade-customs-tourism is the largest theme across 6,000+ documents; land-and-energy is the clearest recent riser (3 docs in 2019 → 41 in 2024); health spiked through the pandemic then faded.",
+      "Trade-customs-tourism is the largest theme across the full archive; land-and-energy is the clearest recent riser (3 docs in 2019 → 41 in 2024); health spiked through the pandemic then faded.",
     publishedAt: "2026-06-11",
     dataAsOf: "2026-06-11",
   },
@@ -58,7 +59,7 @@ export const INSIGHTS: Insight[] = [
     slug: "state-council-paperwork",
     title: "From directives to approvals: the changing shape of State Council paperwork",
     description:
-      "In 2013: 86 major directives vs 50 approvals. In 2024: 10 vs 51 — and 2025 saw just 3 directives all year. Plus the 2020 urgent-telegram spike, measured from 6,000+ documents.",
+      "In 2013: 86 major directives vs 50 approvals. In 2024: 10 vs 51 — and 2025 saw just 3 directives all year. Plus the 2020 urgent-telegram spike, measured from the full document library.",
     publishedAt: "2026-06-11",
     dataAsOf: "2026-06-11",
   },

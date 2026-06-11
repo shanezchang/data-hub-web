@@ -5,7 +5,7 @@ import { test, expect } from "@playwright/test";
 test("header 全局导航:数据集/Agent 接入/文档/更新日志/关于", async ({ page }) => {
   await page.goto("/");
   const header = page.locator("header");
-  for (const name of ["数据集", "Agent 接入", "更新日志", "关于"]) {
+  for (const name of ["数据集", "Insights", "Regions", "Agent 接入", "更新日志", "关于"]) {
     await expect(header.getByRole("link", { name })).toBeVisible();
   }
   await expect(header.getByRole("link", { name: "文档" })).toHaveAttribute("href", /api\.lumina-core\.cn\/docs/);

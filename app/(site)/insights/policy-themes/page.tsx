@@ -7,7 +7,7 @@ import { LineChart } from "@/components/trends/charts";
 import data from "@/lib/insights-data/policy-themes.json";
 
 export const metadata: Metadata = {
-  title: "What the State Council writes about: policy themes across 6,000+ documents",
+  title: "What the State Council writes about: policy themes across three decades",
   description:
     "Trade/customs/tourism is the largest theme in China's State Council document library. Since 2019, land-and-energy is the clearest riser (3 docs in 2019 → 41 in 2024); health spiked through the pandemic years then faded.",
   alternates: { canonical: "/insights/policy-themes" },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "What the State Council writes about: policy themes across 6,000+ documents",
+  headline: "What the State Council writes about: policy themes across three decades",
   description:
     "Theme composition of China State Council policy documents, overall and year-by-year in the clean 2019+ window.",
   dateModified: data.as_of,

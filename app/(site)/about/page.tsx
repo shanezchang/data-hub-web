@@ -3,7 +3,11 @@ import Link from "next/link";
 import { DATASETS } from "@/lib/datasets";
 import { API_DOCS, CONTACT } from "@/lib/site";
 
-export const metadata: Metadata = { title: "关于", alternates: { canonical: "/about" } };
+export const metadata: Metadata = {
+  title: "关于",
+  description: "data·hub 是一个由个人维护的数据 API 平台——把新闻联播、国务院政策文件、YC 公司目录等公开数据整理成 AI 可直接调用的结构化接口。",
+  alternates: { canonical: "/about" },
+};
 
 export default function AboutPage() {
   return (

@@ -34,7 +34,7 @@ npm run test:e2e     # Playwright 全量(自动起 3100 端口 dev server)
 ## 后端
 
 后端在 `shanezchang/data-hub`，门户接口 `/portal/*`，数据接口 `/v1/*`。
-当前后端公网地址：`http://120.55.183.188:8000`（rewrite 目标，换地址改 `next.config.ts`）。
+当前回源地址：`https://www.lumina-core.cn`（rewrite 目标，换地址改 `next.config.ts`）。
 
 ## 部署
 

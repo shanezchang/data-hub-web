@@ -45,8 +45,8 @@ export default function YcIndustryDriftPage() {
         In 2008, just over half of Y Combinator&apos;s funded companies were consumer startups and
         B2B was the other half of the story. The two curves have been diverging ever since: by the
         2026 batches, B2B accounts for over 60% of companies while consumer has shrunk to roughly
-        one in twenty. The drift is visible batch by batch in YC&apos;s own public directory — one
-        two-dimensional aggregation over ~6,000 companies.
+        one in twenty. The drift is visible batch by batch — one
+        two-dimensional aggregation over YC&apos;s own public directory.
       </p>
 
       <h2 className="mt-12 text-xl font-bold">B2B vs Consumer, share of each batch year (%)</h2>

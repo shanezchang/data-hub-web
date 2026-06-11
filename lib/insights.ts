@@ -15,6 +15,14 @@ export type Insight = {
 
 export const INSIGHTS: Insight[] = [
   {
+    slug: "yc-industry-drift",
+    title: "YC's consumer era is over: two decades of industry drift",
+    description:
+      "In 2008 half the batch was consumer startups; by 2026 consumer is ~5% while B2B exceeds 60%. Industry composition of every YC batch year, in one aggregation.",
+    publishedAt: "2026-06-11",
+    dataAsOf: "2026-06-11",
+  },
+  {
     slug: "state-council-paperwork",
     title: "From directives to approvals: the changing shape of State Council paperwork",
     description:

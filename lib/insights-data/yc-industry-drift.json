@@ -1,0 +1,213 @@
+{
+ "as_of": "2026-06-11",
+ "by_year": {
+  "2008": {
+   "total": 43,
+   "Consumer": 22,
+   "B2B": 20,
+   "Fintech": 1
+  },
+  "2009": {
+   "total": 42,
+   "Consumer": 21,
+   "B2B": 14,
+   "Real Estate and Construction": 4,
+   "Fintech": 2,
+   "Education": 1
+  },
+  "2010": {
+   "total": 63,
+   "B2B": 33,
+   "Consumer": 25,
+   "Fintech": 2,
+   "Real Estate and Construction": 2,
+   "Education": 1
+  },
+  "2011": {
+   "total": 105,
+   "B2B": 53,
+   "Consumer": 32,
+   "Fintech": 7,
+   "Education": 5,
+   "Healthcare": 5,
+   "Real Estate and Construction": 3
+  },
+  "2012": {
+   "total": 149,
+   "B2B": 73,
+   "Consumer": 48,
+   "Fintech": 8,
+   "Education": 7,
+   "Healthcare": 6,
+   "Industrials": 4,
+   "Real Estate and Construction": 3
+  },
+  "2013": {
+   "total": 98,
+   "B2B": 51,
+   "Consumer": 27,
+   "Healthcare": 10,
+   "Fintech": 6,
+   "Education": 2,
+   "Industrials": 1,
+   "Real Estate and Construction": 1
+  },
+  "2014": {
+   "total": 152,
+   "B2B": 64,
+   "Consumer": 40,
+   "Fintech": 14,
+   "Healthcare": 12,
+   "Industrials": 11,
+   "Unspecified": 5,
+   "Real Estate and Construction": 3,
+   "Education": 2,
+   "Government": 1
+  },
+  "2015": {
+   "total": 215,
+   "B2B": 84,
+   "Consumer": 47,
+   "Healthcare": 31,
+   "Fintech": 18,
+   "Industrials": 14,
+   "Real Estate and Construction": 9,
+   "Unspecified": 5,
+   "Education": 4,
+   "Government": 3
+  },
+  "2016": {
+   "total": 224,
+   "B2B": 83,
+   "Consumer": 54,
+   "Healthcare": 30,
+   "Industrials": 20,
+   "Fintech": 17,
+   "Real Estate and Construction": 7,
+   "Education": 6,
+   "Unspecified": 5,
+   "Government": 2
+  },
+  "2017": {
+   "total": 241,
+   "B2B": 68,
+   "Consumer": 55,
+   "Healthcare": 37,
+   "Industrials": 28,
+   "Fintech": 26,
+   "Real Estate and Construction": 11,
+   "Education": 8,
+   "Government": 5,
+   "Unspecified": 3
+  },
+  "2018": {
+   "total": 277,
+   "B2B": 100,
+   "Healthcare": 64,
+   "Consumer": 54,
+   "Fintech": 25,
+   "Industrials": 17,
+   "Education": 8,
+   "Real Estate and Construction": 6,
+   "Government": 3
+  },
+  "2019": {
+   "total": 371,
+   "B2B": 152,
+   "Consumer": 64,
+   "Healthcare": 49,
+   "Fintech": 47,
+   "Industrials": 27,
+   "Real Estate and Construction": 16,
+   "Education": 12,
+   "Government": 4
+  },
+  "2020": {
+   "total": 437,
+   "B2B": 209,
+   "Healthcare": 68,
+   "Consumer": 56,
+   "Fintech": 56,
+   "Industrials": 23,
+   "Real Estate and Construction": 14,
+   "Education": 9,
+   "Government": 2
+  },
+  "2021": {
+   "total": 727,
+   "B2B": 342,
+   "Fintech": 114,
+   "Healthcare": 106,
+   "Consumer": 78,
+   "Industrials": 43,
+   "Education": 28,
+   "Real Estate and Construction": 14,
+   "Government": 2
+  },
+  "2022": {
+   "total": 632,
+   "B2B": 301,
+   "Fintech": 132,
+   "Healthcare": 69,
+   "Consumer": 60,
+   "Industrials": 36,
+   "Real Estate and Construction": 24,
+   "Education": 9,
+   "Government": 1
+  },
+  "2023": {
+   "total": 493,
+   "B2B": 337,
+   "Healthcare": 51,
+   "Fintech": 45,
+   "Consumer": 32,
+   "Industrials": 11,
+   "Real Estate and Construction": 10,
+   "Education": 6,
+   "Government": 1
+  },
+  "2024": {
+   "total": 591,
+   "B2B": 373,
+   "Healthcare": 61,
+   "Consumer": 56,
+   "Industrials": 39,
+   "Fintech": 38,
+   "Real Estate and Construction": 11,
+   "Government": 7,
+   "Education": 6
+  },
+  "2025": {
+   "total": 626,
+   "B2B": 410,
+   "Industrials": 59,
+   "Healthcare": 45,
+   "Consumer": 44,
+   "Fintech": 35,
+   "Real Estate and Construction": 13,
+   "Education": 11,
+   "Government": 9
+  },
+  "2026": {
+   "total": 409,
+   "B2B": 255,
+   "Industrials": 54,
+   "Fintech": 36,
+   "Healthcare": 35,
+   "Consumer": 20,
+   "Real Estate and Construction": 8,
+   "Government": 1
+  }
+ },
+ "industries": [
+  "B2B",
+  "Consumer",
+  "Healthcare",
+  "Fintech",
+  "Industrials",
+  "Government",
+  "Education",
+  "Real Estate and Construction",
+  "Unspecified"
+ ]
+}

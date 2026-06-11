@@ -105,3 +105,9 @@ test("未发布省份 404", async ({ page }) => {
   const res = await page.goto("/regions/xinjiang");
   expect(res?.status()).toBe(404);
 });
+
+test("YC 行业漂移 insight 页渲染份额曲线与全量表", async ({ page }) => {
+  await page.goto("/insights/yc-industry-drift");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("consumer era is over");
+  await expect(page.getByRole("columnheader", { name: "B2B" })).toBeVisible();
+});

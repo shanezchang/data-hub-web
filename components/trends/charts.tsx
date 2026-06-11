@@ -30,6 +30,38 @@ export function LineChart({ byYear }: { byYear: Record<string, number> }) {
   );
 }
 
+// 双序列折线(交接棒/对比类 insight 用):两组同一 x 轴的年度计数
+export function DualLineChart({ a, b }: {
+  a: { label: string; byYear: Record<string, number> };
+  b: { label: string; byYear: Record<string, number> };
+}) {
+  const years = Array.from(new Set([...Object.keys(a.byYear), ...Object.keys(b.byYear)])).sort();
+  if (years.length < 2) return null;
+  const max = Math.max(...years.map((y) => Math.max(a.byYear[y] ?? 0, b.byYear[y] ?? 0)), 1);
+  const x = (i: number) => PAD.l + (i / (years.length - 1)) * (W - PAD.l - PAD.r);
+  const y = (v: number) => H - PAD.b - (v / max) * (H - PAD.t - PAD.b);
+  const line = (byYear: Record<string, number>) =>
+    years.map((yr, i) => `${x(i)},${y(byYear[yr] ?? 0)}`).join(" ");
+
+  return (
+    <div>
+      <svg viewBox={`0 0 ${W} ${H}`} role="img" className="w-full" aria-label={`${a.label} vs ${b.label}`}>
+        <line x1={PAD.l} y1={H - PAD.b} x2={W - PAD.r} y2={H - PAD.b} stroke="currentColor" strokeOpacity="0.18" />
+        <text x={PAD.l - 6} y={y(max) + 4} textAnchor="end" fontSize="10" fill="currentColor" fillOpacity="0.55">{max}</text>
+        <text x={PAD.l - 6} y={H - PAD.b + 4} textAnchor="end" fontSize="10" fill="currentColor" fillOpacity="0.55">0</text>
+        <text x={x(0)} y={H - 8} textAnchor="middle" fontSize="10" fill="currentColor" fillOpacity="0.55">{years[0]}</text>
+        <text x={x(years.length - 1)} y={H - 8} textAnchor="middle" fontSize="10" fill="currentColor" fillOpacity="0.55">{years[years.length - 1]}</text>
+        <polyline points={line(a.byYear)} fill="none" stroke="var(--accent, #2563eb)" strokeWidth="2" strokeLinejoin="round" />
+        <polyline points={line(b.byYear)} fill="none" stroke="#8b5cf6" strokeWidth="2" strokeLinejoin="round" strokeDasharray="5 3" />
+      </svg>
+      <div className="mt-1 flex gap-4 text-xs text-muted">
+        <span className="flex items-center gap-1.5"><span className="inline-block h-0.5 w-4" style={{ background: "var(--accent, #2563eb)" }} aria-hidden="true" />{a.label}</span>
+        <span className="flex items-center gap-1.5"><span className="inline-block h-0.5 w-4 border-b-2 border-dashed" style={{ borderColor: "#8b5cf6" }} aria-hidden="true" />{b.label}</span>
+      </div>
+    </div>
+  );
+}
+
 const STATUS_COLORS: Record<string, string> = {
   Active: "var(--accent, #2563eb)",
   Acquired: "#8b5cf6",

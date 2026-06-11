@@ -44,3 +44,23 @@ test("sitemap 不含鉴权页且含趋势页", async ({ page }) => {
   expect(xml).toContain("/trends/xinwen-lianbo-keywords");
   expect(xml).toContain("/trends/yc-batch-survival");
 });
+
+test("insights 索引页列出全部发现", async ({ page }) => {
+  await page.goto("/insights");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("Data Insights");
+  await expect(page.getByRole("link", { name: /New Quality Productive Forces/ })).toBeVisible();
+  await expect(page.getByRole("link", { name: /vocabulary handoff/ })).toBeVisible();
+});
+
+test("新质生产力 insight 页渲染双线图与方法论", async ({ page }) => {
+  await page.goto("/insights/new-quality-productive-forces");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("cold start");
+  await expect(page.getByRole("heading", { name: "Methodology" })).toBeVisible();
+  await expect(page.locator("svg[role=img]").first()).toBeVisible();
+});
+
+test("交接棒 insight 页渲染消退词电池", async ({ page }) => {
+  await page.goto("/insights/policy-vocabulary-handoff");
+  await expect(page.getByRole("heading", { name: /Capacity reduction/ })).toBeVisible();
+  expect(await page.locator("svg[role=img]").count()).toBeGreaterThanOrEqual(5);
+});

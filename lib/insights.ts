@@ -1,0 +1,35 @@
+// Insights 注册表:数据驱动的发现页(英文,programmatic SEO 内容线)。
+// 新发现上线 = 数据 JSON 放 lib/insights-data/ + 此处加一条 + app/(site)/insights/<slug>/page.tsx。
+// 编辑纪律(主编把关线,见 data-hub 仓库 docs/content-playbook.md):
+//   1. 每个数字必须能用公开 API 一条查询复现(页面 Methodology 给出查询)
+//   2. 只做描述性陈述,不做政治评价;敏感话题不选题
+//   3. 数据快照标注 as_of;条数随采集漂移,正文不写"总量为 N"式的会过时断言
+
+export type Insight = {
+  slug: string;
+  title: string;
+  description: string;
+  publishedAt: string; // YYYY-MM-DD
+  dataAsOf: string;
+};
+
+export const INSIGHTS: Insight[] = [
+  {
+    slug: "new-quality-productive-forces",
+    title: "“New Quality Productive Forces”: a slogan's cold start, measured",
+    description:
+      "新质生产力 went from zero to 269 Xinwen Lianbo items within one year of first appearing — with State Council policy documents following exactly one year later.",
+    publishedAt: "2026-06-11",
+    dataAsOf: "2026-06-11",
+  },
+  {
+    slug: "policy-vocabulary-handoff",
+    title: "The vocabulary handoff: 精准扶贫 → 乡村振兴",
+    description:
+      "Targeted poverty alleviation peaked in 2017 and hit zero broadcast mentions by 2023; rural revitalization appeared the same year it peaked. Plus four more phrases that faded from the broadcast.",
+    publishedAt: "2026-06-11",
+    dataAsOf: "2026-06-11",
+  },
+];
+
+export const getInsight = (slug: string) => INSIGHTS.find((i) => i.slug === slug);

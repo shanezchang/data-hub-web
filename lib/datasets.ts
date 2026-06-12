@@ -113,6 +113,38 @@ export const DATASETS: Dataset[] = [
       { name: "withdrawn", desc: "官方下架标记 / withdrawal flag" },
     ],
   },
+  {
+    slug: "opinion",
+    name: "人民日报评论语料",
+    tagline: "人民时评、人民论坛、评论员观察等栏目的结构化索引，面向申论素材检索：提要金句 + 摘要 + 出处链接。",
+    coverage: [
+      "2023 年至今的人民日报评论栏目（人民时评 / 人民论坛 / 评论员观察 / 今日谈 / 钟声 / 和音 等），每日更新",
+      "官方提要（金句）结构化抽取，栏目 / 作者 / 版面 / 日期维度齐全",
+      "全文检索定位 + 命中片段；正文不对外输出，提供电子版原文出处链接",
+    ],
+    scope: "opinion:read",
+    endpoints: [
+      { method: "GET", path: "/v1/opinion", desc: "简单查询：关键词、栏目、作者、日期范围、聚合，参数可直接贴链接" },
+      { method: "POST", path: "/v1/opinion/search", desc: "结构化查询：多词 AND / OR、精确短语、复杂筛选与交叉聚合" },
+      { method: "GET", path: "/v1/opinion/{id}", desc: "按 ID 取单条（元数据 + 提要 + 摘要 + 原文链接）" },
+    ],
+    exampleCurl: `curl -H "X-API-Key: <your key>" \\\n  "https://api.lumina-core.cn/v1/opinion?q=基层治理&fields=title,digest,excerpt,url"`,
+    enTitle: "People's Daily Commentary Index API",
+    enTagline: "A structured index of People's Daily signed commentary columns (人民时评, 人民论坛, 钟声 …) since 2023 — search, column/author filters, official pull-quotes and source links via REST.",
+    enOverview: [
+      "People's Daily commentary columns are the most-quoted source material for Chinese civil-service exam essay writing (申论) and a key signal of official discourse. This dataset indexes every column-tagged commentary from the paper's e-edition since 2023, updated daily.",
+      "Each record carries the column, author, page, date, the official pull-quote paragraphs (提要) and an opening excerpt, plus a link to the official e-paper source. Full article text powers search and snippets internally but is not redistributed — the API returns metadata, quotes and citations.",
+    ],
+    temporalCoverage: "2023-01/..",
+    fields: [
+      { name: "column / column_raw", desc: "栏目（基名 / 括号原文）/ column" },
+      { name: "title / author", desc: "标题与作者 / title & author" },
+      { name: "digest", desc: "官方提要金句 / official pull-quotes" },
+      { name: "excerpt", desc: "首段摘要 / opening excerpt" },
+      { name: "pub_date / page_no / page_name", desc: "见报日期与版面 / date & page" },
+      { name: "url", desc: "电子版原文链接 / source URL" },
+    ],
+  },
 ];
 
 export const getDataset = (slug: string) => DATASETS.find((d) => d.slug === slug);

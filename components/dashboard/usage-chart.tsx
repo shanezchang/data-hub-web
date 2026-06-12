@@ -10,7 +10,7 @@ export function UsageChart({ daily }: { daily: Usage["daily"] }) {
           <span
             key={d.date}
             title={`${d.date} · ${d.count} 次`}
-            className={`flex-1 rounded-t-sm ${d.count ? "bg-fg/70" : "bg-line"}`}
+            className={`flex-1 rounded-t-sm ${d.count ? "bg-primary/70" : "bg-border"}`}
             style={{ height: `${h}%` }}
           />
         );

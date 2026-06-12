@@ -15,8 +15,8 @@ export default function OverviewPage() {
         <StatCard label="今日" value={usage?.today.toLocaleString()} />
         <StatCard label="有效 key" value={keys?.filter((k) => !k.revoked).length} />
       </div>
-      <div className="mt-5 rounded-lg border border-line p-5">
-        <p className="mb-4 text-sm text-muted">近 30 天调用</p>
+      <div className="mt-5 rounded-lg border border-border p-5">
+        <p className="mb-4 text-sm text-muted-foreground">近 30 天调用</p>
         {usage ? <UsageChart daily={usage.daily} /> : <Skeleton className="h-28" />}
       </div>
     </div>

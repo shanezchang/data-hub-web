@@ -14,16 +14,16 @@ const TABS = [
 export function ResponseDemo() {
   const [tab, setTab] = useState(TABS[0]);
   return (
-    <section id="response-demo" className="border-t border-line bg-bg-soft/50">
+    <section id="response-demo" className="border-t border-border bg-muted/50">
       <div className="mx-auto max-w-5xl px-5 py-16">
         <h2 className="text-2xl font-bold">真实响应示例</h2>
-        <p className="mt-2 text-sm text-muted">生产 API 的响应快照。</p>
+        <p className="mt-2 text-sm text-muted-foreground">生产 API 的响应快照。</p>
         <div className="mt-6 flex gap-2">
           {TABS.map((t) => (
             <button
               key={t.key}
               onClick={() => setTab(t)}
-              className={`rounded-md px-3 py-1.5 text-sm ${tab.key === t.key ? "bg-fg font-medium text-bg" : "border border-line text-muted hover:bg-bg-soft"}`}
+              className={`rounded-md px-3 py-1.5 text-sm ${tab.key === t.key ? "bg-primary font-medium text-primary-foreground" : "border border-border text-muted-foreground hover:bg-muted"}`}
             >
               {t.label}
             </button>

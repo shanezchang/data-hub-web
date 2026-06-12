@@ -17,10 +17,10 @@ export function Limits() {
   return (
     <section className="mx-auto max-w-5xl px-5 py-16">
       <h2 className="text-2xl font-bold">限流与额度</h2>
-      <div className="mt-6 max-w-2xl overflow-hidden rounded-lg border border-line">
+      <div className="mt-6 max-w-2xl overflow-hidden rounded-lg border border-border">
         {ROWS.map(([k, v], i) => (
-          <div key={k} className={`flex justify-between gap-6 px-5 py-3 text-sm ${i ? "border-t border-line" : ""}`}>
-            <span className="text-muted">{k}</span>
+          <div key={k} className={`flex justify-between gap-6 px-5 py-3 text-sm ${i ? "border-t border-border" : ""}`}>
+            <span className="text-muted-foreground">{k}</span>
             <span className="text-right">{v}</span>
           </div>
         ))}

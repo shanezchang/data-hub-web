@@ -41,11 +41,11 @@ export default function YcGeographyPage() {
   return (
     <main className="mx-auto max-w-3xl px-5 py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <p className="mb-3 font-mono text-xs uppercase tracking-[0.18em] text-accent">Insight · Y Combinator</p>
+      <p className="mb-3 font-mono text-xs uppercase tracking-[0.18em] text-brand">Insight · Y Combinator</p>
       <h1 className="text-3xl font-bold leading-tight">
         YC went global, then came home
       </h1>
-      <p className="mt-5 max-w-2xl leading-relaxed text-muted">
+      <p className="mt-5 max-w-2xl leading-relaxed text-muted-foreground">
         For most of its first decade, Y Combinator was an American program: non-US companies made
         up under 6% of the 2012 intake. The international share then climbed for a decade and
         peaked at 40% in the 2022 batches — before collapsing back to single digits by 2025. The
@@ -53,7 +53,7 @@ export default function YcGeographyPage() {
       </p>
 
       <h2 className="mt-12 text-xl font-bold">US vs international share of each batch year (%)</h2>
-      <div className="mt-4 rounded-lg border border-line bg-bg-soft p-3">
+      <div className="mt-4 rounded-lg border border-border bg-muted p-3">
         <DualLineChart
           a={{ label: "US share %", byYear: usPct }}
           b={{ label: "International share %", byYear: intlPct }}
@@ -61,10 +61,10 @@ export default function YcGeographyPage() {
       </div>
 
       <h2 className="mt-12 text-xl font-bold">All numbers</h2>
-      <div className="mt-4 overflow-x-auto rounded-lg border border-line">
+      <div className="mt-4 overflow-x-auto rounded-lg border border-border">
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b border-line bg-bg-soft text-left">
+            <tr className="border-b border-border bg-muted text-left">
               <th className="px-3 py-2 font-semibold">Batch year</th>
               <th className="px-3 py-2 font-semibold">Companies</th>
               <th className="px-3 py-2 font-semibold">US</th>
@@ -74,12 +74,12 @@ export default function YcGeographyPage() {
           </thead>
           <tbody>
             {years.map((y) => (
-              <tr key={y} className="border-t border-line">
+              <tr key={y} className="border-t border-border">
                 <td className="px-3 py-1.5 font-mono">{y}</td>
-                <td className="px-3 py-1.5 font-mono text-muted">{byYear[y].total}</td>
-                <td className="px-3 py-1.5 font-mono text-muted">{byYear[y].us}</td>
-                <td className="px-3 py-1.5 font-mono text-muted">{byYear[y].intl}</td>
-                <td className="px-3 py-1.5 font-mono text-muted">{byYear[y].intl_pct}%</td>
+                <td className="px-3 py-1.5 font-mono text-muted-foreground">{byYear[y].total}</td>
+                <td className="px-3 py-1.5 font-mono text-muted-foreground">{byYear[y].us}</td>
+                <td className="px-3 py-1.5 font-mono text-muted-foreground">{byYear[y].intl}</td>
+                <td className="px-3 py-1.5 font-mono text-muted-foreground">{byYear[y].intl_pct}%</td>
               </tr>
             ))}
           </tbody>
@@ -87,29 +87,29 @@ export default function YcGeographyPage() {
       </div>
 
       <h2 className="mt-12 text-xl font-bold">Top non-US countries, all time</h2>
-      <div className="mt-4 overflow-hidden rounded-lg border border-line">
+      <div className="mt-4 overflow-hidden rounded-lg border border-border">
         {data.top_intl.map((c, i) => (
-          <div key={c.code} className={`flex items-baseline justify-between px-5 py-2.5 ${i ? "border-t border-line" : ""}`}>
-            <span className="text-sm">{COUNTRY_NAMES[c.code] ?? c.code} <span className="font-mono text-xs text-muted">{c.code}</span></span>
-            <span className="font-mono text-sm text-muted">{c.count}</span>
+          <div key={c.code} className={`flex items-baseline justify-between px-5 py-2.5 ${i ? "border-t border-border" : ""}`}>
+            <span className="text-sm">{COUNTRY_NAMES[c.code] ?? c.code} <span className="font-mono text-xs text-muted-foreground">{c.code}</span></span>
+            <span className="font-mono text-sm text-muted-foreground">{c.count}</span>
           </div>
         ))}
       </div>
 
       <h2 className="mt-12 text-xl font-bold">Methodology &amp; caveats</h2>
-      <ul className="mt-3 space-y-1.5 text-sm text-muted">
-        <li>· One query: <code className="font-mono text-fg">POST /v1/yc/companies/search</code> with{" "}
-          <code className="font-mono text-fg">{"{\"group_by\":[\"batch_year\",\"country\"]}"}</code>.</li>
+      <ul className="mt-3 space-y-1.5 text-sm text-muted-foreground">
+        <li>· One query: <code className="font-mono text-foreground">POST /v1/yc/companies/search</code> with{" "}
+          <code className="font-mono text-foreground">{"{\"group_by\":[\"batch_year\",\"country\"]}"}</code>.</li>
         <li>· Country is the company&apos;s listed HQ country in the YC directory — not founder nationality; companies that relocate to the US after acceptance typically list US.</li>
         <li>· Companies without a listed country are excluded from shares. 2005–2007 batches excluded (small n); future announced batches excluded.</li>
         <li>· Data as of {data.as_of}.</li>
       </ul>
 
-      <p className="mt-10 rounded-lg border border-line bg-bg-soft px-5 py-4 text-sm text-muted">
+      <p className="mt-10 rounded-lg border border-border bg-muted px-5 py-4 text-sm text-muted-foreground">
         Slice by region, tag, or status via the{" "}
-        <Link href="/datasets/yc" className="text-accent hover:underline">YC directory API</Link>.
-        Related: <Link href="/insights/yc-industry-drift" className="text-accent hover:underline">industry drift</Link>
-        {" · "}<Link href="/trends/yc-batch-survival" className="text-accent hover:underline">batch survival</Link>.
+        <Link href="/datasets/yc" className="text-brand hover:underline">YC directory API</Link>.
+        Related: <Link href="/insights/yc-industry-drift" className="text-brand hover:underline">industry drift</Link>
+        {" · "}<Link href="/trends/yc-batch-survival" className="text-brand hover:underline">batch survival</Link>.
       </p>
     </main>
   );

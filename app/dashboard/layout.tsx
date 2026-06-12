@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { MenuIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useMe } from "@/lib/hooks";
@@ -43,26 +44,24 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
   return (
     <div className="flex min-h-dvh flex-col">
-      <header className="flex h-14 items-center justify-between border-b border-line px-4">
+      <header className="flex h-14 items-center justify-between border-b border-border px-4">
         <div className="flex items-center gap-3">
           <button
             aria-label="菜单"
             onClick={() => setMenuOpen(true)}
-            className="flex size-8 items-center justify-center rounded-md border border-line md:hidden"
+            className="flex size-8 items-center justify-center rounded-md border border-border md:hidden"
           >
-            <svg className="size-4" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" aria-hidden="true">
-              <path d="M3 6h18M3 12h18M3 18h18" />
-            </svg>
+            <MenuIcon className="size-4" aria-hidden="true" />
           </button>
           <Link href="/" className="flex items-center gap-2 font-mono text-sm font-semibold">
             <BrandMark /> data·hub
           </Link>
-          <span className="rounded border border-line px-1.5 py-0.5 font-mono text-[11px] text-muted">控制台</span>
+          <span className="rounded border border-border px-1.5 py-0.5 font-mono text-[11px] text-muted-foreground">控制台</span>
         </div>
         <div className="flex items-center gap-3">
-          {me ? <span className="hidden font-mono text-xs text-muted sm:block">{me.email}</span> : <Skeleton className="h-4 w-36" />}
+          {me ? <span className="hidden font-mono text-xs text-muted-foreground sm:block">{me.email}</span> : <Skeleton className="h-4 w-36" />}
           <ThemeToggle />
-          <button onClick={logout} className="rounded-md border border-line px-3 py-1.5 text-sm text-muted hover:bg-bg-soft hover:text-fg">退出</button>
+          <button onClick={logout} className="rounded-md border border-border px-3 py-1.5 text-sm text-muted-foreground hover:bg-muted hover:text-foreground">退出</button>
         </div>
       </header>
       <div className="flex flex-1">
@@ -72,8 +71,8 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
             <MainSkeleton />
           ) : error ? (
             <div className="mx-auto mt-20 max-w-sm text-center">
-              <p className="text-sm text-muted">无法连接服务器，请稍后重试。你的登录状态已保留。</p>
-              <Button variant="ghost" className="mt-4" onClick={() => mutate()}>重试</Button>
+              <p className="text-sm text-muted-foreground">无法连接服务器，请稍后重试。你的登录状态已保留。</p>
+              <Button variant="outline" className="mt-4" onClick={() => mutate()}>重试</Button>
             </div>
           ) : (
             children
@@ -99,9 +98,9 @@ function MainSkeleton() {
 function DashSkeleton() {
   return (
     <div className="flex min-h-dvh flex-col">
-      <div className="flex h-14 items-center border-b border-line px-4"><Skeleton className="h-5 w-28" /></div>
+      <div className="flex h-14 items-center border-b border-border px-4"><Skeleton className="h-5 w-28" /></div>
       <div className="flex flex-1">
-        <div className="hidden w-52 border-r border-line p-3 md:block">
+        <div className="hidden w-52 border-r border-border p-3 md:block">
           <div className="space-y-2">
             <Skeleton className="h-8" /><Skeleton className="h-8" /><Skeleton className="h-8" /><Skeleton className="h-8" />
           </div>

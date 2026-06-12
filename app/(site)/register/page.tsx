@@ -60,7 +60,7 @@ export default function RegisterPage() {
         </label>
         <Button type="submit" pending={pending} pendingText="注册中…" className="w-full">注册并登录</Button>
       </form>
-      <p className="mt-5 text-sm text-muted">已有账号？<Link href="/login" className="text-accent hover:underline">去登录</Link></p>
+      <p className="mt-5 text-sm text-muted-foreground">已有账号？<Link href="/login" className="text-brand hover:underline">去登录</Link></p>
     </AuthCard>
   );
 }

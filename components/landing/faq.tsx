@@ -8,14 +8,14 @@ const QA = [
 
 export function Faq() {
   return (
-    <section className="border-t border-line">
+    <section className="border-t border-border">
       <div className="mx-auto max-w-5xl px-5 py-16">
         <h2 className="text-2xl font-bold">常见问题</h2>
         <dl className="mt-8 grid gap-x-10 gap-y-7 md:grid-cols-2">
           {QA.map(([q, a]) => (
             <div key={q}>
               <dt className="font-semibold">{q}</dt>
-              <dd className="mt-1.5 text-sm leading-relaxed text-muted">{a}</dd>
+              <dd className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{a}</dd>
             </div>
           ))}
         </dl>

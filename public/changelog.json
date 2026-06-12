@@ -1,7 +1,30 @@
 {
   "product": "data·hub",
-  "current": "0.10.1",
+  "current": "0.11.0",
   "releases": [
+    {
+      "version": "0.11.0",
+      "date": "2026-06-12",
+      "title": "第 4 个数据集：人民日报评论语料",
+      "changes": [
+        {
+          "type": "added",
+          "text": "opinion 数据集上线：人民日报评论栏目（人民时评 / 人民论坛 / 评论员观察 / 今日谈 / 钟声 / 和音 等）结构化索引，2023 年至今、每日更新，面向申论素材检索"
+        },
+        {
+          "type": "added",
+          "text": "官方提要（金句）结构化抽取为 digest 字段；支持栏目 / 作者 / 版面 / 日期过滤与 年 × 栏目 等交叉聚合"
+        },
+        {
+          "type": "added",
+          "text": "版权口径：API 不输出正文全文，返回元数据 + 提要 + 首段摘要 + 检索命中片段 + 电子版原文链接"
+        },
+        {
+          "type": "added",
+          "text": "门户新建 API key 默认带 opinion:read scope；/datasets 新增数据集页"
+        }
+      ]
+    },
     {
       "version": "0.10.1",
       "date": "2026-06-11",

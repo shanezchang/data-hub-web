@@ -70,8 +70,14 @@ function Button({
       className={cn(buttonVariants({ variant, size, className }))}
       {...props}
     >
-      {pending && <Loader2Icon className="animate-spin" aria-hidden="true" />}
-      {pending && pendingText ? pendingText : children}
+      {asChild ? (
+        children
+      ) : (
+        <>
+          {pending && <Loader2Icon className="animate-spin" aria-hidden="true" />}
+          {pending && pendingText ? pendingText : children}
+        </>
+      )}
     </Comp>
   )
 }

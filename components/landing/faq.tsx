@@ -1,3 +1,5 @@
+import { SectionHeader } from "./section-header";
+
 const QA = [
   ["数据从哪里来？", "全部来自公开来源，只做结构化整理与检索，不索引非公开信息。各数据集的来源标注在其详情页。"],
   ["数据多久更新？", "新闻联播每日自动采集，YC 目录定期全量更新。更新节奏见各数据集详情页。"],
@@ -8,9 +10,9 @@ const QA = [
 
 export function Faq() {
   return (
-    <section className="border-t border-border">
+    <section className="border-t">
       <div className="mx-auto max-w-5xl px-5 py-16">
-        <h2 className="text-2xl font-bold">常见问题</h2>
+        <SectionHeader kicker="FAQ" title="常见问题" />
         <dl className="mt-8 grid gap-x-10 gap-y-7 md:grid-cols-2">
           {QA.map(([q, a]) => (
             <div key={q}>

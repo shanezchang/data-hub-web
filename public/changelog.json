@@ -1,7 +1,22 @@
 {
   "product": "data·hub",
-  "current": "0.12.1",
+  "current": "0.12.2",
   "releases": [
+    {
+      "version": "0.12.2",
+      "date": "2026-06-13",
+      "title": "API 文档页切换 Scalar",
+      "changes": [
+        {
+          "type": "changed",
+          "text": "API 文档页 /docs 渲染层由 Swagger UI 换为 Scalar(入口 URL 不变,静态资源走 npmmirror 国内可达);/redoc 永久重定向到 /docs"
+        },
+        {
+          "type": "changed",
+          "text": "/openapi.json 与 /llms.txt(AI 友好入口)不受影响,agent 接入方式不变"
+        }
+      ]
+    },
     {
       "version": "0.12.1",
       "date": "2026-06-12",

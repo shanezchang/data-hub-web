@@ -1,7 +1,26 @@
 {
   "product": "data·hub",
-  "current": "0.11.0",
+  "current": "0.12.0",
   "releases": [
+    {
+      "version": "0.12.0",
+      "date": "2026-06-12",
+      "title": "opinion 主题检索与采集稳定性",
+      "changes": [
+        {
+          "type": "added",
+          "text": "申论主题检索:GET /v1/opinion/topics 主题目录(约 25 个主题词表:乡村振兴 / 基层治理 / 科技创新 / 生态文明 / 共同富裕 等,带各主题命中篇数);GET/POST 新增 topic 参数,服务端展开为同义词 OR 检索,可与 q 叠加收窄"
+        },
+        {
+          "type": "added",
+          "text": "order_by=relevance 相关度排序(bm25,标题 / 提要命中加权),压制正文顺带提及的擦边命中"
+        },
+        {
+          "type": "fixed",
+          "text": "opinion 采集稳定性加固:网络抖动重试预算提升至约 1 分钟;单日失败隔离不再中断整体任务;回填支持断点续传;增量采集跑完自检数据新鲜度"
+        }
+      ]
+    },
     {
       "version": "0.11.0",
       "date": "2026-06-12",

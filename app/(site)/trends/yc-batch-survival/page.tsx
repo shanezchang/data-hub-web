@@ -33,12 +33,12 @@ export default function YcSurvivalPage() {
   return (
     <main className="mx-auto max-w-3xl px-5 py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <p className="mb-3 font-mono text-xs uppercase tracking-[0.18em] text-accent">Trends · Y Combinator</p>
+      <p className="mb-3 font-mono text-xs uppercase tracking-[0.18em] text-brand">Trends · Y Combinator</p>
       <h1 className="text-3xl font-bold leading-tight">Y Combinator Batch Survival Rates</h1>
-      <p className="mt-5 max-w-2xl leading-relaxed text-muted">
+      <p className="mt-5 max-w-2xl leading-relaxed text-muted-foreground">
         For every YC batch year since 2005: how many companies are still active, how many were
         acquired, went public, or shut down — according to the public YC company directory, queried
-        through the <Link href="/datasets/yc" className="text-accent hover:underline">data-hub YC dataset</Link>{" "}
+        through the <Link href="/datasets/yc" className="text-brand hover:underline">data-hub YC dataset</Link>{" "}
         with a single two-dimensional aggregation.
       </p>
 
@@ -53,7 +53,7 @@ export default function YcSurvivalPage() {
             <div key={String(y.key)}>
               <div className="flex items-baseline justify-between text-sm">
                 <span className="font-mono font-semibold">{y.key}</span>
-                <span className="text-muted">{y.count} companies · {pct}% active</span>
+                <span className="text-muted-foreground">{y.count} companies · {pct}% active</span>
               </div>
               <div className="mt-1.5"><StackedBar counts={counts} /></div>
             </div>
@@ -62,10 +62,10 @@ export default function YcSurvivalPage() {
       </div>
 
       <h2 className="mt-14 text-xl font-bold">All numbers</h2>
-      <div className="mt-4 overflow-x-auto rounded-lg border border-line">
+      <div className="mt-4 overflow-x-auto rounded-lg border border-border">
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b border-line bg-bg-soft text-left">
+            <tr className="border-b border-border bg-muted text-left">
               <th className="px-3 py-2 font-semibold">Batch year</th>
               <th className="px-3 py-2 font-semibold">Total</th>
               {STATUS_ORDER.map((s) => (
@@ -79,13 +79,13 @@ export default function YcSurvivalPage() {
               const counts = Object.fromEntries(y.sub.map((s) => [s.key, s.count]));
               const pct = y.count ? Math.round(((counts["Active"] ?? 0) / y.count) * 1000) / 10 : 0;
               return (
-                <tr key={String(y.key)} className="border-t border-line">
+                <tr key={String(y.key)} className="border-t border-border">
                   <td className="px-3 py-1.5 font-mono">{y.key}</td>
-                  <td className="px-3 py-1.5 font-mono text-muted">{y.count}</td>
+                  <td className="px-3 py-1.5 font-mono text-muted-foreground">{y.count}</td>
                   {STATUS_ORDER.map((s) => (
-                    <td key={s} className="px-3 py-1.5 font-mono text-muted">{counts[s] ?? 0}</td>
+                    <td key={s} className="px-3 py-1.5 font-mono text-muted-foreground">{counts[s] ?? 0}</td>
                   ))}
-                  <td className="px-3 py-1.5 font-mono text-muted">{pct}%</td>
+                  <td className="px-3 py-1.5 font-mono text-muted-foreground">{pct}%</td>
                 </tr>
               );
             })}
@@ -94,18 +94,18 @@ export default function YcSurvivalPage() {
       </div>
 
       <h2 className="mt-12 text-xl font-bold">Methodology &amp; caveats</h2>
-      <ul className="mt-3 space-y-1.5 text-sm text-muted">
+      <ul className="mt-3 space-y-1.5 text-sm text-muted-foreground">
         <li>· Source: the public Y Combinator company directory (launched companies only; stealth companies are not listed).</li>
         <li>· Status labels (Active / Acquired / Public / Inactive) are YC&apos;s own, as published in the directory.</li>
         <li>· Recent batches naturally show high active rates — most failure happens years later. Compare cohorts of similar age.</li>
-        <li>· One query: <code className="font-mono text-fg">POST /v1/yc/companies/search</code> with{" "}
-          <code className="font-mono text-fg">{"{\"group_by\":[\"batch_year\",\"status\"]}"}</code>. Data as of {trends.as_of}.</li>
+        <li>· One query: <code className="font-mono text-foreground">POST /v1/yc/companies/search</code> with{" "}
+          <code className="font-mono text-foreground">{"{\"group_by\":[\"batch_year\",\"status\"]}"}</code>. Data as of {trends.as_of}.</li>
       </ul>
 
-      <p className="mt-10 rounded-lg border border-line bg-bg-soft px-5 py-4 text-sm text-muted">
+      <p className="mt-10 rounded-lg border border-border bg-muted px-5 py-4 text-sm text-muted-foreground">
         Slice it differently — by industry, region, tag, or team size — via the{" "}
-        <Link href="/datasets/yc" className="text-accent hover:underline">YC directory API</Link>. AI agents can
-        start from <a href="https://api.lumina-core.cn/llms.txt" target="_blank" rel="noopener" className="text-accent hover:underline">llms.txt</a>.
+        <Link href="/datasets/yc" className="text-brand hover:underline">YC directory API</Link>. AI agents can
+        start from <a href="https://api.lumina-core.cn/llms.txt" target="_blank" rel="noopener" className="text-brand hover:underline">llms.txt</a>.
       </p>
     </main>
   );

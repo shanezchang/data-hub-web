@@ -43,11 +43,11 @@ export default function PolicyThemesPage() {
   return (
     <main className="mx-auto max-w-3xl px-5 py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <p className="mb-3 font-mono text-xs uppercase tracking-[0.18em] text-accent">Insight · State Council</p>
+      <p className="mb-3 font-mono text-xs uppercase tracking-[0.18em] text-brand">Insight · State Council</p>
       <h1 className="text-3xl font-bold leading-tight">
         What the State Council writes about
       </h1>
-      <p className="mt-5 max-w-2xl leading-relaxed text-muted">
+      <p className="mt-5 max-w-2xl leading-relaxed text-muted-foreground">
         Every document in the State Council policy library carries one of 22 official theme labels.
         Across the full archive, trade-customs-tourism is the single largest domain. The
         year-by-year view (kept to the clean 2019+ window — see methodology) shows the recent
@@ -60,10 +60,10 @@ export default function PolicyThemesPage() {
         {data.overall_top.map((t) => (
           <div key={t.theme} className="flex items-center gap-3">
             <span className="w-56 shrink-0 truncate text-sm" title={t.theme}>
-              {THEME_EN[t.theme] ?? t.theme} <span className="text-xs text-muted">{t.theme}</span>
+              {THEME_EN[t.theme] ?? t.theme} <span className="text-xs text-muted-foreground">{t.theme}</span>
             </span>
-            <div className="h-4 rounded-sm bg-accent/70" style={{ width: `${(t.count / maxOverall) * 100}%` }} />
-            <span className="font-mono text-xs text-muted">{t.count}</span>
+            <div className="h-4 rounded-sm bg-brand/70" style={{ width: `${(t.count / maxOverall) * 100}%` }} />
+            <span className="font-mono text-xs text-muted-foreground">{t.count}</span>
           </div>
         ))}
       </div>
@@ -73,9 +73,9 @@ export default function PolicyThemesPage() {
         {Object.entries(data.tracked).map(([theme, byYear]) => (
           <section key={theme}>
             <h3 className="text-lg font-bold">
-              {THEME_EN[theme] ?? theme} <span className="ml-1 font-normal text-muted">{theme}</span>
+              {THEME_EN[theme] ?? theme} <span className="ml-1 font-normal text-muted-foreground">{theme}</span>
             </h3>
-            <div className="mt-3 rounded-lg border border-line bg-bg-soft p-3">
+            <div className="mt-3 rounded-lg border border-border bg-muted p-3">
               <LineChart byYear={byYear as Record<string, number>} />
             </div>
           </section>
@@ -83,20 +83,20 @@ export default function PolicyThemesPage() {
       </div>
 
       <h2 className="mt-12 text-xl font-bold">Methodology &amp; caveats</h2>
-      <ul className="mt-3 space-y-1.5 text-sm text-muted">
-        <li>· Queries: <code className="font-mono text-fg">GET /v1/policy?group_by=theme</code> (overall) and{" "}
-          <code className="font-mono text-fg">POST /v1/policy/search</code> with{" "}
-          <code className="font-mono text-fg">{"{\"group_by\":[\"year\",\"theme\"],\"start_date\":\"2019-01-01\"}"}</code>.</li>
+      <ul className="mt-3 space-y-1.5 text-sm text-muted-foreground">
+        <li>· Queries: <code className="font-mono text-foreground">GET /v1/policy?group_by=theme</code> (overall) and{" "}
+          <code className="font-mono text-foreground">POST /v1/policy/search</code> with{" "}
+          <code className="font-mono text-foreground">{"{\"group_by\":[\"year\",\"theme\"],\"start_date\":\"2019-01-01\"}"}</code>.</li>
         <li>· Theme labels are the source library&apos;s own top-level classification; one theme per document.</li>
         <li>· Yearly charts start at 2019 because earlier years contain archival batch uploads indexed under publication date (e.g., 94 old land-use approvals landed in 2018-08), which would distort theme trends.</li>
         <li>· The latest year is partial. Data as of {data.as_of}.</li>
       </ul>
 
-      <p className="mt-10 rounded-lg border border-line bg-bg-soft px-5 py-4 text-sm text-muted">
+      <p className="mt-10 rounded-lg border border-border bg-muted px-5 py-4 text-sm text-muted-foreground">
         Filter any theme&apos;s documents in full text via the{" "}
-        <Link href="/datasets/policy" className="text-accent hover:underline">State Council policy API</Link>.
-        Related: <Link href="/insights/state-council-paperwork" className="text-accent hover:underline">document types</Link>
-        {" · "}<Link href="/insights" className="text-accent hover:underline">all insights</Link>.
+        <Link href="/datasets/policy" className="text-brand hover:underline">State Council policy API</Link>.
+        Related: <Link href="/insights/state-council-paperwork" className="text-brand hover:underline">document types</Link>
+        {" · "}<Link href="/insights" className="text-brand hover:underline">all insights</Link>.
       </p>
     </main>
   );

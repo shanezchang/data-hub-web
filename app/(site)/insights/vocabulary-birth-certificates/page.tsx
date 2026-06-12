@@ -28,11 +28,11 @@ export default function BirthCertificatesPage() {
   return (
     <main className="mx-auto max-w-3xl px-5 py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <p className="mb-3 font-mono text-xs uppercase tracking-[0.18em] text-accent">Insight · Vocabulary</p>
+      <p className="mb-3 font-mono text-xs uppercase tracking-[0.18em] text-brand">Insight · Vocabulary</p>
       <h1 className="text-3xl font-bold leading-tight">
         Birth certificates: when new vocabulary first hit the broadcast
       </h1>
-      <p className="mt-5 max-w-2xl leading-relaxed text-muted">
+      <p className="mt-5 max-w-2xl leading-relaxed text-muted-foreground">
         Every term that enters China&apos;s official vocabulary has an exact first night on Xinwen
         Lianbo — and the corpus records it. Some debuts are the coining event itself: 新质生产力
         first aired on 2023-09-08, in coverage of an inspection trip to Heilongjiang. Some arrive
@@ -41,10 +41,10 @@ export default function BirthCertificatesPage() {
         before China&apos;s own pledge. Each row links the original first broadcast.
       </p>
 
-      <div className="mt-10 overflow-x-auto rounded-lg border border-line">
+      <div className="mt-10 overflow-x-auto rounded-lg border border-border">
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b border-line bg-bg-soft text-left">
+            <tr className="border-b border-border bg-muted text-left">
               <th className="px-3 py-2 font-semibold">First aired</th>
               <th className="px-3 py-2 font-semibold">Term</th>
               <th className="px-3 py-2 font-semibold">Items since</th>
@@ -52,13 +52,13 @@ export default function BirthCertificatesPage() {
           </thead>
           <tbody>
             {data.terms.map((t) => (
-              <tr key={t.zh} className="border-t border-line">
+              <tr key={t.zh} className="border-t border-border">
                 <td className="px-3 py-2 font-mono whitespace-nowrap">{t.first!.date}</td>
                 <td className="px-3 py-2">
                   <span className="font-semibold">{t.zh}</span>
-                  <span className="ml-1.5 text-muted">{t.en}</span>
+                  <span className="ml-1.5 text-muted-foreground">{t.en}</span>
                 </td>
-                <td className="px-3 py-2 font-mono text-muted">{t.total}</td>
+                <td className="px-3 py-2 font-mono text-muted-foreground">{t.total}</td>
               </tr>
             ))}
           </tbody>
@@ -68,28 +68,28 @@ export default function BirthCertificatesPage() {
       <h2 className="mt-12 text-xl font-bold">The first broadcasts</h2>
       <div className="mt-4 space-y-4">
         {data.terms.map((t) => (
-          <div key={t.zh} className="rounded-lg border border-line px-5 py-4">
-            <p className="text-sm font-semibold">{t.zh} <span className="font-normal text-muted">· first aired {t.first!.date}</span></p>
-            <p className="mt-1.5 text-sm text-muted">
-              <a href={t.first!.url} target="_blank" rel="noopener" className="text-accent hover:underline">{t.first!.title}</a>
+          <div key={t.zh} className="rounded-lg border border-border px-5 py-4">
+            <p className="text-sm font-semibold">{t.zh} <span className="font-normal text-muted-foreground">· first aired {t.first!.date}</span></p>
+            <p className="mt-1.5 text-sm text-muted-foreground">
+              <a href={t.first!.url} target="_blank" rel="noopener" className="text-brand hover:underline">{t.first!.title}</a>
             </p>
           </div>
         ))}
       </div>
 
       <h2 className="mt-12 text-xl font-bold">Methodology &amp; caveats</h2>
-      <ul className="mt-3 space-y-1.5 text-sm text-muted">
-        <li>· First appearance: <code className="font-mono text-fg">GET /v1/news?q=&lt;term&gt;&amp;order_dir=asc&amp;limit=1</code> — the earliest broadcast item containing the exact phrase.</li>
+      <ul className="mt-3 space-y-1.5 text-sm text-muted-foreground">
+        <li>· First appearance: <code className="font-mono text-foreground">GET /v1/news?q=&lt;term&gt;&amp;order_dir=asc&amp;limit=1</code> — the earliest broadcast item containing the exact phrase.</li>
         <li>· The corpus starts 2016-02; terms established before then would show a false &ldquo;birth&rdquo; — one candidate (专精特新, coined 2011) was excluded for exactly this reason. All listed terms first aired 2017 or later.</li>
         <li>· Exact-phrase matching: earlier paraphrases or variant forms are not counted.</li>
         <li>· Data as of {data.as_of}.</li>
       </ul>
 
-      <p className="mt-10 rounded-lg border border-line bg-bg-soft px-5 py-4 text-sm text-muted">
+      <p className="mt-10 rounded-lg border border-border bg-muted px-5 py-4 text-sm text-muted-foreground">
         Date-stamp any term&apos;s debut via the{" "}
-        <Link href="/datasets/news" className="text-accent hover:underline">Xinwen Lianbo full-text API</Link>.
-        Related: <Link href="/insights/new-quality-productive-forces" className="text-accent hover:underline">the cold start of 新质生产力</Link>
-        {" · "}<Link href="/insights" className="text-accent hover:underline">all insights</Link>.
+        <Link href="/datasets/news" className="text-brand hover:underline">Xinwen Lianbo full-text API</Link>.
+        Related: <Link href="/insights/new-quality-productive-forces" className="text-brand hover:underline">the cold start of 新质生产力</Link>
+        {" · "}<Link href="/insights" className="text-brand hover:underline">all insights</Link>.
       </p>
     </main>
   );

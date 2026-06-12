@@ -22,8 +22,8 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
           <div
             key={t.id}
             role="status"
-            className="rounded-md border border-line bg-bg-soft px-4 py-2 text-sm shadow-lg"
-            style={{ color: t.kind === "err" ? "var(--err)" : t.kind === "ok" ? "var(--accent)" : "var(--fg)" }}
+            className="rounded-md border border-border bg-muted px-4 py-2 text-sm shadow-lg"
+            style={{ color: t.kind === "err" ? "var(--destructive)" : t.kind === "ok" ? "var(--brand)" : "var(--foreground)" }}
           >
             {t.msg}
           </div>

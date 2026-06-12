@@ -22,34 +22,34 @@ export function AgentAccess() {
     }
   }
   return (
-    <section id="agents" className="scroll-mt-14 border-t border-line bg-bg-soft/50">
+    <section id="agents" className="scroll-mt-14 border-t border-border bg-muted/50">
       <div className="mx-auto max-w-5xl px-5 py-16">
         <h2 className="text-2xl font-bold">给 AI Agent，一个链接就够</h2>
-        <p className="mt-2 max-w-xl text-sm text-muted">
+        <p className="mt-2 max-w-xl text-sm text-muted-foreground">
           如果调用方是 AI Agent，把下面的链接交给它——端点、参数与认证方式都在其中。
         </p>
-        <div className="mt-6 flex max-w-2xl items-center gap-2 overflow-hidden rounded-lg border border-line bg-bg px-4 py-3">
-          <a href={LLMS_TXT} target="_blank" rel="noopener" className="min-w-0 flex-1 truncate font-mono text-sm text-accent hover:underline">
+        <div className="mt-6 flex max-w-2xl items-center gap-2 overflow-hidden rounded-lg border border-border bg-background px-4 py-3">
+          <a href={LLMS_TXT} target="_blank" rel="noopener" className="min-w-0 flex-1 truncate font-mono text-sm text-brand hover:underline">
             {LLMS_TXT}
           </a>
           <button
             type="button"
             onClick={copy}
-            className="shrink-0 rounded-md border border-line px-3 py-1 text-xs hover:bg-bg-soft"
+            className="shrink-0 rounded-md border border-border px-3 py-1 text-xs hover:bg-muted"
           >
             {copied ? "已复制 ✓" : "复制"}
           </button>
         </div>
         <div className="mt-6 grid max-w-2xl gap-3 sm:grid-cols-3">
           {LAYERS.map((l) => (
-            <a key={l.name} href={l.href} target="_blank" rel="noopener" className="rounded-lg border border-line bg-bg p-4 hover:border-fg/30">
+            <a key={l.name} href={l.href} target="_blank" rel="noopener" className="rounded-lg border border-border bg-background p-4 hover:border-foreground/30">
               <p className="font-mono text-sm font-semibold">{l.name}</p>
-              <p className="mt-1.5 text-xs leading-relaxed text-muted">{l.desc}</p>
+              <p className="mt-1.5 text-xs leading-relaxed text-muted-foreground">{l.desc}</p>
             </a>
           ))}
         </div>
-        <p className="mt-4 text-xs text-muted">
-          认证只有一个 <code className="font-mono text-fg">X-API-Key</code> header，在控制台生成。
+        <p className="mt-4 text-xs text-muted-foreground">
+          认证只有一个 <code className="font-mono text-foreground">X-API-Key</code> header，在控制台生成。
         </p>
       </div>
     </section>

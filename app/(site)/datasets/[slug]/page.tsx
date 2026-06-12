@@ -52,15 +52,15 @@ export default async function DatasetPage({ params }: { params: Promise<{ slug: 
   return (
     <main className="mx-auto max-w-3xl px-5 py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetJsonLd(dataset)) }} />
-      <p className="mb-3 font-mono text-xs uppercase tracking-[0.18em] text-accent">Dataset · {dataset.slug}</p>
+      <p className="mb-3 font-mono text-xs uppercase tracking-[0.18em] text-brand">Dataset · {dataset.slug}</p>
       <h1 className="text-3xl font-bold leading-tight">{dataset.enTitle}</h1>
-      <p className="mt-2 text-lg text-muted">{dataset.name}</p>
-      <p className="mt-4 max-w-xl leading-relaxed text-muted">{dataset.tagline}</p>
+      <p className="mt-2 text-lg text-muted-foreground">{dataset.name}</p>
+      <p className="mt-4 max-w-xl leading-relaxed text-muted-foreground">{dataset.tagline}</p>
 
       <ul className="mt-6 space-y-1.5 text-sm">
         {dataset.coverage.map((f) => (
-          <li key={f} className="flex items-center gap-2 text-muted">
-            <span className="size-1 rounded-full bg-accent" aria-hidden="true" />
+          <li key={f} className="flex items-center gap-2 text-muted-foreground">
+            <span className="size-1 rounded-full bg-brand" aria-hidden="true" />
             {f}
           </li>
         ))}
@@ -68,59 +68,59 @@ export default async function DatasetPage({ params }: { params: Promise<{ slug: 
 
       <h2 className="mt-12 text-xl font-bold">Overview</h2>
       {dataset.enOverview.map((p) => (
-        <p key={p.slice(0, 24)} className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">{p}</p>
+        <p key={p.slice(0, 24)} className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">{p}</p>
       ))}
 
       <h2 className="mt-12 text-xl font-bold">核心字段 · Key fields</h2>
-      <div className="mt-4 overflow-hidden rounded-lg border border-line">
+      <div className="mt-4 overflow-hidden rounded-lg border border-border">
         {dataset.fields.map((f, i) => (
-          <div key={f.name} className={`flex items-baseline gap-4 px-5 py-3 ${i ? "border-t border-line" : ""}`}>
-            <code className="shrink-0 font-mono text-sm text-fg">{f.name}</code>
-            <span className="text-sm text-muted">{f.desc}</span>
+          <div key={f.name} className={`flex items-baseline gap-4 px-5 py-3 ${i ? "border-t border-border" : ""}`}>
+            <code className="shrink-0 font-mono text-sm text-foreground">{f.name}</code>
+            <span className="text-sm text-muted-foreground">{f.desc}</span>
           </div>
         ))}
       </div>
 
       <h2 className="mt-12 text-xl font-bold">端点</h2>
-      <div className="mt-4 overflow-hidden rounded-lg border border-line">
+      <div className="mt-4 overflow-hidden rounded-lg border border-border">
         {dataset.endpoints.map((e, i) => (
-          <div key={e.path + e.method} className={`px-5 py-4 ${i ? "border-t border-line" : ""}`}>
+          <div key={e.path + e.method} className={`px-5 py-4 ${i ? "border-t border-border" : ""}`}>
             <p className="flex items-center gap-2.5 font-mono text-sm">
-              <span className={`rounded border px-1.5 py-0.5 text-[11px] font-semibold ${e.method === "GET" ? "border-accent/40 text-accent" : "border-line text-fg"}`}>
+              <span className={`rounded border px-1.5 py-0.5 text-[11px] font-semibold ${e.method === "GET" ? "border-brand/40 text-brand" : "border-border text-foreground"}`}>
                 {e.method}
               </span>
               <span>{e.path}</span>
             </p>
-            <p className="mt-1.5 text-sm text-muted">{e.desc}</p>
+            <p className="mt-1.5 text-sm text-muted-foreground">{e.desc}</p>
           </div>
         ))}
       </div>
 
       <h2 className="mt-12 text-xl font-bold">调用</h2>
-      <p className="mt-2 text-sm text-muted">
-        认证使用 <code className="font-mono text-fg">X-API-Key</code> header,key 需带{" "}
-        <code className="font-mono text-fg">{dataset.scope}</code> scope(控制台生成的 key 默认包含)。
+      <p className="mt-2 text-sm text-muted-foreground">
+        认证使用 <code className="font-mono text-foreground">X-API-Key</code> header,key 需带{" "}
+        <code className="font-mono text-foreground">{dataset.scope}</code> scope(控制台生成的 key 默认包含)。
       </p>
-      <pre className="mt-4 overflow-x-auto rounded-lg border border-line bg-bg-soft px-4 py-3 font-mono text-xs leading-relaxed">{dataset.exampleCurl}</pre>
+      <pre className="mt-4 overflow-x-auto rounded-lg border border-border bg-muted px-4 py-3 font-mono text-xs leading-relaxed">{dataset.exampleCurl}</pre>
 
-      <p className="mt-6 text-sm text-muted">
+      <p className="mt-6 text-sm text-muted-foreground">
         完整参数与响应结构见{" "}
-        <a href={API_DOCS} target="_blank" rel="noopener" className="text-accent hover:underline">API 文档</a>
+        <a href={API_DOCS} target="_blank" rel="noopener" className="text-brand hover:underline">API 文档</a>
         ;AI Agent 接入见{" "}
-        <a href={`${API_BASE}/llms.txt`} target="_blank" rel="noopener" className="text-accent hover:underline">llms.txt</a>。
+        <a href={`${API_BASE}/llms.txt`} target="_blank" rel="noopener" className="text-brand hover:underline">llms.txt</a>。
       </p>
 
       {TREND_LINKS[dataset.slug] && (
-        <p className="mt-6 text-sm text-muted">
+        <p className="mt-6 text-sm text-muted-foreground">
           See it in action ·{" "}
-          <Link href={TREND_LINKS[dataset.slug].href} className="text-accent hover:underline">
+          <Link href={TREND_LINKS[dataset.slug].href} className="text-brand hover:underline">
             {TREND_LINKS[dataset.slug].label}
           </Link>
         </p>
       )}
 
       <p className="mt-12">
-        <Link href="/#datasets" className="text-sm text-muted hover:text-fg">← 全部数据集</Link>
+        <Link href="/#datasets" className="text-sm text-muted-foreground hover:text-foreground">← 全部数据集</Link>
       </p>
     </main>
   );

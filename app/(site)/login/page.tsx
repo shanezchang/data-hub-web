@@ -42,10 +42,10 @@ export default function LoginPage() {
         </label>
         <Button type="submit" pending={pending} pendingText="登录中…" className="w-full">登录</Button>
       </form>
-      <p className="mt-5 text-sm text-muted">
-        还没有账号？<Link href="/register" className="text-accent hover:underline">去注册</Link>
+      <p className="mt-5 text-sm text-muted-foreground">
+        还没有账号？<Link href="/register" className="text-brand hover:underline">去注册</Link>
         <span className="mx-2">·</span>
-        <Link href="/reset" className="text-accent hover:underline">忘记密码？</Link>
+        <Link href="/reset" className="text-brand hover:underline">忘记密码？</Link>
       </p>
     </AuthCard>
   );

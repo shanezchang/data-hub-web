@@ -20,9 +20,9 @@ export function LineChart({ byYear }: { byYear: Record<string, number> }) {
       <text x={PAD.l - 6} y={H - PAD.b + 4} textAnchor="end" fontSize="10" fill="currentColor" fillOpacity="0.55">0</text>
       <text x={x(0)} y={H - 8} textAnchor="middle" fontSize="10" fill="currentColor" fillOpacity="0.55">{years[0]}</text>
       <text x={x(years.length - 1)} y={H - 8} textAnchor="middle" fontSize="10" fill="currentColor" fillOpacity="0.55">{years[years.length - 1]}</text>
-      <polyline points={points} fill="none" stroke="var(--accent, #2563eb)" strokeWidth="2" strokeLinejoin="round" />
+      <polyline points={points} fill="none" stroke="var(--brand, #2563eb)" strokeWidth="2" strokeLinejoin="round" />
       {years.map((yr, i) => (
-        <circle key={yr} cx={x(i)} cy={y(byYear[yr])} r="2.4" fill="var(--accent, #2563eb)">
+        <circle key={yr} cx={x(i)} cy={y(byYear[yr])} r="2.4" fill="var(--brand, #2563eb)">
           <title>{`${yr}: ${byYear[yr]}`}</title>
         </circle>
       ))}
@@ -51,11 +51,11 @@ export function DualLineChart({ a, b }: {
         <text x={PAD.l - 6} y={H - PAD.b + 4} textAnchor="end" fontSize="10" fill="currentColor" fillOpacity="0.55">0</text>
         <text x={x(0)} y={H - 8} textAnchor="middle" fontSize="10" fill="currentColor" fillOpacity="0.55">{years[0]}</text>
         <text x={x(years.length - 1)} y={H - 8} textAnchor="middle" fontSize="10" fill="currentColor" fillOpacity="0.55">{years[years.length - 1]}</text>
-        <polyline points={line(a.byYear)} fill="none" stroke="var(--accent, #2563eb)" strokeWidth="2" strokeLinejoin="round" />
+        <polyline points={line(a.byYear)} fill="none" stroke="var(--brand, #2563eb)" strokeWidth="2" strokeLinejoin="round" />
         <polyline points={line(b.byYear)} fill="none" stroke="#8b5cf6" strokeWidth="2" strokeLinejoin="round" strokeDasharray="5 3" />
       </svg>
-      <div className="mt-1 flex gap-4 text-xs text-muted">
-        <span className="flex items-center gap-1.5"><span className="inline-block h-0.5 w-4" style={{ background: "var(--accent, #2563eb)" }} aria-hidden="true" />{a.label}</span>
+      <div className="mt-1 flex gap-4 text-xs text-muted-foreground">
+        <span className="flex items-center gap-1.5"><span className="inline-block h-0.5 w-4" style={{ background: "var(--brand, #2563eb)" }} aria-hidden="true" />{a.label}</span>
         <span className="flex items-center gap-1.5"><span className="inline-block h-0.5 w-4 border-b-2 border-dashed" style={{ borderColor: "#8b5cf6" }} aria-hidden="true" />{b.label}</span>
       </div>
     </div>
@@ -63,7 +63,7 @@ export function DualLineChart({ a, b }: {
 }
 
 const STATUS_COLORS: Record<string, string> = {
-  Active: "var(--accent, #2563eb)",
+  Active: "var(--brand, #2563eb)",
   Acquired: "#8b5cf6",
   Public: "#059669",
   Inactive: "#9ca3af",
@@ -93,7 +93,7 @@ export function StackedBar({ counts }: { counts: Record<string, number> }) {
 
 export function StatusLegend() {
   return (
-    <div className="flex flex-wrap gap-4 text-xs text-muted">
+    <div className="flex flex-wrap gap-4 text-xs text-muted-foreground">
       {STATUS_ORDER.map((k) => (
         <span key={k} className="flex items-center gap-1.5">
           <span className="inline-block size-2.5 rounded-sm" style={{ background: STATUS_COLORS[k] }} aria-hidden="true" />
@@ -113,8 +113,8 @@ export function MonthBars({ byMonth }: { byMonth: Record<string, number> }) {
         const v = byMonth[String(i + 1)] ?? 0;
         return (
           <div key={i} className="flex flex-1 flex-col items-center gap-1">
-            <div className="w-full rounded-t-sm" style={{ height: `${Math.max(2, (v / max) * 72)}px`, background: v === max ? "var(--accent, #2563eb)" : "color-mix(in srgb, var(--accent, #2563eb) 35%, transparent)" }} title={`${i + 1}月: ${v}`} />
-            <span className="font-mono text-[10px] text-muted">{i + 1}</span>
+            <div className="w-full rounded-t-sm" style={{ height: `${Math.max(2, (v / max) * 72)}px`, background: v === max ? "var(--brand, #2563eb)" : "color-mix(in srgb, var(--brand, #2563eb) 35%, transparent)" }} title={`${i + 1}月: ${v}`} />
+            <span className="font-mono text-[10px] text-muted-foreground">{i + 1}</span>
           </div>
         );
       })}

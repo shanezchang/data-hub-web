@@ -36,7 +36,7 @@ export function SendCodeButton({ getEmail, endpoint }: { getEmail: () => string;
   }
 
   return (
-    <Button type="button" variant="ghost" onClick={send} pending={pending} pendingText="发送中…"
+    <Button type="button" variant="outline" onClick={send} pending={pending} pendingText="发送中…"
       disabled={count > 0} className="shrink-0 whitespace-nowrap px-3 py-2 text-xs">
       {count > 0 ? `${count}s 后重发` : "发送验证码"}
     </Button>

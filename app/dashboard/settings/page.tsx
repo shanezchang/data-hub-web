@@ -56,9 +56,9 @@ export default function SettingsPage() {
   return (
     <div className="mx-auto max-w-xl">
       <h1 className="text-xl font-bold">设置</h1>
-      {me ? <p className="mt-1 font-mono text-sm text-muted">{me.email}</p> : <Skeleton className="mt-2 h-4 w-44" />}
+      {me ? <p className="mt-1 font-mono text-sm text-muted-foreground">{me.email}</p> : <Skeleton className="mt-2 h-4 w-44" />}
 
-      <form onSubmit={saveName} className="mt-7 rounded-lg border border-line p-5">
+      <form onSubmit={saveName} className="mt-7 rounded-lg border border-border p-5">
         <h2 className="mb-4 font-semibold">资料</h2>
         <label className={labelCls}>昵称
           <input value={name} onChange={(e) => setName(e.target.value)} maxLength={100} placeholder="怎么称呼你" className={inputCls} />
@@ -66,7 +66,7 @@ export default function SettingsPage() {
         <Button type="submit" pending={savingName} pendingText="保存中…" className="mt-4">保存昵称</Button>
       </form>
 
-      <form onSubmit={savePwd} className="mt-5 rounded-lg border border-line p-5">
+      <form onSubmit={savePwd} className="mt-5 rounded-lg border border-border p-5">
         <h2 className="mb-4 font-semibold">修改密码</h2>
         <div className="space-y-4">
           <label className={labelCls}>当前密码

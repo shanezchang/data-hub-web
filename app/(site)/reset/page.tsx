@@ -53,7 +53,7 @@ export default function ResetPage() {
         </label>
         <Button type="submit" pending={pending} pendingText="提交中…" className="w-full">重置密码</Button>
       </form>
-      <p className="mt-5 text-sm text-muted">想起来了？<Link href="/login" className="text-accent hover:underline">去登录</Link></p>
+      <p className="mt-5 text-sm text-muted-foreground">想起来了？<Link href="/login" className="text-brand hover:underline">去登录</Link></p>
     </AuthCard>
   );
 }

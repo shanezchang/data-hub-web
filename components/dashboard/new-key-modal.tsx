@@ -1,8 +1,16 @@
 "use client";
 import { useState } from "react";
 import { api } from "@/lib/api";
-import { Modal } from "@/components/ui/modal";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Dialog,
+  DialogContent,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import { useToast } from "@/components/ui/toast";
 
 export function NewKeyModal({ open, onClose, onCreated }: {
@@ -28,23 +36,29 @@ export function NewKeyModal({ open, onClose, onCreated }: {
   }
 
   return (
-    <Modal open={open} onClose={onClose} title="生成新 Key">
-      <form onSubmit={create} className="space-y-4">
-        <label className="block space-y-1.5 text-sm font-medium">Key 名称
-          <input
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-            maxLength={100}
-            placeholder="标记它的用途，如:我的应用"
-            className="w-full rounded-md border border-line bg-bg px-3 py-2 text-sm outline-none focus:border-fg"
-          />
-        </label>
-        <div className="flex justify-end gap-2">
-          <Button type="button" variant="ghost" onClick={onClose}>取消</Button>
-          <Button type="submit" pending={pending} pendingText="生成中…">生成</Button>
-        </div>
-      </form>
-    </Modal>
+    <Dialog open={open} onOpenChange={(v) => { if (!v && !pending) onClose(); }}>
+      <DialogContent showCloseButton={!pending}>
+        <DialogHeader>
+          <DialogTitle>生成新 Key</DialogTitle>
+        </DialogHeader>
+        <form onSubmit={create} className="space-y-4">
+          <div className="space-y-2">
+            <Label htmlFor="new-key-name">Key 名称</Label>
+            <Input
+              id="new-key-name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+              maxLength={100}
+              placeholder="标记它的用途，如:我的应用"
+            />
+          </div>
+          <DialogFooter>
+            <Button type="button" variant="outline" onClick={onClose}>取消</Button>
+            <Button type="submit" pending={pending} pendingText="生成中…">生成</Button>
+          </DialogFooter>
+        </form>
+      </DialogContent>
+    </Dialog>
   );
 }

@@ -39,12 +39,12 @@ export default function KeysPage() {
       </div>
 
       {newKey && (
-        <div className="mt-5 rounded-lg border border-accent/40 bg-bg-soft p-4">
+        <div className="mt-5 rounded-lg border border-brand/40 bg-muted p-4">
           <p className="text-sm font-semibold">新 key 已生成 —— 只显示这一次，请立即复制保存：</p>
           <div className="mt-2 flex items-center gap-3">
-            <code className="overflow-x-auto rounded border border-line bg-bg px-3 py-1.5 font-mono text-xs">{newKey}</code>
+            <code className="overflow-x-auto rounded border border-border bg-background px-3 py-1.5 font-mono text-xs">{newKey}</code>
             <Button
-              variant="ghost"
+              variant="outline"
               className="shrink-0 px-3 py-1.5 text-xs"
               onClick={() => navigator.clipboard.writeText(newKey).then(() => toast("已复制", "ok"))}
             >
@@ -54,15 +54,15 @@ export default function KeysPage() {
         </div>
       )}
 
-      <div className="mt-5 overflow-x-auto rounded-lg border border-line">
+      <div className="mt-5 overflow-x-auto rounded-lg border border-border">
         {!keys ? (
           <div className="space-y-2 p-5"><Skeleton className="h-6" /><Skeleton className="h-6" /><Skeleton className="h-6" /></div>
         ) : keys.length === 0 ? (
-          <p className="p-8 text-center text-sm text-muted">还没有 key，点右上角「生成新 Key」。</p>
+          <p className="p-8 text-center text-sm text-muted-foreground">还没有 key，点右上角「生成新 Key」。</p>
         ) : (
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-line text-left text-xs text-muted">
+              <tr className="border-b border-border text-left text-xs text-muted-foreground">
                 {["名称", "前缀", "权限", "限流", "状态", ""].map((h, i) => (
                   <th key={i} className="px-4 py-3 font-medium">{h}</th>
                 ))}
@@ -70,19 +70,19 @@ export default function KeysPage() {
             </thead>
             <tbody>
               {keys.map((k) => (
-                <tr key={k.id} className="border-b border-line last:border-b-0">
+                <tr key={k.id} className="border-b border-border last:border-b-0">
                   <td className="px-4 py-3">{k.name}</td>
                   <td className="px-4 py-3 font-mono text-xs">{k.key_prefix}…</td>
                   <td className="px-4 py-3 font-mono text-xs">{k.scopes.join(", ")}</td>
                   <td className="px-4 py-3 font-mono text-xs">{k.rate_limit_per_min}/min</td>
                   <td className="px-4 py-3">
-                    <span className={`rounded border px-1.5 py-0.5 font-mono text-[11px] ${k.revoked ? "border-line text-muted" : "border-accent/40 text-accent"}`}>
+                    <span className={`rounded border px-1.5 py-0.5 font-mono text-[11px] ${k.revoked ? "border-border text-muted-foreground" : "border-brand/40 text-brand"}`}>
                       {k.revoked ? "已吊销" : "有效"}
                     </span>
                   </td>
                   <td className="px-4 py-3 text-right">
                     {!k.revoked && (
-                      <button onClick={() => setRevoking(k)} className="text-xs text-[var(--err)] hover:underline">吊销</button>
+                      <button onClick={() => setRevoking(k)} className="text-xs text-[var(--destructive)] hover:underline">吊销</button>
                     )}
                   </td>
                 </tr>

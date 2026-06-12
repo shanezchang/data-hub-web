@@ -62,11 +62,11 @@ export default async function RegionPage({ params }: { params: Promise<{ slug: s
   return (
     <main className="mx-auto max-w-3xl px-5 py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <p className="mb-3 font-mono text-xs uppercase tracking-[0.18em] text-accent">Regions · {en} {zh}</p>
+      <p className="mb-3 font-mono text-xs uppercase tracking-[0.18em] text-brand">Regions · {en} {zh}</p>
       <h1 className="text-3xl font-bold leading-tight">
         {en} on Xinwen Lianbo: {cities.length} cities, ten years of coverage
       </h1>
-      <p className="mt-5 max-w-2xl leading-relaxed text-muted">
+      <p className="mt-5 max-w-2xl leading-relaxed text-muted-foreground">
         Appearing on Xinwen Lianbo — China&apos;s most-watched, most tightly scripted news
         broadcast — is a signal of what the center wants the country to see. This page indexes how
         often each of {en}&apos;s {cities.length} prefecture-level cities has appeared since 2016,
@@ -76,10 +76,10 @@ export default async function RegionPage({ params }: { params: Promise<{ slug: s
       </p>
 
       <h2 className="mt-12 text-xl font-bold">All {cities.length} cities, ranked</h2>
-      <div className="mt-4 overflow-x-auto rounded-lg border border-line">
+      <div className="mt-4 overflow-x-auto rounded-lg border border-border">
         <table className="w-full text-sm">
           <thead>
-            <tr className="border-b border-line bg-bg-soft text-left">
+            <tr className="border-b border-border bg-muted text-left">
               <th className="px-3 py-2 font-semibold">City</th>
               <th className="px-3 py-2 font-semibold">Items (2016–present)</th>
               <th className="px-3 py-2 font-semibold">Query form</th>
@@ -87,10 +87,10 @@ export default async function RegionPage({ params }: { params: Promise<{ slug: s
           </thead>
           <tbody>
             {cities.map((c) => (
-              <tr key={c.zh} className="border-t border-line">
-                <td className="px-3 py-1.5"><a href={`#${c.pinyin.toLowerCase()}`} className="text-accent hover:underline">{c.pinyin} {c.zh}</a></td>
-                <td className="px-3 py-1.5 font-mono text-muted">{c.total}</td>
-                <td className="px-3 py-1.5 font-mono text-xs text-muted">{c.query}</td>
+              <tr key={c.zh} className="border-t border-border">
+                <td className="px-3 py-1.5"><a href={`#${c.pinyin.toLowerCase()}`} className="text-brand hover:underline">{c.pinyin} {c.zh}</a></td>
+                <td className="px-3 py-1.5 font-mono text-muted-foreground">{c.total}</td>
+                <td className="px-3 py-1.5 font-mono text-xs text-muted-foreground">{c.query}</td>
               </tr>
             ))}
           </tbody>
@@ -101,20 +101,20 @@ export default async function RegionPage({ params }: { params: Promise<{ slug: s
         {cities.map((c) => (
           <section key={c.zh} id={c.pinyin.toLowerCase()}>
             <h2 className="text-xl font-bold">
-              {c.pinyin} <span className="ml-1 font-normal text-muted">{c.zh}</span>
+              {c.pinyin} <span className="ml-1 font-normal text-muted-foreground">{c.zh}</span>
             </h2>
-            <p className="mt-1 text-sm text-muted">{c.total} items since 2016</p>
+            <p className="mt-1 text-sm text-muted-foreground">{c.total} items since 2016</p>
             {Object.keys(c.by_year).length >= 2 && (
-              <div className="mt-3 rounded-lg border border-line bg-bg-soft p-3">
+              <div className="mt-3 rounded-lg border border-border bg-muted p-3">
                 <LineChart byYear={c.by_year} />
               </div>
             )}
             {c.recent.length > 0 && (
-              <ul className="mt-3 space-y-1 text-sm text-muted">
+              <ul className="mt-3 space-y-1 text-sm text-muted-foreground">
                 {c.recent.map((r) => (
                   <li key={r.url}>
                     <span className="font-mono text-xs">{r.date}</span> ·{" "}
-                    <a href={r.url} target="_blank" rel="noopener" className="text-accent hover:underline">{r.title}</a>
+                    <a href={r.url} target="_blank" rel="noopener" className="text-brand hover:underline">{r.title}</a>
                   </li>
                 ))}
               </ul>
@@ -124,18 +124,18 @@ export default async function RegionPage({ params }: { params: Promise<{ slug: s
       </div>
 
       <h2 className="mt-14 text-xl font-bold">Methodology</h2>
-      <ul className="mt-3 space-y-1.5 text-sm text-muted">
-        <li>· Counts: <code className="font-mono text-fg">GET /v1/news?q=&lt;city&gt;&amp;group_by=year</code> — broadcast items whose transcript contains the query form shown in the table.</li>
+      <ul className="mt-3 space-y-1.5 text-sm text-muted-foreground">
+        <li>· Counts: <code className="font-mono text-foreground">GET /v1/news?q=&lt;city&gt;&amp;group_by=year</code> — broadcast items whose transcript contains the query form shown in the table.</li>
         <li>· Query forms: nationally unique city names are queried bare (higher recall); ambiguous names use a suffixed form{suffixed.length > 0 ? ` — here: ${suffixed.map((c) => c.query).join(", ")}` : ""} — trading recall for precision. Suffixed counts are lower bounds.</li>
         <li>· Mentions include any context (economy, weather, disasters, sports). Counts are items, not phrase frequency. The latest year is partial. Data as of {data.as_of}.</li>
         <li>· Listed broadcasts link to the original CCTV pages for independent verification.</li>
       </ul>
 
-      <p className="mt-10 rounded-lg border border-line bg-bg-soft px-5 py-4 text-sm text-muted">
+      <p className="mt-10 rounded-lg border border-border bg-muted px-5 py-4 text-sm text-muted-foreground">
         Run the same index for any region via the{" "}
-        <Link href="/datasets/news" className="text-accent hover:underline">Xinwen Lianbo full-text API</Link>.
-        All provinces: <Link href="/regions" className="text-accent hover:underline">Regions</Link>
-        {" · "}more findings: <Link href="/insights" className="text-accent hover:underline">Data Insights</Link>.
+        <Link href="/datasets/news" className="text-brand hover:underline">Xinwen Lianbo full-text API</Link>.
+        All provinces: <Link href="/regions" className="text-brand hover:underline">Regions</Link>
+        {" · "}more findings: <Link href="/insights" className="text-brand hover:underline">Data Insights</Link>.
       </p>
     </main>
   );

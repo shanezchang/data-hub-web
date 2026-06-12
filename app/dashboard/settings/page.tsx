@@ -5,7 +5,7 @@ import { api } from "@/lib/api";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useToast } from "@/components/ui/toast";
-import { inputCls, labelCls } from "@/components/auth/auth-card";
+import { Field, Input } from "@/components/auth/auth-card";
 
 export default function SettingsPage() {
   const toast = useToast();
@@ -58,23 +58,23 @@ export default function SettingsPage() {
       <h1 className="text-xl font-bold">设置</h1>
       {me ? <p className="mt-1 font-mono text-sm text-muted-foreground">{me.email}</p> : <Skeleton className="mt-2 h-4 w-44" />}
 
-      <form onSubmit={saveName} className="mt-7 rounded-lg border border-border p-5">
+      <form onSubmit={saveName} className="mt-7 rounded-lg border bg-card p-5 shadow-xs">
         <h2 className="mb-4 font-semibold">资料</h2>
-        <label className={labelCls}>昵称
-          <input value={name} onChange={(e) => setName(e.target.value)} maxLength={100} placeholder="怎么称呼你" className={inputCls} />
-        </label>
+        <Field label="昵称" htmlFor="settings-name">
+          <Input id="settings-name" value={name} onChange={(e) => setName(e.target.value)} maxLength={100} placeholder="怎么称呼你" />
+        </Field>
         <Button type="submit" pending={savingName} pendingText="保存中…" className="mt-4">保存昵称</Button>
       </form>
 
-      <form onSubmit={savePwd} className="mt-5 rounded-lg border border-border p-5">
+      <form onSubmit={savePwd} className="mt-5 rounded-lg border bg-card p-5 shadow-xs">
         <h2 className="mb-4 font-semibold">修改密码</h2>
         <div className="space-y-4">
-          <label className={labelCls}>当前密码
-            <input ref={cur} type="password" required autoComplete="current-password" className={inputCls} />
-          </label>
-          <label className={labelCls}>新密码
-            <input ref={next} type="password" required minLength={8} placeholder="至少 8 位" autoComplete="new-password" className={inputCls} />
-          </label>
+          <Field label="当前密码" htmlFor="settings-cur-pwd">
+            <Input id="settings-cur-pwd" ref={cur} type="password" required autoComplete="current-password" />
+          </Field>
+          <Field label="新密码" htmlFor="settings-new-pwd">
+            <Input id="settings-new-pwd" ref={next} type="password" required minLength={8} placeholder="至少 8 位" autoComplete="new-password" />
+          </Field>
         </div>
         <Button type="submit" pending={savingPwd} pendingText="修改中…" className="mt-4">修改密码</Button>
       </form>

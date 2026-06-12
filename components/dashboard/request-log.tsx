@@ -30,7 +30,7 @@ function Row({ r }: { r: RequestRow }) {
 export function RequestLogTable() {
   const { data } = useRequests();
   return (
-    <div data-testid="request-log" className="mt-5 rounded-lg border border-border">
+    <div data-testid="request-log" className="mt-5 rounded-lg border bg-card shadow-xs">
       <p className="border-b border-border px-5 py-3 text-sm font-semibold">
         最近调用
         {data && <span className="ml-2 font-normal text-muted-foreground">共 {data.total.toLocaleString()} 条记录</span>}

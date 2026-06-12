@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const buildTime = new Date();
   return [
     { url: base, lastModified: buildTime, priority: 1 },
+    { url: `${base}/docs`, lastModified: buildTime, priority: 0.9 },
     ...DATASETS.map((d) => ({ url: `${base}/datasets/${d.slug}`, lastModified: buildTime, priority: 0.9 })),
     ...TREND_PAGES.map((p) => ({ url: base + p, lastModified: new Date(trends.as_of), priority: 0.8 })),
     { url: `${base}/insights`, lastModified: buildTime, priority: 0.8 },

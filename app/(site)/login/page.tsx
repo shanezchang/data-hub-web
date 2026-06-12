@@ -6,7 +6,7 @@ import { api } from "@/lib/api";
 import { token } from "@/lib/auth";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/toast";
-import { AuthCard, inputCls, labelCls } from "@/components/auth/auth-card";
+import { AuthCard, Field, Input } from "@/components/auth/auth-card";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -34,12 +34,12 @@ export default function LoginPage() {
   return (
     <AuthCard title="登录">
       <form onSubmit={onSubmit} className="space-y-4">
-        <label className={labelCls}>邮箱
-          <input ref={emailRef} type="email" required placeholder="you@example.com" autoComplete="email" className={inputCls} />
-        </label>
-        <label className={labelCls}>密码
-          <input ref={pwdRef} type="password" required placeholder="密码" autoComplete="current-password" className={inputCls} />
-        </label>
+        <Field label="邮箱" htmlFor="login-email">
+          <Input id="login-email" ref={emailRef} type="email" required placeholder="you@example.com" autoComplete="email" />
+        </Field>
+        <Field label="密码" htmlFor="login-password">
+          <Input id="login-password" ref={pwdRef} type="password" required placeholder="密码" autoComplete="current-password" />
+        </Field>
         <Button type="submit" pending={pending} pendingText="登录中…" className="w-full">登录</Button>
       </form>
       <p className="mt-5 text-sm text-muted-foreground">

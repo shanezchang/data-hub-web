@@ -10,11 +10,11 @@ export default function UsagePage() {
   return (
     <div className="mx-auto max-w-4xl">
       <h1 className="text-xl font-bold">用量</h1>
-      <div className="mt-5 rounded-lg border border-border p-5">
+      <div className="mt-5 rounded-lg border bg-card p-5 shadow-xs">
         <p className="mb-4 text-sm text-muted-foreground">近 30 天调用趋势</p>
         {usage ? <UsageChart daily={usage.daily} /> : <Skeleton className="h-28" />}
       </div>
-      <div className="mt-5 rounded-lg border border-border">
+      <div className="mt-5 rounded-lg border bg-card shadow-xs">
         <p className="border-b border-border px-5 py-3 text-sm font-semibold">按 key 明细</p>
         {!usage ? (
           <div className="space-y-2 p-5"><Skeleton className="h-5" /><Skeleton className="h-5" /></div>

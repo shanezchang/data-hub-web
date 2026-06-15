@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { AnalyticsBeacon } from "@/components/analytics-beacon";
 import { ToastProvider } from "@/components/ui/toast";
 
@@ -55,6 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <AnalyticsBeacon />
         <ToastProvider>{children}</ToastProvider>
+        <SpeedInsights />
       </body>
     </html>
   );

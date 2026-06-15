@@ -9,6 +9,7 @@ export type ApiKeyRow = {
   key_prefix: string;
   scopes: string[];
   rate_limit_per_min: number;
+  daily_quota: number | null;
   revoked: boolean;
 };
 export type RequestRow = {

@@ -1,7 +1,26 @@
 {
   "product": "data·hub",
-  "current": "0.12.2",
+  "current": "0.12.3",
   "releases": [
+    {
+      "version": "0.12.3",
+      "date": "2026-06-15",
+      "title": "免费日配额 + 接入指南",
+      "changes": [
+        {
+          "type": "added",
+          "text": "免费日配额上线：每个 API key 在分钟限流之外新增按天额度，自助 key 默认 1000 次/天（北京时间次日 0 点重置）；超额返回 429 + Retry-After，被拒请求不消耗额度"
+        },
+        {
+          "type": "added",
+          "text": "接入指南 /docs 上线：注册拿 key → 第一次调用 → 四数据集速览 → 限流/额度/错误码 → AI agent 三层入口；顶部导航「文档」改指站内指南"
+        },
+        {
+          "type": "changed",
+          "text": "控制台 API key 列表与新建 key 响应带出日配额；落地页「限流与额度」加入免费额度行"
+        }
+      ]
+    },
     {
       "version": "0.12.2",
       "date": "2026-06-13",

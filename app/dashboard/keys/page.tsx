@@ -70,7 +70,7 @@ export default function KeysPage() {
           <Table>
             <TableHeader>
               <TableRow>
-                {["名称", "前缀", "权限", "限流", "状态", ""].map((h, i) => (
+                {["名称", "前缀", "权限", "限流", "日配额", "状态", ""].map((h, i) => (
                   <TableHead key={i}>{h}</TableHead>
                 ))}
               </TableRow>
@@ -82,6 +82,7 @@ export default function KeysPage() {
                   <TableCell className="font-mono text-xs">{k.key_prefix}…</TableCell>
                   <TableCell className="font-mono text-xs">{k.scopes.join(", ")}</TableCell>
                   <TableCell className="font-mono text-xs">{k.rate_limit_per_min}/min</TableCell>
+                  <TableCell className="font-mono text-xs">{k.daily_quota ? `${k.daily_quota}/天` : "不限"}</TableCell>
                   <TableCell>
                     <Badge variant="outline" className={`font-mono text-[11px] ${k.revoked ? "text-muted-foreground" : "border-brand/40 text-brand"}`}>
                       {k.revoked ? "已吊销" : "有效"}

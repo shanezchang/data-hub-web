@@ -8,7 +8,20 @@ test("header 全局导航:数据集/Insights/Regions/更新日志/文档", async
   for (const name of ["数据集", "Insights", "Regions", "更新日志"]) {
     await expect(header.getByRole("link", { name })).toBeVisible();
   }
-  await expect(header.getByRole("link", { name: "文档" })).toHaveAttribute("href", /api\.lumina-core\.cn\/docs/);
+  // v0.12.0:「文档」改指站内接入指南(/docs),Swagger 从指南页再外链
+  await expect(header.getByRole("link", { name: "文档" })).toHaveAttribute("href", "/docs");
+});
+
+test("接入指南 /docs:拿 key→调用→额度→agent 入口齐全", async ({ page }) => {
+  await page.goto("/docs");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("接入指南");
+  await expect(page.locator("main")).toContainText("X-API-Key");
+  await expect(page.locator("main")).toContainText("1000 次/天");
+  await expect(page.locator("main")).toContainText("api.lumina-core.cn/llms.txt");
+  // 四个数据集都有入口
+  for (const slug of ["news", "yc", "policy", "opinion"]) {
+    await expect(page.locator("main").getByRole("link", { name: slug })).toBeVisible();
+  }
 });
 
 test("header 锚点直达落地页区块", async ({ page }) => {

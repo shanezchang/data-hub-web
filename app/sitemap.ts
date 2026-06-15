@@ -2,13 +2,14 @@ import type { MetadataRoute } from "next";
 import { DATASETS } from "@/lib/datasets";
 import { INSIGHTS } from "@/lib/insights";
 import { PUBLISHED_REGIONS } from "@/lib/regions-published";
+import { SITE_URL } from "@/lib/site";
 import trends from "@/lib/trends-data.json";
 
 // 只放可索引的公开页:登录/注册/重置是无内容的鉴权页,不进 sitemap。
 const TREND_PAGES = ["/trends/xinwen-lianbo-keywords", "/trends/yc-batch-survival"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://console.lumina-core.cn";
+  const base = SITE_URL;
   const buildTime = new Date();
   return [
     { url: base, lastModified: buildTime, priority: 1 },

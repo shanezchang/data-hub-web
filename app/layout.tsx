@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import { AnalyticsBeacon } from "@/components/analytics-beacon";
+import { BaiduAnalytics } from "@/components/baidu-analytics";
 import { ToastProvider } from "@/components/ui/toast";
 
 export const metadata: Metadata = {
@@ -54,6 +56,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <AnalyticsBeacon />
+        <BaiduAnalytics />
+        <Analytics />
         <ToastProvider>{children}</ToastProvider>
       </body>
     </html>

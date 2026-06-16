@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { DATASETS, getDataset } from "@/lib/datasets";
-import { API_BASE, API_DOCS } from "@/lib/site";
+import { API_BASE, API_DOCS, SITE_URL } from "@/lib/site";
 
 export function generateStaticParams() {
   return DATASETS.map((d) => ({ slug: d.slug }));
@@ -33,10 +33,10 @@ function datasetJsonLd(d: NonNullable<ReturnType<typeof getDataset>>) {
     name: d.enTitle,
     alternateName: d.name,
     description: d.enTagline,
-    url: `https://console.lumina-core.cn/datasets/${d.slug}`,
+    url: `${SITE_URL}/datasets/${d.slug}`,
     temporalCoverage: d.temporalCoverage,
     isAccessibleForFree: true,
-    creator: { "@type": "Organization", name: "data-hub", url: "https://console.lumina-core.cn" },
+    creator: { "@type": "Organization", name: "data-hub", url: SITE_URL },
     distribution: d.endpoints.map((e) => ({
       "@type": "DataDownload",
       encodingFormat: "application/json",

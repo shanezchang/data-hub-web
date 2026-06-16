@@ -31,6 +31,13 @@ test("/llms.txt 重定向到 api 域", async ({ page }) => {
   expect(res.headers()["location"]).toBe("https://api.lumina-core.cn/llms.txt");
 });
 
+test("IndexNow key 文件托管在站点根且内容即 key", async ({ page }) => {
+  const KEY = "a7f3c9e21b6d4805ad2f9c0e7b18d3f4";
+  const res = await page.request.get(`/${KEY}.txt`);
+  expect(res.status()).toBe(200);
+  expect((await res.text()).trim()).toBe(KEY);
+});
+
 test("sitemap 不含鉴权页且含趋势页", async ({ page }) => {
   const res = await page.request.get("/sitemap.xml");
   const xml = await res.text();

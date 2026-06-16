@@ -1,7 +1,45 @@
 {
   "product": "data·hub",
-  "current": "0.12.3",
+  "current": "0.14.0",
   "releases": [
+    {
+      "version": "0.14.0",
+      "date": "2026-06-16",
+      "title": "第 6 个数据集：中国金 / 银价格时间序列",
+      "changes": [
+        {
+          "type": "added",
+          "text": "metals 数据集上线：上海金交所(SGE)现货 + 上期所(SHFE)期货主连两源拼接的中国黄金 / 白银价格序列;金、银两大类,一行 = 一个(品种 × 来源 × 交易日)的 OHLC 价格点(开 / 高 / 低 / 收,期货另带成交量与持仓量),按交易日更新"
+        },
+        {
+          "type": "added",
+          "text": "品种目录 GET /v1/metals/symbols(各品种覆盖:条数 / 最早 / 最新交易日);支持按金属大类(gold/silver)、交易场所(SGE/SHFE)、来源与日期区间筛选,POST /v1/metals/search 承载多品种与二维交叉聚合"
+        },
+        {
+          "type": "added",
+          "text": "门户新建 API key 默认带 metals:read scope"
+        }
+      ]
+    },
+    {
+      "version": "0.13.0",
+      "date": "2026-06-16",
+      "title": "第 5 个数据集：国家统计局宏观经济时间序列",
+      "changes": [
+        {
+          "type": "added",
+          "text": "macro 数据集上线：国家统计局宏观经济指标的「硬数字」时间序列——GDP、CPI、PPI、M2、失业率、人口等,数值 × 时间 × 地区三维可聚合;覆盖全国与分省,按指标自然频率给月度 / 季度 / 年度"
+        },
+        {
+          "type": "added",
+          "text": "指标目录 GET /v1/macro/indicators(每个指标的覆盖:条数 / 地区数 / 最新期);支持按指标(NBS 码精确或指标名模糊)、地区、归类、频率、日期区间筛选,POST /v1/macro/search 承载多指标 / 多地区与二维交叉聚合"
+        },
+        {
+          "type": "added",
+          "text": "门户新建 API key 默认带 macro:read scope"
+        }
+      ]
+    },
     {
       "version": "0.12.3",
       "date": "2026-06-15",

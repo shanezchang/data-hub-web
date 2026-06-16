@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/site";
 
 // AI 爬虫显式放行:对"卖给 AI agent 的数据 API",被 ChatGPT/Claude/Perplexity
 // 抓取并在回答中引用(GEO)与经典 SEO 同等重要。语义上与 "*" 等价,但表达意图,
@@ -11,6 +12,6 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "*", allow: "/", disallow: "/dashboard" },
       ...AI_BOTS.map((bot) => ({ userAgent: bot, allow: "/", disallow: "/dashboard" })),
     ],
-    sitemap: "https://console.lumina-core.cn/sitemap.xml",
+    sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }

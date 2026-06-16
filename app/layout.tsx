@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 import { AnalyticsBeacon } from "@/components/analytics-beacon";
+import { BaiduAnalytics } from "@/components/baidu-analytics";
 import { ToastProvider } from "@/components/ui/toast";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://console.lumina-core.cn"),
+  metadataBase: new URL(SITE_URL),
   title: { default: "data·hub · 数据 API 控制台", template: "%s · data·hub" },
   description: "data·hub — 可扩展的数据 API 平台。注册即可生成 API key，接入新闻联播、YC 公司目录等数据能力。",
   alternates: { canonical: "/" },
@@ -17,7 +20,7 @@ export const metadata: Metadata = {
     locale: "zh_CN",
     title: "data·hub · 数据 API 控制台",
     description: "把结构化数据，变成给 AI 调用的接口。注册即可自助生成 API key，一行 curl 就能用。",
-    url: "https://console.lumina-core.cn/",
+    url: `${SITE_URL}/`,
     images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
   twitter: { card: "summary_large_image", title: "data·hub · 数据 API 控制台", images: ["/og.png"] },
@@ -31,16 +34,16 @@ const siteJsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://console.lumina-core.cn/#org",
+      "@id": `${SITE_URL}/#org`,
       name: "data-hub",
-      url: "https://console.lumina-core.cn",
+      url: SITE_URL,
       description: "Structured data APIs for AI agents: CCTV Xinwen Lianbo transcripts, Y Combinator company directory, China State Council policy documents.",
     },
     {
       "@type": "WebSite",
       name: "data·hub",
-      url: "https://console.lumina-core.cn",
-      publisher: { "@id": "https://console.lumina-core.cn/#org" },
+      url: SITE_URL,
+      publisher: { "@id": `${SITE_URL}/#org` },
     },
   ],
 };
@@ -55,6 +58,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <AnalyticsBeacon />
+        <BaiduAnalytics />
+        <Analytics />
         <ToastProvider>{children}</ToastProvider>
         <SpeedInsights />
       </body>

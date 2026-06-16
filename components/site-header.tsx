@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { DatabaseIcon, MenuIcon, XIcon } from "lucide-react";
 import { token } from "@/lib/auth";
-import { API_DOCS } from "@/lib/site";
 import { NavLink } from "@/components/ui/nav-link";
 import { ThemeToggle } from "./theme-toggle";
 
@@ -17,6 +16,8 @@ const NAV = [
   { href: "/insights", label: "Insights" },
   { href: "/regions", label: "Regions" },
   { href: "/changelog", label: "更新日志" },
+  // 站内接入指南(从这里再链向 Swagger/llms.txt),取代原来的外链 Swagger
+  { href: "/docs", label: "文档" },
 ];
 
 export function SiteHeader() {
@@ -37,9 +38,6 @@ export function SiteHeader() {
           {n.label}
         </NavLink>
       ))}
-      <a href={API_DOCS} target="_blank" rel="noopener" className="px-2 py-1 text-muted-foreground hover:text-foreground">
-        文档
-      </a>
     </>
   );
 

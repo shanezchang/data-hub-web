@@ -27,7 +27,7 @@ export type Dataset = {
   fields: { name: string; desc: string }[];
 };
 
-export const DATASETS: Dataset[] = [
+const REGISTERED_DATASETS: Dataset[] = [
   {
     slug: "news",
     name: "CCTV《新闻联播》",
@@ -126,6 +126,7 @@ export const DATASETS: Dataset[] = [
     endpoints: [
       { method: "GET", path: "/v1/opinion", desc: "简单查询：关键词、栏目、作者、日期范围、聚合，参数可直接贴链接" },
       { method: "POST", path: "/v1/opinion/search", desc: "结构化查询：多词 AND / OR、精确短语、复杂筛选与交叉聚合" },
+      { method: "GET", path: "/v1/opinion/topics", desc: "申论主题目录：受控词表、主题命中数与最新见报日" },
       { method: "GET", path: "/v1/opinion/{id}", desc: "按 ID 取单条（元数据 + 提要 + 摘要 + 原文链接）" },
     ],
     exampleCurl: `curl -H "X-API-Key: <your key>" \\\n  "https://api.lumina-core.cn/v1/opinion?q=基层治理&fields=title,digest,excerpt,url"`,
@@ -145,6 +146,106 @@ export const DATASETS: Dataset[] = [
       { name: "url", desc: "电子版原文链接 / source URL" },
     ],
   },
+  {
+    slug: "macro",
+    name: "国家统计局宏观时间序列",
+    tagline: "国家统计局指标的结构化时间序列，统一指标、地区、频率与时期维度。",
+    coverage: [
+      "全国与分省指标，覆盖范围以指标目录实时返回为准",
+      "月度、季度、年度按指标自然频率保存",
+      "支持指标 × 地区等二维覆盖聚合",
+    ],
+    scope: "macro:read",
+    endpoints: [
+      { method: "GET", path: "/v1/macro", desc: "简单查询：指标、地区、频率、时间区间、字段投影与聚合" },
+      { method: "POST", path: "/v1/macro/search", desc: "结构化查询：多指标、多地区、区间与二维聚合" },
+      { method: "GET", path: "/v1/macro/indicators", desc: "指标目录及各指标的数据覆盖" },
+      { method: "GET", path: "/v1/macro/{id}", desc: "按 ID 获取单个官方序列点" },
+    ],
+    exampleCurl: `curl -H "X-API-Key: <your key>" \\\n  "https://api.lumina-core.cn/v1/macro?indicator=居民消费价格&region=全国&freq=monthly"`,
+    enTitle: "China National Bureau of Statistics Macro Data API",
+    enTagline: "Structured Chinese macroeconomic time series from the National Bureau of Statistics, queryable by indicator, region, frequency and period.",
+    enOverview: [
+      "This dataset normalizes public National Bureau of Statistics series into one model: indicator, region, natural frequency, period, value and unit. National and provincial observations can be queried through the same endpoints.",
+      "Use the live indicator catalog to discover available series and their actual coverage, then retrieve only the indicators, regions and date range needed for analysis or an agent workflow.",
+    ],
+    temporalCoverage: "varies by indicator",
+    fields: [
+      { name: "indicator_code / indicator_name", desc: "国家统计局指标码与名称 / indicator identity" },
+      { name: "region_code / region", desc: "地区码与名称 / geography" },
+      { name: "freq / period / period_date", desc: "频率与规范时期 / frequency & period" },
+      { name: "value / unit", desc: "官方原值与单位 / official value & unit" },
+    ],
+  },
+  {
+    slug: "metals",
+    name: "中国黄金与白银价格",
+    tagline: "上海金交所现货与上期所期货主连的黄金、白银日行情，支持跨品种对比。",
+    coverage: [
+      "上期所期货主连覆盖黄金 2008 年、白银 2012 年起；上海金交所现货 2016 年起",
+      "黄金与白银日 OHLC，保留交易场所、来源与计价单位",
+      "按品种、金属、交易场所、来源与日期过滤或聚合",
+    ],
+    scope: "metals:read",
+    endpoints: [
+      { method: "GET", path: "/v1/metals", desc: "简单查询：品种、金属、交易场所、来源与交易日区间" },
+      { method: "POST", path: "/v1/metals/search", desc: "结构化查询：多品种、区间与二维聚合" },
+      { method: "GET", path: "/v1/metals/symbols", desc: "品种目录及最早、最新交易日覆盖" },
+      { method: "GET", path: "/v1/metals/{id}", desc: "按 ID 获取单个日行情点" },
+    ],
+    exampleCurl: `curl -H "X-API-Key: <your key>" \\\n  "https://api.lumina-core.cn/v1/metals?metal=gold&start_date=2024-01-01&order_dir=asc"`,
+    enTitle: "China Gold and Silver Price History API",
+    enTagline: "Daily gold and silver prices from the Shanghai Gold Exchange and continuous futures series from the Shanghai Futures Exchange, available through one REST API.",
+    enOverview: [
+      "The dataset combines Shanghai Gold Exchange spot products with continuous gold and silver futures series from the Shanghai Futures Exchange. Each observation keeps its symbol, venue, source, trading date, OHLC values and native unit.",
+      "Query one symbol for a chart, compare gold and silver over the same interval, or aggregate coverage by metal, venue, source, year or month without downloading full history.",
+    ],
+    temporalCoverage: "2008/..",
+    fields: [
+      { name: "metal / symbol / symbol_name", desc: "金属大类与品种 / metal & instrument" },
+      { name: "venue / source", desc: "交易场所与数据来源 / venue & source" },
+      { name: "trade_date", desc: "交易日 / trading date" },
+      { name: "open / high / low / close", desc: "日行情 / daily OHLC" },
+      { name: "unit", desc: "原始计价单位 / native quote unit" },
+    ],
+  },
+  {
+    slug: "housing",
+    name: "70 城住宅销售价格指数",
+    tagline: "国家统计局月度房价指数，覆盖新建商品住宅、二手住宅及不同面积段。",
+    coverage: [
+      "2011 年 1 月至今，按国家统计局正式发布节奏月度更新",
+      "70 个大中城市，新建商品住宅与二手住宅两类市场",
+      "官方环比、同比、定基或累计平均原值；长期链接指数明确标注为派生值",
+    ],
+    scope: "housing:read",
+    endpoints: [
+      { method: "GET", path: "/v1/housing/prices", desc: "简单查询：城市、城市层级、市场、面积段、月份区间与聚合" },
+      { method: "POST", path: "/v1/housing/prices/search", desc: "结构化查询：多城市、多市场、多面积段、区间与二维聚合" },
+      { method: "GET", path: "/v1/housing/cities", desc: "70 城稳定码、城市层级与实际数据覆盖目录" },
+      { method: "GET", path: "/v1/housing/prices/{row_id}", desc: "按 ID 获取单个指数点及其官方来源" },
+    ],
+    exampleCurl: `curl -H "X-API-Key: <your key>" \\\n  "https://api.lumina-core.cn/v1/housing/prices?city=北京&market=resale&area_band=all&start_date=2011-01-01&order_dir=asc&limit=500"`,
+    enTitle: "China 70-City Home Price Index API",
+    enTagline: "Official monthly home-price indices for 70 major Chinese cities, covering new commodity housing, resale housing and floor-area bands since January 2011.",
+    enOverview: [
+      "The National Bureau of Statistics publishes monthly price indices for new commodity and resale housing in 70 major cities. This dataset normalizes changing historical table formats while preserving the official month-on-month, year-on-year, fixed-base or year-to-date values and the source page for every observation.",
+      "A stable city code bridges historical renames, and a separately labelled linked_index provides a comparable long-run series across official base-year changes. Missing official values remain null rather than being filled with neutral values.",
+    ],
+    temporalCoverage: "2011-01/..",
+    fields: [
+      { name: "period / city_code / city / tier", desc: "月份与稳定城市标识 / period & city identity" },
+      { name: "market / area_band", desc: "住宅市场与面积段 / market & floor-area band" },
+      { name: "mom_index / yoy_index", desc: "官方环比、同比指数 / official monthly & yearly indices" },
+      { name: "fixed_base_index / ytd_avg_index", desc: "官方定基或累计平均指数 / official comparison series" },
+      { name: "linked_index / linked_method", desc: "明示派生的长期链接指数及算法版本 / derived series" },
+      { name: "source_url", desc: "国家统计局正式发布页 / official source" },
+    ],
+  },
 ];
+
+// macro API 契约已存在，但生产指标目录仍为空；在真实官方序列入库前不把空壳
+// 暴露为可用数据集。保留元数据，灌数验收后只需移除此过滤条件。
+export const DATASETS = REGISTERED_DATASETS.filter((dataset) => dataset.slug !== "macro");
 
 export const getDataset = (slug: string) => DATASETS.find((d) => d.slug === slug);

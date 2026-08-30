@@ -1,7 +1,26 @@
 {
   "product": "data·hub",
-  "current": "0.14.0",
+  "current": "0.15.0",
   "releases": [
+    {
+      "version": "0.15.0",
+      "date": "2026-08-30",
+      "title": "70 城房价指数",
+      "changes": [
+        {
+          "type": "added",
+          "text": "housing 数据集上线：国家统计局 70 个大中城市住宅销售价格指数，覆盖 2011 年 1 月至今的新建商品住宅、二手住宅及不同面积段"
+        },
+        {
+          "type": "added",
+          "text": "新增房价序列查询、结构化搜索、70 城目录与单点查询；每个指数点保留国家统计局正式发布页"
+        },
+        {
+          "type": "changed",
+          "text": "门户数据集注册表补齐已有数据的 opinion、metals 与 housing，主页、详情页和 sitemap 自动同步为六个数据集；macro 待官方指标完成入库后再公开"
+        }
+      ]
+    },
     {
       "version": "0.14.0",
       "date": "2026-06-16",
